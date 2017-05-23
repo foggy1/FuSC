@@ -32,7 +32,6 @@ class SitePost extends React.Component {
             <ReadNext post={post} {...this.props} />
             <hr />
             <p>
-              {config.siteDescr}
               <a href={config.siteTwitterUrl}>
                 <br /> <strong>{config.siteAuthor}</strong> on Twitter
               </a>
