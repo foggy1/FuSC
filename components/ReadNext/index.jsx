@@ -1,26 +1,26 @@
-import React from 'react';
-import { Link } from 'react-router';
-import { include as includes } from 'underscore.string';
-import find from 'lodash/find';
+import React from 'react'
+import { Link } from 'react-router'
+import { include as includes } from 'underscore.string'
+import find from 'lodash/find'
 
-import './style.css';
+import './style.css'
 
 class ReadNext extends React.Component {
-  render() {
-    const { post } = this.props;
-    const { pages } = this.props.route;
-    const { readNext } = post;
+  render () {
+    const { post } = this.props
+    const { pages } = this.props.route
+    const { readNext } = post
 
-    let nextPost;
+    let nextPost
     if (readNext) {
-      nextPost = find(pages, page => includes(page.path, readNext));
+      nextPost = find(pages, page => includes(page.path, readNext))
     }
     if (!nextPost) {
-      return React.createElement('noscript', null);
+      return React.createElement('noscript', null)
     }
 
-    nextPost = find(pages, page => includes(page.path, readNext.slice(1, -1)));
-    const description = nextPost.data.description;
+    nextPost = find(pages, page => includes(page.path, readNext.slice(1, -1)))
+    const description = nextPost.data.description
 
     return (
       <div>
@@ -30,19 +30,19 @@ class ReadNext extends React.Component {
             {nextPost.data.title}
           </Link>
         </h3>
-        <p className="description">
+        <p className='description'>
           {description}
         </p>
       </div>
-    );
+    )
   }
 }
 
 ReadNext.propTypes = {
   post: React.PropTypes.object.isRequired,
   pages: React.PropTypes.array,
-  route: React.PropTypes.object,
-};
+  route: React.PropTypes.object
+}
 
-export default ReadNext;
+export default ReadNext
 
