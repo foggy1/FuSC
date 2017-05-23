@@ -4,11 +4,11 @@ siteAuthor = "Foggy"
 
 siteTelegramUrl = "#"
 siteTwitterUrl = "https://www.twitter.com/austinlanari"
-siteGithubUrl = "#"
+siteGithubUrl = "https://www.github.com/foggy1"
 siteEmailUrl = "#"
 siteRssUrl = "#"
 siteVkUrl = "#"
 
-googleAnalyticsId = ""
+googleAnalyticsId = "UA-80918633-2"
 
 linkPrefix = ""
