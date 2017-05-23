@@ -33,7 +33,7 @@ I hope this is not trite, but it is a privilege to be able and willing to make t
 
 None of this is to say that anybody is wrong for walking away. Often it is very obviously not a _lack_ of conviction that takes some of our most talented brothers and sisters out of the spotlight. Nobody has to do this. I mean, nobody has to do anything as far as hobbies go, right? And certainly nobody has to do _this_, this fucking.. what? Hobby _about_ a hobby?
 
-But for me, I know I wasn't giving it my all.  And in the last year, I learned that I actually have one of those (an all).  I also found my "give a shit" as well as my "some semblance of time management, as if to feign adulthood".
+But for me, I know I wasn't giving it my all.  And in the last year, I learned that I actually have one of those: an "all".  I also found my "give a shit" as well as my "some semblance of time management," as if to feign adulthood.
 
 More importantly, I love that navigation I mentioned earlier.  That tug-of-war between what seems to be the work-in-itself and my own reaction to it. When a book really clicks and you feel like you are on the same wavelength not as the author but the wavelength of the _book_, the _panel_, that _layout_-- when you can speak truth to the beauty in the rickety joints of that good ol' visual narrative syntax, it feels like walking somewhere you shouldn't be.  
 
