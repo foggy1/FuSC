@@ -1,6 +1,6 @@
-siteTitle = "Blog by John Doe"
-siteDescr = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-siteAuthor = "John Doe"
+siteTitle = "Fuck Up Some Comics"
+siteDescr = "Fuck up some comics, yeah."
+siteAuthor = "Foggy"
 
 siteTelegramUrl = "#"
 siteTwitterUrl = "#"
@@ -11,4 +11,4 @@ siteVkUrl = "#"
 
 googleAnalyticsId = ""
 
-linkPrefix = "/"
+linkPrefix = ""
