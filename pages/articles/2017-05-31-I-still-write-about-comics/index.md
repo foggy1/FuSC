@@ -5,9 +5,8 @@ layout: post
 path: "/posts/1"
 category: ""
 description: "Is this thing on?"
+indexImage: "https://static01.nyt.com/images/2016/06/15/dining/15PANCAKEGUIDE3-WEB/15PANCAKEGUIDE3-WEB-superJumbo.jpg"
 ---
-
-* TO DO: ADD AN IMAGE PROPERTY ABOVE AND MAKE SURE IT GETS LINKED IN THE SITE INDEX TO SPICE UP FRONT PAGE
 
 _Deja vu_ eh?
 
@@ -16,7 +15,7 @@ When I started _Retcon Rasengan_ I did it because I needed a place where I would
 <div style="">
   <figure class="floatCenter">
     <a target='_blank' href="http://retconrasengan.blogspot.com/2016/04/hand-sewn-domestic-female-aesthetic.html">
-      <img style="height: 340px;background-color: #5c6bc0; padding-bottom: 30px;border-radius: 3px;" src="https://2.bp.blogspot.com/-0ipM8FHFpYo/VxaLuN9yRqI/AAAAAAAAFuM/mncK6PMa-Ccscl8Z1mgBgBltXv5Eu6TWQCKgB/w1200-h630-p-k-no-nu/kendrafemaleaestetic.png">
+      <img style="max-height: 340px;background-color: #5c6bc0; padding-bottom: 30px;border-radius: 3px;" src="https://2.bp.blogspot.com/-0ipM8FHFpYo/VxaLuN9yRqI/AAAAAAAAFuM/mncK6PMa-Ccscl8Z1mgBgBltXv5Eu6TWQCKgB/w1200-h630-p-k-no-nu/kendrafemaleaestetic.png">
     </a>
     <div style="margin-top: -30px;">
       <figcaption style="color: white;">RR was shortlived; my interview with Kendra Josie Kirkpatrick was a highlight</figcaption>
@@ -33,7 +32,7 @@ And I was so hungry to write. I started with the lovely folks at <a target='_bla
 
 <figure class="floatCenter">
   <a target='_blank' href="http://comicsbulletin.com/tiny-pages-made-ashes-51917-mirror-mirror-ii/">
-  <img style="height: 480px;background-color: #5c6bc0; padding-bottom: 30px;border-radius: 3px;" src="https://i2.wp.com/comicsbulletin.com/wp-content/uploads/2017/05/Mirror-Mirror-II-cover.jpg?fit=798%2C1200" alt="Mirror Mirror II Review">
+  <img style="max-height: 480px;background-color: #5c6bc0; padding-bottom: 30px;border-radius: 3px;" src="https://i2.wp.com/comicsbulletin.com/wp-content/uploads/2017/05/Mirror-Mirror-II-cover.jpg?fit=798%2C1200" alt="Mirror Mirror II Review">
   <div style="margin-top: -30px">
     <figcaption style="color:white;">Peep my in-depth review of Mirror Mirror II</figcaption>
   </div>
@@ -54,7 +53,7 @@ Criticism, or even straight-up exploring a work in terms of what parts of it wor
 
 I hope this is not trite, but it is a privilege to be able and willing to make the commitment to write regularly in general, let alone analyze, let alone share one's thoughts about works that others have created, or already engaged with in ways that often seem more interesting.  Life balance plays a huge part in that privilege, and it was one that I lacked as RR tapered off and one that I am lucky to have now. None of this is to even mention the fact that I have the unfortunately ultimate privilege of being a cis-het straight white guy who does not have to worry about the way in which a given space might respond to my particular voice.
 
-None of this is to say that anybody is wrong for walking away. Often it is very obviously not a _lack_ of conviction that takes some of our most talented brothers and sisters out of the spotlight. Nobody has to do this. I mean, nobody has to do anything as far as hobbies go, right? And certainly nobody has to do _this_, this fucking.. what? Hobby _about_ a hobby?
+Nobody is wrong for walking away. Often it is very obviously not a _lack_ of conviction that takes some of our most talented brothers and sisters out of the spotlight. Nobody has to do this. I mean, nobody has to do anything as far as hobbies go, right? And certainly nobody has to do _this_, this fucking.. what? Hobby _about_ a hobby?
 
 But for me, I know I wasn't giving it my all.  And in the last year, I learned that I actually have one of those: an "all".  I also found my "give a shit" as well as my "some semblance of time management," as if to feign adulthood.
 
@@ -64,7 +63,7 @@ The world seems bigger because you get to open up a space between yourself and a
 
 It's late, and I've spent enough time on me.
 
-<img style="height: 480px;" src="./future_hendrix.png" alt="And so">
+<img style="max-height: 480px;" src="./future_hendrix.png" alt="And so" />
 
 Let's fuck up some comics.
 

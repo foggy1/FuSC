@@ -19,6 +19,7 @@ class SiteIndex extends React.Component {
         const description = access(page, 'data.description')
         const datePublished = access(page, 'data.date')
         const category = access(page, 'data.category')
+        const image = access(page, 'data.indexImage')
 
         pageLinks.push((
           <div className='blog-post' key={title}>
@@ -28,6 +29,7 @@ class SiteIndex extends React.Component {
             <span style={{ padding: '5px' }} />
             <span className='blog-category'>{category}</span>
             <h2><Link style={{ borderBottom: 'none' }} to={prefixLink(page.path)}>{title}</Link></h2>
+            <img style={{height: '300px'}} src={image} alt="I still write abbout comics" />
             <p dangerouslySetInnerHTML={{ __html: description }} />
             <Link className='readmore' to={prefixLink(page.path)}>Read</Link>
           </div>
