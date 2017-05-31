@@ -12,14 +12,12 @@ _Deja vu_ eh?
 
 When I started _Retcon Rasengan_ I did it because I needed a place where I wouldn't feel pressure to get things out on deadlines.  I also wanted to be able to do whatever I wanted format-wise and not feel bad about egregious picture placement or egregious word-vomit of the type I'm already indulging in now.
 
-<div style="">
+<div style="background-color: rgba(92,107,192, 0.1)">
   <figure class="floatCenter">
     <a target='_blank' href="http://retconrasengan.blogspot.com/2016/04/hand-sewn-domestic-female-aesthetic.html">
-      <img style="max-height: 340px;background-color: #5c6bc0; padding-bottom: 30px;border-radius: 3px;" src="https://2.bp.blogspot.com/-0ipM8FHFpYo/VxaLuN9yRqI/AAAAAAAAFuM/mncK6PMa-Ccscl8Z1mgBgBltXv5Eu6TWQCKgB/w1200-h630-p-k-no-nu/kendrafemaleaestetic.png">
+      <img style="max-height: 380px;background-color: #5c6bc0;border-radius: 3px;" src="https://2.bp.blogspot.com/-0ipM8FHFpYo/VxaLuN9yRqI/AAAAAAAAFuM/mncK6PMa-Ccscl8Z1mgBgBltXv5Eu6TWQCKgB/w1200-h630-p-k-no-nu/kendrafemaleaestetic.png">
     </a>
-    <div style="margin-top: -30px;">
-      <figcaption style="color: white;">RR was shortlived; my interview with Kendra Josie Kirkpatrick was a highlight</figcaption>
-    </div>
+    <figcaption style="color: black;">RR was shortlived; my interview with Kendra Josie Kirkpatrick was a highlight</figcaption>
   </figure>
 </div>
 
@@ -29,15 +27,16 @@ By the time early 2016 rolled around, I had been out of my Master's program for 
 
 And I was so hungry to write. I started with the lovely folks at <a target='_blank' href='http://comicbastards.com'>Comic Bastards</a> when Dustin gave me a chance to shit up his sight fawning over _Naruto_ or spewing typographic venom at the very concept of motion comics.  I reached out to <a target='_blank' href='http://loser-city.com'>Loser City</a> to write even more, and have the unique pleasure of both resurrecting and re-murdering their newsletter.  I wrote a couple of pieces for Comics Beat after being approached by somebody who just straight up stopped responding to my DMs, which I mention not to be passive-aggressive but purely because it's all pure humor to me now.  And, of course, the incomparable Danny Elk-elks started pestering me around the time RR was burning up in the atmosphere, pelting me with the absolute weirdest shit I had ever seen.  I still write for him over at <a target='_blank' href='http://comicsbulletin.com'>Comics Bulletin</a> and will continue to do so.  
 
-
-<figure class="floatCenter">
-  <a target='_blank' href="http://comicsbulletin.com/tiny-pages-made-ashes-51917-mirror-mirror-ii/">
-  <img style="max-height: 480px;background-color: #5c6bc0; padding-bottom: 30px;border-radius: 3px;" src="https://i2.wp.com/comicsbulletin.com/wp-content/uploads/2017/05/Mirror-Mirror-II-cover.jpg?fit=798%2C1200" alt="Mirror Mirror II Review">
-  <div style="margin-top: -30px">
-    <figcaption style="color:white;">Peep my in-depth review of Mirror Mirror II</figcaption>
-  </div>
-  </a>
-</figure>
+<div style="background-color: rgba(92,107,192, 0.1)">
+  <figure class="floatCenter">
+    <a target='_blank' href="http://comicsbulletin.com/tiny-pages-made-ashes-51917-mirror-mirror-ii/">
+    <img style="max-height: 480px;border-radius: 3px;" src="https://i2.wp.com/comicsbulletin.com/wp-content/uploads/2017/05/Mirror-Mirror-II-cover.jpg?fit=798%2C1200" alt="Mirror Mirror II Review">
+    <div >
+      <figcaption style="color:black;">Peep my in-depth review of Mirror Mirror II</figcaption>
+    </div>
+    </a>
+  </figure>
+</div>
 
 I also once e-mailed Andrew Wheeler to write for Comics Alliance.  He never got back to me.  
 
