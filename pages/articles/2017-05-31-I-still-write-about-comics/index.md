@@ -7,6 +7,8 @@ category: ""
 description: "Is this thing on?"
 ---
 
+* TO DO: ADD AN IMAGE PROPERTY ABOVE AND MAKE SURE IT GETS LINKED IN THE SITE INDEX TO SPICE UP FRONT PAGE
+
 _Deja vu_ eh?
 
 When I started _Retcon Rasengan_ I did it because I needed a place where I wouldn't feel pressure to get things out on deadlines.  I also wanted to be able to do whatever I wanted format-wise and not feel bad about egregious picture placement or egregious word-vomit of the type I'm already indulging in now.
