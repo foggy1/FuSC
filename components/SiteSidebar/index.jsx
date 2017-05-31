@@ -16,19 +16,8 @@ class SiteSidebar extends React.Component {
     const header = (
       <header>
         <Link style={{ textDecoration: 'none', borderBottom: 'none', outline: 'none' }} to={prefixLink('/')}>
-          <img
-            src={profilePic}
-            width='75' height='75'
-            alt='Profile picture of the author'
-          />
+          <img style={{height: '200px'}} src={require('./future_logo.png')} />
         </Link>
-        { isHome ? (
-          <h1><Link style={{ textDecoration: 'none', borderBottom: 'none', color: 'inherit' }} to={prefixLink('/')}> {config.siteAuthor}</Link></h1>
-        ) :
-          <h2><Link style={{ textDecoration: 'none', borderBottom: 'none', color: 'inherit' }} to={prefixLink('/')}> {config.siteAuthor}</Link></h2> }
-        <p>
-          {config.siteDescr}
-        </p>
       </header>
     )
     /* eslint-enable jsx-a11y/img-redundant-alt */
