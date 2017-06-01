@@ -3,6 +3,8 @@ var sm = require('sitemap') // install this package
 const rucksack = require('rucksack-css')
 const lost = require('lost')
 const cssnext = require('postcss-cssnext')
+const Feed = require('feed')
+
 
 exports.modifyWebpackConfig = function (config) {
   config.merge({
@@ -22,6 +24,7 @@ exports.modifyWebpackConfig = function (config) {
 
   return config
 }
+
 
 
 function pagesToSitemap(pages) {
@@ -51,7 +54,55 @@ function generateSiteMap(pages) {
   )
 }
 
+function generatePosts (posts) {
+  // add logic so that posts only comprises written articles.  see index.jsx for deets.
+  let feed = new Feed({
+    title: 'Fuck Up Some Comics',
+    description: 'One more blog about story pictures',
+    id: 'http://fuckupsomecomics.com/',
+    link: 'http://fuckupsomecomics.com/',
+    image: 'https://ih0.redbubble.net/image.218095360.8037/st%2Csmall%2C215x235-pad%2C210x230%2Cf8f8f8.lite-1u2.jpg',
+    copyright: 'All rights reserved 2017, Austin Lanari',
+
+    author: {
+      name: 'Austin Lanari',
+      email: 'foggyboi@notarealemail.com',
+      link: 'https://twitter.com/austinlanari'
+    }
+  })
+  posts.forEach(post => {
+    feed.addItem({
+      title: post.title,
+      id: post.url,
+      link: post.url,
+      description: post.description,
+      author: [{
+        name: 'Jane Doe',
+        email: 'janedoe@example.com',
+        link: 'https://example.com/janedoe'
+      }, {
+        name: 'Joe Smith',
+        email: 'joesmith@example.com',
+        link: 'https://example.com/joesmith'
+      }],
+      contributor: [{
+        name: 'Shawn Kemp',
+        email: 'shawnkemp@example.com',
+        link: 'https://example.com/shawnkemp'
+      }, {
+        name: 'Reggie Miller',
+        email: 'reggiemiller@example.com',
+        link: 'https://example.com/reggiemiller'
+      }],
+      date: post.date,
+      image: post.image
+    })
+  })
+
+}
+
 module.exports.postBuild = function(pages, callback) {
   generateSiteMap(pages)
+  generatePosts(pages)
   callback()
 }
