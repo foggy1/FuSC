@@ -38,6 +38,18 @@ class SitePost extends React.Component {
             </p>
           </div>
         </div>
+        <meta property="og:url" content={prefixLink(post.path)} />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.description} />
+        <meta name="twitter:site" value="@austinlanari" />
+        <meta property="twitter:url" content={prefixLink(post.path)} />
+        <meta property="twitter:title" content={post.title} />
+        <meta property="twitter:description" content={post.description} />
+        <meta name="author" content="Austin Lanari" />
+        <meta name="og:image" content={post.indexImage} />
+        <meta name="twitter:image" content={post.indexImage} />
+        <meta name="twitter:card" value="summary_large_image" />
       </div>
     )
   }
