@@ -12,10 +12,10 @@ _Deja vu_ eh?
 
 When I started _Retcon Rasengan_ I did it because I needed a place where I wouldn't feel pressure to get things out on deadlines.  I also wanted to be able to do whatever I wanted format-wise and not feel bad about egregious picture placement or egregious word-vomit of the type I'm already indulging in now.
 
-<div style="background-color: rgba(92,107,192, 0.1)">
+<div style="">
   <figure class="floatCenter">
     <a target='_blank' href="http://retconrasengan.blogspot.com/2016/04/hand-sewn-domestic-female-aesthetic.html">
-      <img style="max-height: 380px;background-color: #5c6bc0;border-radius: 3px;" src="https://2.bp.blogspot.com/-0ipM8FHFpYo/VxaLuN9yRqI/AAAAAAAAFuM/mncK6PMa-Ccscl8Z1mgBgBltXv5Eu6TWQCKgB/w1200-h630-p-k-no-nu/kendrafemaleaestetic.png">
+      <img style="padding: 30; max-height: 380px;background-color: #5c6bc0;border-radius: 3px;" src="https://2.bp.blogspot.com/-0ipM8FHFpYo/VxaLuN9yRqI/AAAAAAAAFuM/mncK6PMa-Ccscl8Z1mgBgBltXv5Eu6TWQCKgB/w1200-h630-p-k-no-nu/kendrafemaleaestetic.png">
     </a>
     <figcaption style="color: black;">RR was shortlived; my interview with Kendra Josie Kirkpatrick was a highlight</figcaption>
   </figure>
