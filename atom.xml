@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://fuckupsomecomics.com/</id>
+    <title>Fuck Up Some Comics</title>
+    <updated>2017-06-02T03:16:06Z</updated>
+    <generator>Feed for Node.js</generator>
+    <author>
+        <name>Austin Lanari</name>
+        <email>foggyboi@notarealemail.com</email>
+        <uri>https://twitter.com/austinlanari</uri>
+    </author>
+    <link rel="alternate" href="http://fuckupsomecomics.com/"/>
+    <subtitle>One more blog about story pictures</subtitle>
+    <logo>https://ih0.redbubble.net/image.218095360.8037/st%2Csmall%2C215x235-pad%2C210x230%2Cf8f8f8.lite-1u2.jpg</logo>
+    <rights>All rights reserved 2017, Austin Lanari</rights>
+    <category term="comics">
+    </category>
+    <category term="manga">
+    </category>
+    <entry>
+        <title type="html"><![CDATA[I Used T-- I still write about comics]]></title>
+        <id>http://fuckupsomecomics.com/posts/1</id>
+        <link href="http://fuckupsomecomics.com/posts/1">
+        </link>
+        <updated>2017-05-31T21:12:03Z</updated>
+        <summary type="html"><![CDATA[Is this thing on?]]></summary>
+    </entry>
+</feed>
