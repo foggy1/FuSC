@@ -4,7 +4,7 @@
         <title>Fuck Up Some Comics</title>
         <link>http://fuckupsomecomics.com/</link>
         <description>One more blog about story pictures</description>
-        <lastBuildDate>Fri, 02 Jun 2017 03:40:21 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jun 2017 04:18:10 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -38,10 +38,8 @@
   <figure class="floatCenter">
     <a target='_blank' href="http://comicsbulletin.com/tiny-pages-made-ashes-51917-mirror-mirror-ii/">
     <img style="padding: 30px; background-color: rgba(92,107,192, 0.1); max-height: 480px;border-radius: 3px;" src="https://i2.wp.com/comicsbulletin.com/wp-content/uploads/2017/05/Mirror-Mirror-II-cover.jpg?fit=798%2C1200" alt="Mirror Mirror II Review">
-    <div >
-      <figcaption style="color:black;margin-top:-30px;">Peep my in-depth review of Mirror Mirror II</figcaption>
-    </div>
     </a>
+    <figcaption style="color:black;margin-top:-30px;">Peep my in-depth review of Mirror Mirror II</figcaption>
   </figure>
 </div>
 <p>I also once e-mailed Andrew Wheeler to write for Comics Alliance.  He never got back to me.</p>
@@ -55,7 +53,7 @@
 <p>More importantly, I love that navigation I mentioned earlier.  That tug-of-war between what seems to be the work-in-itself and my own reaction to it. When a book really clicks and you feel like you are on the same wavelength not as the author but the wavelength of the <em>book</em>, the <em>panel</em>, that <em>layout</em>– when you can speak truth to the beauty in the rickety joints of that good ol’ visual narrative syntax, it feels like walking somewhere you shouldn’t be.</p>
 <p>The world seems bigger because you get to open up a space between yourself and a piece of art. There’s a beautiful vulnerability there, opening your viewpoint to be part of this shared experience.</p>
 <p>It’s late, and I’ve spent enough time on me.</p>
-<img style="max-height: 480px;" src="./future_hendrix.png" alt="And so" />
+<img style="max-height: 480px;" src="http://fuckupsomecomics.com/posts/1/future_hendrix.png" alt="And so" />
 <p>Let’s fuck up some comics.</p>
 ]]></content:encoded>
         </item>
