@@ -4,7 +4,7 @@ const rucksack = require('rucksack-css')
 const lost = require('lost')
 const cssnext = require('postcss-cssnext')
 const Feed = require('feed')
-
+const moment = require('moment')
 
 exports.modifyWebpackConfig = function (config) {
   config.merge({
@@ -55,8 +55,9 @@ function generateSiteMap(pages) {
 }
 
 function generatePosts (posts) {
-  // add logic so that posts only comprises written articles.  see index.jsx for deets.
-  let feed = new Feed({
+  var articles = posts.filter(function (p) { return p.data.date })
+  console.log('Generating Feeds')
+  var feed = new Feed({
     title: 'Fuck Up Some Comics',
     description: 'One more blog about story pictures',
     id: 'http://fuckupsomecomics.com/',
@@ -70,38 +71,36 @@ function generatePosts (posts) {
       link: 'https://twitter.com/austinlanari'
     }
   })
-  posts.forEach(post => {
+  articles.forEach(function (a) {
     feed.addItem({
-      title: post.title,
-      id: post.url,
-      link: post.url,
-      description: post.description,
-      author: [{
-        name: 'Jane Doe',
-        email: 'janedoe@example.com',
-        link: 'https://example.com/janedoe'
-      }, {
-        name: 'Joe Smith',
-        email: 'joesmith@example.com',
-        link: 'https://example.com/joesmith'
-      }],
-      contributor: [{
-        name: 'Shawn Kemp',
-        email: 'shawnkemp@example.com',
-        link: 'https://example.com/shawnkemp'
-      }, {
-        name: 'Reggie Miller',
-        email: 'reggiemiller@example.com',
-        link: 'https://example.com/reggiemiller'
-      }],
-      date: post.date,
-      image: post.image
+      title: a.data.title,
+      id: 'http://fuckupsomecomics.com' + a.data.path,
+      link: 'http://fuckupsomecomics.com' + a.data.path,
+      description: a.data.description,
+      author: {
+        name: 'Austin Lanari',
+        email: 'foggyboi@notarealemail.com',
+        link: 'https://twitter.com/austinlanari'
+      },
+      date: moment(a.data.date).toDate(),
+      image: a.data.indexImage
     })
   })
-
+  feed.addCategory('comics')
+  feed.addCategory('manga')
+  var rss = feed.rss2()
+  var atom = feed.atom1()
+  fs.writeFileSync(
+    `${__dirname}/public/rss.xml`,
+    rss.toString()
+  )
+  fs.writeFileSync(
+    `${__dirname}/public/atom.xml`,
+    atom.toString()
+  )
 }
 
-module.exports.postBuild = function(pages, callback) {
+module.exports.postBuild = function (pages, callback) {
   generateSiteMap(pages)
   generatePosts(pages)
   callback()
