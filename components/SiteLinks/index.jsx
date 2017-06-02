@@ -23,6 +23,13 @@ class SiteLinks extends React.Component {
             </li>
           )}
         </ul>
+        <ul>
+          {config.siteRssUrl && (
+            <li>
+              <a href={config.siteRssUrl}><i className='fa fa-rss' /></a>
+            </li>
+          )}
+        </ul>
       </div>
     )
   }

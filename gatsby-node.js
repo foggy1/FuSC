@@ -5,6 +5,14 @@ const lost = require('lost')
 const cssnext = require('postcss-cssnext')
 const Feed = require('feed')
 const moment = require('moment')
+const MarkdownIt = require('markdown-it')
+const frontmatter = require('front-matter')
+
+var md = MarkdownIt({
+  html: true,
+  linkify: true,
+  typographer: true
+})
 
 exports.modifyWebpackConfig = function (config) {
   config.merge({
@@ -24,8 +32,6 @@ exports.modifyWebpackConfig = function (config) {
 
   return config
 }
-
-
 
 function pagesToSitemap(pages) {
   var urls = pages.map(function(p) {
@@ -83,7 +89,15 @@ function generatePosts (posts) {
         link: 'https://twitter.com/austinlanari'
       },
       date: moment(a.data.date).toDate(),
-      image: a.data.indexImage
+      image: a.data.indexImage,
+      content: md.render(
+        frontmatter(
+          fs.readFileSync(
+            `${__dirname}/pages/${a.requirePath}`,
+            'utf-8'
+          )
+        ).body
+      )
     })
   })
   feed.addCategory('comics')
