@@ -11,4 +11,5 @@ siteVkUrl = "#"
 
 googleAnalyticsId = "UA-80918633-2"
 
-linkPrefix = "/"
+
+linkPrefix = ""

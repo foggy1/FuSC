@@ -2509,6 +2509,12 @@ fd-slicer@~1.0.1:
   dependencies:
     pend "~1.2.0"
 
+feed@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/feed/-/feed-1.0.2.tgz#730e28d5835b9a40b3e3eee21f65e37486b7eadc"
+  dependencies:
+    xml ">= 0.0.5"
+
 figures@^1.3.5:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/figures/-/figures-1.7.0.tgz#cbe1e3affcf1cd44b80cadfed28dc793a9701d2e"
@@ -7294,6 +7300,10 @@ write@^0.2.1:
   resolved "https://registry.yarnpkg.com/write/-/write-0.2.1.tgz#5fc03828e264cea3fe91455476f7a3c566cb0757"
   dependencies:
     mkdirp "^0.5.1"
+
+"xml@>= 0.0.5":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/xml/-/xml-1.0.1.tgz#78ba72020029c5bc87b8a81a3cfcd74b4a2fc1e5"
 
 "xtend@>=4.0.0 <4.1.0-0", xtend@^4.0.0, xtend@~4.0.0, xtend@~4.0.1:
   version "4.0.1"
