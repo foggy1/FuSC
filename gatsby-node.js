@@ -3,6 +3,8 @@ var sm = require('sitemap') // install this package
 const rucksack = require('rucksack-css')
 const lost = require('lost')
 const cssnext = require('postcss-cssnext')
+const Feed = require('feed')
+const moment = require('moment')
 
 exports.modifyWebpackConfig = function (config) {
   config.merge({
@@ -22,6 +24,7 @@ exports.modifyWebpackConfig = function (config) {
 
   return config
 }
+
 
 
 function pagesToSitemap(pages) {
@@ -51,7 +54,54 @@ function generateSiteMap(pages) {
   )
 }
 
-module.exports.postBuild = function(pages, callback) {
+function generatePosts (posts) {
+  var articles = posts.filter(function (p) { return p.data.date })
+  console.log('Generating Feeds')
+  var feed = new Feed({
+    title: 'Fuck Up Some Comics',
+    description: 'One more blog about story pictures',
+    id: 'http://fuckupsomecomics.com/',
+    link: 'http://fuckupsomecomics.com/',
+    image: 'https://ih0.redbubble.net/image.218095360.8037/st%2Csmall%2C215x235-pad%2C210x230%2Cf8f8f8.lite-1u2.jpg',
+    copyright: 'All rights reserved 2017, Austin Lanari',
+
+    author: {
+      name: 'Austin Lanari',
+      email: 'foggyboi@notarealemail.com',
+      link: 'https://twitter.com/austinlanari'
+    }
+  })
+  articles.forEach(function (a) {
+    feed.addItem({
+      title: a.data.title,
+      id: 'http://fuckupsomecomics.com' + a.data.path,
+      link: 'http://fuckupsomecomics.com' + a.data.path,
+      description: a.data.description,
+      author: {
+        name: 'Austin Lanari',
+        email: 'foggyboi@notarealemail.com',
+        link: 'https://twitter.com/austinlanari'
+      },
+      date: moment(a.data.date).toDate(),
+      image: a.data.indexImage
+    })
+  })
+  feed.addCategory('comics')
+  feed.addCategory('manga')
+  var rss = feed.rss2()
+  var atom = feed.atom1()
+  fs.writeFileSync(
+    `${__dirname}/public/rss.xml`,
+    rss.toString()
+  )
+  fs.writeFileSync(
+    `${__dirname}/public/atom.xml`,
+    atom.toString()
+  )
+}
+
+module.exports.postBuild = function (pages, callback) {
   generateSiteMap(pages)
+  generatePosts(pages)
   callback()
 }
