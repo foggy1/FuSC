@@ -31,10 +31,8 @@ And I was so hungry to write. I started with the lovely folks at <a target='_bla
   <figure class="floatCenter">
     <a target='_blank' href="http://comicsbulletin.com/tiny-pages-made-ashes-51917-mirror-mirror-ii/">
     <img style="padding: 30px; background-color: rgba(92,107,192, 0.1); max-height: 480px;border-radius: 3px;" src="https://i2.wp.com/comicsbulletin.com/wp-content/uploads/2017/05/Mirror-Mirror-II-cover.jpg?fit=798%2C1200" alt="Mirror Mirror II Review">
-    <div >
-      <figcaption style="color:black;margin-top:-30px;">Peep my in-depth review of Mirror Mirror II</figcaption>
-    </div>
     </a>
+    <figcaption style="color:black;margin-top:-30px;">Peep my in-depth review of Mirror Mirror II</figcaption>
   </figure>
 </div>
 
@@ -60,7 +58,7 @@ The world seems bigger because you get to open up a space between yourself and a
 
 It's late, and I've spent enough time on me.
 
-<img style="max-height: 480px;" src="./future_hendrix.png" alt="And so" />
+<img style="max-height: 480px;" src="http://fuckupsomecomics.com/posts/1/future_hendrix.png" alt="And so" />
 
 Let's fuck up some comics.
 
