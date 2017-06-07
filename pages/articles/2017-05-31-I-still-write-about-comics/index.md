@@ -3,6 +3,7 @@ title: "I Used T-- I still write about comics"
 date: "2017-05-31T21:12:03.284Z"
 layout: post
 path: "/posts/1"
+readNext: "/posts/2"
 category: ""
 description: "Is this thing on?"
 indexImage: "https://static01.nyt.com/images/2016/06/15/dining/15PANCAKEGUIDE3-WEB/15PANCAKEGUIDE3-WEB-superJumbo.jpg"

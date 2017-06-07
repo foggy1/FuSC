@@ -29,7 +29,7 @@ class SiteIndex extends React.Component {
             <span style={{ padding: '5px' }} />
             <span className='blog-category'>{category}</span>
             <h2><Link style={{ borderBottom: 'none' }} to={prefixLink(page.path)}>{title}</Link></h2>
-            <img style={{height: '300px'}} src={image} alt="I still write abbout comics" />
+            <img style={{height: '500px'}} src={image} alt={title} />
             <p dangerouslySetInnerHTML={{ __html: description }} />
             <Link className='readmore' to={prefixLink(page.path)}>Read</Link>
           </div>
