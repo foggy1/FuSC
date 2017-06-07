@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router'
-import { include as includes } from 'underscore.string'
-import find from 'lodash/find'
 
 import './style.css'
 
@@ -13,13 +11,12 @@ class ReadNext extends React.Component {
 
     let nextPost
     if (readNext) {
-      nextPost = find(pages, page => includes(page.path, readNext))
+      nextPost = pages.find(page => page.path.includes(readNext))
     }
     if (!nextPost) {
       return React.createElement('noscript', null)
     }
 
-    nextPost = find(pages, page => includes(page.path, readNext.slice(1, -1)))
     const description = nextPost.data.description
 
     return (

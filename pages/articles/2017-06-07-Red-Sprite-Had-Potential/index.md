@@ -1,6 +1,6 @@
 ---
 title: "Red Sprite was my Shit"
-date: "2017-06-05T21:12:03.284Z"
+date: "2017-06-07T08:00:00.284Z"
 layout: post
 path: "/posts/2"
 category: "manga"
