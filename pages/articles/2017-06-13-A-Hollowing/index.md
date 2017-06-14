@@ -1,6 +1,5 @@
 ---
 title: "A Hollowing"
-date: "2017-06-13T08:00:00.284Z"
 layout: post
 path: "/posts/3"
 category: "comics"
@@ -43,4 +42,6 @@ The implications are clear: though her nightmares unearth past trauma _for the r
 
 Without the "Beeps" and without the ink swipe, this page serves its purpose. Yet, these things aren't window dressing: they are real, substantial parts of the story that augment the narrative in ways that additional panels could not achieve. They add ambiance, they alter our perception of the page's pace, and they help round out the menacing tone of what is occurring and how it connects to what is to come. It is worth noting that the real punctuation to the events of this sequence does come two pages later, on the page turn, so the heightened sense of anticipation plays.
 
-There's far more to talk about as far as _A Hollowing_ is concerned, as the story on its own merits deserves critical attention. I, however, am stuck as usual, marveling at the fact that regardless of the tools, Sloane demonstrates the full narrative depth of the medium.
+There's far more to talk about as far as _A Hollowing_ is concerned, as the story on its own merits critical attention. I, however, am stuck as usual, marveling at the fact that regardless of the tools, Sloane demonstrates the full narrative depth of the medium.
+
+<a target=_blank href="https://twitter.com/AustinLanari/status/873991542649876480">_I made a thread for my thoughts on the other Short Box titles_</a>
