@@ -25,6 +25,7 @@ module.exports = React.createClass({
           <meta charSet='utf-8' />
           <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
           <meta name='viewport' content='width=device-width, initial-scale=1.0 maximum-scale=5.0' />
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>         
           <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
           { title.toComponent() }
           { font }

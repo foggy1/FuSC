@@ -6173,6 +6173,10 @@ rollup@^0.36.3:
   dependencies:
     source-map-support "^0.4.0"
 
+rrssb@^1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/rrssb/-/rrssb-1.14.0.tgz#b6f5afddc54221bae24f563828c7d1dd52750272"
+
 rsvp@^3.0.13, rsvp@^3.0.18:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-3.5.0.tgz#a62c573a4ae4e1dfd0697ebc6242e79c681eaa34"
