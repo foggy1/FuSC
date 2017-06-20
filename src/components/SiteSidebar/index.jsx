@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
+import Link from 'gatsby-link'
+
 import { config } from 'config'
 import SiteNav from '../SiteNav'
 import SiteLinks from '../SiteLinks'
@@ -10,12 +10,12 @@ import profilePic from '../../pages/photo.jpg'
 class SiteSidebar extends React.Component {
   render () {
     const { location } = this.props
-    const isHome = location.pathname === prefixLink('/')
+    const isHome = location.pathname === '/'
 
     /* eslint-disable jsx-a11y/img-redundant-alt */
     const header = (
       <header>
-        <Link style={{ textDecoration: 'none', borderBottom: 'none', outline: 'none' }} to={prefixLink('/')}>
+        <Link style={{ textDecoration: 'none', borderBottom: 'none', outline: 'none' }} to={'/'}>
           <img style={{height: '200px'}} src={require('./future_logo.png')} />
         </Link>
       </header>
