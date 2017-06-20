@@ -10,12 +10,12 @@ exports.components = {
 
 exports.json = {
   "dev-404-page.json": require("/home/austin/FuSC/.cache/json/dev-404-page.json"),
-  "pages-contact.json": require("/home/austin/FuSC/.cache/json/pages-contact.json"),
   "404.json": require("/home/austin/FuSC/.cache/json/404.json"),
-  "articles-2017-06-13-a-hollowing.json": require("/home/austin/FuSC/.cache/json/articles-2017-06-13-a-hollowing.json"),
-  "pages-about.json": require("/home/austin/FuSC/.cache/json/pages-about.json"),
+  "pages-contact.json": require("/home/austin/FuSC/.cache/json/pages-contact.json"),
   "articles-2017-06-07-red-sprite-had-potential.json": require("/home/austin/FuSC/.cache/json/articles-2017-06-07-red-sprite-had-potential.json"),
+  "articles-2017-06-13-a-hollowing.json": require("/home/austin/FuSC/.cache/json/articles-2017-06-13-a-hollowing.json"),
   "articles-2017-05-31-i-still-write-about-comics.json": require("/home/austin/FuSC/.cache/json/articles-2017-05-31-i-still-write-about-comics.json"),
+  "pages-about.json": require("/home/austin/FuSC/.cache/json/pages-about.json"),
   "index.json": require("/home/austin/FuSC/.cache/json/index.json"),
   "404-html.json": require("/home/austin/FuSC/.cache/json/404-html.json")
 }

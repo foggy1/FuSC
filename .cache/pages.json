@@ -6,23 +6,13 @@
     },
     {
         "componentChunkName": "page-component---src-templates-blog-post-js",
-        "jsonName": "pages-contact.json",
-        "path": "/pages/contact/"
-    },
-    {
-        "componentChunkName": "page-component---src-templates-blog-post-js",
         "jsonName": "404.json",
         "path": "/404/"
     },
     {
         "componentChunkName": "page-component---src-templates-blog-post-js",
-        "jsonName": "articles-2017-06-13-a-hollowing.json",
-        "path": "/articles/2017-06-13-A-Hollowing/"
-    },
-    {
-        "componentChunkName": "page-component---src-templates-blog-post-js",
-        "jsonName": "pages-about.json",
-        "path": "/pages/about/"
+        "jsonName": "pages-contact.json",
+        "path": "/pages/contact/"
     },
     {
         "componentChunkName": "page-component---src-templates-blog-post-js",
@@ -31,8 +21,18 @@
     },
     {
         "componentChunkName": "page-component---src-templates-blog-post-js",
+        "jsonName": "articles-2017-06-13-a-hollowing.json",
+        "path": "/articles/2017-06-13-A-Hollowing/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-blog-post-js",
         "jsonName": "articles-2017-05-31-i-still-write-about-comics.json",
         "path": "/articles/2017-05-31-I-still-write-about-comics/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-blog-post-js",
+        "jsonName": "pages-about.json",
+        "path": "/pages/about/"
     },
     {
         "componentChunkName": "page-component---src-pages-index-jsx",
