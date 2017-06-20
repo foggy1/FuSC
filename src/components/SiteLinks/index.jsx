@@ -1,34 +1,27 @@
 import React from 'react'
-import { config } from 'config'
 import './style.css'
-import '../../static/fonts/fontawesome/style.css'
+import '../../../static/fonts/fontawesome/style.css'
 
 class SiteLinks extends React.Component {
   render () {
     return (
       <div className='blog-links'>
         <ul>
-          {config.siteTwitterUrl && (
             <li>
-              <a href={config.siteTwitterUrl}>
+              <a href={'https://twitter.com/austinlanari'}>
                 <i className='fa fa-twitter' />
               </a>
             </li>
-          )}
-          {config.siteGithubUrl && (
             <li>
-              <a href={config.siteGithubUrl}>
+              <a href={`https://github.com/foggy1`}>
                 <i className='fa fa-github-alt' />
               </a>
             </li>
-          )}
         </ul>
         <ul>
-          {config.siteRssUrl && (
             <li>
-              <a href={config.siteRssUrl}><i className='fa fa-rss' /></a>
+              <a href={`http://fuckupsomecomics.com/rss.xml`}><i className='fa fa-rss' /></a>
             </li>
-          )}
         </ul>
       </div>
     )
