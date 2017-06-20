@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/home/austin/FuSC/node_modules/gatsby-plugin-offline/gatsby-ssr.js'),
+      plugin: require('/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-offline/gatsby-ssr.js'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/austin/FuSC/node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js'),
+      plugin: require('/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js'),
       options: {"plugins":[],"trackingId":"UA-80918633-2"},
     },{
-      plugin: require('/home/austin/FuSC/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
+      plugin: require('/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
       options: {"plugins":[],"name":"Fuck Up Some Comics","short_name":"FuSC","start_url":"/","background_color":"#f7f7f7","theme_color":"#191919","display":"minimal-ui"},
     }]
 "use strict";

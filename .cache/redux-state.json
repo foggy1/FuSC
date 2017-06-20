@@ -1,7 +1,7 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "component": "/home/austin/FuSC/.cache/dev-404-page.js",
+      "component": "/Users/austin/stuff/FuSC/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
       "componentChunkName": "page-component---cache-dev-404-page-js",
       "jsonName": "dev-404-page.json",
@@ -13,13 +13,13 @@
       "internal": {
         "mediaType": "application/json",
         "type": "SitePage",
-        "content": "{\"component\":\"/home/austin/FuSC/.cache/dev-404-page.js\",\"path\":\"/dev-404-page/\",\"componentChunkName\":\"page-component---cache-dev-404-page-js\",\"jsonName\":\"dev-404-page.json\",\"internalComponentName\":\"ComponentDev404Page\",\"context\":{}}",
-        "contentDigest": "68ac3e5653b44cc09c75bf072228f886",
+        "content": "{\"component\":\"/Users/austin/stuff/FuSC/.cache/dev-404-page.js\",\"path\":\"/dev-404-page/\",\"componentChunkName\":\"page-component---cache-dev-404-page-js\",\"jsonName\":\"dev-404-page.json\",\"internalComponentName\":\"ComponentDev404Page\",\"context\":{}}",
+        "contentDigest": "72c2183cd815869951c2b17ea11f1700",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-page-creator": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "name": "component-page-creator",
       "version": "1.0.0",
       "pluginOptions": {
@@ -46,15 +46,15 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "edadaf9a9c15f7ef376f429258f318f8",
+        "contentDigest": "8d726f9c5981a86a3c9251fbdb32e1b6",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby/dist/internal-plugins/component-page-creator\",\"name\":\"component-page-creator\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/component-page-creator\",\"name\":\"component-page-creator\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
@@ -77,15 +77,15 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d011e3fc3a9da6e321cf6308fdebb269",
+        "contentDigest": "8cdd53d7779611f8dd5d0a1c15a44ee2",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby/dist/internal-plugins/internal-data-bridge\",\"name\":\"internal-data-bridge\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/internal-data-bridge\",\"name\":\"internal-data-bridge\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
@@ -108,15 +108,15 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "47d5e64e83e3ded6e5c6b7ed915445dd",
+        "contentDigest": "2b77a512f08efa07a35b1fd0cb0b0960",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby/dist/internal-plugins/dev-404-page\",\"name\":\"dev-404-page\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/dev-404-page\",\"name\":\"dev-404-page\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/query-runner",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
@@ -139,21 +139,21 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6337560a0b3588c9e412b35f07f374c4",
+        "contentDigest": "5acc1c9c2ccb54b5ace53d4ae4494511",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby/dist/internal-plugins/query-runner\",\"name\":\"query-runner\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/query-runner\",\"name\":\"query-runner\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-source-filesystem": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby-source-filesystem",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-source-filesystem",
       "name": "gatsby-source-filesystem",
       "version": "1.0.0-beta.1",
       "pluginOptions": {
         "plugins": [],
         "name": "pages",
-        "path": "/home/austin/FuSC/src/pages/"
+        "path": "/Users/austin/stuff/FuSC/src/pages/"
       },
       "packageJson": {
         "name": "gatsby-source-filesystem",
@@ -196,41 +196,38 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a76ee78701dc1155a0fb26a993f4da6b",
+        "contentDigest": "e36b4fe2550e8d8b2e56cbd5e9f81e5d",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-source-filesystem\",\"name\":\"gatsby-source-filesystem\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[],\"name\":\"pages\",\"path\":\"/home/austin/FuSC/src/pages/\"}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-source-filesystem\",\"name\":\"gatsby-source-filesystem\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[],\"name\":\"pages\",\"path\":\"/Users/austin/stuff/FuSC/src/pages/\"}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-transformer-remark": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby-transformer-remark",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-transformer-remark",
       "name": "gatsby-transformer-remark",
       "version": "1.0.0-beta.1",
       "pluginOptions": {
         "plugins": [
           {
-            "resolve": "/home/austin/FuSC/node_modules/gatsby-remark-responsive-image",
+            "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-image",
             "name": "gatsby-remark-responsive-image",
             "version": "1.0.0-beta.2",
             "pluginOptions": {
               "plugins": [],
-              "maxWidth": 690,
-              "wrapperStyle": "",
-              "backgroundColor": "white"
+              "maxWidth": 690
             }
           },
           {
-            "resolve": "/home/austin/FuSC/node_modules/gatsby-remark-responsive-iframe",
+            "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-iframe",
             "name": "gatsby-remark-responsive-iframe",
             "version": "1.0.0-beta.1",
             "pluginOptions": {
-              "plugins": [],
-              "wrapperStyle": ""
+              "plugins": []
             }
           },
           {
-            "resolve": "/home/austin/FuSC/node_modules/gatsby-remark-prismjs",
+            "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-prismjs",
             "name": "gatsby-remark-prismjs",
             "version": "1.0.0-beta.2",
             "pluginOptions": {
@@ -238,7 +235,7 @@
             }
           },
           {
-            "resolve": "/home/austin/FuSC/node_modules/gatsby-remark-copy-linked-files",
+            "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-copy-linked-files",
             "name": "gatsby-remark-copy-linked-files",
             "version": "1.0.0-beta.1",
             "pluginOptions": {
@@ -246,7 +243,7 @@
             }
           },
           {
-            "resolve": "/home/austin/FuSC/node_modules/gatsby-remark-smartypants",
+            "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-smartypants",
             "name": "gatsby-remark-smartypants",
             "version": "1.0.0-beta.1",
             "pluginOptions": {
@@ -327,22 +324,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2f7d40661176f66b7d992154db37b9a5",
+        "contentDigest": "96e389d60615961d5005df090d98f77c",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-transformer-remark\",\"name\":\"gatsby-transformer-remark\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-remark-responsive-image\",\"name\":\"gatsby-remark-responsive-image\",\"version\":\"1.0.0-beta.2\",\"pluginOptions\":{\"plugins\":[],\"maxWidth\":690}},{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-remark-responsive-iframe\",\"name\":\"gatsby-remark-responsive-iframe\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}},{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-remark-prismjs\",\"name\":\"gatsby-remark-prismjs\",\"version\":\"1.0.0-beta.2\",\"pluginOptions\":{\"plugins\":[]}},{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-remark-copy-linked-files\",\"name\":\"gatsby-remark-copy-linked-files\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}},{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-remark-smartypants\",\"name\":\"gatsby-remark-smartypants\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-transformer-remark\",\"name\":\"gatsby-transformer-remark\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-image\",\"name\":\"gatsby-remark-responsive-image\",\"version\":\"1.0.0-beta.2\",\"pluginOptions\":{\"plugins\":[],\"maxWidth\":690}},{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-iframe\",\"name\":\"gatsby-remark-responsive-iframe\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}},{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-prismjs\",\"name\":\"gatsby-remark-prismjs\",\"version\":\"1.0.0-beta.2\",\"pluginOptions\":{\"plugins\":[]}},{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-copy-linked-files\",\"name\":\"gatsby-remark-copy-linked-files\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}},{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-smartypants\",\"name\":\"gatsby-remark-smartypants\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-remark-responsive-image": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby-remark-responsive-image",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-image",
       "name": "gatsby-remark-responsive-image",
       "version": "1.0.0-beta.2",
       "pluginOptions": {
         "plugins": [],
-        "maxWidth": 690,
-        "wrapperStyle": "",
-        "backgroundColor": "white"
+        "maxWidth": 690
       },
       "packageJson": {
         "name": "gatsby-remark-responsive-image",
@@ -391,20 +386,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b573aed5e5e23fa1dec5c43d54197326",
+        "contentDigest": "6bc035020b4b59fffc066e0d7dff3a96",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-remark-responsive-image\",\"name\":\"gatsby-remark-responsive-image\",\"version\":\"1.0.0-beta.2\",\"pluginOptions\":{\"plugins\":[],\"maxWidth\":690}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-image\",\"name\":\"gatsby-remark-responsive-image\",\"version\":\"1.0.0-beta.2\",\"pluginOptions\":{\"plugins\":[],\"maxWidth\":690}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-remark-responsive-iframe": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby-remark-responsive-iframe",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-iframe",
       "name": "gatsby-remark-responsive-iframe",
       "version": "1.0.0-beta.1",
       "pluginOptions": {
-        "plugins": [],
-        "wrapperStyle": ""
+        "plugins": []
       },
       "packageJson": {
         "name": "gatsby-remark-responsive-iframe",
@@ -450,15 +444,15 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e258448fb0702dbf0391330655df77fe",
+        "contentDigest": "ef6c5890bc656e195ae7b2868b0c54fa",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-remark-responsive-iframe\",\"name\":\"gatsby-remark-responsive-iframe\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-iframe\",\"name\":\"gatsby-remark-responsive-iframe\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-remark-prismjs": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby-remark-prismjs",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-prismjs",
       "name": "gatsby-remark-prismjs",
       "version": "1.0.0-beta.2",
       "pluginOptions": {
@@ -505,15 +499,15 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4fad37328d849226a2cd46714b6e79be",
+        "contentDigest": "a85a8865a9e243cce6a6cb31fec8fb3c",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-remark-prismjs\",\"name\":\"gatsby-remark-prismjs\",\"version\":\"1.0.0-beta.2\",\"pluginOptions\":{\"plugins\":[]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-prismjs\",\"name\":\"gatsby-remark-prismjs\",\"version\":\"1.0.0-beta.2\",\"pluginOptions\":{\"plugins\":[]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-remark-copy-linked-files": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby-remark-copy-linked-files",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-copy-linked-files",
       "name": "gatsby-remark-copy-linked-files",
       "version": "1.0.0-beta.1",
       "pluginOptions": {
@@ -564,15 +558,15 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "07cea394701d7c4b0dcf14220c42e88d",
+        "contentDigest": "0105b810481c6436614a07df902cf115",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-remark-copy-linked-files\",\"name\":\"gatsby-remark-copy-linked-files\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-copy-linked-files\",\"name\":\"gatsby-remark-copy-linked-files\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-remark-smartypants": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby-remark-smartypants",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-smartypants",
       "name": "gatsby-remark-smartypants",
       "version": "1.0.0-beta.1",
       "pluginOptions": {
@@ -618,15 +612,15 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6bd83b8683740823e7729be7aef4db3f",
+        "contentDigest": "5de69b81b9e5e203d986b59dc9e1200a",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-remark-smartypants\",\"name\":\"gatsby-remark-smartypants\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-smartypants\",\"name\":\"gatsby-remark-smartypants\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-sharp": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby-plugin-sharp",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-sharp",
       "name": "gatsby-plugin-sharp",
       "version": "1.0.0-beta.2",
       "pluginOptions": {
@@ -696,15 +690,15 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1ec82e968a2daf6c3e97b5325074ee05",
+        "contentDigest": "7d021410dde6df22a6cc00d5b019ae9d",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-plugin-sharp\",\"name\":\"gatsby-plugin-sharp\",\"version\":\"1.0.0-beta.2\",\"pluginOptions\":{\"plugins\":[]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-sharp\",\"name\":\"gatsby-plugin-sharp\",\"version\":\"1.0.0-beta.2\",\"pluginOptions\":{\"plugins\":[]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-offline": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby-plugin-offline",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-offline",
       "name": "gatsby-plugin-offline",
       "version": "1.0.0-beta.1",
       "pluginOptions": {
@@ -744,15 +738,15 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ede03e030e44553ce56c4b8675891327",
+        "contentDigest": "c602377d518fa3bd63de1c47af9a8d92",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-plugin-offline\",\"name\":\"gatsby-plugin-offline\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-offline\",\"name\":\"gatsby-plugin-offline\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-google-analytics": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby-plugin-google-analytics",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-google-analytics",
       "name": "gatsby-plugin-google-analytics",
       "version": "1.0.0-beta.1",
       "pluginOptions": {
@@ -786,15 +780,15 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2fbe982a00feba9904d3f458331cdc63",
+        "contentDigest": "260b7bc329a935ed40fa83e6cc8688b5",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-plugin-google-analytics\",\"name\":\"gatsby-plugin-google-analytics\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[],\"trackingId\":\"UA-80918633-2\"}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-google-analytics\",\"name\":\"gatsby-plugin-google-analytics\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[],\"trackingId\":\"UA-80918633-2\"}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-manifest": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby-plugin-manifest",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-manifest",
       "name": "gatsby-plugin-manifest",
       "version": "1.0.0-beta.1",
       "pluginOptions": {
@@ -840,15 +834,15 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "55ea01c4d79d74ac4378a424333d97b7",
+        "contentDigest": "f3df88a7332186a6f00b649af0baeb64",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-plugin-manifest\",\"name\":\"gatsby-plugin-manifest\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[],\"name\":\"Fuck Up Some Comics\",\"short_name\":\"FuSC\",\"start_url\":\"/\",\"background_color\":\"#f7f7f7\",\"theme_color\":\"#191919\",\"display\":\"minimal-ui\"}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-manifest\",\"name\":\"gatsby-plugin-manifest\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[],\"name\":\"Fuck Up Some Comics\",\"short_name\":\"FuSC\",\"start_url\":\"/\",\"background_color\":\"#f7f7f7\",\"theme_color\":\"#191919\",\"display\":\"minimal-ui\"}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-postcss-sass": {
-      "resolve": "/home/austin/FuSC/node_modules/gatsby-plugin-postcss-sass",
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-postcss-sass",
       "name": "gatsby-plugin-postcss-sass",
       "version": "1.0.0-beta.1",
       "pluginOptions": {
@@ -899,15 +893,15 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d6cdeeb1b813c68f40569a17e13ccc04",
+        "contentDigest": "73067d6619db1415b6fbb3f476ad1171",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC/node_modules/gatsby-plugin-postcss-sass\",\"name\":\"gatsby-plugin-postcss-sass\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[],\"postCssPlugins\":[null]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-postcss-sass\",\"name\":\"gatsby-plugin-postcss-sass\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[],\"postCssPlugins\":[null]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/home/austin/FuSC",
+      "resolve": "/Users/austin/stuff/FuSC",
       "name": "default-site-plugin",
       "version": "c0a63d77ef6b3ef2dd161093964f4fcb",
       "pluginOptions": {
@@ -1173,9 +1167,9 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a1566db12f44789be69777a694ac468d",
+        "contentDigest": "4951fade8d27a515c8abc4879e1d1149",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC\",\"name\":\"default-site-plugin\",\"version\":\"c0a63d77ef6b3ef2dd161093964f4fcb\",\"pluginOptions\":{\"plugins\":[]}}",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC\",\"name\":\"default-site-plugin\",\"version\":\"c0a63d77ef6b3ef2dd161093964f4fcb\",\"pluginOptions\":{\"plugins\":[]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1192,22 +1186,22 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2017-06-20T11:57:55.250Z",
+      "buildTime": "2017-06-20T18:03:09.964Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "aada389e92a57da913ba910b284f4901",
-        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"description\":\"Fuck up some comics, yeah\",\"author\":\"Foggy\",\"twitter\":\"https://www.twitter.com/austinlanari\",\"github\":\"https://www.github.com/foggy1\",\"rss\":\"http://fuckupsomecomics.com/rss.xml\",\"atom\":\"http://fuckupsomecomics.com/atom.xml\"},\"port\":\"8000\",\"host\":\"localhost\",\"buildTime\":\"2017-06-20T11:57:55.250Z\"}",
+        "contentDigest": "a39c0e160349d729764cdd2cadbb2153",
+        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"description\":\"Fuck up some comics, yeah\",\"author\":\"Foggy\",\"twitter\":\"https://www.twitter.com/austinlanari\",\"github\":\"https://www.github.com/foggy1\",\"rss\":\"http://fuckupsomecomics.com/rss.xml\",\"atom\":\"http://fuckupsomecomics.com/atom.xml\"},\"port\":\"8000\",\"host\":\"localhost\",\"buildTime\":\"2017-06-20T18:03:09.964Z\"}",
         "mediaType": "application/json",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "/home/austin/FuSC/src/pages/404.md absPath of file": {
-      "id": "/home/austin/FuSC/src/pages/404.md absPath of file",
+    "/Users/austin/stuff/FuSC/src/pages/404.md absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/404.md absPath of file",
       "children": [
-        "/home/austin/FuSC/src/pages/404.md absPath of file >>> MarkdownRemark"
+        "/Users/austin/stuff/FuSC/src/pages/404.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1217,40 +1211,36 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/home/austin/FuSC/src/pages/404.md",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/404.md",
       "relativePath": "404.md",
       "extension": "md",
       "size": 106,
       "prettySize": "106 B",
-      "modifiedTime": "2017-05-11T03:43:48.363Z",
-      "accessTime": "2017-06-20T01:20:13.509Z",
-      "changeTime": "2017-05-11T03:43:48.363Z",
-      "birthTime": "2017-05-11T03:43:48.363Z",
+      "modifiedTime": "2017-06-20T17:40:52.000Z",
+      "accessTime": "2017-06-20T17:43:10.000Z",
+      "changeTime": "2017-06-20T17:40:52.000Z",
+      "birthTime": "2017-06-20T17:40:52.000Z",
       "root": "/",
-      "dir": "/home/austin/FuSC/src/pages",
+      "dir": "/Users/austin/stuff/FuSC/src/pages",
       "base": "404.md",
       "ext": ".md",
       "name": "404",
-      "dev": 46,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3578942,
-      "blocks": 24,
-      "atimeMs": 1497921613509.3586,
-      "mtimeMs": 1494474228363.197,
-      "ctimeMs": 1494474228363.197,
-      "birthtimeMs": 1494474228363.197,
-      "atime": "2017-06-20T01:20:13.509Z",
-      "mtime": "2017-05-11T03:43:48.363Z",
-      "ctime": "2017-05-11T03:43:48.363Z",
-      "birthtime": "2017-05-11T03:43:48.363Z"
+      "ino": 15333049,
+      "blocks": 8,
+      "atime": "2017-06-20T17:43:10.000Z",
+      "mtime": "2017-06-20T17:40:52.000Z",
+      "ctime": "2017-06-20T17:40:52.000Z",
+      "birthtime": "2017-06-20T17:40:52.000Z"
     },
-    "/home/austin/FuSC/src/pages/CNAME absPath of file": {
-      "id": "/home/austin/FuSC/src/pages/CNAME absPath of file",
+    "/Users/austin/stuff/FuSC/src/pages/CNAME absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/CNAME absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
@@ -1260,40 +1250,36 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/home/austin/FuSC/src/pages/CNAME",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/CNAME",
       "relativePath": "CNAME",
       "extension": "",
       "size": 20,
       "prettySize": "20 B",
-      "modifiedTime": "2017-06-01T03:40:42.496Z",
-      "accessTime": "2017-06-20T00:08:37.814Z",
-      "changeTime": "2017-06-01T03:40:42.496Z",
-      "birthTime": "2017-06-01T03:40:42.496Z",
+      "modifiedTime": "2017-06-20T17:40:52.000Z",
+      "accessTime": "2017-06-20T17:43:10.000Z",
+      "changeTime": "2017-06-20T17:40:52.000Z",
+      "birthTime": "2017-06-20T17:40:52.000Z",
       "root": "/",
-      "dir": "/home/austin/FuSC/src/pages",
+      "dir": "/Users/austin/stuff/FuSC/src/pages",
       "base": "CNAME",
       "ext": "",
       "name": "CNAME",
-      "dev": 46,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3640626,
-      "blocks": 24,
-      "atimeMs": 1497917317813.9631,
-      "mtimeMs": 1496288442496.0623,
-      "ctimeMs": 1496288442496.0623,
-      "birthtimeMs": 1496288442496.0623,
-      "atime": "2017-06-20T00:08:37.814Z",
-      "mtime": "2017-06-01T03:40:42.496Z",
-      "ctime": "2017-06-01T03:40:42.496Z",
-      "birthtime": "2017-06-01T03:40:42.496Z"
+      "ino": 15333050,
+      "blocks": 8,
+      "atime": "2017-06-20T17:43:10.000Z",
+      "mtime": "2017-06-20T17:40:52.000Z",
+      "ctime": "2017-06-20T17:40:52.000Z",
+      "birthtime": "2017-06-20T17:40:52.000Z"
     },
-    "/home/austin/FuSC/src/pages/_template.jsx absPath of file": {
-      "id": "/home/austin/FuSC/src/pages/_template.jsx absPath of file",
+    "/Users/austin/stuff/FuSC/src/pages/_template.jsx absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/_template.jsx absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
@@ -1303,40 +1289,36 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/home/austin/FuSC/src/pages/_template.jsx",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/_template.jsx",
       "relativePath": "_template.jsx",
       "extension": "jsx",
       "size": 395,
       "prettySize": "395 B",
-      "modifiedTime": "2017-06-01T03:08:02.713Z",
-      "accessTime": "2017-06-20T01:20:13.505Z",
-      "changeTime": "2017-06-01T03:08:02.713Z",
-      "birthTime": "2017-06-01T03:08:02.713Z",
+      "modifiedTime": "2017-06-20T17:40:52.000Z",
+      "accessTime": "2017-06-20T17:43:10.000Z",
+      "changeTime": "2017-06-20T17:40:52.000Z",
+      "birthTime": "2017-06-20T17:40:52.000Z",
       "root": "/",
-      "dir": "/home/austin/FuSC/src/pages",
+      "dir": "/Users/austin/stuff/FuSC/src/pages",
       "base": "_template.jsx",
       "ext": ".jsx",
       "name": "_template",
-      "dev": 46,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3542217,
-      "blocks": 24,
-      "atimeMs": 1497921613505.3586,
-      "mtimeMs": 1496286482712.5735,
-      "ctimeMs": 1496286482712.5735,
-      "birthtimeMs": 1496286482712.5735,
-      "atime": "2017-06-20T01:20:13.505Z",
-      "mtime": "2017-06-01T03:08:02.713Z",
-      "ctime": "2017-06-01T03:08:02.713Z",
-      "birthtime": "2017-06-01T03:08:02.713Z"
+      "ino": 15333051,
+      "blocks": 8,
+      "atime": "2017-06-20T17:43:10.000Z",
+      "mtime": "2017-06-20T17:40:52.000Z",
+      "ctime": "2017-06-20T17:40:52.000Z",
+      "birthtime": "2017-06-20T17:40:52.000Z"
     },
-    "/home/austin/FuSC/src/pages/favicon-32x32.png absPath of file": {
-      "id": "/home/austin/FuSC/src/pages/favicon-32x32.png absPath of file",
+    "/Users/austin/stuff/FuSC/src/pages/favicon-32x32.png absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/favicon-32x32.png absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
@@ -1346,83 +1328,75 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/home/austin/FuSC/src/pages/favicon-32x32.png",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/favicon-32x32.png",
       "relativePath": "favicon-32x32.png",
       "extension": "png",
       "size": 1916,
       "prettySize": "1.92 kB",
-      "modifiedTime": "2017-06-01T03:08:02.713Z",
-      "accessTime": "2017-06-20T01:20:13.509Z",
-      "changeTime": "2017-06-01T03:08:02.713Z",
-      "birthTime": "2017-06-01T03:08:02.713Z",
+      "modifiedTime": "2017-06-20T17:40:52.000Z",
+      "accessTime": "2017-06-20T17:43:10.000Z",
+      "changeTime": "2017-06-20T17:40:52.000Z",
+      "birthTime": "2017-06-20T17:40:52.000Z",
       "root": "/",
-      "dir": "/home/austin/FuSC/src/pages",
+      "dir": "/Users/austin/stuff/FuSC/src/pages",
       "base": "favicon-32x32.png",
       "ext": ".png",
       "name": "favicon-32x32",
-      "dev": 46,
+      "dev": 16777220,
       "mode": 33261,
       "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3578927,
-      "blocks": 24,
-      "atimeMs": 1497921613509.3586,
-      "mtimeMs": 1496286482712.5735,
-      "ctimeMs": 1496286482712.5735,
-      "birthtimeMs": 1496286482712.5735,
-      "atime": "2017-06-20T01:20:13.509Z",
-      "mtime": "2017-06-01T03:08:02.713Z",
-      "ctime": "2017-06-01T03:08:02.713Z",
-      "birthtime": "2017-06-01T03:08:02.713Z"
+      "ino": 15333060,
+      "blocks": 8,
+      "atime": "2017-06-20T17:43:10.000Z",
+      "mtime": "2017-06-20T17:40:52.000Z",
+      "ctime": "2017-06-20T17:40:52.000Z",
+      "birthtime": "2017-06-20T17:40:52.000Z"
     },
-    "/home/austin/FuSC/src/pages/index.jsx absPath of file": {
-      "id": "/home/austin/FuSC/src/pages/index.jsx absPath of file",
+    "/Users/austin/stuff/FuSC/src/pages/index.jsx absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/index.jsx absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "857d6e7f620492795a6e681b0388798e",
+        "contentDigest": "d09726234b2d01efafed98ebc99bfccb",
         "mediaType": "text/jsx",
         "type": "File",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/home/austin/FuSC/src/pages/index.jsx",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/index.jsx",
       "relativePath": "index.jsx",
       "extension": "jsx",
-      "size": 1939,
-      "prettySize": "1.94 kB",
-      "modifiedTime": "2017-06-20T03:57:57.927Z",
-      "accessTime": "2017-06-20T03:57:57.931Z",
-      "changeTime": "2017-06-20T03:57:57.927Z",
-      "birthTime": "2017-06-20T03:57:57.927Z",
+      "size": 1953,
+      "prettySize": "1.95 kB",
+      "modifiedTime": "2017-06-20T18:02:54.000Z",
+      "accessTime": "2017-06-20T18:02:55.000Z",
+      "changeTime": "2017-06-20T18:02:54.000Z",
+      "birthTime": "2017-06-20T17:40:52.000Z",
       "root": "/",
-      "dir": "/home/austin/FuSC/src/pages",
+      "dir": "/Users/austin/stuff/FuSC/src/pages",
       "base": "index.jsx",
       "ext": ".jsx",
       "name": "index",
-      "dev": 46,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3541210,
-      "blocks": 24,
-      "atimeMs": 1497931077931.2007,
-      "mtimeMs": 1497931077927.2007,
-      "ctimeMs": 1497931077927.2007,
-      "birthtimeMs": 1497931077927.2007,
-      "atime": "2017-06-20T03:57:57.931Z",
-      "mtime": "2017-06-20T03:57:57.927Z",
-      "ctime": "2017-06-20T03:57:57.927Z",
-      "birthtime": "2017-06-20T03:57:57.927Z"
+      "ino": 15333158,
+      "blocks": 8,
+      "atime": "2017-06-20T18:02:55.000Z",
+      "mtime": "2017-06-20T18:02:54.000Z",
+      "ctime": "2017-06-20T18:02:54.000Z",
+      "birthtime": "2017-06-20T17:40:52.000Z"
     },
-    "/home/austin/FuSC/src/pages/photo.jpg absPath of file": {
-      "id": "/home/austin/FuSC/src/pages/photo.jpg absPath of file",
+    "/Users/austin/stuff/FuSC/src/pages/photo.jpg absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/photo.jpg absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
@@ -1432,132 +1406,38 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/home/austin/FuSC/src/pages/photo.jpg",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/photo.jpg",
       "relativePath": "photo.jpg",
       "extension": "jpg",
       "size": 24875,
       "prettySize": "24.9 kB",
-      "modifiedTime": "2017-06-01T03:08:02.717Z",
-      "accessTime": "2017-06-20T01:20:13.509Z",
-      "changeTime": "2017-06-01T03:08:02.717Z",
-      "birthTime": "2017-06-01T03:08:02.717Z",
+      "modifiedTime": "2017-06-20T17:40:52.000Z",
+      "accessTime": "2017-06-20T17:43:10.000Z",
+      "changeTime": "2017-06-20T17:40:52.000Z",
+      "birthTime": "2017-06-20T17:40:52.000Z",
       "root": "/",
-      "dir": "/home/austin/FuSC/src/pages",
+      "dir": "/Users/austin/stuff/FuSC/src/pages",
       "base": "photo.jpg",
       "ext": ".jpg",
       "name": "photo",
-      "dev": 46,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3578935,
-      "blocks": 72,
-      "atimeMs": 1497921613509.3586,
-      "mtimeMs": 1496286482716.5737,
-      "ctimeMs": 1496286482716.5737,
-      "birthtimeMs": 1496286482716.5737,
-      "atime": "2017-06-20T01:20:13.509Z",
-      "mtime": "2017-06-01T03:08:02.717Z",
-      "ctime": "2017-06-01T03:08:02.717Z",
-      "birthtime": "2017-06-01T03:08:02.717Z"
+      "ino": 15333067,
+      "blocks": 56,
+      "atime": "2017-06-20T17:43:10.000Z",
+      "mtime": "2017-06-20T17:40:52.000Z",
+      "ctime": "2017-06-20T17:40:52.000Z",
+      "birthtime": "2017-06-20T17:40:52.000Z"
     },
-    "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file": {
-      "id": "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file",
+    "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file",
       "children": [
-        "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "8b95a6fc8a3c84841e18c373fc1f23f7",
-        "mediaType": "text/x-markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/home/austin/FuSC/src/pages/pages/about/index.md",
-      "relativePath": "pages/about/index.md",
-      "extension": "md",
-      "size": 433,
-      "prettySize": "433 B",
-      "modifiedTime": "2017-06-01T03:08:02.713Z",
-      "accessTime": "2017-06-20T01:20:13.561Z",
-      "changeTime": "2017-06-01T03:08:02.713Z",
-      "birthTime": "2017-06-01T03:08:02.713Z",
-      "root": "/",
-      "dir": "/home/austin/FuSC/src/pages/pages/about",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "dev": 46,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3578924,
-      "blocks": 24,
-      "atimeMs": 1497921613561.358,
-      "mtimeMs": 1496286482712.5735,
-      "ctimeMs": 1496286482712.5735,
-      "birthtimeMs": 1496286482712.5735,
-      "atime": "2017-06-20T01:20:13.561Z",
-      "mtime": "2017-06-01T03:08:02.713Z",
-      "ctime": "2017-06-01T03:08:02.713Z",
-      "birthtime": "2017-06-01T03:08:02.713Z"
-    },
-    "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file": {
-      "id": "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file",
-      "children": [
-        "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "7fede25dd7316b73cb08fb31f53df855",
-        "mediaType": "text/x-markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/home/austin/FuSC/src/pages/pages/contact/index.md",
-      "relativePath": "pages/contact/index.md",
-      "extension": "md",
-      "size": 59,
-      "prettySize": "59 B",
-      "modifiedTime": "2017-06-01T03:08:02.713Z",
-      "accessTime": "2017-06-20T01:20:13.561Z",
-      "changeTime": "2017-06-01T03:08:02.713Z",
-      "birthTime": "2017-06-01T03:08:02.713Z",
-      "root": "/",
-      "dir": "/home/austin/FuSC/src/pages/pages/contact",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "dev": 46,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 3578930,
-      "blocks": 24,
-      "atimeMs": 1497921613561.358,
-      "mtimeMs": 1496286482712.5735,
-      "ctimeMs": 1496286482712.5735,
-      "birthtimeMs": 1496286482712.5735,
-      "atime": "2017-06-20T01:20:13.561Z",
-      "mtime": "2017-06-01T03:08:02.713Z",
-      "ctime": "2017-06-01T03:08:02.713Z",
-      "birthtime": "2017-06-01T03:08:02.713Z"
-    },
-    "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file": {
-      "id": "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file",
-      "children": [
-        "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark"
+        "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1567,42 +1447,38 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md",
       "relativePath": "articles/2017-05-31-I-still-write-about-comics/index.md",
       "extension": "md",
       "size": 6567,
       "prettySize": "6.57 kB",
-      "modifiedTime": "2017-06-07T03:12:32.505Z",
-      "accessTime": "2017-06-20T01:20:13.561Z",
-      "changeTime": "2017-06-07T03:12:32.505Z",
-      "birthTime": "2017-06-07T03:12:32.505Z",
+      "modifiedTime": "2017-06-20T17:40:52.000Z",
+      "accessTime": "2017-06-20T17:43:10.000Z",
+      "changeTime": "2017-06-20T17:40:52.000Z",
+      "birthTime": "2017-06-20T17:40:52.000Z",
       "root": "/",
-      "dir": "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics",
+      "dir": "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
-      "dev": 46,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3541324,
-      "blocks": 32,
-      "atimeMs": 1497921613561.358,
-      "mtimeMs": 1496805152504.693,
-      "ctimeMs": 1496805152504.693,
-      "birthtimeMs": 1496805152504.693,
-      "atime": "2017-06-20T01:20:13.561Z",
-      "mtime": "2017-06-07T03:12:32.505Z",
-      "ctime": "2017-06-07T03:12:32.505Z",
-      "birthtime": "2017-06-07T03:12:32.505Z"
+      "ino": 15333055,
+      "blocks": 16,
+      "atime": "2017-06-20T17:43:10.000Z",
+      "mtime": "2017-06-20T17:40:52.000Z",
+      "ctime": "2017-06-20T17:40:52.000Z",
+      "birthtime": "2017-06-20T17:40:52.000Z"
     },
-    "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file": {
-      "id": "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file",
+    "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file",
       "children": [
-        "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark"
+        "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1612,42 +1488,38 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md",
       "relativePath": "articles/2017-06-07-Red-Sprite-Had-Potential/index.md",
       "extension": "md",
       "size": 9468,
       "prettySize": "9.47 kB",
-      "modifiedTime": "2017-06-16T02:08:21.963Z",
-      "accessTime": "2017-06-20T01:20:13.561Z",
-      "changeTime": "2017-06-16T02:08:21.963Z",
-      "birthTime": "2017-06-16T02:08:21.963Z",
+      "modifiedTime": "2017-06-20T17:40:52.000Z",
+      "accessTime": "2017-06-20T17:43:10.000Z",
+      "changeTime": "2017-06-20T17:40:52.000Z",
+      "birthTime": "2017-06-20T17:40:52.000Z",
       "root": "/",
-      "dir": "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential",
+      "dir": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
-      "dev": 46,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3541549,
-      "blocks": 40,
-      "atimeMs": 1497921613561.358,
-      "mtimeMs": 1497578901962.7737,
-      "ctimeMs": 1497578901962.7737,
-      "birthtimeMs": 1497578901962.7737,
-      "atime": "2017-06-20T01:20:13.561Z",
-      "mtime": "2017-06-16T02:08:21.963Z",
-      "ctime": "2017-06-16T02:08:21.963Z",
-      "birthtime": "2017-06-16T02:08:21.963Z"
+      "ino": 15333057,
+      "blocks": 24,
+      "atime": "2017-06-20T17:43:10.000Z",
+      "mtime": "2017-06-20T17:40:52.000Z",
+      "ctime": "2017-06-20T17:40:52.000Z",
+      "birthtime": "2017-06-20T17:40:52.000Z"
     },
-    "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file": {
-      "id": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file",
+    "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file",
       "children": [
-        "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark"
+        "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1657,40 +1529,118 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md",
       "relativePath": "articles/2017-06-13-A-Hollowing/index.md",
       "extension": "md",
       "size": 5844,
       "prettySize": "5.84 kB",
-      "modifiedTime": "2017-06-16T02:20:18.975Z",
-      "accessTime": "2017-06-20T00:08:37.718Z",
-      "changeTime": "2017-06-16T02:20:18.975Z",
-      "birthTime": "2017-06-16T02:20:18.975Z",
+      "modifiedTime": "2017-06-20T17:40:52.000Z",
+      "accessTime": "2017-06-20T17:43:10.000Z",
+      "changeTime": "2017-06-20T17:40:52.000Z",
+      "birthTime": "2017-06-20T17:40:52.000Z",
       "root": "/",
-      "dir": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing",
+      "dir": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-13-A-Hollowing",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
-      "dev": 46,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3543754,
-      "blocks": 32,
-      "atimeMs": 1497917317717.9631,
-      "mtimeMs": 1497579618974.768,
-      "ctimeMs": 1497579618974.768,
-      "birthtimeMs": 1497579618974.768,
-      "atime": "2017-06-20T00:08:37.718Z",
-      "mtime": "2017-06-16T02:20:18.975Z",
-      "ctime": "2017-06-16T02:20:18.975Z",
-      "birthtime": "2017-06-16T02:20:18.975Z"
+      "ino": 15333059,
+      "blocks": 16,
+      "atime": "2017-06-20T17:43:10.000Z",
+      "mtime": "2017-06-20T17:40:52.000Z",
+      "ctime": "2017-06-20T17:40:52.000Z",
+      "birthtime": "2017-06-20T17:40:52.000Z"
     },
-    "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/future_hendrix.png absPath of file": {
-      "id": "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/future_hendrix.png absPath of file",
+    "/Users/austin/stuff/FuSC/src/pages/pages/about/index.md absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/pages/about/index.md absPath of file",
+      "children": [
+        "/Users/austin/stuff/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8b95a6fc8a3c84841e18c373fc1f23f7",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/pages/about/index.md",
+      "relativePath": "pages/about/index.md",
+      "extension": "md",
+      "size": 433,
+      "prettySize": "433 B",
+      "modifiedTime": "2017-06-20T17:40:52.000Z",
+      "accessTime": "2017-06-20T17:43:10.000Z",
+      "changeTime": "2017-06-20T17:40:52.000Z",
+      "birthTime": "2017-06-20T17:40:52.000Z",
+      "root": "/",
+      "dir": "/Users/austin/stuff/FuSC/src/pages/pages/about",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15333064,
+      "blocks": 8,
+      "atime": "2017-06-20T17:43:10.000Z",
+      "mtime": "2017-06-20T17:40:52.000Z",
+      "ctime": "2017-06-20T17:40:52.000Z",
+      "birthtime": "2017-06-20T17:40:52.000Z"
+    },
+    "/Users/austin/stuff/FuSC/src/pages/pages/contact/index.md absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/pages/contact/index.md absPath of file",
+      "children": [
+        "/Users/austin/stuff/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7fede25dd7316b73cb08fb31f53df855",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/pages/contact/index.md",
+      "relativePath": "pages/contact/index.md",
+      "extension": "md",
+      "size": 59,
+      "prettySize": "59 B",
+      "modifiedTime": "2017-06-20T17:40:52.000Z",
+      "accessTime": "2017-06-20T17:43:10.000Z",
+      "changeTime": "2017-06-20T17:40:52.000Z",
+      "birthTime": "2017-06-20T17:40:52.000Z",
+      "root": "/",
+      "dir": "/Users/austin/stuff/FuSC/src/pages/pages/contact",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15333066,
+      "blocks": 8,
+      "atime": "2017-06-20T17:43:10.000Z",
+      "mtime": "2017-06-20T17:40:52.000Z",
+      "ctime": "2017-06-20T17:40:52.000Z",
+      "birthtime": "2017-06-20T17:40:52.000Z"
+    },
+    "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/future_hendrix.png absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/future_hendrix.png absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
@@ -1700,92 +1650,38 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/future_hendrix.png",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/future_hendrix.png",
       "relativePath": "articles/2017-05-31-I-still-write-about-comics/future_hendrix.png",
       "extension": "png",
       "size": 150350,
       "prettySize": "150 kB",
-      "modifiedTime": "2017-06-01T03:08:02.713Z",
-      "accessTime": "2017-06-20T01:20:13.561Z",
-      "changeTime": "2017-06-01T03:08:02.713Z",
-      "birthTime": "2017-06-01T03:08:02.713Z",
+      "modifiedTime": "2017-06-20T17:40:52.000Z",
+      "accessTime": "2017-06-20T17:43:10.000Z",
+      "changeTime": "2017-06-20T17:40:52.000Z",
+      "birthTime": "2017-06-20T17:40:52.000Z",
       "root": "/",
-      "dir": "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics",
+      "dir": "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics",
       "base": "future_hendrix.png",
       "ext": ".png",
       "name": "future_hendrix",
-      "dev": 46,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
+      "uid": 501,
+      "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 3578919,
-      "blocks": 312,
-      "atimeMs": 1497921613561.358,
-      "mtimeMs": 1496286482712.5735,
-      "ctimeMs": 1496286482712.5735,
-      "birthtimeMs": 1496286482712.5735,
-      "atime": "2017-06-20T01:20:13.561Z",
-      "mtime": "2017-06-01T03:08:02.713Z",
-      "ctime": "2017-06-01T03:08:02.713Z",
-      "birthtime": "2017-06-01T03:08:02.713Z"
+      "ino": 15333054,
+      "blocks": 296,
+      "atime": "2017-06-20T17:43:10.000Z",
+      "mtime": "2017-06-20T17:40:52.000Z",
+      "ctime": "2017-06-20T17:40:52.000Z",
+      "birthtime": "2017-06-20T17:40:52.000Z"
     },
-    "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark",
+    "/Users/austin/stuff/FuSC/src/pages/404.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/404.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file",
-      "internal": {
-        "contentDigest": "e5a27bfdd9faf9b70541cc9756f80777",
-        "type": "MarkdownRemark",
-        "mediaType": "text/x-markdown",
-        "content": "\nMy name is Austin.  I am a former philosophy teacher and now I'm a software engineer.  Comics holds all that together.  [@AustinLanari](https://www.twitter.com/austinlanari)\n\nFor the tech savvy or the perilously curious, this blog is built with [Gatsby.js](https://github.com/gatsbyjs/gatsby). FuSC is partially me trying to build a lightweight CMS that I'm actually happy with.",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "About me",
-        "layout": "page",
-        "path": "/about",
-        "parent": "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file"
-      },
-      "fileAbsolutePath": "/home/austin/FuSC/src/pages/pages/about/index.md",
-      "fields": {
-        "slug": "/pages/about/"
-      }
-    },
-    "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file",
-      "internal": {
-        "contentDigest": "7c349558476db5e815c2bb98e722c9b7",
-        "type": "MarkdownRemark",
-        "mediaType": "text/x-markdown",
-        "content": "\n",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Contact me",
-        "layout": "page",
-        "path": "/contact",
-        "parent": "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file"
-      },
-      "fileAbsolutePath": "/home/austin/FuSC/src/pages/pages/contact/index.md",
-      "fields": {
-        "slug": "/pages/contact/"
-      }
-    },
-    "/home/austin/FuSC/src/pages/404.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/austin/FuSC/src/pages/404.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/home/austin/FuSC/src/pages/404.md absPath of file",
+      "parent": "/Users/austin/stuff/FuSC/src/pages/404.md absPath of file",
       "internal": {
         "contentDigest": "cad7bc13ec97081fdff28f0d6731d345",
         "type": "MarkdownRemark",
@@ -1800,47 +1696,17 @@
         "title": "",
         "path": "/404.html",
         "layout": "page",
-        "parent": "/home/austin/FuSC/src/pages/404.md absPath of file"
+        "parent": "/Users/austin/stuff/FuSC/src/pages/404.md absPath of file"
       },
-      "fileAbsolutePath": "/home/austin/FuSC/src/pages/404.md",
+      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/404.md",
       "fields": {
         "slug": "/404/"
       }
     },
-    "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark",
+    "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file",
-      "internal": {
-        "contentDigest": "0780dfd77905a10944198e8b6bc888ee",
-        "type": "MarkdownRemark",
-        "mediaType": "text/x-markdown",
-        "content": "\n_Deja vu_ eh?\n\nWhen I started _Retcon Rasengan_ I did it because I needed a place where I wouldn't feel pressure to get things out on deadlines.  I also wanted to be able to do whatever I wanted format-wise and not feel bad about egregious picture placement or egregious word-vomit of the type I'm already indulging in now.\n\n<div style=\"\">\n  <figure class=\"floatCenter\">\n    <a target='_blank' href=\"http://retconrasengan.blogspot.com/2016/04/hand-sewn-domestic-female-aesthetic.html\">\n      <img class=\"linkImage\" style=\"max-height: 380px;padding: 30px; background-color: rgba(92,107,192, 0.1);border-radius: 3px;\" src=\"https://2.bp.blogspot.com/-0ipM8FHFpYo/VxaLuN9yRqI/AAAAAAAAFuM/mncK6PMa-Ccscl8Z1mgBgBltXv5Eu6TWQCKgB/w1200-h630-p-k-no-nu/kendrafemaleaestetic.png\">\n    </a>\n    <figcaption style=\"color: black;margin-top: -30px;\">RR was shortlived; my interview with Kendra Josie Kirkpatrick was a highlight</figcaption>\n  </figure>\n</div>\n\nBut I was going through some shit.\n\nBy the time early 2016 rolled around, I had been out of my Master's program for a full year and had no prospects for a job.  I started working part-time for a non-profit, which was certainly better than 1. nothing and 2. washing dishes; but... well, you get it, I hope.\n\nAnd I was so hungry to write. I started with the lovely folks at <a target='_blank' href='http://comicbastards.com'>Comic Bastards</a> when Dustin gave me a chance to shit up his sight fawning over _Naruto_ or spewing typographic venom at the very concept of motion comics.  I reached out to <a target='_blank' href='http://loser-city.com'>Loser City</a> to write even more, and have the unique pleasure of both resurrecting and re-murdering their newsletter.  I wrote a couple of pieces for Comics Beat after being approached by somebody who just straight up stopped responding to my DMs, which I mention not to be passive-aggressive but only because it's all pure humor to me now.  And, of course, the incomparable Danny Elk-elks started pestering me around the time RR was burning up in the atmosphere, pelting me with the absolute weirdest shit I had ever seen.  I still write for him over at <a target='_blank' href='http://comicsbulletin.com'>Comics Bulletin</a> and will continue to do so.  \n\n<div style=\"\">\n  <figure class=\"floatCenter\">\n    <a target='_blank' href=\"http://comicsbulletin.com/tiny-pages-made-ashes-51917-mirror-mirror-ii/\">\n    <img style=\"padding: 30px; background-color: rgba(92,107,192, 0.1); max-height: 480px;border-radius: 3px;\" src=\"https://i2.wp.com/comicsbulletin.com/wp-content/uploads/2017/05/Mirror-Mirror-II-cover.jpg?fit=798%2C1200\" alt=\"Mirror Mirror II Review\">\n    </a>\n    <figcaption style=\"color:black;margin-top:-30px;\">Peep my in-depth review of Mirror Mirror II</figcaption>\n  </figure>\n</div>\n\nI also once e-mailed Andrew Wheeler to write for Comics Alliance.  He never got back to me.  \n\nA better summation of my clout I cannot figure.\n\nI really enjoyed doing it.  Nothing felt better to me than when I would crush a book in a day or two and then proceed to wade through the canals that had formed in the space between my feelings and the most prominent artistic outcroppings of any given work.  If I write anything, it's because I felt like I could at least convey that to a _single_ person other than myself in a way that felt efficacious and sincere and not forced or pithy.\n\nBut the problem lies there as well.  Maybe it's not just comics twitter, but at certain points. the cynicism is infectious, and your ability to calibrate your motivations based on your own compass becomes seriously compromised when you let your empathy feed your self-pity rather than mediating the two. It's just so easy to internalize all the negativity in comic-dom, both the inevitable stuff and the nasty nastiness.\n\nCriticism, or even straight-up exploring a work in terms of what parts of it worked for you, is a way to share excitement and to share frustration; it is, somehow, simultaneously cathartic and taxing in ways that are hard to balance. If you leave that fucking sharingan on you can glean a lot, but you're going to fuck up your day; you were just trying to read a funnybook, you utter clown.\n\nI hope this is not trite, but it is a privilege to be able and willing to make the commitment to write regularly in general, let alone analyze, let alone share one's thoughts about works that others have created, or already engaged with in ways that often seem more interesting.  Life balance plays a huge part in that privilege, and it was one that I lacked as RR tapered off and one that I am lucky to have now. None of this is to even mention the fact that I have the unfortunately ultimate privilege of being a cis-het straight white guy who does not have to worry about the way in which a given space might respond to my particular voice.\n\nNobody is wrong for walking away. Often it is very obviously not a _lack_ of conviction that takes some of our most talented brothers and sisters out of the spotlight. Nobody has to do this. I mean, nobody has to do anything as far as hobbies go, right? And certainly nobody has to do _this_, this fucking.. what? Hobby _about_ a hobby?\n\nBut for me, I know I wasn't giving it my all.  And in the last year, I learned that I actually have one of those: an \"all\".  I also found my \"give a shit\" as well as my \"some semblance of time management,\" as if to feign adulthood.\n\nMore importantly, I love that navigation I mentioned earlier.  That tug-of-war between what seems to be the work-in-itself and my own reaction to it. When a book really clicks and you feel like you are on the same wavelength not as the author but the wavelength of the _book_, the _panel_, that _layout_-- when you can speak truth to the beauty in the rickety joints of that good ol' visual narrative syntax, it feels like walking somewhere you shouldn't be.  \n\nThe world seems bigger because you get to open up a space between yourself and a piece of art. There's a beautiful vulnerability there, opening your viewpoint to be part of this shared experience. \n\nIt's late, and I've spent enough time on me.\n\n<img style=\"max-height: 480px;\" src=\"http://fuckupsomecomics.com/posts/1/future_hendrix.png\" alt=\"And so\" />\n\nLet's fuck up some comics.\n\n\n\n\n\n\n",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "I Used T-- I still write about comics",
-        "date": "2017-05-31T21:12:03.284Z",
-        "layout": "post",
-        "path": "/posts/1",
-        "readNext": "/posts/2",
-        "category": "",
-        "description": "Is this thing on?",
-        "indexImage": "https://static01.nyt.com/images/2016/06/15/dining/15PANCAKEGUIDE3-WEB/15PANCAKEGUIDE3-WEB-superJumbo.jpg",
-        "parent": "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file"
-      },
-      "fileAbsolutePath": "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md",
-      "fields": {
-        "slug": "/articles/2017-05-31-I-still-write-about-comics/"
-      }
-    },
-    "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file",
+      "parent": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file",
       "internal": {
         "contentDigest": "14312b7749a5d70e3c3b73108b4d1f42",
         "type": "MarkdownRemark",
@@ -1860,17 +1726,17 @@
         "category": "manga",
         "description": "Red Sprite wasn't the best or brightest of its class, but it's still gone too soon.",
         "indexImage": "https://s3.amazonaws.com/foggy1/WSJ_Issue_39_2016_Cover.png",
-        "parent": "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file"
+        "parent": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file"
       },
-      "fileAbsolutePath": "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md",
+      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md",
       "fields": {
         "slug": "/articles/2017-06-07-Red-Sprite-Had-Potential/"
       }
     },
-    "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark",
+    "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file",
+      "parent": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file",
       "internal": {
         "contentDigest": "3e228958dd1ab396e0510cb872a54a23",
         "type": "MarkdownRemark",
@@ -1889,56 +1755,96 @@
         "category": "comics",
         "description": "Even without color, Sloane finds surprising ways to innovate.",
         "indexImage": "https://s3.amazonaws.com/foggy1/a_hollowing.png",
-        "parent": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file"
+        "parent": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file"
       },
-      "fileAbsolutePath": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md",
+      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md",
       "fields": {
         "slug": "/articles/2017-06-13-A-Hollowing/"
       }
     },
-    "SitePage /pages/about/": {
-      "path": "/pages/about/",
-      "component": "/home/austin/FuSC/src/templates/blog-post.js",
-      "context": {
-        "slug": "/pages/about/"
-      },
-      "componentChunkName": "page-component---src-templates-blog-post-js",
-      "jsonName": "pages-about.json",
-      "internalComponentName": "ComponentPagesAbout",
-      "id": "SitePage /pages/about/",
-      "parent": "SOURCE",
+    "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark",
       "children": [],
+      "parent": "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file",
       "internal": {
-        "mediaType": "application/json",
-        "type": "SitePage",
-        "content": "{\"path\":\"/pages/about/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/pages/about/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"pages-about.json\",\"internalComponentName\":\"ComponentPagesAbout\"}",
-        "contentDigest": "6a732d1c057365a9349f21f7590f4b1c",
-        "owner": "internal-data-bridge"
+        "contentDigest": "0780dfd77905a10944198e8b6bc888ee",
+        "type": "MarkdownRemark",
+        "mediaType": "text/x-markdown",
+        "content": "\n_Deja vu_ eh?\n\nWhen I started _Retcon Rasengan_ I did it because I needed a place where I wouldn't feel pressure to get things out on deadlines.  I also wanted to be able to do whatever I wanted format-wise and not feel bad about egregious picture placement or egregious word-vomit of the type I'm already indulging in now.\n\n<div style=\"\">\n  <figure class=\"floatCenter\">\n    <a target='_blank' href=\"http://retconrasengan.blogspot.com/2016/04/hand-sewn-domestic-female-aesthetic.html\">\n      <img class=\"linkImage\" style=\"max-height: 380px;padding: 30px; background-color: rgba(92,107,192, 0.1);border-radius: 3px;\" src=\"https://2.bp.blogspot.com/-0ipM8FHFpYo/VxaLuN9yRqI/AAAAAAAAFuM/mncK6PMa-Ccscl8Z1mgBgBltXv5Eu6TWQCKgB/w1200-h630-p-k-no-nu/kendrafemaleaestetic.png\">\n    </a>\n    <figcaption style=\"color: black;margin-top: -30px;\">RR was shortlived; my interview with Kendra Josie Kirkpatrick was a highlight</figcaption>\n  </figure>\n</div>\n\nBut I was going through some shit.\n\nBy the time early 2016 rolled around, I had been out of my Master's program for a full year and had no prospects for a job.  I started working part-time for a non-profit, which was certainly better than 1. nothing and 2. washing dishes; but... well, you get it, I hope.\n\nAnd I was so hungry to write. I started with the lovely folks at <a target='_blank' href='http://comicbastards.com'>Comic Bastards</a> when Dustin gave me a chance to shit up his sight fawning over _Naruto_ or spewing typographic venom at the very concept of motion comics.  I reached out to <a target='_blank' href='http://loser-city.com'>Loser City</a> to write even more, and have the unique pleasure of both resurrecting and re-murdering their newsletter.  I wrote a couple of pieces for Comics Beat after being approached by somebody who just straight up stopped responding to my DMs, which I mention not to be passive-aggressive but only because it's all pure humor to me now.  And, of course, the incomparable Danny Elk-elks started pestering me around the time RR was burning up in the atmosphere, pelting me with the absolute weirdest shit I had ever seen.  I still write for him over at <a target='_blank' href='http://comicsbulletin.com'>Comics Bulletin</a> and will continue to do so.  \n\n<div style=\"\">\n  <figure class=\"floatCenter\">\n    <a target='_blank' href=\"http://comicsbulletin.com/tiny-pages-made-ashes-51917-mirror-mirror-ii/\">\n    <img style=\"padding: 30px; background-color: rgba(92,107,192, 0.1); max-height: 480px;border-radius: 3px;\" src=\"https://i2.wp.com/comicsbulletin.com/wp-content/uploads/2017/05/Mirror-Mirror-II-cover.jpg?fit=798%2C1200\" alt=\"Mirror Mirror II Review\">\n    </a>\n    <figcaption style=\"color:black;margin-top:-30px;\">Peep my in-depth review of Mirror Mirror II</figcaption>\n  </figure>\n</div>\n\nI also once e-mailed Andrew Wheeler to write for Comics Alliance.  He never got back to me.  \n\nA better summation of my clout I cannot figure.\n\nI really enjoyed doing it.  Nothing felt better to me than when I would crush a book in a day or two and then proceed to wade through the canals that had formed in the space between my feelings and the most prominent artistic outcroppings of any given work.  If I write anything, it's because I felt like I could at least convey that to a _single_ person other than myself in a way that felt efficacious and sincere and not forced or pithy.\n\nBut the problem lies there as well.  Maybe it's not just comics twitter, but at certain points. the cynicism is infectious, and your ability to calibrate your motivations based on your own compass becomes seriously compromised when you let your empathy feed your self-pity rather than mediating the two. It's just so easy to internalize all the negativity in comic-dom, both the inevitable stuff and the nasty nastiness.\n\nCriticism, or even straight-up exploring a work in terms of what parts of it worked for you, is a way to share excitement and to share frustration; it is, somehow, simultaneously cathartic and taxing in ways that are hard to balance. If you leave that fucking sharingan on you can glean a lot, but you're going to fuck up your day; you were just trying to read a funnybook, you utter clown.\n\nI hope this is not trite, but it is a privilege to be able and willing to make the commitment to write regularly in general, let alone analyze, let alone share one's thoughts about works that others have created, or already engaged with in ways that often seem more interesting.  Life balance plays a huge part in that privilege, and it was one that I lacked as RR tapered off and one that I am lucky to have now. None of this is to even mention the fact that I have the unfortunately ultimate privilege of being a cis-het straight white guy who does not have to worry about the way in which a given space might respond to my particular voice.\n\nNobody is wrong for walking away. Often it is very obviously not a _lack_ of conviction that takes some of our most talented brothers and sisters out of the spotlight. Nobody has to do this. I mean, nobody has to do anything as far as hobbies go, right? And certainly nobody has to do _this_, this fucking.. what? Hobby _about_ a hobby?\n\nBut for me, I know I wasn't giving it my all.  And in the last year, I learned that I actually have one of those: an \"all\".  I also found my \"give a shit\" as well as my \"some semblance of time management,\" as if to feign adulthood.\n\nMore importantly, I love that navigation I mentioned earlier.  That tug-of-war between what seems to be the work-in-itself and my own reaction to it. When a book really clicks and you feel like you are on the same wavelength not as the author but the wavelength of the _book_, the _panel_, that _layout_-- when you can speak truth to the beauty in the rickety joints of that good ol' visual narrative syntax, it feels like walking somewhere you shouldn't be.  \n\nThe world seems bigger because you get to open up a space between yourself and a piece of art. There's a beautiful vulnerability there, opening your viewpoint to be part of this shared experience. \n\nIt's late, and I've spent enough time on me.\n\n<img style=\"max-height: 480px;\" src=\"http://fuckupsomecomics.com/posts/1/future_hendrix.png\" alt=\"And so\" />\n\nLet's fuck up some comics.\n\n\n\n\n\n\n",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "I Used T-- I still write about comics",
+        "date": "2017-05-31T21:12:03.284Z",
+        "layout": "post",
+        "path": "/posts/1",
+        "readNext": "/posts/2",
+        "category": "",
+        "description": "Is this thing on?",
+        "indexImage": "https://static01.nyt.com/images/2016/06/15/dining/15PANCAKEGUIDE3-WEB/15PANCAKEGUIDE3-WEB-superJumbo.jpg",
+        "parent": "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md",
+      "fields": {
+        "slug": "/articles/2017-05-31-I-still-write-about-comics/"
       }
     },
-    "SitePage /pages/contact/": {
-      "path": "/pages/contact/",
-      "component": "/home/austin/FuSC/src/templates/blog-post.js",
-      "context": {
-        "slug": "/pages/contact/"
-      },
-      "componentChunkName": "page-component---src-templates-blog-post-js",
-      "jsonName": "pages-contact.json",
-      "internalComponentName": "ComponentPagesContact",
-      "id": "SitePage /pages/contact/",
-      "parent": "SOURCE",
+    "/Users/austin/stuff/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark",
       "children": [],
+      "parent": "/Users/austin/stuff/FuSC/src/pages/pages/about/index.md absPath of file",
       "internal": {
-        "mediaType": "application/json",
-        "type": "SitePage",
-        "content": "{\"path\":\"/pages/contact/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/pages/contact/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"pages-contact.json\",\"internalComponentName\":\"ComponentPagesContact\"}",
-        "contentDigest": "21f011c944510b4b2c155b54f0282f77",
-        "owner": "internal-data-bridge"
+        "contentDigest": "e5a27bfdd9faf9b70541cc9756f80777",
+        "type": "MarkdownRemark",
+        "mediaType": "text/x-markdown",
+        "content": "\nMy name is Austin.  I am a former philosophy teacher and now I'm a software engineer.  Comics holds all that together.  [@AustinLanari](https://www.twitter.com/austinlanari)\n\nFor the tech savvy or the perilously curious, this blog is built with [Gatsby.js](https://github.com/gatsbyjs/gatsby). FuSC is partially me trying to build a lightweight CMS that I'm actually happy with.",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "About me",
+        "layout": "page",
+        "path": "/about",
+        "parent": "/Users/austin/stuff/FuSC/src/pages/pages/about/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/pages/about/index.md",
+      "fields": {
+        "slug": "/pages/about/"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/austin/stuff/FuSC/src/pages/pages/contact/index.md absPath of file",
+      "internal": {
+        "contentDigest": "7c349558476db5e815c2bb98e722c9b7",
+        "type": "MarkdownRemark",
+        "mediaType": "text/x-markdown",
+        "content": "\n",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Contact me",
+        "layout": "page",
+        "path": "/contact",
+        "parent": "/Users/austin/stuff/FuSC/src/pages/pages/contact/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/pages/contact/index.md",
+      "fields": {
+        "slug": "/pages/contact/"
       }
     },
     "SitePage /404/": {
       "path": "/404/",
-      "component": "/home/austin/FuSC/src/templates/blog-post.js",
+      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
       "context": {
         "slug": "/404/"
       },
@@ -1951,34 +1857,14 @@
       "internal": {
         "mediaType": "application/json",
         "type": "SitePage",
-        "content": "{\"path\":\"/404/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/404/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"404.json\",\"internalComponentName\":\"Component404\"}",
-        "contentDigest": "7c86772cf327d7659462f1181465ba3f",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /articles/2017-05-31-I-still-write-about-comics/": {
-      "path": "/articles/2017-05-31-I-still-write-about-comics/",
-      "component": "/home/austin/FuSC/src/templates/blog-post.js",
-      "context": {
-        "slug": "/articles/2017-05-31-I-still-write-about-comics/"
-      },
-      "componentChunkName": "page-component---src-templates-blog-post-js",
-      "jsonName": "articles-2017-05-31-i-still-write-about-comics.json",
-      "internalComponentName": "ComponentArticles20170531IStillWriteAboutComics",
-      "id": "SitePage /articles/2017-05-31-I-still-write-about-comics/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "mediaType": "application/json",
-        "type": "SitePage",
-        "content": "{\"path\":\"/articles/2017-05-31-I-still-write-about-comics/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/articles/2017-05-31-I-still-write-about-comics/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"articles-2017-05-31-i-still-write-about-comics.json\",\"internalComponentName\":\"ComponentArticles20170531IStillWriteAboutComics\"}",
-        "contentDigest": "384ddee48e70cdfbee3d832897475582",
+        "content": "{\"path\":\"/404/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/404/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"404.json\",\"internalComponentName\":\"Component404\"}",
+        "contentDigest": "36b5aa94de5fd8e330d53514d1193dae",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /articles/2017-06-07-Red-Sprite-Had-Potential/": {
       "path": "/articles/2017-06-07-Red-Sprite-Had-Potential/",
-      "component": "/home/austin/FuSC/src/templates/blog-post.js",
+      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
       "context": {
         "slug": "/articles/2017-06-07-Red-Sprite-Had-Potential/"
       },
@@ -1991,14 +1877,14 @@
       "internal": {
         "mediaType": "application/json",
         "type": "SitePage",
-        "content": "{\"path\":\"/articles/2017-06-07-Red-Sprite-Had-Potential/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/articles/2017-06-07-Red-Sprite-Had-Potential/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"articles-2017-06-07-red-sprite-had-potential.json\",\"internalComponentName\":\"ComponentArticles20170607RedSpriteHadPotential\"}",
-        "contentDigest": "53f1dd35c1f2703a0517ec98b7317fe2",
+        "content": "{\"path\":\"/articles/2017-06-07-Red-Sprite-Had-Potential/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/articles/2017-06-07-Red-Sprite-Had-Potential/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"articles-2017-06-07-red-sprite-had-potential.json\",\"internalComponentName\":\"ComponentArticles20170607RedSpriteHadPotential\"}",
+        "contentDigest": "33f7f48acefb203dacde0a9f5399ed5f",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /articles/2017-06-13-A-Hollowing/": {
       "path": "/articles/2017-06-13-A-Hollowing/",
-      "component": "/home/austin/FuSC/src/templates/blog-post.js",
+      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
       "context": {
         "slug": "/articles/2017-06-13-A-Hollowing/"
       },
@@ -2011,14 +1897,74 @@
       "internal": {
         "mediaType": "application/json",
         "type": "SitePage",
-        "content": "{\"path\":\"/articles/2017-06-13-A-Hollowing/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/articles/2017-06-13-A-Hollowing/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"articles-2017-06-13-a-hollowing.json\",\"internalComponentName\":\"ComponentArticles20170613AHollowing\"}",
-        "contentDigest": "5ca7d925639d67a835f5b6d4c599ea88",
+        "content": "{\"path\":\"/articles/2017-06-13-A-Hollowing/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/articles/2017-06-13-A-Hollowing/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"articles-2017-06-13-a-hollowing.json\",\"internalComponentName\":\"ComponentArticles20170613AHollowing\"}",
+        "contentDigest": "3b7eeb7f95ca83489ce9c4771ca5c40f",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /articles/2017-05-31-I-still-write-about-comics/": {
+      "path": "/articles/2017-05-31-I-still-write-about-comics/",
+      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
+      "context": {
+        "slug": "/articles/2017-05-31-I-still-write-about-comics/"
+      },
+      "componentChunkName": "page-component---src-templates-blog-post-js",
+      "jsonName": "articles-2017-05-31-i-still-write-about-comics.json",
+      "internalComponentName": "ComponentArticles20170531IStillWriteAboutComics",
+      "id": "SitePage /articles/2017-05-31-I-still-write-about-comics/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/articles/2017-05-31-I-still-write-about-comics/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/articles/2017-05-31-I-still-write-about-comics/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"articles-2017-05-31-i-still-write-about-comics.json\",\"internalComponentName\":\"ComponentArticles20170531IStillWriteAboutComics\"}",
+        "contentDigest": "2716f738e59d9c985602ea187203f0a8",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /pages/about/": {
+      "path": "/pages/about/",
+      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
+      "context": {
+        "slug": "/pages/about/"
+      },
+      "componentChunkName": "page-component---src-templates-blog-post-js",
+      "jsonName": "pages-about.json",
+      "internalComponentName": "ComponentPagesAbout",
+      "id": "SitePage /pages/about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/pages/about/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/pages/about/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"pages-about.json\",\"internalComponentName\":\"ComponentPagesAbout\"}",
+        "contentDigest": "496e6f8ecd7e6a9943416c60a5ceceda",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /pages/contact/": {
+      "path": "/pages/contact/",
+      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
+      "context": {
+        "slug": "/pages/contact/"
+      },
+      "componentChunkName": "page-component---src-templates-blog-post-js",
+      "jsonName": "pages-contact.json",
+      "internalComponentName": "ComponentPagesContact",
+      "id": "SitePage /pages/contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/pages/contact/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/pages/contact/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"pages-contact.json\",\"internalComponentName\":\"ComponentPagesContact\"}",
+        "contentDigest": "ea8cca9ccedaa782278b2b6bf89bdaaf",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /": {
       "path": "/",
-      "component": "/home/austin/FuSC/src/pages/index.jsx",
+      "component": "/Users/austin/stuff/FuSC/src/pages/index.jsx",
       "componentChunkName": "page-component---src-pages-index-jsx",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
@@ -2029,14 +1975,14 @@
       "internal": {
         "mediaType": "application/json",
         "type": "SitePage",
-        "content": "{\"path\":\"/\",\"component\":\"/home/austin/FuSC/src/pages/index.jsx\",\"componentChunkName\":\"page-component---src-pages-index-jsx\",\"jsonName\":\"index.json\",\"internalComponentName\":\"ComponentIndex\",\"context\":{}}",
-        "contentDigest": "262a53fe46f5fcf8f1e779ece4614d0d",
+        "content": "{\"path\":\"/\",\"component\":\"/Users/austin/stuff/FuSC/src/pages/index.jsx\",\"componentChunkName\":\"page-component---src-pages-index-jsx\",\"jsonName\":\"index.json\",\"internalComponentName\":\"ComponentIndex\",\"context\":{}}",
+        "contentDigest": "ec9d8cb199008d3637fd2738fc9d5072",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404.html": {
       "path": "/404.html",
-      "component": "/home/austin/FuSC/src/templates/blog-post.js",
+      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
       "context": {
         "slug": "/404/"
       },
@@ -2049,8 +1995,8 @@
       "internal": {
         "mediaType": "application/json",
         "type": "SitePage",
-        "content": "{\"path\":\"/404.html\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/404/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"404-html.json\",\"internalComponentName\":\"Component404Html\"}",
-        "contentDigest": "2abaf4c6859dff734b4f7e3b614b484b",
+        "content": "{\"path\":\"/404.html\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/404/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"404-html.json\",\"internalComponentName\":\"Component404Html\"}",
+        "contentDigest": "da7731d1866f8a08d71eacae67fd45a8",
         "owner": "internal-data-bridge"
       }
     }
@@ -2061,24 +2007,30 @@
   },
   "pageDataDependencies": {
     "nodes": {
-      "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark": [
-        "/pages/about/"
-      ],
-      "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark": [
-        "/pages/contact/"
-      ],
-      "/home/austin/FuSC/src/pages/404.md absPath of file >>> MarkdownRemark": [
+      "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark": [],
+      "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark": [],
+      "/home/austin/FuSC/src/pages/404.md absPath of file >>> MarkdownRemark": [],
+      "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark": [],
+      "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark": [],
+      "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark": [],
+      "/Users/austin/stuff/FuSC/src/pages/404.md absPath of file >>> MarkdownRemark": [
         "/404/",
         "/404.html"
       ],
-      "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark": [
-        "/articles/2017-05-31-I-still-write-about-comics/"
-      ],
-      "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark": [
+      "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark": [
         "/articles/2017-06-07-Red-Sprite-Had-Potential/"
       ],
-      "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark": [
+      "/Users/austin/stuff/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark": [
         "/articles/2017-06-13-A-Hollowing/"
+      ],
+      "/Users/austin/stuff/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark": [
+        "/articles/2017-05-31-I-still-write-about-comics/"
+      ],
+      "/Users/austin/stuff/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark": [
+        "/pages/about/"
+      ],
+      "/Users/austin/stuff/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark": [
+        "/pages/contact/"
       ]
     },
     "connections": {
