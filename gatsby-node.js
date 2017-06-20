@@ -1,12 +1,14 @@
 var fs = require('fs-extra-promise') //install this package
 var sm = require('sitemap') // install this package
-const rucksack = require('rucksack-css')
-const lost = require('lost')
-const cssnext = require('postcss-cssnext')
 const Feed = require('feed')
 const moment = require('moment')
 const MarkdownIt = require('markdown-it')
 const frontmatter = require('front-matter')
+const _ = require(`lodash`)
+const Promise = require(`bluebird`)
+const path = require(`path`)
+const slug = require(`slug`)
+const slash = require(`slash`)
 
 var md = MarkdownIt({
   html: true,
@@ -14,23 +16,68 @@ var md = MarkdownIt({
   typographer: true
 })
 
-exports.modifyWebpackConfig = function (config) {
-  config.merge({
-    postcss: [
-      lost(),
-      rucksack(),
-      cssnext({
-        browsers: ['>1%', 'last 2 versions']
+exports.onCreateNode = function ({ node, boundActionCreators, getNode }) {
+  const { createNodeField } = boundActionCreators
+  let slug
+  if (node.internal.type === `MarkdownRemark`) {
+    const fileNode = getNode(node.parent)
+    const parsedFilePath = path.parse(fileNode.relativePath)
+    if (parsedFilePath.name !== `index` && parsedFilePath.dir !== ``) {
+      slug = `/${parsedFilePath.dir}/${parsedFilePath.name}/`
+    } else if (parsedFilePath.dir === ``) {
+      slug = `/${parsedFilePath.name}/`
+    } else {
+      slug = `/${parsedFilePath.dir}/`
+    }
+
+    // Add slug as a field on the node.
+    createNodeField({ node, fieldName: `slug`, fieldValue: slug })
+  }
+}
+
+exports.createPages = ({ graphql, boundActionCreators }) => {
+  const { createPage } = boundActionCreators
+
+  return new Promise((resolve, reject) => {
+    const pages = []
+    const blogPost = path.resolve('src/templates/blog-post.js')
+    // Query for all markdown "nodes" and for the slug we previously created.
+    resolve(
+      graphql(
+        `
+        {
+          allMarkdownRemark {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+              }
+            }
+          }
+        }
+      `
+      ).then(result => {
+        if (result.errors) {
+          console.log(result.errors)
+          reject(result.errors)
+        }
+
+        // Create blog posts pages.
+        result.data.allMarkdownRemark.edges.forEach(edge => {
+          createPage({
+            path: edge.node.fields.slug, // required
+            component: blogPost,
+            context: {
+              slug: edge.node.fields.slug
+            }
+          })
+        })
+
+        return
       })
-    ]
+    )
   })
-
-  config.loader('svg', {
-    test: /\.(svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-    loader: 'file-loader'
-  })
-
-  return config
 }
 
 function pagesToSitemap (pages) {
@@ -114,7 +161,7 @@ function generatePosts (posts) {
   )
 }
 
-module.exports.postBuild = function (pages, callback) {
+exports.onPostBuild = function (pages, callback) {
   generateSiteMap(pages)
   generatePosts(pages)
   callback()

@@ -4,7 +4,6 @@ import sortBy from 'lodash/sortBy'
 import moment from 'moment'
 import Helmet from 'react-helmet'
 import access from 'safe-access'
-import { config } from 'config'
 import SiteSidebar from '../components/SiteSidebar'
 
 class SiteIndex extends React.Component {
@@ -38,7 +37,7 @@ class SiteIndex extends React.Component {
 
     return (
       <div>
-        <Helmet title={config.siteTitle} />
+        <Helmet title={'Fuck Up Some Comics'} />
         <SiteSidebar {...this.props} />
         <div className='content'>
           <div className='main'>
