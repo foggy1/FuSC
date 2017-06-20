@@ -1,14 +1,11 @@
-var fs = require('fs-extra-promise') //install this package
-var sm = require('sitemap') // install this package
+var fs = require('fs-extra-promise')
+var sm = require('sitemap')
 const Feed = require('feed')
 const moment = require('moment')
 const MarkdownIt = require('markdown-it')
 const frontmatter = require('front-matter')
-const _ = require(`lodash`)
 const Promise = require(`bluebird`)
 const path = require(`path`)
-const slug = require(`slug`)
-const slash = require(`slash`)
 
 var md = MarkdownIt({
   html: true,

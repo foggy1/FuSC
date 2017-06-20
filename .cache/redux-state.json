@@ -909,7 +909,7 @@
     "Plugin default-site-plugin": {
       "resolve": "/home/austin/FuSC",
       "name": "default-site-plugin",
-      "version": "144c05d0f90650245dc50b2fb4b655dc",
+      "version": "be8ee71017f4d39f98c82c69f9d6f8cc",
       "pluginOptions": {
         "plugins": []
       },
@@ -1157,10 +1157,6 @@
             "version": "^1.0.2"
           },
           {
-            "name": "react-transform-hmr",
-            "version": "^1.0.4"
-          },
-          {
             "name": "redbox-react",
             "version": "^1.3.0"
           },
@@ -1185,9 +1181,9 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f8b66c105c71fe4c040cb67a75e6d4bf",
+        "contentDigest": "e5d1268a532aa665cf221677e03152ea",
         "mediaType": "application/json",
-        "content": "{\"resolve\":\"/home/austin/FuSC\",\"name\":\"default-site-plugin\",\"version\":\"144c05d0f90650245dc50b2fb4b655dc\",\"pluginOptions\":{\"plugins\":[]}}",
+        "content": "{\"resolve\":\"/home/austin/FuSC\",\"name\":\"default-site-plugin\",\"version\":\"be8ee71017f4d39f98c82c69f9d6f8cc\",\"pluginOptions\":{\"plugins\":[]}}",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1204,13 +1200,13 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2017-06-20T03:49:51.399Z",
+      "buildTime": "2017-06-20T04:20:32.142Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4bfa4092e88fcd99aa9be9e03779262e",
-        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"description\":\"Fuck up some comics, yeah\",\"author\":\"Foggy\",\"twitter\":\"https://www.twitter.com/austinlanari\",\"github\":\"https://www.github.com/foggy1\",\"rss\":\"http://fuckupsomecomics.com/rss.xml\",\"atom\":\"http://fuckupsomecomics.com/atom.xml\"},\"port\":\"8000\",\"host\":\"localhost\",\"buildTime\":\"2017-06-20T03:49:51.399Z\"}",
+        "contentDigest": "f43cc04e2ac0b5477d4cb38bd5e9f3a5",
+        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"description\":\"Fuck up some comics, yeah\",\"author\":\"Foggy\",\"twitter\":\"https://www.twitter.com/austinlanari\",\"github\":\"https://www.github.com/foggy1\",\"rss\":\"http://fuckupsomecomics.com/rss.xml\",\"atom\":\"http://fuckupsomecomics.com/atom.xml\"},\"port\":\"8000\",\"host\":\"localhost\",\"buildTime\":\"2017-06-20T04:20:32.142Z\"}",
         "mediaType": "application/json",
         "type": "Site",
         "owner": "internal-data-bridge"
@@ -1744,31 +1740,6 @@
       "ctime": "2017-06-01T03:08:02.713Z",
       "birthtime": "2017-06-01T03:08:02.713Z"
     },
-    "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file",
-      "internal": {
-        "contentDigest": "7c349558476db5e815c2bb98e722c9b7",
-        "type": "MarkdownRemark",
-        "mediaType": "text/x-markdown",
-        "content": "\n",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Contact me",
-        "layout": "page",
-        "path": "/contact",
-        "parent": "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file"
-      },
-      "fileAbsolutePath": "/home/austin/FuSC/src/pages/pages/contact/index.md",
-      "fields": {
-        "slug": "/pages/contact/"
-      }
-    },
     "/home/austin/FuSC/src/pages/404.md absPath of file >>> MarkdownRemark": {
       "id": "/home/austin/FuSC/src/pages/404.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -1794,58 +1765,29 @@
         "slug": "/404/"
       }
     },
-    "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark",
+    "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file",
+      "parent": "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file",
       "internal": {
-        "contentDigest": "3e228958dd1ab396e0510cb872a54a23",
+        "contentDigest": "7c349558476db5e815c2bb98e722c9b7",
         "type": "MarkdownRemark",
         "mediaType": "text/x-markdown",
-        "content": "\nWhen finally breaking open my Short Box, I went straight for Sloane's _A Hollowing_.\n\n...\n\nOk, so I actually ate the candy. But THEN, I read _A Hollowing_.\n\n<img class=\"floatCenter\" style=\"max-height: 600px;\" src=\"https://s3.amazonaws.com/foggy1/a_hollowing.png\" />\n\nI've been writing about Sloane's work ever since I started taking writing about comics seriously and I don't think that's a coincidence. Sloane makes it easy to take comics seriously. Her work on _From Under Mountains_ <a target='_blank' href=\"http://retconrasengan.blogspot.com/2016/01/hanharas-grasp-letting-world-tell-story.html\">remains some of my favorite work</a> in the past few years, and her Patreon is a consistent source of the same quality of work. \n\nThere is a constant sense that Sloane is in charge of the layout, rather than the other way around. Her work in _FUM_ is evidence of this, as are the snippets of projects on her Patreon. For Sloane, layouts are a means of juxtaposing not only story beats, but also colors and textures; and often that juxtaposing extends to the third dimension wherein the story takes on layers that often carry you between physical spaces. \n\n(Seriously, some of the best examples of this are on <a href=\"https://www.patreon.com/sloane\">her Patreon</a>, and I'm not going to post work from there even though I'm DYING to talk about some of those pages, so check them out or be on the lookout for new work.)\n\n_A Hollowing_ leans more on the metaphorical space of dream-like (mostly nightmarish) imagery to guide the reader. It is a tale of trauma, the ways in which trauma resurfaces, and the ways in which we must confront the things that hurt us to move forward and survive in some kind of imperfect union. The tale unfolds through the eyes of a young girl, the loss of her mother, and a new horse. \n\n\nTold entirely in black and white, with many more \"conventional\" layouts than one might find in her other work, Sloane instead leans heavily on ink itself as a presence on the page, with the horse being the best example. This adds to the dreamlike effect of the gray, inkless watercolors that demarcate memories, which _itself_ adds to scenes where the grays and inks meet in a collision of present and past traumas for the main character. \n\n<figure class='floatCenter'>\n<img class=\"floatCenter\" style=\"max-height: 600px;\" src=\"https://s3.amazonaws.com/foggy1/door_wipe.png\" />\n</figure>\n\nAbove, the main character catches her father doing something you would rather not catch your father doing, and then flees to her room where she falls asleep and wakes up in a dream. The somewhat abrupt shift from running away to being in bed (particularly as juxtaposed between seeing her father through two doorways in a way that appears unsettling) captures the anxiety of being a kid seeing something you shouldn't: it's a whirlwind until you're somewhere safe, and even then you're usually caught stuck with your heart beating fast, going over what happened. Sloane captures that latter moment in the penultimate panel before launching us into a nasty flashback. A solid page, but still more layers to parse.\n\nIn what appears to be a pretty standard layout, with \"only\" black and white at her disposal and no layered panels, Sloane still pulls off her trick of using overlayed elements to bridge the space between panels, not just once, but _twice_.\n\nThe sheepish \"Beeps\" that surround the final panel in which the main character finds herself in a car begin in the panel in which she drifts off to sleep, rendering a quick panel transition as being one that occurs much more gradually.\n\nAnd then there's the ink swipe. A smudge almost like a tire track, running from her father's bedroom door in the upper right of the page, to her waking-into-a-dream consciousness in the bottom left. The pronounced gutters of this story--this page being no exception--preclude any serious layering from occurring, so the light touch here is just enough to traverse the normal series of events without taking the reader completely out of the page. To wit, I didn't really absorb this smudge until the second time I read the story.\n\nThe implications are clear: though her nightmares unearth past trauma _for the reader_, it's the _current trauma_ of what she sees through her father's door that does the unearthing _for her_. The ink swipe physically connects points A and B on the page through the physical doorways she uses to traverse the house; it also connects the two beats where she simply lays her head down to sleep, the means by which she travels from the waking world to somewhere much darker.\n\nWithout the \"Beeps\" and without the ink swipe, this page serves its purpose. Yet, these things aren't window dressing: they are real, substantial parts of the story that augment the narrative in ways that additional panels could not achieve. They add ambiance, they alter our perception of the page's pace, and they help round out the menacing tone of what is occurring and how it connects to what is to come. It is worth noting that the real punctuation to the events of this sequence does come two pages later, on the page turn, so the heightened sense of anticipation plays.\n\nThere's far more to talk about as far as _A Hollowing_ is concerned, as the story on its own merits critical attention. I, however, am stuck as usual, marveling at the fact that regardless of the tools, Sloane demonstrates the full narrative depth of the medium.\n\n<a target=_blank href=\"https://twitter.com/AustinLanari/status/873991542649876480\">_I made a thread for my thoughts on the other Short Box titles_</a>\n",
+        "content": "\n",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "A Hollowing",
-        "layout": "post",
-        "date": "2017-06-14T09:00:00.284Z",
-        "path": "/posts/3",
-        "category": "comics",
-        "description": "Even without color, Sloane finds surprising ways to innovate.",
-        "indexImage": "https://s3.amazonaws.com/foggy1/a_hollowing.png",
-        "parent": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file"
-      },
-      "fileAbsolutePath": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md",
-      "fields": {
-        "slug": "/articles/2017-06-13-A-Hollowing/"
-      }
-    },
-    "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file",
-      "internal": {
-        "contentDigest": "e5a27bfdd9faf9b70541cc9756f80777",
-        "type": "MarkdownRemark",
-        "mediaType": "text/x-markdown",
-        "content": "\nMy name is Austin.  I am a former philosophy teacher and now I'm a software engineer.  Comics holds all that together.  [@AustinLanari](https://www.twitter.com/austinlanari)\n\nFor the tech savvy or the perilously curious, this blog is built with [Gatsby.js](https://github.com/gatsbyjs/gatsby). FuSC is partially me trying to build a lightweight CMS that I'm actually happy with.",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "About me",
+        "title": "Contact me",
         "layout": "page",
-        "path": "/about",
-        "parent": "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file"
+        "path": "/contact",
+        "parent": "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file"
       },
-      "fileAbsolutePath": "/home/austin/FuSC/src/pages/pages/about/index.md",
+      "fileAbsolutePath": "/home/austin/FuSC/src/pages/pages/contact/index.md",
       "fields": {
-        "slug": "/pages/about/"
+        "slug": "/pages/contact/"
       }
     },
     "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark": {
@@ -1878,6 +1820,35 @@
         "slug": "/articles/2017-06-07-Red-Sprite-Had-Potential/"
       }
     },
+    "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file",
+      "internal": {
+        "contentDigest": "3e228958dd1ab396e0510cb872a54a23",
+        "type": "MarkdownRemark",
+        "mediaType": "text/x-markdown",
+        "content": "\nWhen finally breaking open my Short Box, I went straight for Sloane's _A Hollowing_.\n\n...\n\nOk, so I actually ate the candy. But THEN, I read _A Hollowing_.\n\n<img class=\"floatCenter\" style=\"max-height: 600px;\" src=\"https://s3.amazonaws.com/foggy1/a_hollowing.png\" />\n\nI've been writing about Sloane's work ever since I started taking writing about comics seriously and I don't think that's a coincidence. Sloane makes it easy to take comics seriously. Her work on _From Under Mountains_ <a target='_blank' href=\"http://retconrasengan.blogspot.com/2016/01/hanharas-grasp-letting-world-tell-story.html\">remains some of my favorite work</a> in the past few years, and her Patreon is a consistent source of the same quality of work. \n\nThere is a constant sense that Sloane is in charge of the layout, rather than the other way around. Her work in _FUM_ is evidence of this, as are the snippets of projects on her Patreon. For Sloane, layouts are a means of juxtaposing not only story beats, but also colors and textures; and often that juxtaposing extends to the third dimension wherein the story takes on layers that often carry you between physical spaces. \n\n(Seriously, some of the best examples of this are on <a href=\"https://www.patreon.com/sloane\">her Patreon</a>, and I'm not going to post work from there even though I'm DYING to talk about some of those pages, so check them out or be on the lookout for new work.)\n\n_A Hollowing_ leans more on the metaphorical space of dream-like (mostly nightmarish) imagery to guide the reader. It is a tale of trauma, the ways in which trauma resurfaces, and the ways in which we must confront the things that hurt us to move forward and survive in some kind of imperfect union. The tale unfolds through the eyes of a young girl, the loss of her mother, and a new horse. \n\n\nTold entirely in black and white, with many more \"conventional\" layouts than one might find in her other work, Sloane instead leans heavily on ink itself as a presence on the page, with the horse being the best example. This adds to the dreamlike effect of the gray, inkless watercolors that demarcate memories, which _itself_ adds to scenes where the grays and inks meet in a collision of present and past traumas for the main character. \n\n<figure class='floatCenter'>\n<img class=\"floatCenter\" style=\"max-height: 600px;\" src=\"https://s3.amazonaws.com/foggy1/door_wipe.png\" />\n</figure>\n\nAbove, the main character catches her father doing something you would rather not catch your father doing, and then flees to her room where she falls asleep and wakes up in a dream. The somewhat abrupt shift from running away to being in bed (particularly as juxtaposed between seeing her father through two doorways in a way that appears unsettling) captures the anxiety of being a kid seeing something you shouldn't: it's a whirlwind until you're somewhere safe, and even then you're usually caught stuck with your heart beating fast, going over what happened. Sloane captures that latter moment in the penultimate panel before launching us into a nasty flashback. A solid page, but still more layers to parse.\n\nIn what appears to be a pretty standard layout, with \"only\" black and white at her disposal and no layered panels, Sloane still pulls off her trick of using overlayed elements to bridge the space between panels, not just once, but _twice_.\n\nThe sheepish \"Beeps\" that surround the final panel in which the main character finds herself in a car begin in the panel in which she drifts off to sleep, rendering a quick panel transition as being one that occurs much more gradually.\n\nAnd then there's the ink swipe. A smudge almost like a tire track, running from her father's bedroom door in the upper right of the page, to her waking-into-a-dream consciousness in the bottom left. The pronounced gutters of this story--this page being no exception--preclude any serious layering from occurring, so the light touch here is just enough to traverse the normal series of events without taking the reader completely out of the page. To wit, I didn't really absorb this smudge until the second time I read the story.\n\nThe implications are clear: though her nightmares unearth past trauma _for the reader_, it's the _current trauma_ of what she sees through her father's door that does the unearthing _for her_. The ink swipe physically connects points A and B on the page through the physical doorways she uses to traverse the house; it also connects the two beats where she simply lays her head down to sleep, the means by which she travels from the waking world to somewhere much darker.\n\nWithout the \"Beeps\" and without the ink swipe, this page serves its purpose. Yet, these things aren't window dressing: they are real, substantial parts of the story that augment the narrative in ways that additional panels could not achieve. They add ambiance, they alter our perception of the page's pace, and they help round out the menacing tone of what is occurring and how it connects to what is to come. It is worth noting that the real punctuation to the events of this sequence does come two pages later, on the page turn, so the heightened sense of anticipation plays.\n\nThere's far more to talk about as far as _A Hollowing_ is concerned, as the story on its own merits critical attention. I, however, am stuck as usual, marveling at the fact that regardless of the tools, Sloane demonstrates the full narrative depth of the medium.\n\n<a target=_blank href=\"https://twitter.com/AustinLanari/status/873991542649876480\">_I made a thread for my thoughts on the other Short Box titles_</a>\n",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "A Hollowing",
+        "layout": "post",
+        "date": "2017-06-14T09:00:00.284Z",
+        "path": "/posts/3",
+        "category": "comics",
+        "description": "Even without color, Sloane finds surprising ways to innovate.",
+        "indexImage": "https://s3.amazonaws.com/foggy1/a_hollowing.png",
+        "parent": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md",
+      "fields": {
+        "slug": "/articles/2017-06-13-A-Hollowing/"
+      }
+    },
     "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark": {
       "id": "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -1908,24 +1879,29 @@
         "slug": "/articles/2017-05-31-I-still-write-about-comics/"
       }
     },
-    "SitePage /pages/contact/": {
-      "path": "/pages/contact/",
-      "component": "/home/austin/FuSC/src/templates/blog-post.js",
-      "context": {
-        "slug": "/pages/contact/"
-      },
-      "componentChunkName": "page-component---src-templates-blog-post-js",
-      "jsonName": "pages-contact.json",
-      "internalComponentName": "ComponentPagesContact",
-      "id": "SitePage /pages/contact/",
-      "parent": "SOURCE",
+    "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark",
       "children": [],
+      "parent": "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file",
       "internal": {
-        "mediaType": "application/json",
-        "type": "SitePage",
-        "content": "{\"path\":\"/pages/contact/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/pages/contact/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"pages-contact.json\",\"internalComponentName\":\"ComponentPagesContact\"}",
-        "contentDigest": "21f011c944510b4b2c155b54f0282f77",
-        "owner": "internal-data-bridge"
+        "contentDigest": "e5a27bfdd9faf9b70541cc9756f80777",
+        "type": "MarkdownRemark",
+        "mediaType": "text/x-markdown",
+        "content": "\nMy name is Austin.  I am a former philosophy teacher and now I'm a software engineer.  Comics holds all that together.  [@AustinLanari](https://www.twitter.com/austinlanari)\n\nFor the tech savvy or the perilously curious, this blog is built with [Gatsby.js](https://github.com/gatsbyjs/gatsby). FuSC is partially me trying to build a lightweight CMS that I'm actually happy with.",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "About me",
+        "layout": "page",
+        "path": "/about",
+        "parent": "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/austin/FuSC/src/pages/pages/about/index.md",
+      "fields": {
+        "slug": "/pages/about/"
       }
     },
     "SitePage /404/": {
@@ -1948,43 +1924,23 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /articles/2017-06-13-A-Hollowing/": {
-      "path": "/articles/2017-06-13-A-Hollowing/",
+    "SitePage /pages/contact/": {
+      "path": "/pages/contact/",
       "component": "/home/austin/FuSC/src/templates/blog-post.js",
       "context": {
-        "slug": "/articles/2017-06-13-A-Hollowing/"
+        "slug": "/pages/contact/"
       },
       "componentChunkName": "page-component---src-templates-blog-post-js",
-      "jsonName": "articles-2017-06-13-a-hollowing.json",
-      "internalComponentName": "ComponentArticles20170613AHollowing",
-      "id": "SitePage /articles/2017-06-13-A-Hollowing/",
+      "jsonName": "pages-contact.json",
+      "internalComponentName": "ComponentPagesContact",
+      "id": "SitePage /pages/contact/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "mediaType": "application/json",
         "type": "SitePage",
-        "content": "{\"path\":\"/articles/2017-06-13-A-Hollowing/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/articles/2017-06-13-A-Hollowing/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"articles-2017-06-13-a-hollowing.json\",\"internalComponentName\":\"ComponentArticles20170613AHollowing\"}",
-        "contentDigest": "5ca7d925639d67a835f5b6d4c599ea88",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /pages/about/": {
-      "path": "/pages/about/",
-      "component": "/home/austin/FuSC/src/templates/blog-post.js",
-      "context": {
-        "slug": "/pages/about/"
-      },
-      "componentChunkName": "page-component---src-templates-blog-post-js",
-      "jsonName": "pages-about.json",
-      "internalComponentName": "ComponentPagesAbout",
-      "id": "SitePage /pages/about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "mediaType": "application/json",
-        "type": "SitePage",
-        "content": "{\"path\":\"/pages/about/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/pages/about/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"pages-about.json\",\"internalComponentName\":\"ComponentPagesAbout\"}",
-        "contentDigest": "6a732d1c057365a9349f21f7590f4b1c",
+        "content": "{\"path\":\"/pages/contact/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/pages/contact/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"pages-contact.json\",\"internalComponentName\":\"ComponentPagesContact\"}",
+        "contentDigest": "21f011c944510b4b2c155b54f0282f77",
         "owner": "internal-data-bridge"
       }
     },
@@ -2008,6 +1964,26 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /articles/2017-06-13-A-Hollowing/": {
+      "path": "/articles/2017-06-13-A-Hollowing/",
+      "component": "/home/austin/FuSC/src/templates/blog-post.js",
+      "context": {
+        "slug": "/articles/2017-06-13-A-Hollowing/"
+      },
+      "componentChunkName": "page-component---src-templates-blog-post-js",
+      "jsonName": "articles-2017-06-13-a-hollowing.json",
+      "internalComponentName": "ComponentArticles20170613AHollowing",
+      "id": "SitePage /articles/2017-06-13-A-Hollowing/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/articles/2017-06-13-A-Hollowing/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/articles/2017-06-13-A-Hollowing/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"articles-2017-06-13-a-hollowing.json\",\"internalComponentName\":\"ComponentArticles20170613AHollowing\"}",
+        "contentDigest": "5ca7d925639d67a835f5b6d4c599ea88",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /articles/2017-05-31-I-still-write-about-comics/": {
       "path": "/articles/2017-05-31-I-still-write-about-comics/",
       "component": "/home/austin/FuSC/src/templates/blog-post.js",
@@ -2025,6 +2001,26 @@
         "type": "SitePage",
         "content": "{\"path\":\"/articles/2017-05-31-I-still-write-about-comics/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/articles/2017-05-31-I-still-write-about-comics/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"articles-2017-05-31-i-still-write-about-comics.json\",\"internalComponentName\":\"ComponentArticles20170531IStillWriteAboutComics\"}",
         "contentDigest": "384ddee48e70cdfbee3d832897475582",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /pages/about/": {
+      "path": "/pages/about/",
+      "component": "/home/austin/FuSC/src/templates/blog-post.js",
+      "context": {
+        "slug": "/pages/about/"
+      },
+      "componentChunkName": "page-component---src-templates-blog-post-js",
+      "jsonName": "pages-about.json",
+      "internalComponentName": "ComponentPagesAbout",
+      "id": "SitePage /pages/about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/pages/about/\",\"component\":\"/home/austin/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/pages/about/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"pages-about.json\",\"internalComponentName\":\"ComponentPagesAbout\"}",
+        "contentDigest": "6a732d1c057365a9349f21f7590f4b1c",
         "owner": "internal-data-bridge"
       }
     },
@@ -2069,28 +2065,28 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "1a4e62886cf99cf5130ce8dd3ac58f4d"
+    "PLUGINS_HASH": "ba29ac86549694d213966d97608e2988"
   },
   "pageDataDependencies": {
     "nodes": {
-      "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark": [
-        "/pages/contact/"
-      ],
       "/home/austin/FuSC/src/pages/404.md absPath of file >>> MarkdownRemark": [
         "/404/",
         "/404.html"
       ],
-      "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark": [
-        "/articles/2017-06-13-A-Hollowing/"
-      ],
-      "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark": [
-        "/pages/about/"
+      "/home/austin/FuSC/src/pages/pages/contact/index.md absPath of file >>> MarkdownRemark": [
+        "/pages/contact/"
       ],
       "/home/austin/FuSC/src/pages/articles/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark": [
         "/articles/2017-06-07-Red-Sprite-Had-Potential/"
       ],
+      "/home/austin/FuSC/src/pages/articles/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark": [
+        "/articles/2017-06-13-A-Hollowing/"
+      ],
       "/home/austin/FuSC/src/pages/articles/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark": [
         "/articles/2017-05-31-I-still-write-about-comics/"
+      ],
+      "/home/austin/FuSC/src/pages/pages/about/index.md absPath of file >>> MarkdownRemark": [
+        "/pages/about/"
       ]
     },
     "connections": {
