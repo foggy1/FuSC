@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
+import Link from 'gatsby-link'
 import './style.css'
 
 class SiteNav extends React.Component {
@@ -9,11 +8,11 @@ class SiteNav extends React.Component {
       <nav className='blog-nav'>
         <ul>
           <li>
-            <Link to={prefixLink('/')} activeClassName='current' onlyActiveOnIndex> Articles
+            <Link to={'/'} activeClassName='current' onlyActiveOnIndex> Articles
             </Link>
           </li>
           <li>
-            <Link to={prefixLink('/about/')} activeClassName='current'> About
+            <Link to={'/about/'} activeClassName='current'> About
             </Link>
           </li>
         </ul>

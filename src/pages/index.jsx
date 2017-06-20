@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router'
+import Link from 'gatsby-link'
 import sortBy from 'lodash/sortBy'
 import moment from 'moment'
 import Helmet from 'react-helmet'
-import { prefixLink } from 'gatsby-helpers'
 import access from 'safe-access'
 import { config } from 'config'
 import SiteSidebar from '../components/SiteSidebar'
@@ -28,10 +27,10 @@ class SiteIndex extends React.Component {
             </time>
             <span style={{ padding: '5px' }} />
             <span className='blog-category'>{category}</span>
-            <h2><Link style={{ borderBottom: 'none' }} to={prefixLink(page.path)}>{title}</Link></h2>
+            <h2><Link style={{ borderBottom: 'none' }} to={page.path}>{title}</Link></h2>
             <img style={{height: '500px'}} src={image} alt={title} />
             <p dangerouslySetInnerHTML={{ __html: description }} />
-            <Link className='readmore' to={prefixLink(page.path)}>Read</Link>
+            <Link className='readmore' to={page.path}>Read</Link>
           </div>
         ))
       }

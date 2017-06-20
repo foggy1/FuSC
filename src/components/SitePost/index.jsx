@@ -1,7 +1,6 @@
 import React from 'react'
 import moment from 'moment'
-import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
+import Link from 'gatsby-link'
 import { config } from 'config'
 import ReadNext from '../ReadNext'
 import './style.css'
@@ -12,11 +11,10 @@ import './rrssb.js'
 class SitePost extends React.Component {
   render () {
     const { route } = this.props
-    console.log(this.props)
     const post = route.page.data
     const home = (
       <div>
-        <Link className='gohome' to={prefixLink('/')}>All Articles</Link>
+        <Link className='gohome' to={'/'}>All Articles</Link>
       </div>
     )
 
@@ -79,12 +77,12 @@ class SitePost extends React.Component {
             </p>
           </div>
         </div>
-        <meta property='og:url' content={prefixLink(post.path)} />
+        <meta property='og:url' content={`fuckupsomecomics.com${post.path}`} />
         <meta property='og:type' content='article' />
         <meta property='og:title' content={post.title} />
         <meta property='og:description' content={post.description} />
         <meta name='twitter:site' value='@austinlanari' />
-        <meta property='twitter:url' content={prefixLink(post.path)} />
+        <meta property='twitter:url' content={`fuckupsomecomics.com${post.path}`} />
         <meta property='twitter:title' content={post.title} />
         <meta property='twitter:description' content={post.description} />
         <meta name='author' content='Austin Lanari' />
