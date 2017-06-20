@@ -5,12 +5,22 @@
             "edges": [
                 {
                     "node": {
-                        "path": "/404/"
+                        "path": "/pages/about/"
                     }
                 },
                 {
                     "node": {
                         "path": "/pages/contact/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/404/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/articles/2017-05-31-I-still-write-about-comics/"
                     }
                 },
                 {
@@ -21,16 +31,6 @@
                 {
                     "node": {
                         "path": "/articles/2017-06-13-A-Hollowing/"
-                    }
-                },
-                {
-                    "node": {
-                        "path": "/articles/2017-05-31-I-still-write-about-comics/"
-                    }
-                },
-                {
-                    "node": {
-                        "path": "/pages/about/"
                     }
                 },
                 {
