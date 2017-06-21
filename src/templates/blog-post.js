@@ -1,7 +1,7 @@
 import React from "react"
 
 class BlogPostTemplate extends React.Component {
-  render() {
+  render () {
     const post = this.props.data.markdownRemark
 
     return (
