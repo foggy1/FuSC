@@ -1196,13 +1196,13 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2017-06-21T02:20:21.880Z",
+      "buildTime": "2017-06-21T02:30:33.896Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "62743c9f0fdae7d5ce6697c44a84e1b5",
-        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"description\":\"Fuck up some comics, yeah\",\"author\":\"Foggy\",\"twitter\":\"https://www.twitter.com/austinlanari\",\"github\":\"https://www.github.com/foggy1\",\"rss\":\"http://fuckupsomecomics.com/rss.xml\",\"atom\":\"http://fuckupsomecomics.com/atom.xml\"},\"port\":\"8000\",\"host\":\"localhost\",\"buildTime\":\"2017-06-21T02:20:21.880Z\"}",
+        "contentDigest": "e7b9581471afcacbc425a9b93a6050b9",
+        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"description\":\"Fuck up some comics, yeah\",\"author\":\"Foggy\",\"twitter\":\"https://www.twitter.com/austinlanari\",\"github\":\"https://www.github.com/foggy1\",\"rss\":\"http://fuckupsomecomics.com/rss.xml\",\"atom\":\"http://fuckupsomecomics.com/atom.xml\"},\"port\":\"8000\",\"host\":\"localhost\",\"buildTime\":\"2017-06-21T02:30:33.896Z\"}",
         "mediaType": "application/json",
         "type": "Site",
         "owner": "internal-data-bridge"

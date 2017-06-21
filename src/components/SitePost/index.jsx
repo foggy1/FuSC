@@ -5,10 +5,8 @@ import ReadNext from '../ReadNext'
 import './style.css'
 import './rrssb.css'
 import '../../../static/css/highlight.css'
-import config from '../../../gatsby-config.js'
 class SitePost extends React.Component {
   render () {
-    debugger
     const {
       html,
       frontmatter: {
