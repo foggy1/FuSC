@@ -1,25 +1,24 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import sortBy from 'lodash/sortBy'
+import get from "lodash/get"
 import moment from 'moment'
 import Helmet from 'react-helmet'
-import access from 'safe-access'
 import SiteSidebar from '../components/SiteSidebar'
 
 class SiteIndex extends React.Component {
   render () {
     const pageLinks = []
-    debugger
     // Sort pages.
-    const sortedPages = sortBy(this.props.route.pages, page => access(page, 'data.date')).reverse()
-    sortedPages.forEach((page) => {
-      if (access(page, 'file.ext') === 'md' && access(page, 'data.layout') === 'post') {
-        const title = access(page, 'data.title') || page.path
-        const description = access(page, 'data.description')
-        const datePublished = access(page, 'data.date')
-        const category = access(page, 'data.category')
-        const image = access(page, 'data.indexImage')
-
+    const posts = get(this, "props.data.allMarkdownRemark.edges")
+    const sortedPosts = sortBy(posts, post => post.node.frontmatter.date).reverse()
+    sortedPosts.forEach(post => {
+       if (post.node.frontmatter.layout === 'post') {
+        const title = get(post, "node.frontmatter.title") || post.node.path
+        const description = get(post, 'node.frontmatter.description')
+        const datePublished = get(post, 'node.frontmatter.date')
+        const category = get(post, 'node.frontmatter.category')
+        const image = get(post, 'node.frontmatter.indexImage')
         pageLinks.push((
           <div className='blog-post' key={title}>
             <time dateTime={moment(datePublished).format('MMMM D, YYYY')}>
@@ -27,14 +26,14 @@ class SiteIndex extends React.Component {
             </time>
             <span style={{ padding: '5px' }} />
             <span className='blog-category'>{category}</span>
-            <h2><Link style={{ borderBottom: 'none' }} to={page.path}>{title}</Link></h2>
+            <h2><Link style={{ borderBottom: 'none' }} to={post.node.frontmatter.path}>{title}</Link></h2>
             <img style={{height: '500px'}} src={image} alt={title} />
             <p dangerouslySetInnerHTML={{ __html: description }} />
-            <Link className='readmore' to={page.path}>Read</Link>
+            <Link className='readmore' to={post.node.frontmatter.path}>Read</Link>
           </div>
         ))
-      }
-    })
+    }
+  })
 
     return (
       <div>
@@ -57,4 +56,32 @@ SiteIndex.propTypes = {
 }
 
 export default SiteIndex
+
+export const pagequery = graphql`
+query IndexQuery {
+  site {
+    siteMetadata {
+      title
+    }
+  }
+  allMarkdownRemark {
+    edges {
+      node {
+        fields {
+          slug
+        }
+        frontmatter {
+          title,
+          layout,
+          date,
+          path,
+          category,
+          description,
+          indexImage
+        }
+      }
+    }
+  }
+}
+`
 

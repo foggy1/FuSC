@@ -1,9 +1,6 @@
 var plugins = [{
       plugin: require('/home/austin/FuSC/node_modules/gatsby-plugin-google-analytics/gatsby-browser.js'),
       options: {"plugins":[],"trackingId":"UA-80918633-2"},
-    },{
-      plugin: require('/home/austin/FuSC/gatsby-browser.js'),
-      options: {"plugins":[]},
     }]
 "use strict";
 

@@ -6,23 +6,8 @@
     },
     {
         "componentChunkName": "page-component---src-templates-blog-post-js",
-        "jsonName": "pages-about.json",
-        "path": "/pages/about/"
-    },
-    {
-        "componentChunkName": "page-component---src-templates-blog-post-js",
-        "jsonName": "pages-contact.json",
-        "path": "/pages/contact/"
-    },
-    {
-        "componentChunkName": "page-component---src-templates-blog-post-js",
         "jsonName": "404.json",
         "path": "/404/"
-    },
-    {
-        "componentChunkName": "page-component---src-templates-blog-post-js",
-        "jsonName": "posts-1.json",
-        "path": "/posts/1/"
     },
     {
         "componentChunkName": "page-component---src-templates-blog-post-js",
@@ -31,8 +16,23 @@
     },
     {
         "componentChunkName": "page-component---src-templates-blog-post-js",
+        "jsonName": "posts-1.json",
+        "path": "/posts/1/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-blog-post-js",
         "jsonName": "posts-3.json",
         "path": "/posts/3/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-blog-post-js",
+        "jsonName": "about.json",
+        "path": "/about/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-blog-post-js",
+        "jsonName": "contact.json",
+        "path": "/contact/"
     },
     {
         "componentChunkName": "page-component---src-pages-index-jsx",

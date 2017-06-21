@@ -10,12 +10,12 @@ exports.components = {
 
 exports.json = {
   "dev-404-page.json": require("/home/austin/FuSC/.cache/json/dev-404-page.json"),
-  "pages-about.json": require("/home/austin/FuSC/.cache/json/pages-about.json"),
-  "pages-contact.json": require("/home/austin/FuSC/.cache/json/pages-contact.json"),
   "404.json": require("/home/austin/FuSC/.cache/json/404.json"),
-  "posts-1.json": require("/home/austin/FuSC/.cache/json/posts-1.json"),
   "posts-2.json": require("/home/austin/FuSC/.cache/json/posts-2.json"),
+  "posts-1.json": require("/home/austin/FuSC/.cache/json/posts-1.json"),
   "posts-3.json": require("/home/austin/FuSC/.cache/json/posts-3.json"),
+  "about.json": require("/home/austin/FuSC/.cache/json/about.json"),
+  "contact.json": require("/home/austin/FuSC/.cache/json/contact.json"),
   "index.json": require("/home/austin/FuSC/.cache/json/index.json"),
   "404-html.json": require("/home/austin/FuSC/.cache/json/404-html.json")
 }

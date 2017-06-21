@@ -9,12 +9,12 @@ exports.components = {
 
 exports.json = {
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/home/austin/FuSC/.cache/json/dev-404-page.json"),
-  "pages-about.json": require("gatsby-module-loader?name=path---pages-about!/home/austin/FuSC/.cache/json/pages-about.json"),
-  "pages-contact.json": require("gatsby-module-loader?name=path---pages-contact!/home/austin/FuSC/.cache/json/pages-contact.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/home/austin/FuSC/.cache/json/404.json"),
-  "posts-1.json": require("gatsby-module-loader?name=path---posts-1!/home/austin/FuSC/.cache/json/posts-1.json"),
   "posts-2.json": require("gatsby-module-loader?name=path---posts-2!/home/austin/FuSC/.cache/json/posts-2.json"),
+  "posts-1.json": require("gatsby-module-loader?name=path---posts-1!/home/austin/FuSC/.cache/json/posts-1.json"),
   "posts-3.json": require("gatsby-module-loader?name=path---posts-3!/home/austin/FuSC/.cache/json/posts-3.json"),
+  "about.json": require("gatsby-module-loader?name=path---about!/home/austin/FuSC/.cache/json/about.json"),
+  "contact.json": require("gatsby-module-loader?name=path---contact!/home/austin/FuSC/.cache/json/contact.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/home/austin/FuSC/.cache/json/index.json"),
   "404-html.json": require("gatsby-module-loader?name=path---404-html!/home/austin/FuSC/.cache/json/404-html.json")
 }
