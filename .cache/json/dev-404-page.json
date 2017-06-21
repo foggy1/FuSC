@@ -1,0 +1,50 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 8,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/pages/about/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/pages/contact/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/404/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/posts/1/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/posts/2/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/posts/3/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/404.html"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}

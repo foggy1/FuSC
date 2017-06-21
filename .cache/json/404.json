@@ -1,0 +1,19 @@
+{
+    "data": {
+        "markdownRemark": {
+            "html": "<h1>NOT FOUND</h1>\n<p>You just hit a route that doesn’t exist… the sadness.</p>",
+            "frontmatter": {
+                "title": "",
+                "layout": "page",
+                "date": null,
+                "path": "/404.html",
+                "category": null,
+                "description": null,
+                "indexImage": null
+            }
+        }
+    },
+    "pathContext": {
+        "slug": "/404/"
+    }
+}

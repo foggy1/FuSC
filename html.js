@@ -21,10 +21,14 @@ module.exports = React.createClass({
     return (
       <html lang='en'>
         <head>
+          {this.props.headComponents}
           <meta charSet='utf-8' />
           <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
           <meta name='viewport' content='width=device-width, initial-scale=1.0 maximum-scale=5.0' />
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>         
+          <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+            crossorigin="anonymous"></script>         
           <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
           { title.toComponent() }
           { font }
@@ -32,7 +36,7 @@ module.exports = React.createClass({
         </head>
         <body>
           <div id='react-mount' dangerouslySetInnerHTML={{ __html: this.props.body }} />
-          <script src={`/bundle.js?t=${BUILD_TIME}`} />
+          {this.props.postBodyComponents}
         </body>
       </html>
     )

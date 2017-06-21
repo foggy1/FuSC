@@ -1,15 +1,9 @@
 import React from "react"
+import SitePost from '../components/SitePost/index.jsx'
 
 class BlogPostTemplate extends React.Component {
   render () {
-    const post = this.props.data.markdownRemark
-
-    return (
-      <div>
-        <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </div>
-    )
+    return <SitePost {...this.props.data.markdownRemark} />
   }
 }
 
@@ -20,7 +14,13 @@ query BlogPostBySlug($slug: String!) {
   markdownRemark(fields: { slug: { eq: $slug }}) {
     html
     frontmatter {
-      title
+      title,
+      layout,
+      date,
+      path,
+      category,
+      description,
+      indexImage
     }
   }
 }
