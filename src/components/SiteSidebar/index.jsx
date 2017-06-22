@@ -10,7 +10,7 @@ class SiteSidebar extends React.Component {
   render () {
 
     const { location } = this.props
-    const isHome = location.pathname === '/'
+    const isHome = location && location.pathname === '/'
 
     /* eslint-disable jsx-a11y/img-redundant-alt */
     const header = (

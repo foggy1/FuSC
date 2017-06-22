@@ -64,7 +64,50 @@ module.exports = {
     }
   },
   {
-    resolve: `gatsby-plugin-feed`
+    resolve: 'gatsby-plugin-feed',
+    options: {
+      query: `
+        {
+          site {
+            siteMetadata {
+              title
+              description
+              site_url
+            }
+          }
+        }
+      `,
+      feeds: [
+        {
+          query: `
+            {
+              allMarkdownRemark(
+                sort: { order: DESC, fields: [frontmatter___date] },
+                filter: {
+                  frontmatter: { draft: { ne: true } },
+                  fileAbsolutePath: { regex: "/posts/" }
+                },
+              ) {
+                edges {
+                  node {
+                    excerpt
+                    html
+                    frontmatter {
+                      title
+                      date
+                    }
+                    fields {
+                      slug
+                    }
+                  }
+                }
+              }
+            }
+          `,
+          output: '/rss.xml'
+        }
+      ]
+    }
   },
   {
     resolve: `gatsby-plugin-sitemap`

@@ -4,7 +4,13 @@ import '../../../static/fonts/fontawesome/style.css'
 
 class SiteLinks extends React.Component {
   render () {
-    const { title: siteTitle, author, twitter, github, rss } = this.props.data.site.siteMetadata
+    const { 
+      title: siteTitle,
+      author,
+      twitter,
+      github,
+      rss
+    } = this.props.data.site.siteMetadata
 
     return (
       <div className='blog-links'>

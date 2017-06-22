@@ -1,23 +1,23 @@
 [
     {
-        "componentChunkName": "page-component---node-modules-gatsby-plugin-offline-app-shell-js",
-        "jsonName": "offline-plugin-app-shell-fallback.json",
-        "path": "/offline-plugin-app-shell-fallback/"
+        "componentChunkName": "page-component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
     },
     {
-        "componentChunkName": "page-component---src-templates-blog-post-js",
-        "jsonName": "404.json",
-        "path": "/404/"
+        "componentChunkName": "page-component---src-templates-blog-page-js",
+        "jsonName": "404-html.json",
+        "path": "/404.html/"
     },
     {
-        "componentChunkName": "page-component---src-templates-blog-post-js",
-        "jsonName": "contact.json",
-        "path": "/contact/"
-    },
-    {
-        "componentChunkName": "page-component---src-templates-blog-post-js",
+        "componentChunkName": "page-component---src-templates-blog-page-js",
         "jsonName": "about.json",
         "path": "/about/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-blog-page-js",
+        "jsonName": "contact.json",
+        "path": "/contact/"
     },
     {
         "componentChunkName": "page-component---src-templates-blog-post-js",
@@ -26,22 +26,17 @@
     },
     {
         "componentChunkName": "page-component---src-templates-blog-post-js",
-        "jsonName": "posts-3.json",
-        "path": "/posts/3/"
+        "jsonName": "posts-2.json",
+        "path": "/posts/2/"
     },
     {
         "componentChunkName": "page-component---src-templates-blog-post-js",
-        "jsonName": "posts-2.json",
-        "path": "/posts/2/"
+        "jsonName": "posts-3.json",
+        "path": "/posts/3/"
     },
     {
         "componentChunkName": "page-component---src-pages-index-jsx",
         "jsonName": "index.json",
         "path": "/"
-    },
-    {
-        "componentChunkName": "page-component---src-templates-blog-post-js",
-        "jsonName": "404-html.json",
-        "path": "/404.html"
     }
 ]
