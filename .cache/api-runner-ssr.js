@@ -7,6 +7,9 @@ var plugins = [{
     },{
       plugin: require('/home/austin/FuSC/node_modules/gatsby-plugin-manifest/gatsby-ssr.js'),
       options: {"plugins":[],"name":"Fuck Up Some Comics","short_name":"FuSC","start_url":"/","background_color":"#f7f7f7","theme_color":"#191919","display":"minimal-ui"},
+    },{
+      plugin: require('/home/austin/FuSC/node_modules/gatsby-plugin-sitemap/gatsby-ssr.js'),
+      options: {"plugins":[]},
     }]
 "use strict";
 

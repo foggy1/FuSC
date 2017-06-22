@@ -65,7 +65,3 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     )
   })
 }
-
-exports.onPostBuild = function (pages, callback) {
-  callback()
-}

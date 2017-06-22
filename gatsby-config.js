@@ -3,7 +3,8 @@ const lost = require(`lost`)
 module.exports = {
   siteMetadata: {
     title: `Fuck Up Some Comics`,
-    description: `Fuck up some comics, yeah`,
+    description: `Just another blog about story pictures`,
+    site_url: 'https://fuckupsomecomics.com',
     author: 'Foggy',
     twitter: `https://www.twitter.com/austinlanari`,
     github: `https://www.github.com/foggy1`,
@@ -66,7 +67,7 @@ module.exports = {
     resolve: `gatsby-plugin-feed`
   },
   {
-    resolve: `gatby-plugin-sitemap`
+    resolve: `gatsby-plugin-sitemap`
   }
   ]
 }

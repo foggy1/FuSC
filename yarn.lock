@@ -3255,9 +3255,9 @@ gatsby-link@^1.0.0-beta.2:
     prop-types "^15.5.8"
     ric "^1.3.0"
 
-gatsby-plugin-feed@^1.0.0-alpha19-alpha.dcf76508:
-  version "1.0.0-alpha19-alpha.dcf76508"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-1.0.0-alpha19-alpha.dcf76508.tgz#719309a1fa8d719a4101683d4e99d64ab9c87dbe"
+gatsby-plugin-feed@next:
+  version "1.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-1.0.0-beta.1.tgz#33b846fffe02e65f90ac80e5f9d96578ce2606cb"
   dependencies:
     pify "^3.0.0"
     rss "^1.2.2"
@@ -3300,9 +3300,9 @@ gatsby-plugin-sharp@next:
     qs "^6.3.0"
     sharp "^0.17.3"
 
-gatsby-plugin-sitemap@^1.0.0-alpha.22:
-  version "1.0.0-alpha.22"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-1.0.0-alpha.22.tgz#484b19d7763bd26a831fbb729bd496224d3aaea2"
+gatsby-plugin-sitemap@next:
+  version "1.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-1.0.0-beta.3.tgz#837e5b6b258b5b21b35351d025e4942cde62b7a5"
   dependencies:
     sitemap "^1.12.0"
 
