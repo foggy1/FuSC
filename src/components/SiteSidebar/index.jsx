@@ -8,6 +8,7 @@ import profilePic from '../../pages/photo.jpg'
 
 class SiteSidebar extends React.Component {
   render () {
+
     const { location } = this.props
     const isHome = location.pathname === '/'
 
@@ -33,6 +34,7 @@ class SiteSidebar extends React.Component {
             <SiteNav {...this.props} />
             <footer>
               <SiteLinks {...this.props} />
+              <br />
               <p className='copyright'>
                 &copy; Austin Lanari 2017
               </p>

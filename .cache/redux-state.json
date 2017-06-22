@@ -1180,13 +1180,13 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2017-06-21T03:44:40.926Z",
+      "buildTime": "2017-06-22T02:25:06.608Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d5e8a70c3286cb03b521439b583975b9",
-        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"description\":\"Fuck up some comics, yeah\",\"author\":\"Foggy\",\"twitter\":\"https://www.twitter.com/austinlanari\",\"github\":\"https://www.github.com/foggy1\",\"rss\":\"http://fuckupsomecomics.com/rss.xml\",\"atom\":\"http://fuckupsomecomics.com/atom.xml\"},\"port\":\"8000\",\"host\":\"localhost\",\"buildTime\":\"2017-06-21T03:44:40.926Z\"}",
+        "contentDigest": "e0de9d74554ffeebec75947c7ff8b5f5",
+        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"description\":\"Fuck up some comics, yeah\",\"author\":\"Foggy\",\"twitter\":\"https://www.twitter.com/austinlanari\",\"github\":\"https://www.github.com/foggy1\",\"rss\":\"http://fuckupsomecomics.com/rss.xml\",\"atom\":\"http://fuckupsomecomics.com/atom.xml\"},\"port\":\"8000\",\"host\":\"localhost\",\"buildTime\":\"2017-06-22T02:25:06.608Z\"}",
         "mediaType": "application/json",
         "type": "Site",
         "owner": "internal-data-bridge"
@@ -1371,7 +1371,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9a4fa893210e8b0c6774f6fcbffe0a67",
+        "contentDigest": "d14cbbda63fbdcf1811fc52216163ee4",
         "mediaType": "text/jsx",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1380,12 +1380,12 @@
       "absolutePath": "/home/austin/FuSC/src/pages/index.jsx",
       "relativePath": "index.jsx",
       "extension": "jsx",
-      "size": 2406,
-      "prettySize": "2.41 kB",
-      "modifiedTime": "2017-06-21T03:46:58.219Z",
-      "accessTime": "2017-06-21T03:46:58.227Z",
-      "changeTime": "2017-06-21T03:46:58.219Z",
-      "birthTime": "2017-06-21T03:46:58.219Z",
+      "size": 2475,
+      "prettySize": "2.48 kB",
+      "modifiedTime": "2017-06-22T02:36:03.786Z",
+      "accessTime": "2017-06-22T02:36:03.790Z",
+      "changeTime": "2017-06-22T02:36:03.786Z",
+      "birthTime": "2017-06-22T02:36:03.786Z",
       "root": "/",
       "dir": "/home/austin/FuSC/src/pages",
       "base": "index.jsx",
@@ -1400,14 +1400,14 @@
       "blksize": 4096,
       "ino": 3524757,
       "blocks": 24,
-      "atimeMs": 1498016818227.16,
-      "mtimeMs": 1498016818219.1597,
-      "ctimeMs": 1498016818219.1597,
-      "birthtimeMs": 1498016818219.1597,
-      "atime": "2017-06-21T03:46:58.227Z",
-      "mtime": "2017-06-21T03:46:58.219Z",
-      "ctime": "2017-06-21T03:46:58.219Z",
-      "birthtime": "2017-06-21T03:46:58.219Z"
+      "atimeMs": 1498098963790.189,
+      "mtimeMs": 1498098963786.1887,
+      "ctimeMs": 1498098963786.1887,
+      "birthtimeMs": 1498098963786.1887,
+      "atime": "2017-06-22T02:36:03.790Z",
+      "mtime": "2017-06-22T02:36:03.786Z",
+      "ctime": "2017-06-22T02:36:03.786Z",
+      "birthtime": "2017-06-22T02:36:03.786Z"
     },
     "/home/austin/FuSC/src/pages/photo.jpg absPath of file": {
       "id": "/home/austin/FuSC/src/pages/photo.jpg absPath of file",
@@ -2069,7 +2069,14 @@
         "/pages/about/"
       ],
       "Site": [
-        "/"
+        "/",
+        "/404/",
+        "/posts/2/",
+        "/posts/1/",
+        "/posts/3/",
+        "/about/",
+        "/contact/",
+        "/404.html"
       ],
       "/home/austin/FuSC/src/pages/about/index.md absPath of file >>> MarkdownRemark": [
         "/about/"

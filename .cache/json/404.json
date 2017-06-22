@@ -1,5 +1,14 @@
 {
     "data": {
+        "site": {
+            "siteMetadata": {
+                "description": "Fuck up some comics, yeah",
+                "author": "Foggy",
+                "twitter": "https://www.twitter.com/austinlanari",
+                "github": "https://www.github.com/foggy1",
+                "rss": "http://fuckupsomecomics.com/rss.xml"
+            }
+        },
         "markdownRemark": {
             "html": "<h1>NOT FOUND</h1>\n<p>You just hit a route that doesn’t exist… the sadness.</p>",
             "frontmatter": {

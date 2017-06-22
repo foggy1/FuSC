@@ -9,6 +9,7 @@ import SiteSidebar from '../components/SiteSidebar'
 class SiteIndex extends React.Component {
   render () {
     const pageLinks = []
+    const { title: siteTitle } = this.props.data.site.siteMetadata
     // Sort pages.
     const posts = get(this, "props.data.allMarkdownRemark.edges")
     const sortedPosts = sortBy(posts, post => post.node.frontmatter.date).reverse()
@@ -37,7 +38,7 @@ class SiteIndex extends React.Component {
 
     return (
       <div>
-        <Helmet title={'Fuck Up Some Comics'} />
+        <Helmet title={siteTitle} />
         <SiteSidebar {...this.props} />
         <div className='content'>
           <div className='main'>
@@ -51,17 +52,18 @@ class SiteIndex extends React.Component {
   }
 }
 
-SiteIndex.propTypes = {
-  route: React.PropTypes.object
-}
-
 export default SiteIndex
 
 export const pagequery = graphql`
 query IndexQuery {
   site {
     siteMetadata {
-      title
+      title,
+      description,
+      author,
+      twitter,
+      github,
+      rss
     }
   }
   allMarkdownRemark {
