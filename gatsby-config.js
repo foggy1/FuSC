@@ -61,6 +61,12 @@ module.exports = {
     options: {
       postCssPlugins: [lost()]
     }
+  },
+  {
+    resolve: `gatsby-plugin-feed`
+  },
+  {
+    resolve: `gatby-plugin-sitemap`
   }
   ]
 }
