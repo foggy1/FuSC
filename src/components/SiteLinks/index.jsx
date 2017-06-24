@@ -1,5 +1,7 @@
 import React from 'react'
-import './style.css'
+if (process.env.NODE_ENV === `development`) {
+  require('./style.css')
+}
 import '../../fonts/fontawesome/style.css'
 
 class SiteLinks extends React.Component {

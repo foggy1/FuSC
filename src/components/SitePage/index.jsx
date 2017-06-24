@@ -1,6 +1,8 @@
 import React from 'react'
 import SiteSidebar from '../SiteSidebar'
-import './style.css'
+if (process.env.NODE_ENV === `development`) {
+  require('./style.css')
+}
 
 class SitePage extends React.Component {
   render () {

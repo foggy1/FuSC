@@ -3,8 +3,9 @@ import Link from 'gatsby-link'
 
 import SiteNav from '../SiteNav'
 import SiteLinks from '../SiteLinks'
-import './style.css'
-import profilePic from '../../pages/photo.jpg'
+if (process.env.NODE_ENV === `development`) {
+  require('./style.css')
+}
 
 class SiteSidebar extends React.Component {
   render () {

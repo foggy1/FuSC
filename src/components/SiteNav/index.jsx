@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import './style.css'
+if (process.env.NODE_ENV === `development`) {
+  require('./style.css')
+}
 
 class SiteNav extends React.Component {
   render () {

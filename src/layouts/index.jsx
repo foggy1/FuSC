@@ -1,8 +1,9 @@
 import React from 'react'
-
-import './css/reset.css'
-import './css/typography.css'
-import './css/base.css'
+if (process.env.NODE_ENV === `development`) {
+  require('../css/reset.css')
+  require('../css/typography.css')
+  require('../css/base.css')
+}
 
 class Template extends React.Component {
   render () {

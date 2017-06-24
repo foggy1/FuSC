@@ -1,8 +1,10 @@
 import React from 'react'
 import moment from 'moment'
 import Link from 'gatsby-link'
-import './style.css'
-import '../../css/highlight.css'
+if (process.env.NODE_ENV === `development`) {
+  require('./style.css')
+  require('../../css/highlight.css')
+}
 class SitePost extends React.Component {
   render () {
     const {
