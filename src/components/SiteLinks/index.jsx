@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import '../../../static/fonts/fontawesome/style.css'
+import '../../fonts/fontawesome/style.css'
 
 class SiteLinks extends React.Component {
   render () {

@@ -1,8 +1,8 @@
 import React from 'react'
 
-import '../static/css/reset.css'
-import '../static/css/typography.css'
-import '../static/css/base.css'
+import '../css/reset.css'
+import '../css/typography.css'
+import '../css/base.css'
 
 class Template extends React.Component {
   render () {

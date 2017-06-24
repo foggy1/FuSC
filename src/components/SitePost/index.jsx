@@ -1,9 +1,8 @@
 import React from 'react'
 import moment from 'moment'
 import Link from 'gatsby-link'
-import ReadNext from '../ReadNext'
 import './style.css'
-import '../../../static/css/highlight.css'
+import '../../css/highlight.css'
 class SitePost extends React.Component {
   render () {
     const {
