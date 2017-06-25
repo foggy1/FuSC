@@ -1,0 +1,30 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 4,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/2017-05-31-I-Still-Write-About-Comics/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/2017-06-07-my-red-sprite-was-my-shit/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/2017-06-14-a-hollowing/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}
