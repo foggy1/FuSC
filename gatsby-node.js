@@ -70,9 +70,4 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
       })
       return
   }
-<<<<<<< HEAD
 }
-
-=======
-}
->>>>>>> completely nuke old css
