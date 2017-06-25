@@ -10,30 +10,30 @@
                 {
                     "node": {
                         "fields": {
-                            "slug": "/2015-05-06-my-second-post/"
+                            "slug": "/2017-05-31-I-Still-Write-About-Comics/"
                         },
                         "frontmatter": {
-                            "title": "My Second Post!"
+                            "title": "I Used T-- I still write about comics"
                         }
                     }
                 },
                 {
                     "node": {
                         "fields": {
-                            "slug": "/2015-05-01-hello-world/"
+                            "slug": "/2015-06-14-a-hollowing/"
                         },
                         "frontmatter": {
-                            "title": "Hello World"
+                            "title": "A Hollowing"
                         }
                     }
                 },
                 {
                     "node": {
                         "fields": {
-                            "slug": "/2015-05-28-hi-folks/"
+                            "slug": "/2017-06-07-my-red-sprite-was-my-shit/"
                         },
                         "frontmatter": {
-                            "title": "New Beginnings"
+                            "title": "Red Sprite was my Shit"
                         }
                     }
                 }
