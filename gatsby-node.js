@@ -1,115 +1,74 @@
-const MarkdownIt = require('markdown-it')
-const Promise = require(`bluebird`)
-const path = require(`path`)
-const slash = require('slash')
-const { slugify } = require('transliteration')
-const format = require('date-fns/format')
-const get = require("lodash/get")
+const _ = require("lodash")
+const Promise = require("bluebird")
+const path = require("path")
+const select = require(`unist-util-select`)
+const fs = require(`fs-extra`)
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators
-  const blogPost = path.resolve('src/templates/blog-post.js')
-  const blogPage = path.resolve('src/templates/blog-page.js')
-  
+
   return new Promise((resolve, reject) => {
-    // Query for markdown nodes to create pages.
-    graphql(`
+    const pages = []
+    const blogPost = path.resolve("./src/templates/blog-post.js")
+    resolve(
+      graphql(
+        `
       {
-        allMarkdownRemark(limit: 1000, filter: {
-          frontmatter: {
-            draft: { ne: true }
-          }
-        }) {
+        allMarkdownRemark(limit: 1000) {
           edges {
             node {
               fields {
                 slug
               }
-              frontmatter {
-                layout
-              }
             }
           }
         }
       }
-    `).then(({ errors, data }) => {
-      if (errors) {
-        console.error(errors)
-        return reject(errors)
-      }
-
-      let tags = []
-      data.allMarkdownRemark.edges.forEach(edge => {
-        const slug = get(edge, 'node.fields.slug')
-        if (!slug) {
-          return
+    `
+      ).then(result => {
+        if (result.errors) {
+          console.log(result.errors)
+          reject(result.errors)
         }
 
-        const { layout } = edge.node.frontmatter
-        createPage({
-          path: edge.node.fields.slug,
-          component: layout === 'post' ? blogPost : blogPage,
-          context: {
-            slug: edge.node.fields.slug
-          }
+        // Create blog posts pages.
+        _.each(result.data.allMarkdownRemark.edges, edge => {
+          createPage({
+            path: edge.node.fields.slug, // required
+            component: blogPost,
+            context: {
+              slug: edge.node.fields.slug,
+            },
+          })
         })
-
       })
-
-      resolve()
-    })
+    )
   })
 }
 
+// Add custom slug for blog posts to both File and MarkdownRemark nodes.
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators
 
-  if (node.internal.type === 'MarkdownRemark') {
-    const fileNode = getNode(node.parent)
+  switch (node.internal.type) {
+    case 'File':
+      const parsedFilePath = path.parse(node.relativePath)
+      const slug = `/${parsedFilePath.dir}/`
+      createNodeField({
+        node,
+        fieldName: 'slug',
+        fieldValue: slug
+      })
+      return
 
-    let slug
-    if (node.frontmatter.path) {
-      slug = cleanSlashes(node.frontmatter.path)
-    } else if (node.frontmatter.title) {
-      slug = slugify(node.frontmatter.title)
-    } else {
-      slug = node.relativePath
-    }
-
-    // if (node.frontmatter.layout === 'post') {
-    //   slug = [format(node.frontmatter.date, 'YYYY/MM'), slug].join('/') 
-    // }
-
-    if (slug) {
-      createNodeField({ node, fieldName: 'slug', fieldValue: ensureSlashes(slug) })
-    }
-  } else if (node.internal.type === 'File') {
-    const relativePath = node.relativePath
-    createNodeField({ node, fieldName: 'slug', fieldValue: ensureSlashes(relativePath) })
+    case 'MarkdownRemark':
+      const fileNode = getNode(node.parent)
+      createNodeField({
+        node,
+        fieldName: 'slug',
+        fieldValue: fileNode.fields.slug,
+      })
+      return
   }
-}
-
-function ensureSlashes(slug) {
-  if (slug.charAt(0) !== '/') {
-    slug = '/' + slug
-  }
-
-  if (slug.charAt(slug.length -1) !== '/') {
-    slug = slug + '/'
-  }
-
-  return slug
-}
-
-function cleanSlashes(slug) {
-  if (slug.charAt(0) === '/') {
-    slug = slug.slice(1)
-  }
-
-  if (slug.charAt(slug.length - 1) === '/') {
-    slug = slug.slice(0, -1)
-  }
-
-  return slug
 }
 
