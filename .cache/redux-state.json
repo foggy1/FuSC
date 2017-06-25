@@ -1,20 +1,15 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "component": "/Users/austin/stuff/FuSC/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
-      "componentChunkName": "page-component---cache-dev-404-page-js",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
-      "context": {},
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "mediaType": "application/json",
         "type": "SitePage",
-        "content": "{\"component\":\"/Users/austin/stuff/FuSC/.cache/dev-404-page.js\",\"path\":\"/dev-404-page/\",\"componentChunkName\":\"page-component---cache-dev-404-page-js\",\"jsonName\":\"dev-404-page.json\",\"internalComponentName\":\"ComponentDev404Page\",\"context\":{}}",
-        "contentDigest": "72c2183cd815869951c2b17ea11f1700",
+        "content": "{\"path\":\"/dev-404-page/\"}",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -217,15 +212,7 @@
               "plugins": [],
               "maxWidth": 590,
               "wrapperStyle": "",
-              "backgroundColor": "white",
-              "quality": 50,
-              "jpegProgressive": true,
-              "pngCompressionLevel": 9,
-              "grayscale": false,
-              "duotone": false,
-              "pathPrefix": "",
-              "toFormat": "",
-              "sizes": "(max-width: 590px) 100vw, 590px"
+              "backgroundColor": "white"
             }
           },
           {
@@ -350,15 +337,7 @@
         "plugins": [],
         "maxWidth": 590,
         "wrapperStyle": "",
-        "backgroundColor": "white",
-        "quality": 50,
-        "jpegProgressive": true,
-        "pngCompressionLevel": 9,
-        "grayscale": false,
-        "duotone": false,
-        "pathPrefix": "",
-        "toFormat": "",
-        "sizes": "(max-width: 590px) 100vw, 590px"
+        "backgroundColor": "white"
       },
       "packageJson": {
         "name": "gatsby-remark-responsive-image",
@@ -999,15 +978,13 @@
         "title": "Fuck Up Some Comics",
         "author": "Austin Lanari"
       },
-      "port": "8000",
-      "host": "localhost",
-      "buildTime": "2017-06-25T18:50:32.579Z",
+      "buildTime": "2017-06-25T18:54:10.369Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d0cbb11101351b16306ab46850044ea4",
-        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"author\":\"Austin Lanari\"},\"port\":\"8000\",\"host\":\"localhost\",\"buildTime\":\"2017-06-25T18:50:32.579Z\"}",
+        "contentDigest": "d1570f4ec116d25da8d40bd67d662743",
+        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"author\":\"Austin Lanari\"},\"buildTime\":\"2017-06-25T18:54:10.369Z\"}",
         "mediaType": "application/json",
         "type": "Site",
         "owner": "internal-data-bridge"
@@ -1032,10 +1009,10 @@
       "extension": "ico",
       "size": 198,
       "prettySize": "198 B",
-      "modifiedTime": "2017-06-24T01:47:19.000Z",
-      "accessTime": "2017-06-25T18:40:22.000Z",
-      "changeTime": "2017-06-24T01:47:19.000Z",
-      "birthTime": "2017-06-24T01:47:19.000Z",
+      "modifiedTime": "2017-06-25T18:47:58.000Z",
+      "accessTime": "2017-06-25T18:52:54.000Z",
+      "changeTime": "2017-06-25T18:47:58.000Z",
+      "birthTime": "2017-06-25T18:47:58.000Z",
       "root": "/",
       "dir": "/Users/austin/stuff/FuSC/src/pages",
       "base": "favicon.ico",
@@ -1048,12 +1025,12 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 15707776,
+      "ino": 16020772,
       "blocks": 8,
-      "atime": "2017-06-25T18:40:22.000Z",
-      "mtime": "2017-06-24T01:47:19.000Z",
-      "ctime": "2017-06-24T01:47:19.000Z",
-      "birthtime": "2017-06-24T01:47:19.000Z",
+      "atime": "2017-06-25T18:52:54.000Z",
+      "mtime": "2017-06-25T18:47:58.000Z",
+      "ctime": "2017-06-25T18:47:58.000Z",
+      "birthtime": "2017-06-25T18:47:58.000Z",
       "fields": {
         "slug": "//"
       }
@@ -1077,10 +1054,10 @@
       "extension": "js",
       "size": 1534,
       "prettySize": "1.53 kB",
-      "modifiedTime": "2017-06-24T01:47:19.000Z",
-      "accessTime": "2017-06-25T18:40:22.000Z",
-      "changeTime": "2017-06-24T01:47:19.000Z",
-      "birthTime": "2017-06-24T01:47:19.000Z",
+      "modifiedTime": "2017-06-25T18:47:58.000Z",
+      "accessTime": "2017-06-25T18:52:54.000Z",
+      "changeTime": "2017-06-25T18:47:58.000Z",
+      "birthTime": "2017-06-25T18:47:58.000Z",
       "root": "/",
       "dir": "/Users/austin/stuff/FuSC/src/pages",
       "base": "index.js",
@@ -1093,12 +1070,12 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 15707777,
+      "ino": 16020773,
       "blocks": 8,
-      "atime": "2017-06-25T18:40:22.000Z",
-      "mtime": "2017-06-24T01:47:19.000Z",
-      "ctime": "2017-06-24T01:47:19.000Z",
-      "birthtime": "2017-06-24T01:47:19.000Z",
+      "atime": "2017-06-25T18:52:54.000Z",
+      "mtime": "2017-06-25T18:47:58.000Z",
+      "ctime": "2017-06-25T18:47:58.000Z",
+      "birthtime": "2017-06-25T18:47:58.000Z",
       "fields": {
         "slug": "//"
       }
@@ -1122,10 +1099,10 @@
       "extension": "txt",
       "size": 24,
       "prettySize": "24 B",
-      "modifiedTime": "2017-06-24T01:47:19.000Z",
-      "accessTime": "2017-06-25T18:40:22.000Z",
-      "changeTime": "2017-06-24T01:47:19.000Z",
-      "birthTime": "2017-06-24T01:47:19.000Z",
+      "modifiedTime": "2017-06-25T18:47:58.000Z",
+      "accessTime": "2017-06-25T18:52:54.000Z",
+      "changeTime": "2017-06-25T18:47:58.000Z",
+      "birthTime": "2017-06-25T18:47:58.000Z",
       "root": "/",
       "dir": "/Users/austin/stuff/FuSC/src/pages",
       "base": "robots.txt",
@@ -1138,12 +1115,12 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 15707778,
+      "ino": 16020774,
       "blocks": 8,
-      "atime": "2017-06-25T18:40:22.000Z",
-      "mtime": "2017-06-24T01:47:19.000Z",
-      "ctime": "2017-06-24T01:47:19.000Z",
-      "birthtime": "2017-06-24T01:47:19.000Z",
+      "atime": "2017-06-25T18:52:54.000Z",
+      "mtime": "2017-06-25T18:47:58.000Z",
+      "ctime": "2017-06-25T18:47:58.000Z",
+      "birthtime": "2017-06-25T18:47:58.000Z",
       "fields": {
         "slug": "//"
       }
@@ -1170,7 +1147,7 @@
       "size": 5857,
       "prettySize": "5.86 kB",
       "modifiedTime": "2017-06-25T18:48:03.000Z",
-      "accessTime": "2017-06-25T18:50:34.000Z",
+      "accessTime": "2017-06-25T18:52:54.000Z",
       "changeTime": "2017-06-25T18:48:03.000Z",
       "birthTime": "2017-06-25T18:47:58.000Z",
       "root": "/",
@@ -1187,59 +1164,12 @@
       "blksize": 4096,
       "ino": 16020771,
       "blocks": 16,
-      "atime": "2017-06-25T18:50:34.000Z",
+      "atime": "2017-06-25T18:52:54.000Z",
       "mtime": "2017-06-25T18:48:03.000Z",
       "ctime": "2017-06-25T18:48:03.000Z",
       "birthtime": "2017-06-25T18:47:58.000Z",
       "fields": {
         "slug": "/2015-06-14-a-hollowing/"
-      }
-    },
-    "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file": {
-      "id": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file",
-      "children": [
-        "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "76f73499846c0bfea2c154d5d67badc8",
-        "mediaType": "text/x-markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md",
-      "relativePath": "2017-05-31-I-Still-Write-About-Comics/index.md",
-      "extension": "md",
-      "size": 6580,
-      "prettySize": "6.58 kB",
-      "modifiedTime": "2017-06-25T18:47:58.000Z",
-      "accessTime": "2017-06-25T18:50:34.000Z",
-      "changeTime": "2017-06-25T18:47:58.000Z",
-      "birthTime": "2017-06-25T18:47:58.000Z",
-      "root": "/",
-      "dir": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 16020766,
-      "blocks": 16,
-      "atime": "2017-06-25T18:50:34.000Z",
-      "mtime": "2017-06-25T18:47:58.000Z",
-      "ctime": "2017-06-25T18:47:58.000Z",
-      "birthtime": "2017-06-25T18:47:58.000Z",
-      "fields": {
-        "slug": "/2017-05-31-I-Still-Write-About-Comics/"
       }
     },
     "/Users/austin/stuff/FuSC/src/pages/2017-06-07-my-red-sprite-was-my-shit/index.md absPath of file": {
@@ -1264,7 +1194,7 @@
       "size": 9481,
       "prettySize": "9.48 kB",
       "modifiedTime": "2017-06-25T18:47:58.000Z",
-      "accessTime": "2017-06-25T18:50:34.000Z",
+      "accessTime": "2017-06-25T18:52:54.000Z",
       "changeTime": "2017-06-25T18:47:58.000Z",
       "birthTime": "2017-06-25T18:47:58.000Z",
       "root": "/",
@@ -1281,7 +1211,7 @@
       "blksize": 4096,
       "ino": 16020769,
       "blocks": 24,
-      "atime": "2017-06-25T18:50:34.000Z",
+      "atime": "2017-06-25T18:52:54.000Z",
       "mtime": "2017-06-25T18:47:58.000Z",
       "ctime": "2017-06-25T18:47:58.000Z",
       "birthtime": "2017-06-25T18:47:58.000Z",
@@ -1289,33 +1219,49 @@
         "slug": "/2017-06-07-my-red-sprite-was-my-shit/"
       }
     },
-    "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file",
+    "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file",
+      "children": [
+        "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3750298384dcf6958484fa1482034613",
-        "type": "MarkdownRemark",
+        "contentDigest": "76f73499846c0bfea2c154d5d67badc8",
         "mediaType": "text/x-markdown",
-        "content": "\n_Deja vu_ eh?\n\nWhen I started _Retcon Rasengan_ I did it because I needed a place where I wouldn't feel pressure to get things out on deadlines.  I also wanted to be able to do whatever I wanted format-wise and not feel bad about egregious picture placement or egregious word-vomit of the type I'm already indulging in now.\n\n<div style=\"\">\n  <figure class=\"floatCenter\">\n    <a target='_blank' href=\"http://retconrasengan.blogspot.com/2016/04/hand-sewn-domestic-female-aesthetic.html\">\n      <img class=\"linkImage\" style=\"max-height: 380px;padding: 30px; background-color: rgba(92,107,192, 0.1);border-radius: 3px;\" src=\"https://2.bp.blogspot.com/-0ipM8FHFpYo/VxaLuN9yRqI/AAAAAAAAFuM/mncK6PMa-Ccscl8Z1mgBgBltXv5Eu6TWQCKgB/w1200-h630-p-k-no-nu/kendrafemaleaestetic.png\">\n    </a>\n    <figcaption style=\"color: black;margin-top: -30px;\">RR was shortlived; my interview with Kendra Josie Kirkpatrick was a highlight</figcaption>\n  </figure>\n</div>\n\nBut I was going through some shit.\n\nBy the time early 2016 rolled around, I had been out of my Master's program for a full year and had no prospects for a job.  I started working part-time for a non-profit, which was certainly better than 1. nothing and 2. washing dishes; but... well, you get it, I hope.\n\nAnd I was so hungry to write. I started with the lovely folks at <a target='_blank' href='http://comicbastards.com'>Comic Bastards</a> when Dustin gave me a chance to shit up his sight fawning over _Naruto_ or spewing typographic venom at the very concept of motion comics.  I reached out to <a target='_blank' href='http://loser-city.com'>Loser City</a> to write even more, and have the unique pleasure of both resurrecting and re-murdering their newsletter.  I wrote a couple of pieces for Comics Beat after being approached by somebody who just straight up stopped responding to my DMs, which I mention not to be passive-aggressive but only because it's all pure humor to me now.  And, of course, the incomparable Danny Elk-elks started pestering me around the time RR was burning up in the atmosphere, pelting me with the absolute weirdest shit I had ever seen.  I still write for him over at <a target='_blank' href='http://comicsbulletin.com'>Comics Bulletin</a> and will continue to do so.  \n\n<div style=\"\">\n  <figure class=\"floatCenter\">\n    <a target='_blank' href=\"http://comicsbulletin.com/tiny-pages-made-ashes-51917-mirror-mirror-ii/\">\n    <img style=\"padding: 30px; background-color: rgba(92,107,192, 0.1); max-height: 480px;border-radius: 3px;\" src=\"https://i2.wp.com/comicsbulletin.com/wp-content/uploads/2017/05/Mirror-Mirror-II-cover.jpg?fit=798%2C1200\" alt=\"Mirror Mirror II Review\">\n    </a>\n    <figcaption style=\"color:black;margin-top:-30px;\">Peep my in-depth review of Mirror Mirror II</figcaption>\n  </figure>\n</div>\n\nI also once e-mailed Andrew Wheeler to write for Comics Alliance.  He never got back to me.  \n\nA better summation of my clout I cannot figure.\n\nI really enjoyed doing it.  Nothing felt better to me than when I would crush a book in a day or two and then proceed to wade through the canals that had formed in the space between my feelings and the most prominent artistic outcroppings of any given work.  If I write anything, it's because I felt like I could at least convey that to a _single_ person other than myself in a way that felt efficacious and sincere and not forced or pithy.\n\nBut the problem lies there as well.  Maybe it's not just comics twitter, but at certain points. the cynicism is infectious, and your ability to calibrate your motivations based on your own compass becomes seriously compromised when you let your empathy feed your self-pity rather than mediating the two. It's just so easy to internalize all the negativity in comic-dom, both the inevitable stuff and the nasty nastiness.\n\nCriticism, or even straight-up exploring a work in terms of what parts of it worked for you, is a way to share excitement and to share frustration; it is, somehow, simultaneously cathartic and taxing in ways that are hard to balance. If you leave that fucking sharingan on you can glean a lot, but you're going to fuck up your day; you were just trying to read a funnybook, you utter clown.\n\nI hope this is not trite, but it is a privilege to be able and willing to make the commitment to write regularly in general, let alone analyze, let alone share one's thoughts about works that others have created, or already engaged with in ways that often seem more interesting.  Life balance plays a huge part in that privilege, and it was one that I lacked as RR tapered off and one that I am lucky to have now. None of this is to even mention the fact that I have the unfortunately ultimate privilege of being a cis-het straight white guy who does not have to worry about the way in which a given space might respond to my particular voice.\n\nNobody is wrong for walking away. Often it is very obviously not a _lack_ of conviction that takes some of our most talented brothers and sisters out of the spotlight. Nobody has to do this. I mean, nobody has to do anything as far as hobbies go, right? And certainly nobody has to do _this_, this fucking.. what? Hobby _about_ a hobby?\n\nBut for me, I know I wasn't giving it my all.  And in the last year, I learned that I actually have one of those: an \"all\".  I also found my \"give a shit\" as well as my \"some semblance of time management,\" as if to feign adulthood.\n\nMore importantly, I love that navigation I mentioned earlier.  That tug-of-war between what seems to be the work-in-itself and my own reaction to it. When a book really clicks and you feel like you are on the same wavelength not as the author but the wavelength of the _book_, the _panel_, that _layout_-- when you can speak truth to the beauty in the rickety joints of that good ol' visual narrative syntax, it feels like walking somewhere you shouldn't be.  \n\nThe world seems bigger because you get to open up a space between yourself and a piece of art. There's a beautiful vulnerability there, opening your viewpoint to be part of this shared experience. \n\nIt's late, and I've spent enough time on me.\n\n<img style=\"max-height: 480px;\" src=\"http://fuckupsomecomics.com/posts/1/future_hendrix.png\" alt=\"And so\" />\n\nLet's fuck up some comics.\n\n\n\n\n\n\n",
-        "owner": "gatsby-transformer-remark",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
-      "frontmatter": {
-        "title": "I Used T-- I still write about comics",
-        "date": "2017-05-31T21:12:03.284Z",
-        "layout": "post",
-        "path": "/posts/1",
-        "readNext": "/posts/2",
-        "category": "",
-        "description": "Is this thing on?",
-        "indexImage": "https://static01.nyt.com/images/2016/06/15/dining/15PANCAKEGUIDE3-WEB/15PANCAKEGUIDE3-WEB-superJumbo.jpg",
-        "draft": false,
-        "parent": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file"
-      },
-      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md",
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md",
+      "relativePath": "2017-05-31-I-Still-Write-About-Comics/index.md",
+      "extension": "md",
+      "size": 6580,
+      "prettySize": "6.58 kB",
+      "modifiedTime": "2017-06-25T18:47:58.000Z",
+      "accessTime": "2017-06-25T18:52:54.000Z",
+      "changeTime": "2017-06-25T18:47:58.000Z",
+      "birthTime": "2017-06-25T18:47:58.000Z",
+      "root": "/",
+      "dir": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 16020766,
+      "blocks": 16,
+      "atime": "2017-06-25T18:52:54.000Z",
+      "mtime": "2017-06-25T18:47:58.000Z",
+      "ctime": "2017-06-25T18:47:58.000Z",
+      "birthtime": "2017-06-25T18:47:58.000Z",
       "fields": {
         "slug": "/2017-05-31-I-Still-Write-About-Comics/"
       }
@@ -1381,6 +1327,37 @@
         "slug": "/2017-06-07-my-red-sprite-was-my-shit/"
       }
     },
+    "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file",
+      "internal": {
+        "contentDigest": "3750298384dcf6958484fa1482034613",
+        "type": "MarkdownRemark",
+        "mediaType": "text/x-markdown",
+        "content": "\n_Deja vu_ eh?\n\nWhen I started _Retcon Rasengan_ I did it because I needed a place where I wouldn't feel pressure to get things out on deadlines.  I also wanted to be able to do whatever I wanted format-wise and not feel bad about egregious picture placement or egregious word-vomit of the type I'm already indulging in now.\n\n<div style=\"\">\n  <figure class=\"floatCenter\">\n    <a target='_blank' href=\"http://retconrasengan.blogspot.com/2016/04/hand-sewn-domestic-female-aesthetic.html\">\n      <img class=\"linkImage\" style=\"max-height: 380px;padding: 30px; background-color: rgba(92,107,192, 0.1);border-radius: 3px;\" src=\"https://2.bp.blogspot.com/-0ipM8FHFpYo/VxaLuN9yRqI/AAAAAAAAFuM/mncK6PMa-Ccscl8Z1mgBgBltXv5Eu6TWQCKgB/w1200-h630-p-k-no-nu/kendrafemaleaestetic.png\">\n    </a>\n    <figcaption style=\"color: black;margin-top: -30px;\">RR was shortlived; my interview with Kendra Josie Kirkpatrick was a highlight</figcaption>\n  </figure>\n</div>\n\nBut I was going through some shit.\n\nBy the time early 2016 rolled around, I had been out of my Master's program for a full year and had no prospects for a job.  I started working part-time for a non-profit, which was certainly better than 1. nothing and 2. washing dishes; but... well, you get it, I hope.\n\nAnd I was so hungry to write. I started with the lovely folks at <a target='_blank' href='http://comicbastards.com'>Comic Bastards</a> when Dustin gave me a chance to shit up his sight fawning over _Naruto_ or spewing typographic venom at the very concept of motion comics.  I reached out to <a target='_blank' href='http://loser-city.com'>Loser City</a> to write even more, and have the unique pleasure of both resurrecting and re-murdering their newsletter.  I wrote a couple of pieces for Comics Beat after being approached by somebody who just straight up stopped responding to my DMs, which I mention not to be passive-aggressive but only because it's all pure humor to me now.  And, of course, the incomparable Danny Elk-elks started pestering me around the time RR was burning up in the atmosphere, pelting me with the absolute weirdest shit I had ever seen.  I still write for him over at <a target='_blank' href='http://comicsbulletin.com'>Comics Bulletin</a> and will continue to do so.  \n\n<div style=\"\">\n  <figure class=\"floatCenter\">\n    <a target='_blank' href=\"http://comicsbulletin.com/tiny-pages-made-ashes-51917-mirror-mirror-ii/\">\n    <img style=\"padding: 30px; background-color: rgba(92,107,192, 0.1); max-height: 480px;border-radius: 3px;\" src=\"https://i2.wp.com/comicsbulletin.com/wp-content/uploads/2017/05/Mirror-Mirror-II-cover.jpg?fit=798%2C1200\" alt=\"Mirror Mirror II Review\">\n    </a>\n    <figcaption style=\"color:black;margin-top:-30px;\">Peep my in-depth review of Mirror Mirror II</figcaption>\n  </figure>\n</div>\n\nI also once e-mailed Andrew Wheeler to write for Comics Alliance.  He never got back to me.  \n\nA better summation of my clout I cannot figure.\n\nI really enjoyed doing it.  Nothing felt better to me than when I would crush a book in a day or two and then proceed to wade through the canals that had formed in the space between my feelings and the most prominent artistic outcroppings of any given work.  If I write anything, it's because I felt like I could at least convey that to a _single_ person other than myself in a way that felt efficacious and sincere and not forced or pithy.\n\nBut the problem lies there as well.  Maybe it's not just comics twitter, but at certain points. the cynicism is infectious, and your ability to calibrate your motivations based on your own compass becomes seriously compromised when you let your empathy feed your self-pity rather than mediating the two. It's just so easy to internalize all the negativity in comic-dom, both the inevitable stuff and the nasty nastiness.\n\nCriticism, or even straight-up exploring a work in terms of what parts of it worked for you, is a way to share excitement and to share frustration; it is, somehow, simultaneously cathartic and taxing in ways that are hard to balance. If you leave that fucking sharingan on you can glean a lot, but you're going to fuck up your day; you were just trying to read a funnybook, you utter clown.\n\nI hope this is not trite, but it is a privilege to be able and willing to make the commitment to write regularly in general, let alone analyze, let alone share one's thoughts about works that others have created, or already engaged with in ways that often seem more interesting.  Life balance plays a huge part in that privilege, and it was one that I lacked as RR tapered off and one that I am lucky to have now. None of this is to even mention the fact that I have the unfortunately ultimate privilege of being a cis-het straight white guy who does not have to worry about the way in which a given space might respond to my particular voice.\n\nNobody is wrong for walking away. Often it is very obviously not a _lack_ of conviction that takes some of our most talented brothers and sisters out of the spotlight. Nobody has to do this. I mean, nobody has to do anything as far as hobbies go, right? And certainly nobody has to do _this_, this fucking.. what? Hobby _about_ a hobby?\n\nBut for me, I know I wasn't giving it my all.  And in the last year, I learned that I actually have one of those: an \"all\".  I also found my \"give a shit\" as well as my \"some semblance of time management,\" as if to feign adulthood.\n\nMore importantly, I love that navigation I mentioned earlier.  That tug-of-war between what seems to be the work-in-itself and my own reaction to it. When a book really clicks and you feel like you are on the same wavelength not as the author but the wavelength of the _book_, the _panel_, that _layout_-- when you can speak truth to the beauty in the rickety joints of that good ol' visual narrative syntax, it feels like walking somewhere you shouldn't be.  \n\nThe world seems bigger because you get to open up a space between yourself and a piece of art. There's a beautiful vulnerability there, opening your viewpoint to be part of this shared experience. \n\nIt's late, and I've spent enough time on me.\n\n<img style=\"max-height: 480px;\" src=\"http://fuckupsomecomics.com/posts/1/future_hendrix.png\" alt=\"And so\" />\n\nLet's fuck up some comics.\n\n\n\n\n\n\n",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "I Used T-- I still write about comics",
+        "date": "2017-05-31T21:12:03.284Z",
+        "layout": "post",
+        "path": "/posts/1",
+        "readNext": "/posts/2",
+        "category": "",
+        "description": "Is this thing on?",
+        "indexImage": "https://static01.nyt.com/images/2016/06/15/dining/15PANCAKEGUIDE3-WEB/15PANCAKEGUIDE3-WEB-superJumbo.jpg",
+        "draft": false,
+        "parent": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md",
+      "fields": {
+        "slug": "/2017-05-31-I-Still-Write-About-Comics/"
+      }
+    },
     "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/salty_egg.jpg absPath of file": {
       "id": "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/salty_egg.jpg absPath of file",
       "children": [
@@ -1403,7 +1380,7 @@
       "size": 684322,
       "prettySize": "684 kB",
       "modifiedTime": "2017-06-25T18:47:58.000Z",
-      "accessTime": "2017-06-25T18:50:34.000Z",
+      "accessTime": "2017-06-25T18:52:54.000Z",
       "changeTime": "2017-06-25T18:47:58.000Z",
       "birthTime": "2017-06-25T18:47:58.000Z",
       "root": "/",
@@ -1420,7 +1397,7 @@
       "blksize": 4096,
       "ino": 16020767,
       "blocks": 1344,
-      "atime": "2017-06-25T18:50:34.000Z",
+      "atime": "2017-06-25T18:52:54.000Z",
       "mtime": "2017-06-25T18:47:58.000Z",
       "ctime": "2017-06-25T18:47:58.000Z",
       "birthtime": "2017-06-25T18:47:58.000Z",
@@ -1439,23 +1416,21 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /2017-05-31-I-Still-Write-About-Comics/": {
-      "path": "/2017-05-31-I-Still-Write-About-Comics/",
-      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
-      "context": {
-        "slug": "/2017-05-31-I-Still-Write-About-Comics/"
-      },
-      "componentChunkName": "page-component---src-templates-blog-post-js",
-      "jsonName": "2017-05-31-i-still-write-about-comics.json",
-      "internalComponentName": "Component20170531IStillWriteAboutComics",
-      "id": "SitePage /2017-05-31-I-Still-Write-About-Comics/",
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "page-component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "context": {},
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "mediaType": "application/json",
         "type": "SitePage",
-        "content": "{\"path\":\"/2017-05-31-I-Still-Write-About-Comics/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/2017-05-31-I-Still-Write-About-Comics/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"2017-05-31-i-still-write-about-comics.json\",\"internalComponentName\":\"Component20170531IStillWriteAboutComics\"}",
-        "contentDigest": "380a711a3e59b25c3c31fff73030d14b",
+        "content": "{\"path\":\"/offline-plugin-app-shell-fallback/\",\"component\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-offline/app-shell.js\",\"componentChunkName\":\"page-component---node-modules-gatsby-plugin-offline-app-shell-js\",\"jsonName\":\"offline-plugin-app-shell-fallback.json\",\"internalComponentName\":\"ComponentOfflinePluginAppShellFallback\",\"context\":{}}",
+        "contentDigest": "d93bf4ee35deb263b8318aa86ec41cf8",
         "owner": "internal-data-bridge"
       }
     },
@@ -1499,6 +1474,26 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /2017-05-31-I-Still-Write-About-Comics/": {
+      "path": "/2017-05-31-I-Still-Write-About-Comics/",
+      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
+      "context": {
+        "slug": "/2017-05-31-I-Still-Write-About-Comics/"
+      },
+      "componentChunkName": "page-component---src-templates-blog-post-js",
+      "jsonName": "2017-05-31-i-still-write-about-comics.json",
+      "internalComponentName": "Component20170531IStillWriteAboutComics",
+      "id": "SitePage /2017-05-31-I-Still-Write-About-Comics/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/2017-05-31-I-Still-Write-About-Comics/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/2017-05-31-I-Still-Write-About-Comics/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"2017-05-31-i-still-write-about-comics.json\",\"internalComponentName\":\"Component20170531IStillWriteAboutComics\"}",
+        "contentDigest": "380a711a3e59b25c3c31fff73030d14b",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /": {
       "path": "/",
       "component": "/Users/austin/stuff/FuSC/src/pages/index.js",
@@ -1525,39 +1520,24 @@
   "pageDataDependencies": {
     "nodes": {
       "Site": [
-        "/2015-05-06-my-second-post/",
-        "/2015-05-01-hello-world/",
-        "/2015-05-28-hi-folks/",
-        "/",
-        "/2017-05-31-I-Still-Write-About-Comics/",
         "/2015-06-14-a-hollowing/",
-        "/2017-06-07-my-red-sprite-was-my-shit/"
-      ],
-      "/Users/austin/stuff/FuSC/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark": [
-        "/2015-05-06-my-second-post/"
-      ],
-      "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark": [
-        "/2015-05-01-hello-world/"
-      ],
-      "/Users/austin/stuff/FuSC/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark": [
-        "/2015-05-28-hi-folks/"
-      ],
-      "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file >>> MarkdownRemark": [
-        "/2017-05-31-I-Still-Write-About-Comics/"
+        "/2017-06-07-my-red-sprite-was-my-shit/",
+        "/2017-05-31-I-Still-Write-About-Comics/",
+        "/"
       ],
       "/Users/austin/stuff/FuSC/src/pages/2015-06-14-a-hollowing/index.md absPath of file >>> MarkdownRemark": [
         "/2015-06-14-a-hollowing/"
       ],
       "/Users/austin/stuff/FuSC/src/pages/2017-06-07-my-red-sprite-was-my-shit/index.md absPath of file >>> MarkdownRemark": [
         "/2017-06-07-my-red-sprite-was-my-shit/"
+      ],
+      "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-Still-Write-About-Comics/index.md absPath of file >>> MarkdownRemark": [
+        "/2017-05-31-I-Still-Write-About-Comics/"
       ]
     },
     "connections": {
       "MarkdownRemark": [
         "/"
-      ],
-      "SitePage": [
-        "/dev-404-page/"
       ]
     }
   }

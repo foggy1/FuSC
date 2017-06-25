@@ -29,12 +29,12 @@ class Bio extends React.Component {
         />
         Written by
         {" "}
-        <strong>Austin Lanari</strong>
+        <strong>Foggy</strong>
         {" "}
-        who lives and works in San Francisco building useful things.
+        who likes to build and write about cool stuff.
         {" "}
         <a href="https://twitter.com/austinlanari">
-          You should follow him on Twitter
+          @AustinLanari on twitter.
         </a>
       </p>
     )

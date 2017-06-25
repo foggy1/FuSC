@@ -10,16 +10,6 @@
                 {
                     "node": {
                         "fields": {
-                            "slug": "/2017-05-31-I-Still-Write-About-Comics/"
-                        },
-                        "frontmatter": {
-                            "title": "I Used T-- I still write about comics"
-                        }
-                    }
-                },
-                {
-                    "node": {
-                        "fields": {
                             "slug": "/2015-06-14-a-hollowing/"
                         },
                         "frontmatter": {
@@ -34,6 +24,16 @@
                         },
                         "frontmatter": {
                             "title": "Red Sprite was my Shit"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/2017-05-31-I-Still-Write-About-Comics/"
+                        },
+                        "frontmatter": {
+                            "title": "I Used T-- I still write about comics"
                         }
                     }
                 }
