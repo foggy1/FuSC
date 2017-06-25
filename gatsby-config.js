@@ -2,7 +2,6 @@ module.exports = {
   siteMetadata: {
     title: "Fuck Up Some Comics",
     author: "Austin Lanari",
-    
   },
   plugins: [
     {
@@ -39,7 +38,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-80918633-2`,
+        //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
     `gatsby-plugin-offline`,
