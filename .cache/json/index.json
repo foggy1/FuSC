@@ -40,20 +40,20 @@
                 {
                     "node": {
                         "fields": {
-                            "slug": "/about/"
+                            "slug": "/contact/"
                         },
                         "frontmatter": {
-                            "title": "About me"
+                            "title": "Contact me"
                         }
                     }
                 },
                 {
                     "node": {
                         "fields": {
-                            "slug": "/contact/"
+                            "slug": "/about/"
                         },
                         "frontmatter": {
-                            "title": "Contact me"
+                            "title": "About me"
                         }
                     }
                 }
