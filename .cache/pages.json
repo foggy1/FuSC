@@ -1,0 +1,37 @@
+[
+    {
+        "componentChunkName": "page-component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-blog-post-js",
+        "jsonName": "2017-05-31-i-still-write-about-comics.json",
+        "path": "/2017-05-31-I-still-write-about-comics/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-blog-post-js",
+        "jsonName": "2017-06-07-red-sprite-had-potential.json",
+        "path": "/2017-06-07-Red-Sprite-Had-Potential/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-blog-post-js",
+        "jsonName": "2017-06-13-a-hollowing.json",
+        "path": "/2017-06-13-A-Hollowing/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-blog-post-js",
+        "jsonName": "about.json",
+        "path": "/about/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-blog-post-js",
+        "jsonName": "contact.json",
+        "path": "/contact/"
+    },
+    {
+        "componentChunkName": "page-component---src-pages-index-jsx",
+        "jsonName": "index.json",
+        "path": "/"
+    }
+]

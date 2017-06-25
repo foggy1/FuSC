@@ -1,0 +1,21 @@
+{
+    "data": {
+        "site": {
+            "siteMetadata": {
+                "title": "Fuck Up Some Comics",
+                "author": "Austin Lanari"
+            }
+        },
+        "markdownRemark": {
+            "id": "/Users/austin/stuff/FuSC/src/pages/contact/index.md absPath of file >>> MarkdownRemark",
+            "html": "",
+            "frontmatter": {
+                "title": "Contact me",
+                "date": "Invalid date"
+            }
+        }
+    },
+    "pathContext": {
+        "slug": "/contact/"
+    }
+}
