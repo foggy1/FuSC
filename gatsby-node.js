@@ -3,12 +3,13 @@ const Promise = require("bluebird")
 const path = require("path")
 const select = require(`unist-util-select`)
 const fs = require(`fs-extra`)
+const get = require('lodash/get')
+const { slugify } = require('transliteration')
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators
 
   return new Promise((resolve, reject) => {
-    const pages = []
     const blogPost = path.resolve("./src/templates/blog-post.js")
     resolve(
       graphql(
@@ -20,25 +21,34 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               fields {
                 slug
               }
+              frontmatter {
+                layout
+              }
             }
           }
         }
       }
     `
-      ).then(result => {
-        if (result.errors) {
-          console.log(result.errors)
-          reject(result.errors)
+      ).then(({ errors, data }) => {
+        if (errors) {
+          console.log(errors)
+          reject(errors)
         }
 
         // Create blog posts pages.
-        _.each(result.data.allMarkdownRemark.edges, edge => {
+        data.allMarkdownRemark.edges.forEach(edge => {
+          const slug = get(edge, 'node.fields.slug')
+          if (!slug) {
+            return
+          }
+          console.log(edge.node.frontmatter)
+          const { layout } = edge.node.frontmatter
           createPage({
-            path: edge.node.fields.slug, // required
+            path: edge.node.fields.slug,
             component: blogPost,
             context: {
-              slug: edge.node.fields.slug,
-            },
+              slug: edge.node.fields.slug
+            }
           })
         })
       })
@@ -53,7 +63,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   switch (node.internal.type) {
     case 'File':
       const parsedFilePath = path.parse(node.relativePath)
-      const slug = `/${parsedFilePath.dir}/`
+      let slug = `/${parsedFilePath.dir}/`
       createNodeField({
         node,
         fieldName: 'slug',
@@ -62,12 +72,38 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
       return
 
     case 'MarkdownRemark':
-      const fileNode = getNode(node.parent)
-      createNodeField({
-        node,
-        fieldName: 'slug',
-        fieldValue: fileNode.fields.slug,
-      })
+    
+      if (node.frontmatter.path) {
+        slug = cleanSlashes(node.frontmatter.path)
+      } else if (node.frontmatter.title) {
+        slug = slugify(node.frontmatter.title)
+      } else {
+        slug = node.relativePath
+      }
       return
   }
+}
+
+function ensureSlashes (slug) {
+  if (slug.charAt(0) !== '/') {
+    slug = '/' + slug
+  }
+
+  if (slug.charAt(slug.length -1) !== '/') {
+    slug = slug + '/'
+  }
+
+  return slug
+}
+
+function cleanSlashes (slug) {
+  if (slug.charAt(0) === '/') {
+    slug = slug.slice(1)
+  }
+
+  if (slug.charAt(slug.length - 1) === '/') {
+    slug = slug.slice(0, -1)
+  }
+
+  return slug
 }
