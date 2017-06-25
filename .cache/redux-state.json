@@ -1,20 +1,15 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "component": "/Users/austin/stuff/FuSC/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
-      "componentChunkName": "page-component---cache-dev-404-page-js",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
-      "context": {},
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "mediaType": "application/json",
         "type": "SitePage",
-        "content": "{\"component\":\"/Users/austin/stuff/FuSC/.cache/dev-404-page.js\",\"path\":\"/dev-404-page/\",\"componentChunkName\":\"page-component---cache-dev-404-page-js\",\"jsonName\":\"dev-404-page.json\",\"internalComponentName\":\"ComponentDev404Page\",\"context\":{}}",
-        "contentDigest": "72c2183cd815869951c2b17ea11f1700",
+        "content": "{\"path\":\"/dev-404-page/\"}",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -986,15 +981,13 @@
         "title": "Fuck Up Some Comics",
         "author": "Austin Lanari"
       },
-      "port": "8000",
-      "host": "localhost",
-      "buildTime": "2017-06-25T16:58:11.481Z",
+      "buildTime": "2017-06-25T18:11:28.690Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6965da2f22be134b035f22b7d6e62e0d",
-        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"author\":\"Austin Lanari\"},\"port\":\"8000\",\"host\":\"localhost\",\"buildTime\":\"2017-06-25T16:58:11.481Z\"}",
+        "contentDigest": "b0ac8517fffca089541f0a650beb3fdb",
+        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"author\":\"Austin Lanari\"},\"buildTime\":\"2017-06-25T18:11:28.690Z\"}",
         "mediaType": "application/json",
         "type": "Site",
         "owner": "internal-data-bridge"
@@ -1020,7 +1013,7 @@
       "size": 20,
       "prettySize": "20 B",
       "modifiedTime": "2017-06-25T16:00:28.000Z",
-      "accessTime": "2017-06-25T16:53:54.000Z",
+      "accessTime": "2017-06-25T18:11:29.000Z",
       "changeTime": "2017-06-25T16:00:28.000Z",
       "birthTime": "2017-06-25T16:00:28.000Z",
       "root": "/",
@@ -1037,7 +1030,7 @@
       "blksize": 4096,
       "ino": 15893356,
       "blocks": 8,
-      "atime": "2017-06-25T16:53:54.000Z",
+      "atime": "2017-06-25T18:11:29.000Z",
       "mtime": "2017-06-25T16:00:28.000Z",
       "ctime": "2017-06-25T16:00:28.000Z",
       "birthtime": "2017-06-25T16:00:28.000Z",
@@ -1065,7 +1058,7 @@
       "size": 1916,
       "prettySize": "1.92 kB",
       "modifiedTime": "2017-06-25T16:00:28.000Z",
-      "accessTime": "2017-06-25T16:53:54.000Z",
+      "accessTime": "2017-06-25T18:11:29.000Z",
       "changeTime": "2017-06-25T16:00:28.000Z",
       "birthTime": "2017-06-25T16:00:28.000Z",
       "root": "/",
@@ -1082,7 +1075,7 @@
       "blksize": 4096,
       "ino": 15893366,
       "blocks": 8,
-      "atime": "2017-06-25T16:53:54.000Z",
+      "atime": "2017-06-25T18:11:29.000Z",
       "mtime": "2017-06-25T16:00:28.000Z",
       "ctime": "2017-06-25T16:00:28.000Z",
       "birthtime": "2017-06-25T16:00:28.000Z",
@@ -1110,7 +1103,7 @@
       "size": 1533,
       "prettySize": "1.53 kB",
       "modifiedTime": "2017-06-25T16:13:19.000Z",
-      "accessTime": "2017-06-25T16:53:54.000Z",
+      "accessTime": "2017-06-25T18:11:29.000Z",
       "changeTime": "2017-06-25T16:13:19.000Z",
       "birthTime": "2017-06-25T16:00:28.000Z",
       "root": "/",
@@ -1127,7 +1120,7 @@
       "blksize": 4096,
       "ino": 15893367,
       "blocks": 8,
-      "atime": "2017-06-25T16:53:54.000Z",
+      "atime": "2017-06-25T18:11:29.000Z",
       "mtime": "2017-06-25T16:13:19.000Z",
       "ctime": "2017-06-25T16:13:19.000Z",
       "birthtime": "2017-06-25T16:00:28.000Z",
@@ -1157,7 +1150,7 @@
       "size": 24875,
       "prettySize": "24.9 kB",
       "modifiedTime": "2017-06-25T16:00:28.000Z",
-      "accessTime": "2017-06-25T16:53:54.000Z",
+      "accessTime": "2017-06-25T18:11:29.000Z",
       "changeTime": "2017-06-25T16:00:28.000Z",
       "birthTime": "2017-06-25T16:00:28.000Z",
       "root": "/",
@@ -1174,59 +1167,12 @@
       "blksize": 4096,
       "ino": 15893373,
       "blocks": 56,
-      "atime": "2017-06-25T16:53:54.000Z",
+      "atime": "2017-06-25T18:11:29.000Z",
       "mtime": "2017-06-25T16:00:28.000Z",
       "ctime": "2017-06-25T16:00:28.000Z",
       "birthtime": "2017-06-25T16:00:28.000Z",
       "fields": {
         "slug": "//"
-      }
-    },
-    "/Users/austin/stuff/FuSC/src/pages/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file": {
-      "id": "/Users/austin/stuff/FuSC/src/pages/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file",
-      "children": [
-        "/Users/austin/stuff/FuSC/src/pages/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "e625aa19178f4d3a3e04a58f8ea7e697",
-        "mediaType": "text/x-markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/2017-06-07-Red-Sprite-Had-Potential/index.md",
-      "relativePath": "2017-06-07-Red-Sprite-Had-Potential/index.md",
-      "extension": "md",
-      "size": 9468,
-      "prettySize": "9.47 kB",
-      "modifiedTime": "2017-06-25T16:00:28.000Z",
-      "accessTime": "2017-06-25T16:53:54.000Z",
-      "changeTime": "2017-06-25T16:00:28.000Z",
-      "birthTime": "2017-06-25T16:00:28.000Z",
-      "root": "/",
-      "dir": "/Users/austin/stuff/FuSC/src/pages/2017-06-07-Red-Sprite-Had-Potential",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 15893363,
-      "blocks": 24,
-      "atime": "2017-06-25T16:53:54.000Z",
-      "mtime": "2017-06-25T16:00:28.000Z",
-      "ctime": "2017-06-25T16:00:28.000Z",
-      "birthtime": "2017-06-25T16:00:28.000Z",
-      "fields": {
-        "slug": "/2017-06-07-Red-Sprite-Had-Potential/"
       }
     },
     "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-still-write-about-comics/index.md absPath of file": {
@@ -1251,7 +1197,7 @@
       "size": 6567,
       "prettySize": "6.57 kB",
       "modifiedTime": "2017-06-25T16:00:28.000Z",
-      "accessTime": "2017-06-25T16:53:54.000Z",
+      "accessTime": "2017-06-25T18:11:29.000Z",
       "changeTime": "2017-06-25T16:00:28.000Z",
       "birthTime": "2017-06-25T16:00:28.000Z",
       "root": "/",
@@ -1268,12 +1214,59 @@
       "blksize": 4096,
       "ino": 15893361,
       "blocks": 16,
-      "atime": "2017-06-25T16:53:54.000Z",
+      "atime": "2017-06-25T18:11:29.000Z",
       "mtime": "2017-06-25T16:00:28.000Z",
       "ctime": "2017-06-25T16:00:28.000Z",
       "birthtime": "2017-06-25T16:00:28.000Z",
       "fields": {
         "slug": "/2017-05-31-I-still-write-about-comics/"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file",
+      "children": [
+        "/Users/austin/stuff/FuSC/src/pages/2017-06-07-Red-Sprite-Had-Potential/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e625aa19178f4d3a3e04a58f8ea7e697",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/2017-06-07-Red-Sprite-Had-Potential/index.md",
+      "relativePath": "2017-06-07-Red-Sprite-Had-Potential/index.md",
+      "extension": "md",
+      "size": 9468,
+      "prettySize": "9.47 kB",
+      "modifiedTime": "2017-06-25T16:00:28.000Z",
+      "accessTime": "2017-06-25T18:11:29.000Z",
+      "changeTime": "2017-06-25T16:00:28.000Z",
+      "birthTime": "2017-06-25T16:00:28.000Z",
+      "root": "/",
+      "dir": "/Users/austin/stuff/FuSC/src/pages/2017-06-07-Red-Sprite-Had-Potential",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15893363,
+      "blocks": 24,
+      "atime": "2017-06-25T18:11:29.000Z",
+      "mtime": "2017-06-25T16:00:28.000Z",
+      "ctime": "2017-06-25T16:00:28.000Z",
+      "birthtime": "2017-06-25T16:00:28.000Z",
+      "fields": {
+        "slug": "/2017-06-07-Red-Sprite-Had-Potential/"
       }
     },
     "/Users/austin/stuff/FuSC/src/pages/2017-06-13-A-Hollowing/index.md absPath of file": {
@@ -1298,7 +1291,7 @@
       "size": 5844,
       "prettySize": "5.84 kB",
       "modifiedTime": "2017-06-25T16:00:28.000Z",
-      "accessTime": "2017-06-25T16:53:54.000Z",
+      "accessTime": "2017-06-25T18:11:29.000Z",
       "changeTime": "2017-06-25T16:00:28.000Z",
       "birthTime": "2017-06-25T16:00:28.000Z",
       "root": "/",
@@ -1315,7 +1308,7 @@
       "blksize": 4096,
       "ino": 15893365,
       "blocks": 16,
-      "atime": "2017-06-25T16:53:54.000Z",
+      "atime": "2017-06-25T18:11:29.000Z",
       "mtime": "2017-06-25T16:00:28.000Z",
       "ctime": "2017-06-25T16:00:28.000Z",
       "birthtime": "2017-06-25T16:00:28.000Z",
@@ -1345,7 +1338,7 @@
       "size": 433,
       "prettySize": "433 B",
       "modifiedTime": "2017-06-25T16:00:28.000Z",
-      "accessTime": "2017-06-25T16:53:54.000Z",
+      "accessTime": "2017-06-25T18:11:29.000Z",
       "changeTime": "2017-06-25T16:00:28.000Z",
       "birthTime": "2017-06-25T16:00:28.000Z",
       "root": "/",
@@ -1362,7 +1355,7 @@
       "blksize": 4096,
       "ino": 15893370,
       "blocks": 8,
-      "atime": "2017-06-25T16:53:54.000Z",
+      "atime": "2017-06-25T18:11:29.000Z",
       "mtime": "2017-06-25T16:00:28.000Z",
       "ctime": "2017-06-25T16:00:28.000Z",
       "birthtime": "2017-06-25T16:00:28.000Z",
@@ -1392,7 +1385,7 @@
       "size": 59,
       "prettySize": "59 B",
       "modifiedTime": "2017-06-25T16:00:28.000Z",
-      "accessTime": "2017-06-25T16:53:54.000Z",
+      "accessTime": "2017-06-25T18:11:29.000Z",
       "changeTime": "2017-06-25T16:00:28.000Z",
       "birthTime": "2017-06-25T16:00:28.000Z",
       "root": "/",
@@ -1409,7 +1402,7 @@
       "blksize": 4096,
       "ino": 15893372,
       "blocks": 8,
-      "atime": "2017-06-25T16:53:54.000Z",
+      "atime": "2017-06-25T18:11:29.000Z",
       "mtime": "2017-06-25T16:00:28.000Z",
       "ctime": "2017-06-25T16:00:28.000Z",
       "birthtime": "2017-06-25T16:00:28.000Z",
@@ -1450,7 +1443,7 @@
       "size": 150350,
       "prettySize": "150 kB",
       "modifiedTime": "2017-06-25T16:00:28.000Z",
-      "accessTime": "2017-06-25T16:53:54.000Z",
+      "accessTime": "2017-06-25T18:11:29.000Z",
       "changeTime": "2017-06-25T16:00:28.000Z",
       "birthTime": "2017-06-25T16:00:28.000Z",
       "root": "/",
@@ -1467,7 +1460,7 @@
       "blksize": 4096,
       "ino": 15893360,
       "blocks": 296,
-      "atime": "2017-06-25T16:53:54.000Z",
+      "atime": "2017-06-25T18:11:29.000Z",
       "mtime": "2017-06-25T16:00:28.000Z",
       "ctime": "2017-06-25T16:00:28.000Z",
       "birthtime": "2017-06-25T16:00:28.000Z",
@@ -1575,6 +1568,31 @@
         "slug": "/2017-06-13-A-Hollowing/"
       }
     },
+    "/Users/austin/stuff/FuSC/src/pages/contact/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/contact/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/austin/stuff/FuSC/src/pages/contact/index.md absPath of file",
+      "internal": {
+        "contentDigest": "7c349558476db5e815c2bb98e722c9b7",
+        "type": "MarkdownRemark",
+        "mediaType": "text/x-markdown",
+        "content": "\n",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Contact me",
+        "layout": "page",
+        "path": "/contact",
+        "parent": "/Users/austin/stuff/FuSC/src/pages/contact/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/contact/index.md",
+      "fields": {
+        "slug": "/contact/"
+      }
+    },
     "/Users/austin/stuff/FuSC/src/pages/about/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/austin/stuff/FuSC/src/pages/about/index.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -1600,29 +1618,22 @@
         "slug": "/about/"
       }
     },
-    "/Users/austin/stuff/FuSC/src/pages/contact/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/austin/stuff/FuSC/src/pages/contact/index.md absPath of file >>> MarkdownRemark",
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "page-component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "context": {},
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
       "children": [],
-      "parent": "/Users/austin/stuff/FuSC/src/pages/contact/index.md absPath of file",
       "internal": {
-        "contentDigest": "7c349558476db5e815c2bb98e722c9b7",
-        "type": "MarkdownRemark",
-        "mediaType": "text/x-markdown",
-        "content": "\n",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Contact me",
-        "layout": "page",
-        "path": "/contact",
-        "parent": "/Users/austin/stuff/FuSC/src/pages/contact/index.md absPath of file"
-      },
-      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/contact/index.md",
-      "fields": {
-        "slug": "/contact/"
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/offline-plugin-app-shell-fallback/\",\"component\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-offline/app-shell.js\",\"componentChunkName\":\"page-component---node-modules-gatsby-plugin-offline-app-shell-js\",\"jsonName\":\"offline-plugin-app-shell-fallback.json\",\"internalComponentName\":\"ComponentOfflinePluginAppShellFallback\",\"context\":{}}",
+        "contentDigest": "d93bf4ee35deb263b8318aa86ec41cf8",
+        "owner": "internal-data-bridge"
       }
     },
     "SitePage /2017-05-31-I-still-write-about-comics/": {
@@ -1685,26 +1696,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /about/": {
-      "path": "/about/",
-      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
-      "context": {
-        "slug": "/about/"
-      },
-      "componentChunkName": "page-component---src-templates-blog-post-js",
-      "jsonName": "about.json",
-      "internalComponentName": "ComponentAbout",
-      "id": "SitePage /about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "mediaType": "application/json",
-        "type": "SitePage",
-        "content": "{\"path\":\"/about/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/about/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"about.json\",\"internalComponentName\":\"ComponentAbout\"}",
-        "contentDigest": "16120fd9d6b3e7791a75fbe61d2f29fb",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /contact/": {
       "path": "/contact/",
       "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
@@ -1722,6 +1713,26 @@
         "type": "SitePage",
         "content": "{\"path\":\"/contact/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/contact/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"contact.json\",\"internalComponentName\":\"ComponentContact\"}",
         "contentDigest": "83e7fe5f08b263f7627c22c29a967f44",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "path": "/about/",
+      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
+      "context": {
+        "slug": "/about/"
+      },
+      "componentChunkName": "page-component---src-templates-blog-post-js",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/about/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/about/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"about.json\",\"internalComponentName\":\"ComponentAbout\"}",
+        "contentDigest": "16120fd9d6b3e7791a75fbe61d2f29fb",
         "owner": "internal-data-bridge"
       }
     },
@@ -1746,7 +1757,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "0dc6c230c057433d4643c4640cc31ef1"
+    "PLUGINS_HASH": "84865a2d5b08e08a758378cd1f500b4d"
   },
   "pageDataDependencies": {
     "nodes": {
@@ -1754,8 +1765,8 @@
         "/2017-05-31-I-still-write-about-comics/",
         "/2017-06-07-Red-Sprite-Had-Potential/",
         "/2017-06-13-A-Hollowing/",
-        "/about/",
         "/contact/",
+        "/about/",
         "/"
       ],
       "/Users/austin/stuff/FuSC/src/pages/2017-05-31-I-still-write-about-comics/index.md absPath of file >>> MarkdownRemark": [
@@ -1767,17 +1778,14 @@
       "/Users/austin/stuff/FuSC/src/pages/2017-06-13-A-Hollowing/index.md absPath of file >>> MarkdownRemark": [
         "/2017-06-13-A-Hollowing/"
       ],
-      "/Users/austin/stuff/FuSC/src/pages/about/index.md absPath of file >>> MarkdownRemark": [
-        "/about/"
-      ],
       "/Users/austin/stuff/FuSC/src/pages/contact/index.md absPath of file >>> MarkdownRemark": [
         "/contact/"
+      ],
+      "/Users/austin/stuff/FuSC/src/pages/about/index.md absPath of file >>> MarkdownRemark": [
+        "/about/"
       ]
     },
     "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ],
       "MarkdownRemark": [
         "/"
       ]
