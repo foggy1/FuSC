@@ -1,0 +1,40 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 6,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/2017-05-31-I-still-write-about-comics/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/2017-06-07-Red-Sprite-Had-Potential/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/2017-06-13-A-Hollowing/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/about/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/contact/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}

@@ -1,0 +1,64 @@
+{
+    "data": {
+        "site": {
+            "siteMetadata": {
+                "title": "Fuck Up Some Comics"
+            }
+        },
+        "allMarkdownRemark": {
+            "edges": [
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/2017-05-31-I-still-write-about-comics/"
+                        },
+                        "frontmatter": {
+                            "title": "I Used T-- I still write about comics"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/2017-06-07-Red-Sprite-Had-Potential/"
+                        },
+                        "frontmatter": {
+                            "title": "Red Sprite was my Shit"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/2017-06-13-A-Hollowing/"
+                        },
+                        "frontmatter": {
+                            "title": "A Hollowing"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/about/"
+                        },
+                        "frontmatter": {
+                            "title": "About me"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/contact/"
+                        },
+                        "frontmatter": {
+                            "title": "Contact me"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}

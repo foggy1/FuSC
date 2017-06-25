@@ -17,13 +17,14 @@ class Bio extends React.Component {
       >
         <img
           src={profilePic}
-          alt={`Kyle Mathews`}
+          alt={`Austin Lanari`}
           style={{
             float: "left",
             marginRight: rhythm(1 / 4),
             marginBottom: 0,
             width: rhythm(2),
             height: rhythm(2),
+            borderRadius: 30
           }}
         />
         Written by
