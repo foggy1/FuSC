@@ -1,0 +1,1548 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/dev-404-page/\"}",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin component-page-creator",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8d726f9c5981a86a3c9251fbdb32e1b6",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/component-page-creator\",\"name\":\"component-page-creator\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin internal-data-bridge",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8cdd53d7779611f8dd5d0a1c15a44ee2",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/internal-data-bridge\",\"name\":\"internal-data-bridge\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin dev-404-page",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2b77a512f08efa07a35b1fd0cb0b0960",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/dev-404-page\",\"name\":\"dev-404-page\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin query-runner",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5acc1c9c2ccb54b5ace53d4ae4494511",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby/dist/internal-plugins/query-runner\",\"name\":\"query-runner\",\"version\":\"1.0.0\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.0.0-beta.4",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/austin/stuff/FuSC/src/pages",
+        "name": "pages"
+      },
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.0.0-beta.4",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-source-filesystem",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bfef2cdb63cfe96bc4e8ee54a5b00f57",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-source-filesystem\",\"name\":\"gatsby-source-filesystem\",\"version\":\"1.0.0-beta.4\",\"pluginOptions\":{\"plugins\":[],\"path\":\"/Users/austin/stuff/FuSC/src/pages\",\"name\":\"pages\"}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.0.0-beta.1",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-image",
+            "name": "gatsby-remark-responsive-image",
+            "version": "1.0.0-beta.4",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 590,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "quality": 50,
+              "jpegProgressive": true,
+              "pngCompressionLevel": 9,
+              "grayscale": false,
+              "duotone": false,
+              "pathPrefix": "",
+              "toFormat": "",
+              "sizes": "(max-width: 590px) 100vw, 590px"
+            }
+          },
+          {
+            "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-iframe",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "1.0.0-beta.1",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            }
+          },
+          {
+            "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "1.0.0-beta.3",
+            "pluginOptions": {
+              "plugins": []
+            }
+          },
+          {
+            "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.0.0-beta.1",
+            "pluginOptions": {
+              "plugins": []
+            }
+          },
+          {
+            "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-smartypants",
+            "name": "gatsby-remark-smartypants",
+            "version": "1.0.0-beta.4",
+            "pluginOptions": {
+              "plugins": []
+            }
+          }
+        ]
+      },
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.0.0-beta.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-transformer-remark",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7bf21933b434f640a2fda07235158c42",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-transformer-remark\",\"name\":\"gatsby-transformer-remark\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-image\",\"name\":\"gatsby-remark-responsive-image\",\"version\":\"1.0.0-beta.4\",\"pluginOptions\":{\"plugins\":[],\"maxWidth\":590}},{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-iframe\",\"name\":\"gatsby-remark-responsive-iframe\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[],\"wrapperStyle\":\"margin-bottom: 1.0725rem\"}},{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-prismjs\",\"name\":\"gatsby-remark-prismjs\",\"version\":\"1.0.0-beta.3\",\"pluginOptions\":{\"plugins\":[]}},{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-copy-linked-files\",\"name\":\"gatsby-remark-copy-linked-files\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}},{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-smartypants\",\"name\":\"gatsby-remark-smartypants\",\"version\":\"1.0.0-beta.4\",\"pluginOptions\":{\"plugins\":[]}}]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-responsive-image": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-image",
+      "name": "gatsby-remark-responsive-image",
+      "version": "1.0.0-beta.4",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 590,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "quality": 50,
+        "jpegProgressive": true,
+        "pngCompressionLevel": 9,
+        "grayscale": false,
+        "duotone": false,
+        "pathPrefix": "",
+        "toFormat": "",
+        "sizes": "(max-width: 590px) 100vw, 590px"
+      },
+      "packageJson": {
+        "name": "gatsby-remark-responsive-image",
+        "description": "Create responsive image thumbnails for your images used in your markdown",
+        "version": "1.0.0-beta.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark",
+          "image",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "image-size",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-remark-responsive-image",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4d13321fe06a1cf8e2c1f5dd224b7814",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-image\",\"name\":\"gatsby-remark-responsive-image\",\"version\":\"1.0.0-beta.4\",\"pluginOptions\":{\"plugins\":[],\"maxWidth\":590}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-responsive-iframe": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-iframe",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "1.0.0-beta.1",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "1.0.0-beta.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^0.22.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-remark-responsive-iframe",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "21c72b91a433d7647811d1719f564a63",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-responsive-iframe\",\"name\":\"gatsby-remark-responsive-iframe\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[],\"wrapperStyle\":\"margin-bottom: 1.0725rem\"}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "1.0.0-beta.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "1.0.0-beta.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.6.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-remark-prismjs",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7c5b64b43043bc5f836b9941621bb616",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-prismjs\",\"name\":\"gatsby-remark-prismjs\",\"version\":\"1.0.0-beta.3\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.0.0-beta.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.0.0-beta.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "fs-extra",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0105b810481c6436614a07df902cf115",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-copy-linked-files\",\"name\":\"gatsby-remark-copy-linked-files\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-smartypants": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-remark-smartypants",
+      "name": "gatsby-remark-smartypants",
+      "version": "1.0.0-beta.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "1.0.0-beta.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "retext",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-remark-smartypants",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "81c29703a9151f59e5d0b0e201ed6e3f",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-remark-smartypants\",\"name\":\"gatsby-remark-smartypants\",\"version\":\"1.0.0-beta.4\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.0.0-beta.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.0.0-beta.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sharp",
+          "image"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-transformer-sharp",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "32ea50c0a44b07a7a11e5b60b6ceb02c",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-transformer-sharp\",\"name\":\"gatsby-transformer-sharp\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.0.0-beta.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.0.0-beta.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.4.1"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.17.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-sharp",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a9ed8e573c6b37891b10dbe4943107a8",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-sharp\",\"name\":\"gatsby-plugin-sharp\",\"version\":\"1.0.0-beta.4\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.0-beta.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.0-beta.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "dependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0942911465ab91fde077e77cccbfc51e",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-google-analytics\",\"name\":\"gatsby-plugin-google-analytics\",\"version\":\"1.0.0-beta.1\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.0-beta.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.0-beta.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin gatsby-plugin-offline",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9d29f0d84dd55929a9eb8ef0b862fdf0",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-offline\",\"name\":\"gatsby-plugin-offline\",\"version\":\"1.0.0-beta.3\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/austin/stuff/FuSC",
+      "name": "default-site-plugin",
+      "version": "4cf5b09b41f702b056eda09de2d9206d",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "packageJson": {
+        "name": "gatsby-starter-blog",
+        "description": "Starter Gatsby Blog",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-preact",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-remark-responsive-image",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "next"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.15.0"
+          },
+          {
+            "name": "moment",
+            "version": "^2.14.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "react-responsive-grid",
+            "version": "^0.3.3"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.15.0"
+          },
+          {
+            "name": "safe-access",
+            "version": "^0.1.0"
+          },
+          {
+            "name": "typeface-merriweather",
+            "version": "^0.0.25"
+          },
+          {
+            "name": "typeface-montserrat",
+            "version": "^0.0.24"
+          },
+          {
+            "name": "typography",
+            "version": "^0.15.8"
+          },
+          {
+            "name": "typography-theme-wordpress-2016",
+            "version": "^0.15.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.2.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^0.12.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "id": "Plugin default-site-plugin",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "47cfe403c922d377d8f40e4345bf34b0",
+        "mediaType": "application/json",
+        "content": "{\"resolve\":\"/Users/austin/stuff/FuSC\",\"name\":\"default-site-plugin\",\"version\":\"4cf5b09b41f702b056eda09de2d9206d\",\"pluginOptions\":{\"plugins\":[]}}",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Fuck Up Some Comics",
+        "author": "Austin Lanari"
+      },
+      "buildTime": "2017-06-25T18:40:20.921Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "50fd8570e907b9737db69313a1b1dfb5",
+        "content": "{\"siteMetadata\":{\"title\":\"Fuck Up Some Comics\",\"author\":\"Austin Lanari\"},\"buildTime\":\"2017-06-25T18:40:20.921Z\"}",
+        "mediaType": "application/json",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/favicon.ico absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/favicon.ico absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c6acedaff906029fc5455d9ec52c7f42",
+        "mediaType": "image/x-icon",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/favicon.ico",
+      "relativePath": "favicon.ico",
+      "extension": "ico",
+      "size": 198,
+      "prettySize": "198 B",
+      "modifiedTime": "2017-06-24T01:47:19.000Z",
+      "accessTime": "2017-06-25T18:40:22.000Z",
+      "changeTime": "2017-06-24T01:47:19.000Z",
+      "birthTime": "2017-06-24T01:47:19.000Z",
+      "root": "/",
+      "dir": "/Users/austin/stuff/FuSC/src/pages",
+      "base": "favicon.ico",
+      "ext": ".ico",
+      "name": "favicon",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15707776,
+      "blocks": 8,
+      "atime": "2017-06-25T18:40:22.000Z",
+      "mtime": "2017-06-24T01:47:19.000Z",
+      "ctime": "2017-06-24T01:47:19.000Z",
+      "birthtime": "2017-06-24T01:47:19.000Z",
+      "fields": {
+        "slug": "//"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/index.js absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fd45a0a55b69822cd5108273825dcbcd",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 1534,
+      "prettySize": "1.53 kB",
+      "modifiedTime": "2017-06-24T01:47:19.000Z",
+      "accessTime": "2017-06-25T18:40:22.000Z",
+      "changeTime": "2017-06-24T01:47:19.000Z",
+      "birthTime": "2017-06-24T01:47:19.000Z",
+      "root": "/",
+      "dir": "/Users/austin/stuff/FuSC/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15707777,
+      "blocks": 8,
+      "atime": "2017-06-25T18:40:22.000Z",
+      "mtime": "2017-06-24T01:47:19.000Z",
+      "ctime": "2017-06-24T01:47:19.000Z",
+      "birthtime": "2017-06-24T01:47:19.000Z",
+      "fields": {
+        "slug": "//"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/robots.txt absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/robots.txt absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+        "mediaType": "text/plain",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/robots.txt",
+      "relativePath": "robots.txt",
+      "extension": "txt",
+      "size": 24,
+      "prettySize": "24 B",
+      "modifiedTime": "2017-06-24T01:47:19.000Z",
+      "accessTime": "2017-06-25T18:40:22.000Z",
+      "changeTime": "2017-06-24T01:47:19.000Z",
+      "birthTime": "2017-06-24T01:47:19.000Z",
+      "root": "/",
+      "dir": "/Users/austin/stuff/FuSC/src/pages",
+      "base": "robots.txt",
+      "ext": ".txt",
+      "name": "robots",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15707778,
+      "blocks": 8,
+      "atime": "2017-06-25T18:40:22.000Z",
+      "mtime": "2017-06-24T01:47:19.000Z",
+      "ctime": "2017-06-24T01:47:19.000Z",
+      "birthtime": "2017-06-24T01:47:19.000Z",
+      "fields": {
+        "slug": "//"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/2015-05-06-my-second-post/index.md absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/2015-05-06-my-second-post/index.md absPath of file",
+      "children": [
+        "/Users/austin/stuff/FuSC/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "530bb89150d9607361e384d440f91e06",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/2015-05-06-my-second-post/index.md",
+      "relativePath": "2015-05-06-my-second-post/index.md",
+      "extension": "md",
+      "size": 439,
+      "prettySize": "439 B",
+      "modifiedTime": "2017-06-25T16:50:56.000Z",
+      "accessTime": "2017-06-25T18:40:22.000Z",
+      "changeTime": "2017-06-25T16:50:56.000Z",
+      "birthTime": "2017-06-25T16:50:56.000Z",
+      "root": "/",
+      "dir": "/Users/austin/stuff/FuSC/src/pages/2015-05-06-my-second-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15927818,
+      "blocks": 8,
+      "atime": "2017-06-25T18:40:22.000Z",
+      "mtime": "2017-06-25T16:50:56.000Z",
+      "ctime": "2017-06-25T16:50:56.000Z",
+      "birthtime": "2017-06-25T16:50:56.000Z",
+      "fields": {
+        "slug": "/2015-05-06-my-second-post/"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/2015-05-28-hi-folks/index.md absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/2015-05-28-hi-folks/index.md absPath of file",
+      "children": [
+        "/Users/austin/stuff/FuSC/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8b90b68ff571db0efb6b215e75f03790",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/2015-05-28-hi-folks/index.md",
+      "relativePath": "2015-05-28-hi-folks/index.md",
+      "extension": "md",
+      "size": 5508,
+      "prettySize": "5.51 kB",
+      "modifiedTime": "2017-06-25T16:50:56.000Z",
+      "accessTime": "2017-06-25T18:40:22.000Z",
+      "changeTime": "2017-06-25T16:50:56.000Z",
+      "birthTime": "2017-06-25T16:50:56.000Z",
+      "root": "/",
+      "dir": "/Users/austin/stuff/FuSC/src/pages/2015-05-28-hi-folks",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15927819,
+      "blocks": 16,
+      "atime": "2017-06-25T18:40:22.000Z",
+      "mtime": "2017-06-25T16:50:56.000Z",
+      "ctime": "2017-06-25T16:50:56.000Z",
+      "birthtime": "2017-06-25T16:50:56.000Z",
+      "fields": {
+        "slug": "/2015-05-28-hi-folks/"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/index.md absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/index.md absPath of file",
+      "children": [
+        "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "845e46d79fa8c9512138420f2d7571b9",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/index.md",
+      "relativePath": "2015-05-01-hello-world/index.md",
+      "extension": "md",
+      "size": 908,
+      "prettySize": "908 B",
+      "modifiedTime": "2017-06-25T16:50:56.000Z",
+      "accessTime": "2017-06-25T18:40:22.000Z",
+      "changeTime": "2017-06-25T16:50:56.000Z",
+      "birthTime": "2017-06-25T16:50:56.000Z",
+      "root": "/",
+      "dir": "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15927817,
+      "blocks": 8,
+      "atime": "2017-06-25T18:40:22.000Z",
+      "mtime": "2017-06-25T16:50:56.000Z",
+      "ctime": "2017-06-25T16:50:56.000Z",
+      "birthtime": "2017-06-25T16:50:56.000Z",
+      "fields": {
+        "slug": "/2015-05-01-hello-world/"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/austin/stuff/FuSC/src/pages/2015-05-06-my-second-post/index.md absPath of file",
+      "internal": {
+        "contentDigest": "cfe72cc4aed9614b1c61594815d9fae5",
+        "type": "MarkdownRemark",
+        "mediaType": "text/x-markdown",
+        "content": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from chicken eggs, though the taste and texture will be somewhat different, and the egg yolk will be less rich.\"? ([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "My Second Post!",
+        "date": "2015-05-06T23:46:37.121Z",
+        "layout": "post",
+        "readNext": "/hi-folks/",
+        "path": "/my-second-post/",
+        "parent": "/Users/austin/stuff/FuSC/src/pages/2015-05-06-my-second-post/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/2015-05-06-my-second-post/index.md",
+      "fields": {
+        "slug": "/2015-05-06-my-second-post/"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/index.md absPath of file",
+      "internal": {
+        "contentDigest": "1bbd6190c815a43f9f23deeae8bf9eba",
+        "type": "MarkdownRemark",
+        "mediaType": "text/x-markdown",
+        "content": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n>A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "date": "2015-05-01T22:12:03.284Z",
+        "layout": "post",
+        "readNext": "/my-second-post/",
+        "path": "/hello-world/",
+        "parent": "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/index.md",
+      "fields": {
+        "slug": "/2015-05-01-hello-world/"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/austin/stuff/FuSC/src/pages/2015-05-28-hi-folks/index.md absPath of file",
+      "internal": {
+        "contentDigest": "2e0bc17617bbaa27cc673df895ef9083",
+        "type": "MarkdownRemark",
+        "mediaType": "text/x-markdown",
+        "content": "\nFar far away, behind the word mountains, far from the countries Vokalia\nand Consonantia, there live the blind texts. Separated they live in\nBookmarksgrove right at the coast of the Semantics, a large language\nocean. A small river named Duden flows by their place and supplies it\nwith the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of\nbad Commas, wild Question Marks and devious Semikoli, but the Little\nBlind Text didn’t listen. She packed her seven versalia, put her initial\ninto the belt and made herself on the way.\n\n*   This however showed weasel\n*   Well uncritical so misled\n    *   this is very interesting\n*   Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she\nhad a last view back on the skyline of her\nhometown _Bookmarksgrove_, the headline of [Alphabet\nVillage](http://google.com) and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith [Longe and Parole](http://google.com) and dragged her into\ntheir agency, where they abused her for their projects again and\nagain. And if she hasn’t been rewritten, then they are still using\nher.\n\n> Far far away, behind the word mountains, far from the countries\n> Vokalia and Consonantia, there live the blind texts. Separated\n> they live in Bookmarksgrove right at the coast of the Semantics, a\n> large language ocean. \n\nIt is a paradisematic country, in which roasted parts of sentences\nfly into your mouth. Even the all-powerful Pointing has no control\nabout the blind texts it is an almost unorthographic life One day\nhowever a small line of blind text by the name of Lorem Ipsum\ndecided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands\nof bad Commas, wild Question Marks and devious Semikoli, but the\nLittle Blind Text didn’t listen. She packed her seven versalia, put\nher initial into the belt and made herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the\nheadline of Alphabet Village and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n> The copy warned the Little Blind Text, that where it came from it\n> would have been rewritten a thousand times and everything that was\n> left from its origin would be the word \"and\" and the Little Blind\n> Text should turn around and return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they\nabused her for their projects again and again. And if she hasn’t\nbeen rewritten, then they are still using her. Far far away, behind\nthe word mountains, far from the countries Vokalia and Consonantia,\nthere live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the\nSemantics, a large language ocean. A small river named Duden flows\nby their place and supplies it with the necessary regelialia. It is\na paradisematic country, in which roasted parts of sentences fly\ninto your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts\nit is an almost unorthographic life One day however a small line of\nblind text by the name of Lorem Ipsum decided to leave for the far\nWorld of Grammar. The Big Oxmox advised her not to do so, because\nthere were thousands of bad Commas, wild Question Marks and devious\nSemikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and\nmade herself on the way. When she reached the first hills of the\nItalic Mountains, she had a last view back on the skyline of her\nhometown Bookmarksgrove, the headline of Alphabet Village and the\nsubline of her own road, the Line Lane. Pityful a rethoric question\nran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it\nwould have been rewritten a thousand times and everything that was\nleft from its origin would be the word \"and\" and the Little Blind\nText should turn around and return to its own, safe country. But\nnothing the copy said could convince her and so it didn’t take long\nuntil a few insidious Copy Writers ambushed her, made her drunk with\nLonge and Parole and dragged her into their agency, where they\nabused her for their projects again and again.\n",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "New Beginnings",
+        "date": "2015-05-28T22:40:32.169Z",
+        "layout": "post",
+        "path": "/hi-folks/",
+        "parent": "/Users/austin/stuff/FuSC/src/pages/2015-05-28-hi-folks/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/austin/stuff/FuSC/src/pages/2015-05-28-hi-folks/index.md",
+      "fields": {
+        "slug": "/2015-05-28-hi-folks/"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file",
+      "children": [
+        "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/salty_egg.jpg",
+      "relativePath": "2015-05-01-hello-world/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2017-06-24T01:47:19.000Z",
+      "accessTime": "2017-06-25T18:40:22.000Z",
+      "changeTime": "2017-06-24T01:47:19.000Z",
+      "birthTime": "2017-06-24T01:47:19.000Z",
+      "root": "/",
+      "dir": "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15707771,
+      "blocks": 1344,
+      "atime": "2017-06-25T18:40:22.000Z",
+      "mtime": "2017-06-24T01:47:19.000Z",
+      "ctime": "2017-06-24T01:47:19.000Z",
+      "birthtime": "2017-06-24T01:47:19.000Z",
+      "fields": {
+        "slug": "/2015-05-01-hello-world/"
+      }
+    },
+    "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/salty_egg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "mediaType": "image/jpeg",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "page-component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "context": {},
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/offline-plugin-app-shell-fallback/\",\"component\":\"/Users/austin/stuff/FuSC/node_modules/gatsby-plugin-offline/app-shell.js\",\"componentChunkName\":\"page-component---node-modules-gatsby-plugin-offline-app-shell-js\",\"jsonName\":\"offline-plugin-app-shell-fallback.json\",\"internalComponentName\":\"ComponentOfflinePluginAppShellFallback\",\"context\":{}}",
+        "contentDigest": "d93bf4ee35deb263b8318aa86ec41cf8",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /2015-05-06-my-second-post/": {
+      "path": "/2015-05-06-my-second-post/",
+      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
+      "context": {
+        "slug": "/2015-05-06-my-second-post/"
+      },
+      "componentChunkName": "page-component---src-templates-blog-post-js",
+      "jsonName": "2015-05-06-my-second-post.json",
+      "internalComponentName": "Component20150506MySecondPost",
+      "id": "SitePage /2015-05-06-my-second-post/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/2015-05-06-my-second-post/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/2015-05-06-my-second-post/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"2015-05-06-my-second-post.json\",\"internalComponentName\":\"Component20150506MySecondPost\"}",
+        "contentDigest": "e0b16e9f22cbef68fdff7d4e07d7a9a2",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /2015-05-01-hello-world/": {
+      "path": "/2015-05-01-hello-world/",
+      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
+      "context": {
+        "slug": "/2015-05-01-hello-world/"
+      },
+      "componentChunkName": "page-component---src-templates-blog-post-js",
+      "jsonName": "2015-05-01-hello-world.json",
+      "internalComponentName": "Component20150501HelloWorld",
+      "id": "SitePage /2015-05-01-hello-world/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/2015-05-01-hello-world/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/2015-05-01-hello-world/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"2015-05-01-hello-world.json\",\"internalComponentName\":\"Component20150501HelloWorld\"}",
+        "contentDigest": "4c52cee4cee5d3a9d14f358dd63c0753",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /2015-05-28-hi-folks/": {
+      "path": "/2015-05-28-hi-folks/",
+      "component": "/Users/austin/stuff/FuSC/src/templates/blog-post.js",
+      "context": {
+        "slug": "/2015-05-28-hi-folks/"
+      },
+      "componentChunkName": "page-component---src-templates-blog-post-js",
+      "jsonName": "2015-05-28-hi-folks.json",
+      "internalComponentName": "Component20150528HiFolks",
+      "id": "SitePage /2015-05-28-hi-folks/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/2015-05-28-hi-folks/\",\"component\":\"/Users/austin/stuff/FuSC/src/templates/blog-post.js\",\"context\":{\"slug\":\"/2015-05-28-hi-folks/\"},\"componentChunkName\":\"page-component---src-templates-blog-post-js\",\"jsonName\":\"2015-05-28-hi-folks.json\",\"internalComponentName\":\"Component20150528HiFolks\"}",
+        "contentDigest": "92eda5e8bb358df16587adac13544f3c",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "path": "/",
+      "component": "/Users/austin/stuff/FuSC/src/pages/index.js",
+      "componentChunkName": "page-component---src-pages-index-js",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "context": {},
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "mediaType": "application/json",
+        "type": "SitePage",
+        "content": "{\"path\":\"/\",\"component\":\"/Users/austin/stuff/FuSC/src/pages/index.js\",\"componentChunkName\":\"page-component---src-pages-index-js\",\"jsonName\":\"index.json\",\"internalComponentName\":\"ComponentIndex\",\"context\":{}}",
+        "contentDigest": "a0c3431ca2e6773b191b51df9c2c0591",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "f51fa3404a99b68584e22a1264849249"
+  },
+  "pageDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/2015-05-06-my-second-post/",
+        "/2015-05-01-hello-world/",
+        "/2015-05-28-hi-folks/",
+        "/"
+      ],
+      "/Users/austin/stuff/FuSC/src/pages/2015-05-06-my-second-post/index.md absPath of file >>> MarkdownRemark": [
+        "/2015-05-06-my-second-post/"
+      ],
+      "/Users/austin/stuff/FuSC/src/pages/2015-05-01-hello-world/index.md absPath of file >>> MarkdownRemark": [
+        "/2015-05-01-hello-world/"
+      ],
+      "/Users/austin/stuff/FuSC/src/pages/2015-05-28-hi-folks/index.md absPath of file >>> MarkdownRemark": [
+        "/2015-05-28-hi-folks/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ]
+    }
+  }
+}
