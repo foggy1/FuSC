@@ -41,7 +41,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           if (!slug) {
             return
           }
-          console.log(edge.node.frontmatter)
           const { layout } = edge.node.frontmatter
           createPage({
             path: edge.node.fields.slug,
@@ -60,27 +59,28 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators
 
-  switch (node.internal.type) {
-    case 'File':
-      const parsedFilePath = path.parse(node.relativePath)
-      let slug = `/${parsedFilePath.dir}/`
-      createNodeField({
-        node,
-        fieldName: 'slug',
-        fieldValue: slug
-      })
-      return
+  if (node.internal.type === 'MarkdownRemark') {
+    const fileNode = getNode(node.parent)
 
-    case 'MarkdownRemark':
-    
-      if (node.frontmatter.path) {
-        slug = cleanSlashes(node.frontmatter.path)
-      } else if (node.frontmatter.title) {
-        slug = slugify(node.frontmatter.title)
-      } else {
-        slug = node.relativePath
-      }
-      return
+    let slug
+    if (node.frontmatter.path) {
+      slug = cleanSlashes(node.frontmatter.path)
+    } else if (node.frontmatter.title) {
+      slug = slugify(node.frontmatter.title)
+    } else {
+      slug = node.relativePath
+    }
+
+    // if (node.frontmatter.layout === 'post') {
+    //   slug = [format(node.frontmatter.date, 'YYYY/MM'), slug].join('/') 
+    // }
+
+    if (slug) {
+      createNodeField({ node, fieldName: 'slug', fieldValue: ensureSlashes(slug) })
+    }
+  } else if (node.internal.type === 'File') {
+    const relativePath = node.relativePath
+    createNodeField({ node, fieldName: 'slug', fieldValue: ensureSlashes(relativePath) })
   }
 }
 

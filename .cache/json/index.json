@@ -1,0 +1,44 @@
+{
+    "data": {
+        "site": {
+            "siteMetadata": {
+                "title": "Fuck Up Some Comics"
+            }
+        },
+        "allMarkdownRemark": {
+            "edges": [
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/posts/1/"
+                        },
+                        "frontmatter": {
+                            "title": "I Used T-- I still write about comics"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/posts/2/"
+                        },
+                        "frontmatter": {
+                            "title": "Red Sprite was my Shit"
+                        }
+                    }
+                },
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/posts/3/"
+                        },
+                        "frontmatter": {
+                            "title": "A Hollowing"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}
