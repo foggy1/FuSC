@@ -8,7 +8,7 @@ import profilePic from "./profile-pic.jpg"
 import { rhythm } from "../utils/typography"
 
 class Bio extends React.Component {
-  render() {
+  render () {
     return (
       <p
         style={{
@@ -17,22 +17,23 @@ class Bio extends React.Component {
       >
         <img
           src={profilePic}
-          alt={`Kyle Mathews`}
+          alt={`Austin Lanari`}
           style={{
             float: "left",
             marginRight: rhythm(1 / 4),
             marginBottom: 0,
             width: rhythm(2),
             height: rhythm(2),
+            borderRadius: 30
           }}
         />
         Written by
         {" "}
-        <strong>Kyle Mathews</strong>
+        <strong>Austin Lanari</strong>
         {" "}
-        who lives and works in San Francisco building useful things.
+        who likes to build and write about cool stuff.
         {" "}
-        <a href="https://twitter.com/kylemathews">
+        <a href="https://twitter.com/austinlanari">
           You should follow him on Twitter
         </a>
       </p>
