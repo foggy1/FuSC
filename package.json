@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "FuSC",
+  "description": "Fuck Up Some Comics",
+  "version": "2.0.0",
+  "author": "Austin Lanari <austin.lanari@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
   },
@@ -37,15 +37,17 @@
   "devDependencies": {
     "gh-pages": "^0.12.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://fuckupsomecomics.com",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "comics",
+    "manga"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/foggy1/FuSC.git"
   },
   "scripts": {
     "dev": "gatsby develop",

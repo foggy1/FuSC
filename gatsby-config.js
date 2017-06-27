@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Blog",
-    author: "Kyle Mathews",
+    title: "Fuck Up Some Comics",
+    author: "Austin Lanari",
+    site_url: "https://fuckupsomecomics.com"
   },
   plugins: [
     {
