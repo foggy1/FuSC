@@ -6,6 +6,7 @@ path: "/posts/3"
 category: "comics"
 description: "Even without color, Sloane finds surprising ways to innovate."
 indexImage: "https://s3.amazonaws.com/foggy1/a_hollowing.png"
+draft: false
 ---
 
 When finally breaking open my Short Box, I went straight for Sloane's _A Hollowing_.
