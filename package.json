@@ -22,6 +22,7 @@
     "gatsby-remark-responsive-iframe": "next",
     "gatsby-remark-responsive-image": "next",
     "gatsby-remark-smartypants": "next",
+    "gatsby-plugin-sitemap": "next",
     "lodash": "^4.15.0",
     "moment": "^2.14.1",
     "react-helmet": "^4.0.0",
