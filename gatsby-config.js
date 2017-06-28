@@ -20,7 +20,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#039be5`,
         theme_color: `#63ccff`,
-        display: `minimal-ui`
+        display: `standalone`,
       }
     },
     {
