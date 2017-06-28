@@ -5,9 +5,10 @@ import get from "lodash/get"
 
 import Bio from "../components/Bio"
 import { rhythm, scale } from "../utils/typography"
+import './typography.css'
 
 class BlogPostTemplate extends React.Component {
-  render() {
+  render () {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, "data.site.siteMetadata.title")
 
