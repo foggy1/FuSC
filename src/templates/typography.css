@@ -341,37 +341,6 @@ h6 {
 hgroup {
   display: block;
 }
-hr {
-  margin-top: 52px;
-  margin-top: 3.25rem;
-  margin-bottom: 52px;
-  margin-bottom: 3.25rem;
-  box-sizing: content-box;
-  border: 0;
-  color: #222;
-  display: block;
-  height: 26px;
-  height: 1.625rem;
-  margin-right: auto;
-  margin-left: auto;
-  background-size: 100% 26px;
-  background-size: 100% 1.625rem;
-  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, #222 11px, #222 15px, transparent 15px, transparent 26px);
-  width: 100px;
-}
-@media screen and (min-width:40em) {
-  hr {
-    background-size: 100% 31px;
-    background-size: 100% 1.722222222222222rem;
-    background-image: linear-gradient(to bottom, transparent 1px, transparent 13.5px, #222 13.5px, #222 17.5px, transparent 17.5px, transparent 31px);
-    margin-top: 62px;
-    margin-top: 3.444444444444445rem;
-    margin-bottom: 62px;
-    margin-bottom: 3.444444444444445rem;
-    height: 31px;
-    height: 1.722222222222222rem;
-  }
-}
 img {
   border: 0;
   max-width: 100%;
