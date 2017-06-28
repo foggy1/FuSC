@@ -13,6 +13,17 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Fuck Up Some Comics`,
+        short_name: `FuSC`,
+        start_url: `/`,
+        background_color: `#039be5`,
+        theme_color: `#63ccff`,
+        display: `minimal-ui`
+      }
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
