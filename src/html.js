@@ -1,7 +1,7 @@
 import React from "react"
 import { TypographyStyle } from "react-typography"
 import Helmet from "react-helmet"
-
+import icon from './pages/favicon.ico'
 import typography from "./utils/typography"
 
 let stylesStr
@@ -35,6 +35,7 @@ module.exports = React.createClass({
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          <link rel="icon" type="image/x-icon" sizes="32x32" href={'./pages/favicon.ico'} />
           {this.props.headComponents}
           <TypographyStyle typography={typography} />
           {css}
