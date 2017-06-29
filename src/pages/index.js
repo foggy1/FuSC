@@ -44,6 +44,10 @@ class BlogIndex extends React.Component {
     sortedPosts.forEach(post => {
       if (post.node.path !== "/404/") {
         const title = get(post, "node.frontmatter.title") || post.node.path
+        const description = get(post, 'node.frontmatter.description')
+        const datePublished = get(post, 'node.frontmatter.date')
+        const category = get(post, 'node.frontmatter.category')
+        const image = get(post, 'node.frontmatter.indexImage')
         pageLinks.push(
           <li
             key={post.node.path}
@@ -91,7 +95,10 @@ query IndexQuery {
         }
         frontmatter {
           title,
-          date
+          date,
+          description,
+          category,
+          indexImage
         }
       }
     }
