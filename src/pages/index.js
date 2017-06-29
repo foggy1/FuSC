@@ -3,6 +3,7 @@ import Link from "gatsby-link"
 import get from "lodash/get"
 import Helmet from "react-helmet"
 import include from "underscore.string/include"
+import moment from 'moment'
 
 import Bio from "../components/Bio"
 import { rhythm } from "../utils/typography"
@@ -16,6 +17,7 @@ class BlogIndex extends React.Component {
     posts.forEach(post => {
       if (post.node.path !== "/404/") {
         const title = get(post, "node.frontmatter.title") || post.node.path
+        debugger
         pageLinks.push(
           <li
             key={post.node.path}
@@ -62,7 +64,8 @@ query IndexQuery {
           slug
         }
         frontmatter {
-          title
+          title,
+          date
         }
       }
     }
