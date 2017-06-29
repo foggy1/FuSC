@@ -5,6 +5,7 @@ import Helmet from "react-helmet"
 import include from "underscore.string/include"
 import moment from 'moment'
 import sortBy from 'lodash/sortBy'
+import groupBy from 'lodash/groupBy'
 
 import Bio from "../components/Bio"
 import { rhythm } from "../utils/typography"
@@ -41,27 +42,37 @@ class BlogIndex extends React.Component {
     const siteTitle = get(this, "props.data.site.siteMetadata.title")
     const posts = get(this, "props.data.allMarkdownRemark.edges")
     const sortedPosts = sortBy(posts, post => get(post, "node.frontmatter.date")).reverse()
-    sortedPosts.forEach(post => {
-      if (post.node.path !== "/404/") {
-        const title = get(post, "node.frontmatter.title") || post.node.path
-        const description = get(post, 'node.frontmatter.description')
-        const datePublished = get(post, 'node.frontmatter.date')
-        const category = get(post, 'node.frontmatter.category')
-        const image = get(post, 'node.frontmatter.indexImage')
-        pageLinks.push(
-          <li
-            key={post.node.path}
-            style={{
-              marginBottom: rhythm(1 / 4),
-            }}
-          >
-            <Link style={{ boxShadow: "none" }} to={post.node.fields.slug}>
-              {post.node.frontmatter.title}
-            </Link>
-          </li>
-        )
-      }
-    })
+    const reallySorted = groupBy(sortedPosts, post => moment(get(post, "node.frontmatter.date")).format('MMMM'))
+    const keys = Object.keys(reallySorted)
+    keys.forEach(month => {
+      pageLinks.push(
+        <li>
+          {month}
+          <ul>
+            {reallySorted[month].map(post => {
+              if (post.node.path !== "/404/") {
+                const title = get(post, "node.frontmatter.title") || post.node.path
+                const description = get(post, 'node.frontmatter.description')
+                const datePublished = get(post, 'node.frontmatter.date')
+                const category = get(post, 'node.frontmatter.category')
+                const image = get(post, 'node.frontmatter.indexImage')
+                return (
+                  <li
+                    key={post.node.path}
+                    style={{
+                      marginBottom: rhythm(1 / 4),
+                    }}
+                  >
+                    <Link style={{ boxShadow: "none" }} to={post.node.fields.slug}>
+                      {title}
+                    </Link>
+                  </li>
+                )
+              }
+            })}
+          </ul>
+        </li>
+      )})
 
     return (
       <div>
