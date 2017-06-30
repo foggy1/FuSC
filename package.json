@@ -24,7 +24,7 @@
     "gatsby-transformer-remark": "next",
     "gatsby-transformer-sharp": "next",
     "lodash": "^4.15.0",
-    "moment": "^2.14.1",
+    "moment": "^2.18.1",
     "react-helmet": "^4.0.0",
     "react-responsive-grid": "^0.3.3",
     "react-typography": "^0.15.0",

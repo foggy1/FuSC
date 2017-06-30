@@ -13,6 +13,24 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Fuck Up Some Comics`,
+        short_name: `FuSC`,
+        start_url: `/`,
+        background_color: `#039be5`,
+        theme_color: `#63ccff`,
+        display: `standalone`,
+        icons: [
+          {
+            src: `/favicons/favicon-32x32.ico`,
+            sizes: `32x32`,
+            type: `image/png`
+          }
+        ]
+      }
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -39,7 +57,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-80918633-2`,
       },
     },
     `gatsby-plugin-offline`,
