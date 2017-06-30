@@ -26,6 +26,11 @@ module.exports = {
             src: `/favicons/favicon-32x32.ico`,
             sizes: `32x32`,
             type: `image/png`
+          },
+          {
+            src: `/favicons/favicon-144x144.ico`,
+            sizes: `144x144`,
+            type: `image/png`
           }
         ]
       }
