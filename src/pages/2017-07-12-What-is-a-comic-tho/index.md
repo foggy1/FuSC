@@ -4,7 +4,7 @@ layout: post
 date: "2017-07-12T13:00:00.284Z"
 path: "/posts/4"
 category: "comics"
-description: "Even without color, Sloane finds surprising ways to innovate."
+description: "Let's phili(sophi)cal, let's get into comics yeah."
 indexImage: "http://3.bp.blogspot.com/-2iL3vMgDR58/UTWoE_lxQnI/AAAAAAAAAQ8/9cB9Y5gIzwU/s1600/Batman+663+-+Page+example.JPG"
 draft: false
 ---
@@ -28,10 +28,9 @@ Of course, this probably drags in too much, but the common thread to me no matte
 The trick here isn't to be right. I like rigorous definitions because people are a little too inexact a little too often.
 The trick, rather, is to abandon loose words like "drawings" or "art" in these conversations, as if only such general things make each individual comic the very work that it is. Color has meaning; the thickness of a panel border has meaning; the font, the slant of the font, and that font in conjunction with anything else around it has, inherits, and generates meaning. It's all very fucking cool.
 
-# Additional Reading
-
-If you can somehow get your hands on it (I may be able to help if you are interested and DM me) Roy T. Cook wrote a little diddy “Do Comics Require Picture? Or Why Batman #663 is a Comic.” from The Journal of Aesthetics and Art Criticism 69, no. 3 (Summer 2011), pages 285-296. I happen to think the answer is "Yes They Do, and No, It Isn't", but it's worth a read as it is a rigorous philosophical attempt to frame the ontology of comics in a way that allows non-pictorial elements to be comics. I also have an extensive response buried in my thesis, which I can also send any interested readers.
-
 And again, not much of this matters if your answer is "well, if they say it's a comic...", since... well, that's pretty much that! But consider that there are almost certainly some things that you would not consider a comic if you were told that they were. You would push back if someone handed you _War and Peace_ and told you it was a comic. And I think there are legitimate, non-trivial reasons why that's the case.
 
-So let's talk about them instead of hand-waving.
+So let's talk about that instead of hand-waving.
+## Additional Reading
+
+If you can somehow get your hands on it (I may be able to help if you are interested and DM me) Roy T. Cook wrote a little ditty “Do Comics Require Picture? Or Why Batman #663 is a Comic.” from The Journal of Aesthetics and Art Criticism 69, no. 3 (Summer 2011), pages 285-296. I happen to think the answer is "Yes They Do, and No, It Isn't", but it's worth a read as it is a rigorous philosophical attempt to frame the ontology of comics in a way that allows non-pictorial elements to be comics. I also have an extensive response buried in my thesis, which I can also send any interested readers.
