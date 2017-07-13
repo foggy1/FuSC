@@ -15,18 +15,7 @@ class BlogPostTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`}>
-          <meta property='og:url' content={`fuckupsomecomics.com${post.fields.slug}`} />
-          <meta property='og:type' content='article' />
-          <meta property='og:title' content={post.frontmatter.title} />
-          <meta property='og:description' content={post.frontmatter.description} />
-          <meta name='twitter:site' value='@austinlanari' />
-          <meta property='twitter:url' content={`fuckupsomecomics.com${post.frontmatter.slug}`} />
-          <meta property='twitter:title' content={post.frontmatter.title} />
-          <meta property='twitter:description' content={post.frontmatter.description} />
-          <meta name='author' content='Austin Lanari' />
-          <meta name='og:image' content={post.frontmatter.indexImage} />
-          <meta name='twitter:image' content={post.frontmatter.indexImage} />
-          <meta name='twitter:card' value='summary_large_image' />
+
         </Helmet>
         <h1>{post.frontmatter.title}</h1>
         <p
@@ -46,6 +35,18 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
+        <meta property='og:url' content={`fuckupsomecomics.com${post.fields.slug}`} />
+        <meta property='og:type' content='article' />
+        <meta property='og:title' content={post.frontmatter.title} />
+        <meta property='og:description' content={post.frontmatter.description} />
+        <meta name='twitter:site' value='@austinlanari' />
+        <meta property='twitter:url' content={`fuckupsomecomics.com${post.fields.slug}`} />
+        <meta property='twitter:title' content={post.frontmatter.title} />
+        <meta property='twitter:description' content={post.frontmatter.description} />
+        <meta name='author' content='Austin Lanari' />
+        <meta name='og:image' content={post.frontmatter.indexImage} />
+        <meta name='twitter:image' content={post.frontmatter.indexImage} />
+        <meta name='twitter:card' value='summary_large_image' />
       </div>
     )
   }
