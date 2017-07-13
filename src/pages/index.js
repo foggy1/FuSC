@@ -48,7 +48,7 @@ class BlogIndex extends React.Component {
                 const datePublished = get(post, 'node.frontmatter.date')
                 const category = get(post, 'node.frontmatter.category')
                 const image = get(post, 'node.frontmatter.indexImage')
-                const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)
+                const mobile = window.screen.width < 720
                 const fontSize = mobile ? '3.5vw' : null
                 console.log(image)
                 return (
