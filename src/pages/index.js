@@ -38,46 +38,62 @@ class BlogIndex extends React.Component {
 
   render () {
     // console.log("props", this.props)
-    const pageLinks = []
     const siteTitle = get(this, "props.data.site.siteMetadata.title")
     const posts = get(this, "props.data.allMarkdownRemark.edges")
     const sortedPosts = sortBy(posts, post => get(post, "node.frontmatter.date")).reverse()
-    const reallySorted = groupBy(sortedPosts, post => moment(get(post, "node.frontmatter.date")).format('MMMM'))
-    const keys = Object.keys(reallySorted)
-    keys.forEach(month => {
-      pageLinks.push(
-        <li>
-          {month}
-          <ul>
-            {reallySorted[month].map(post => {
+            const pageLinks = sortedPosts.map(post => {
               if (post.node.path !== "/404/") {
                 const title = get(post, "node.frontmatter.title") || post.node.path
                 const description = get(post, 'node.frontmatter.description')
                 const datePublished = get(post, 'node.frontmatter.date')
                 const category = get(post, 'node.frontmatter.category')
                 const image = get(post, 'node.frontmatter.indexImage')
+                const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)
+                const fontSize = mobile ? '3.5vw' : null
+                console.log(image)
                 return (
-                  <li
-                    key={post.node.path}
-                    style={{
-                      marginBottom: rhythm(1 / 4),
-                    }}
-                  >
-                    <Link style={{ boxShadow: "none" }} to={post.node.fields.slug}>
-                      {title}
-                    </Link>
-                  </li>
+                  <Link style={{ boxShadow: 'none' }} to={post.node.fields.slug}>
+                    <li
+                      key={post.node.path}
+                      style={{
+                        marginBottom: rhythm(1 / 4),
+                        listStyleType: 'none'
+                      }}
+                    >
+                      <img 
+                        style={{
+                          marginLeft: 16,
+                          marginTop: 16,
+                          height: 72,
+                          width: 72,
+                          borderRadius: 50,
+                          verticalAlign: 'middle',
+                          backgroundSize: 'cover',
+                          display: 'inline-block'
+                        }}
+                        src={image}
+                      />
+                      <span
+                        style={{
+                          marginLeft: 16,
+                          verticalAlign: 'center',
+                          display: 'inline-block',
+                          paddingBottom: 5,
+                        }}
+                      >
+                        <div style={{ fontSize }}>{title}</div>
+                        <div style={{fontStyle: 'italic', color: 'lightSlateGrey'}}>{moment(datePublished).fromNow()}</div>
+                      </span>
+                    <hr/>
+                    </li>
+                  </Link>
                 )
               }
-            })}
-          </ul>
-        </li>
-      )})
-
+            })
     return (
       <div>
         <Helmet title={get(this, "props.data.site.siteMetadata.title")} />
-        <ul>
+        <ul style={{marginLeft: -20}}>
           {pageLinks}
         </ul>
       </div>
