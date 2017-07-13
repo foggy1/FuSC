@@ -11,30 +11,17 @@ import Bio from "../components/Bio"
 import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {
-    //   const sortedPages = sortBy(this.props.route.pages, page => access(page, 'data.date')).reverse()
-    // sortedPages.forEach((page) => {
-    //   if (access(page, 'file.ext') === 'md' && access(page, 'data.layout') === 'post') {
-    //     const title = access(page, 'data.title') || page.path
-    //     const description = access(page, 'data.description')
-    //     const datePublished = access(page, 'data.date')
-    //     const category = access(page, 'data.category')
-    //     const image = access(page, 'data.indexImage')
-
-    //     pageLinks.push((
-    //       <div className='blog-post' key={title}>
-    //         <time dateTime={moment(datePublished).format('MMMM D, YYYY')}>
-    //           {moment(datePublished).format('MMMM YYYY')}
-    //         </time>
-    //         <span style={{ padding: '5px' }} />
-    //         <span className='blog-category'>{category}</span>
-    //         <h2><Link style={{ borderBottom: 'none' }} to={prefixLink(page.path)}>{title}</Link></h2>
-    //         <img style={{height: '500px'}} src={image} alt={title} />
-    //         <p dangerouslySetInnerHTML={{ __html: description }} />
-    //         <Link className='readmore' to={prefixLink(page.path)}>Read</Link>
-    //       </div>
-    //     ))
-    //   }
-    // })
+  constructor () {
+    super()
+    this.state = {
+      mobile: false
+    }
+  }
+  componentDidMount () {
+    if (typeof (window) !== 'undefined') {
+      this.setState({mobile: window.screen.width < 720})
+    }
+  }
 
   render () {
     // console.log("props", this.props)
@@ -48,9 +35,7 @@ class BlogIndex extends React.Component {
                 const datePublished = get(post, 'node.frontmatter.date')
                 const category = get(post, 'node.frontmatter.category')
                 const image = get(post, 'node.frontmatter.indexImage')
-                const mobile = window.screen.width < 720
-                const fontSize = mobile ? '3.5vw' : null
-                console.log(image)
+                const fontSize = this.state.mobile ? '3.5vw' : null
                 return (
                   <Link style={{ boxShadow: 'none' }} to={post.node.fields.slug}>
                     <li
