@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Fuck Up Some Comics",
     author: "Austin Lanari",
-    site_url: "https://fuckupsomecomics.com"
+    siteUrl: "https://fuckupsomecomics.com"
   },
   plugins: [
     {
