@@ -3,6 +3,7 @@ title: "What IS a comic?"
 layout: post
 date: "2017-07-12T13:00:00.284Z"
 path: "/posts/4"
+smallImage: "joker_maggot_sml.jpg"
 category: "comics"
 description: "Let's phili(sophi)cal, let's get into comics yeah."
 indexImage: "http://3.bp.blogspot.com/-2iL3vMgDR58/UTWoE_lxQnI/AAAAAAAAAQ8/9cB9Y5gIzwU/s1600/Batman+663+-+Page+example.JPG"
