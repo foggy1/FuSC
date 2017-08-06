@@ -21,17 +21,17 @@ class Template extends React.Component {
     const height = this.checkMobile() ? 56 : 64
     styles.bmBurgerButton.left = this.checkMobile() ? 16 : 24
     styles.bmBurgerButton.top = this.checkMobile() ? 16 : 20
-    let header
+    let header, title
     if (location.pathname === "/") {
+      title = 'Fuck Up Some Comics'
       header = (
         <Menu styles={styles} >
           <a id="home" className="menu-item" href="/">Home</a>
-          <a id="about" className="menu-item" href="/about">About</a>
-          <a id="contact" className="menu-item" href="/contact">Contact</a>
-          <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
         </Menu>
+          // <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
       )
     } else {
+      title = 'Comics'
       header = (
         <Link
           style={{
@@ -53,6 +53,14 @@ class Template extends React.Component {
           width: '100%',
           boxShadow: '0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)'
         }}>
+          <p style={{
+            position: 'absolute',
+            color: 'white',
+            fontSize: '1.5em',
+            left: 72,
+            fontFamily: 'Merriweather Sans,Helvetica,Arial,sans-serif',
+            top: 16
+          }}>{title}</p>
         </nav>
         {header}
         <Container
