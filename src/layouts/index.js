@@ -1,6 +1,7 @@
 import React from "react"
 import Link from "gatsby-link"
 import { Container } from "react-responsive-grid"
+import Back from 'react-icons/lib/fa/arrow-left'
 import { slide as Menu } from 'react-burger-menu'
 import { rhythm, scale } from "../utils/typography"
 
@@ -23,45 +24,25 @@ class Template extends React.Component {
     let header
     if (location.pathname === "/") {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: "none",
-              textDecoration: "none",
-              color: "inherit",
-            }}
-            to={"/"}
-          >
-            Fuck Up Some Comics
-          </Link>
-        </h1>
+        <Menu styles={styles} >
+          <a id="home" className="menu-item" href="/">Home</a>
+          <a id="about" className="menu-item" href="/about">About</a>
+          <a id="contact" className="menu-item" href="/contact">Contact</a>
+          <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+        </Menu>
       )
     } else {
       header = (
-        <h3
+        <Link
           style={{
-            fontFamily: "Montserrat, sans-serif",
-            marginTop: 0,
-            marginBottom: rhythm(-1),
+            boxShadow: "none",
+            textDecoration: "none",
+            color: "inherit",
           }}
+          to={"/"}
         >
-          <Link
-            style={{
-              boxShadow: "none",
-              textDecoration: "none",
-              color: "inherit",
-            }}
-            to={"/"}
-          >
-            Fuck Up Some Comics
-          </Link>
-        </h3>
+          <Back size={24} color={'white'} style={styles.bmBurgerButton} />
+        </Link>
       )
     }
     return (
@@ -73,19 +54,13 @@ class Template extends React.Component {
           boxShadow: '0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)'
         }}>
         </nav>
-        <Menu styles={styles} >
-          <a id="home" className="menu-item" href="/">Home</a>
-          <a id="about" className="menu-item" href="/about">About</a>
-          <a id="contact" className="menu-item" href="/contact">Contact</a>
-          <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
-        </Menu>
+        {header}
         <Container
           style={{
             maxWidth: rhythm(24),
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >
-          {header}
           {children()}
         </Container>
       </div>
@@ -103,12 +78,13 @@ var styles = {
   bmBurgerButton: {
     position: 'absolute',
     width: 24,
+    color: 'white',
     height: 24,
     left: 16,
     top: 16
   },
   bmBurgerBars: {
-    background: '#373a47'
+    background: 'white'
   },
   bmCrossButton: {
     height: '24px',
