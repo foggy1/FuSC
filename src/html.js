@@ -34,8 +34,10 @@ module.exports = React.createClass({
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
           {this.props.headComponents}
           <TypographyStyle typography={typography} />
+
           <link rel="icon" href="./favicons/favicon-32x32.ico" type="image/png" size='32x32' />
           {css}
           {head.title.toComponent()}

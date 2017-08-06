@@ -1,7 +1,9 @@
 import React from "react"
 import Link from "gatsby-link"
 import { Container } from "react-responsive-grid"
-
+import materialize from '../../static/js/materialize.js'
+import '../../static/css/materialize.css'
+import { Navbar, NavItem } from 'react-materialize'
 import { rhythm, scale } from "../utils/typography"
 
 class Template extends React.Component {
@@ -52,15 +54,20 @@ class Template extends React.Component {
       )
     }
     return (
-      <Container
-        style={{
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        {header}
-        {children()}
-      </Container>
+      <div>
+        <Navbar brand='logo' right options={{onPress: () => console.log('what')}}>
+          <NavItem href='/'>Home</NavItem>
+          <NavItem href='components.html'>Components</NavItem>
+        </Navbar>
+        <Container
+          style={{
+            maxWidth: rhythm(24),
+            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          }}
+        >
+          {children()}
+        </Container>
+      </div>
     )
   }
 }
