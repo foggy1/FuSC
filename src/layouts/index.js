@@ -26,14 +26,16 @@ class Template extends React.Component {
   render () {
     const { location, children } = this.props
     const height = this.state.mobile ? 56 : 64
+    const marginBottom = location.pathname === "/" ? null : -100
     styles.bmBurgerButton.left = this.state.mobile ? 16 : 24
     styles.bmBurgerButton.top = this.state.mobile ? 16 : 20
     let header, title
-    if (location.pathname === "/") {
+    if (location.pathname === "/" || location.pathname === '/about') {
       title = 'Fuck Up Some Comics'
       header = (
         <Menu styles={styles} >
           <a id="home" className="menu-item" href="/">Home</a>
+          <a id="about" className="menu-item" href="/about">About</a>
         </Menu>
           // <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
       )
@@ -57,17 +59,18 @@ class Template extends React.Component {
         <nav style={{
           height,
           backgroundColor: '#63ccff',
+          position: 'relative',
           width: '100%',
+          marginBottom,
           boxShadow: '0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)'
         }}>
-          <p style={{
-            position: 'absolute',
-            color: 'white',
-            fontSize: '1.5em',
-            left: 72,
-            fontFamily: 'Merriweather Sans,Helvetica,Arial,sans-serif',
-            top: 16
-          }}>{title}</p>
+          <div style={{position: 'absolute', left: 72, top: this.state.mobile ? 24 : 20}}>
+            <p style={{
+              color: 'white',
+              fontSize: '1.5em',
+              fontFamily: 'Merriweather Sans,Helvetica,Arial,sans-serif',
+            }}>{title}</p>
+          </div>
         </nav>
         {header}
         <Container
@@ -109,7 +112,7 @@ var styles = {
     background: '#bdc3c7'
   },
   bmMenu: {
-    background: '#373a47',
+    background: 'white',
     padding: '2.5em 1.5em 0',
     fontSize: '1.15em'
   },
@@ -118,7 +121,10 @@ var styles = {
   },
   bmItemList: {
     color: '#b8b7ad',
-    padding: '0.8em'
+  },
+  bmItem: {
+    paddingTop: 16,
+    textDecoration: 'none'
   },
   bmOverlay: {
     background: 'rgba(0, 0, 0, 0.3)'
