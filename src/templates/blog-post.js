@@ -17,7 +17,7 @@ class BlogPostTemplate extends React.Component {
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`}>
 
         </Helmet>
-        <h1>{post.frontmatter.title}</h1>
+        <h1>{post.frontmatter.title === 'About' ? 'Hey' : post.frontmatter.title}</h1>
         <p
           style={{
             ...scale(-1 / 5),
@@ -26,15 +26,15 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}
+          {post.frontmatter.layout === 'page' ? <span /> : post.frontmatter.date}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
+        {post.frontmatter.layout === 'page' ? <div/> : <hr
           style={{
             marginBottom: rhythm(1),
           }}
-        />
-        <Bio />
+        />}
+        {post.frontmatter.layout === 'page' ? <span /> : <Bio />}
         <meta property='og:url' content={`fuckupsomecomics.com${post.fields.slug}`} />
         <meta property='og:type' content='article' />
         <meta property='og:title' content={post.frontmatter.title} />
@@ -72,6 +72,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY"),
         indexImage,
+        layout,
         description
       }
     }

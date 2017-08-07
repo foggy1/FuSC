@@ -36,7 +36,7 @@ class BlogIndex extends React.Component {
     const posts = get(this, "props.data.allMarkdownRemark.edges")
     const sortedPosts = sortBy(posts, post => get(post, "node.frontmatter.date")).reverse()
     const pageLinks = sortedPosts.map((post, i) => {
-      if (post.node.path !== "/404/") {
+      if (post.node.path !== "/404/" && get(post, 'node.frontmatter.date')) {
         const visibility = this.state.loadedImages[i] ? 'visible' : 'hidden'
         const title = get(post, "node.frontmatter.title") || post.node.path
         const description = get(post, 'node.frontmatter.description')
