@@ -17,7 +17,7 @@ class BlogPostTemplate extends React.Component {
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`}>
 
         </Helmet>
-        <h1>{post.frontmatter.title === 'About' ? 'Hey' : post.frontmatter.title}</h1>
+        <h1 style={{paddingTop: 0, marginTop: 30}}>{post.frontmatter.title === 'About' ? 'Hey' : post.frontmatter.title}</h1>
         <p
           style={{
             ...scale(-1 / 5),

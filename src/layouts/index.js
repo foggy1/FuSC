@@ -26,7 +26,7 @@ class Template extends React.Component {
   render () {
     const { location, children } = this.props
     const height = this.state.mobile ? 56 : 64
-    const marginBottom = location.pathname === "/" ? null : -100
+    const marginBottom = location.pathname === "/" ? null : null
     styles.bmBurgerButton.left = this.state.mobile ? 16 : 24
     styles.bmBurgerButton.top = this.state.mobile ? 16 : 20
     let header, title
@@ -55,7 +55,7 @@ class Template extends React.Component {
       )
     }
     return (
-      <div>
+      <div style={{paddingTop: 0}}>
         <nav style={{
           height,
           backgroundColor: '#63ccff',
@@ -114,7 +114,7 @@ var styles = {
   bmMenu: {
     background: 'white',
     padding: '2.5em 1.5em 0',
-    fontSize: '1.15em'
+    fontSize: '1.15em',
   },
   bmMorphShape: {
     fill: '#373a47'
@@ -127,7 +127,8 @@ var styles = {
     textDecoration: 'none'
   },
   bmOverlay: {
-    background: 'rgba(0, 0, 0, 0.3)'
+    background: 'rgba(0, 0, 0, 0.3)',
+    height: '100%'
   }
 }
 
