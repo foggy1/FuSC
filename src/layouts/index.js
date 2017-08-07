@@ -64,7 +64,7 @@ class Template extends React.Component {
           marginBottom,
           boxShadow: '0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)'
         }}>
-          <div style={{position: 'absolute', left: 72, top: this.state.mobile ? 24 : 20}}>
+          <div style={{position: 'absolute', left: 72, top: this.state.mobile ? 16 : 20}}>
             <p style={{
               color: 'white',
               fontSize: '1.5em',
