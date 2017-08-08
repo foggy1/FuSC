@@ -54,20 +54,16 @@ class BlogIndex extends React.Component {
                 listStyleType: 'none'
               }}
             >
+              <div style={{verticalAlign: 'middle', height: 72, width: 72, marginLeft: 16, marginBottom: 16, overflow: 'hidden', borderRadius: 50, display: 'inline-block'}}>
                 <img 
                   onLoad={() => this.handleLoad(i)}
                   style={{
-                    marginLeft: 16,
-                    marginBottom: 16,
-                    height: 72,
-                    width: 72,
-                    borderRadius: 50,
-                    verticalAlign: 'middle',
-                    backgroundSize: 'cover',
-                    display: 'inline-block'
+                    width: '100%',
+                    backgroundSize: 'auto',
                   }}
                   src={image}
                 />
+              </div>
               <span
                 style={{
                   marginLeft: 16,
