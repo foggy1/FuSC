@@ -98,8 +98,8 @@ class Template extends React.Component {
             backgroundColor: '#039be5'
           }}
         >
-          <div style={{width: '90%', padding: 10, lineHeight: 1.5, color: 'white', margin: 'auto'}}>
-             <span style={{marginTop: 20}}>©</span> 2017 Austin Lanari
+          <div style={{width: '90%', padding: 10, height: 50, lineHeight: 1.5, color: 'white', margin: 'auto'}}>
+            <span style={{marginTop: 20}}>©</span> 2017 Austin Lanari
           </div>
         </footer>
       </div>
