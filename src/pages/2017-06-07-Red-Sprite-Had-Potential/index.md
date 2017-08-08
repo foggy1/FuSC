@@ -6,7 +6,7 @@ path: "/posts/2"
 readNext: "/posts/3"
 category: "manga"
 description: "Red Sprite wasn't the best or brightest of its class, but it's still gone too soon."
-indexImage: "https://s3.amazonaws.com/foggy1/WSJ_Issue_39_2016_Cover.png"
+indexImage: "images/joker_maggot_sml.jpg"
 draft: false
 ---
 

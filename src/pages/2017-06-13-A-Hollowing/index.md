@@ -5,7 +5,7 @@ date: "2017-06-14T09:00:00.284Z"
 path: "/posts/3"
 category: "comics"
 description: "Even without color, Sloane finds surprising ways to innovate."
-indexImage: "https://s3.amazonaws.com/foggy1/a_hollowing.png"
+indexImage: "images/joker_maggot_sml.jpg"
 draft: false
 ---
 

@@ -54,23 +54,13 @@ class BlogIndex extends React.Component {
                 listStyleType: 'none'
               }}
             >
-              <div style={{
-                marginLeft: 16,
-                marginBottom: 16,
-                height: 72,
-                width: 72,
-                borderRadius: 50,
-                verticalAlign: 'middle',
-                backgroundSize: 'cover',
-                display: 'inline-block',
-                backgroundColor: '#63ccff'
-              }}>
                 <img 
                   onLoad={() => this.handleLoad(i)}
                   style={{
+                    marginLeft: 16,
+                    marginBottom: 16,
                     height: 72,
                     width: 72,
-                    visibility,
                     borderRadius: 50,
                     verticalAlign: 'middle',
                     backgroundSize: 'cover',
@@ -78,7 +68,6 @@ class BlogIndex extends React.Component {
                   }}
                   src={image}
                 />
-              </div>
               <span
                 style={{
                   marginLeft: 16,
@@ -138,3 +127,5 @@ query IndexQuery {
   }
 }
 `
+
+
