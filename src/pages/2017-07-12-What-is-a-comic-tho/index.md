@@ -6,7 +6,7 @@ path: "/posts/4"
 smallImage: "joker_maggot_sml.jpg"
 category: "comics"
 description: "Let's phili(sophi)cal, let's get into comics yeah."
-indexImage: "images/joker_maggot_sml.jpg"
+indexImage: "images/mccloud_understanding.jpg"
 draft: false
 ---
 
