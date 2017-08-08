@@ -9,7 +9,8 @@ class Template extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      mobile: false
+      mobile: false,
+      isOpen: false
     }
   }
 
@@ -23,6 +24,10 @@ class Template extends React.Component {
     event.preventDefault();
   }
 
+  handleSideNavigation () {
+    this.setState({isOpen: false})
+  }
+
   render () {
     const { location, children } = this.props
     const height = this.state.mobile ? 56 : 64
@@ -33,9 +38,13 @@ class Template extends React.Component {
     if (location.pathname === "/" || location.pathname === '/about') {
       title = 'Fuck Up Some Comics'
       header = (
-        <Menu styles={styles} >
-          <a id="home" className="menu-item" href="/">Home</a>
-          <a id="about" className="menu-item" href="/about">About</a>
+        <Menu
+          styles={styles}
+          onStateChange={({isOpen}) => this.setState({isOpen})}
+          isOpen={this.state.isOpen}
+        >
+          <Link onClick={this.handleSideNavigation.bind(this)} id="home" className="menu-item" to="/">Home</Link>
+          <Link onClick={this.handleSideNavigation.bind(this)} id="about" className="menu-item" to="/about">About</Link>
         </Menu>
           // <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
       )
@@ -59,7 +68,7 @@ class Template extends React.Component {
         <nav style={{
           height,
           backgroundColor: '#63ccff',
-          position: 'relative',
+          position: 'fixed',
           width: '100%',
           marginBottom,
           boxShadow: '0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)'
@@ -67,7 +76,7 @@ class Template extends React.Component {
           <div style={{position: 'absolute', left: 72, top: 16}}>
             <p style={{
               color: 'white',
-              fontSize: '1.5em',
+              fontSize: 20,
               fontFamily: 'Merriweather Sans,Helvetica,Arial,sans-serif',
             }}>{title}</p>
           </div>
@@ -94,15 +103,15 @@ Template.propTypes = {
 
 var styles = {
   bmBurgerButton: {
-    position: 'absolute',
-    width: 24,
+    position: 'fixed',
+    width: '24px',
     color: 'white',
-    height: 24,
+    height: '24px',
     left: 16,
     top: 16
   },
   bmBurgerBars: {
-    background: 'white'
+    background: 'white',
   },
   bmCrossButton: {
     height: '24px',
