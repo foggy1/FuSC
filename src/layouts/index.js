@@ -31,7 +31,6 @@ class Template extends React.Component {
   render () {
     const { location, children } = this.props
     const height = this.state.mobile ? 56 : 64
-    const marginBottom = location.pathname === "/" ? null : null
     styles.bmBurgerButton.left = this.state.mobile ? 16 : 24
     styles.bmBurgerButton.top = this.state.mobile ? 16 : 20
     let header, title
@@ -64,13 +63,12 @@ class Template extends React.Component {
       )
     }
     return (
-      <div style={{paddingTop: 0}}>
+      <div style={{paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
         <nav style={{
           height,
           backgroundColor: '#63ccff',
           position: 'fixed',
           width: '100%',
-          marginBottom,
           boxShadow: '0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)'
         }}>
           <div style={{position: 'absolute', left: 72, top: 16}}>
@@ -86,10 +84,24 @@ class Template extends React.Component {
           style={{
             maxWidth: rhythm(24),
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+            paddingTop: height + 16
           }}
         >
           {children()}
         </Container>
+        <footer
+          style={{
+            minHeight: 50,
+            position: 'absolute',
+            bottom: 0,
+            width: '100%',
+            backgroundColor: '#039be5'
+          }}
+        >
+          <div style={{width: '90%', padding: 10, lineHeight: 1.5, color: 'white', margin: 'auto'}}>
+             <span style={{marginTop: 20}}>©</span> 2017 Austin Lanari
+          </div>
+        </footer>
       </div>
     )
   }
