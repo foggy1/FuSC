@@ -29,13 +29,11 @@ class Bio extends React.Component {
         />
         Written by
         {" "}
-        <strong>Austin Lanari</strong>
+        <strong><a href="https://twitter.com/austinlanari" target='_blank'>Austin Lanari</a></strong>
         {" "}
         who likes to build and write about cool stuff.
         {" "}
-        <a href="https://twitter.com/austinlanari">
-          You should follow him on Twitter
-        </a>
+        <a style={{display: 'inline-block', marginLeft: 10}}href='https://ko-fi.com/A12039KE' target='_blank'><img height='36' style={{border:0, height: 36}} src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
       </p>
     )
   }
