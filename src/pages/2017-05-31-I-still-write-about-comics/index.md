@@ -6,7 +6,7 @@ path: "/posts/1"
 readNext: "/posts/2"
 category: ""
 description: "Is this thing on?"
-indexImage: "https://static01.nyt.com/images/2016/06/15/dining/15PANCAKEGUIDE3-WEB/15PANCAKEGUIDE3-WEB-superJumbo.jpg"
+indexImage: "images/pancakes.jpeg"
 draft: false
 ---
 

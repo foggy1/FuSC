@@ -9,7 +9,8 @@ class Template extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      mobile: false
+      mobile: false,
+      isOpen: false
     }
   }
 
@@ -23,19 +24,26 @@ class Template extends React.Component {
     event.preventDefault();
   }
 
+  handleSideNavigation () {
+    this.setState({isOpen: false})
+  }
+
   render () {
     const { location, children } = this.props
     const height = this.state.mobile ? 56 : 64
-    const marginBottom = location.pathname === "/" ? null : null
     styles.bmBurgerButton.left = this.state.mobile ? 16 : 24
     styles.bmBurgerButton.top = this.state.mobile ? 16 : 20
     let header, title
     if (location.pathname === "/" || location.pathname === '/about') {
       title = 'Fuck Up Some Comics'
       header = (
-        <Menu styles={styles} >
-          <a id="home" className="menu-item" href="/">Home</a>
-          <a id="about" className="menu-item" href="/about">About</a>
+        <Menu
+          styles={styles}
+          onStateChange={({isOpen}) => this.setState({isOpen})}
+          isOpen={this.state.isOpen}
+        >
+          <Link onClick={this.handleSideNavigation.bind(this)} id="home" className="menu-item" to="/">Home</Link>
+          <Link onClick={this.handleSideNavigation.bind(this)} id="about" className="menu-item" to="/about">About</Link>
         </Menu>
           // <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
       )
@@ -55,19 +63,18 @@ class Template extends React.Component {
       )
     }
     return (
-      <div style={{paddingTop: 0}}>
+      <div style={{paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
         <nav style={{
           height,
           backgroundColor: '#63ccff',
-          position: 'relative',
+          position: 'fixed',
           width: '100%',
-          marginBottom,
           boxShadow: '0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)'
         }}>
           <div style={{position: 'absolute', left: 72, top: 16}}>
             <p style={{
               color: 'white',
-              fontSize: '1.5em',
+              fontSize: 20,
               fontFamily: 'Merriweather Sans,Helvetica,Arial,sans-serif',
             }}>{title}</p>
           </div>
@@ -77,10 +84,24 @@ class Template extends React.Component {
           style={{
             maxWidth: rhythm(24),
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+            paddingTop: height + 16
           }}
         >
           {children()}
         </Container>
+        <footer
+          style={{
+            minHeight: 50,
+            position: 'absolute',
+            bottom: 0,
+            width: '100%',
+            backgroundColor: '#039be5'
+          }}
+        >
+          <div style={{width: '90%', padding: 10, height: 50, lineHeight: 1.5, color: 'white', margin: 'auto'}}>
+            <span style={{marginTop: 20}}>©</span> 2017 Austin Lanari
+          </div>
+        </footer>
       </div>
     )
   }
@@ -94,15 +115,15 @@ Template.propTypes = {
 
 var styles = {
   bmBurgerButton: {
-    position: 'absolute',
-    width: 24,
+    position: 'fixed',
+    width: '24px',
     color: 'white',
-    height: 24,
+    height: '24px',
     left: 16,
     top: 16
   },
   bmBurgerBars: {
-    background: 'white'
+    background: 'white',
   },
   bmCrossButton: {
     height: '24px',

@@ -20,3 +20,5 @@ In the short-term, I plan on fusing this blog with writing a little more about c
 _Might_.
 
 If you want to see more bite-sized rants, [Twitter is where to find me]('https://www.twitter.com/austinlanari'). It's also the best way to contact me.  Now go read about some comics.
+
+The site is in constant flux and is at all-times a work in progress. To get some insight into how it's built, the source code is [here]('https://github.com/foggy1/FuSC'). The main library driving everything is the very clever (but also always in flux) [Gatsby.js]('https://github.com/gatsbyjs/gatsby').
