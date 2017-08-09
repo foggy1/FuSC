@@ -1,8 +1,3 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# FuSC
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
-
-## Running in development
-`gatsby develop`
+Designing a comic blog with Gatsby.js with an emphasis on presenting content in the most pleasing and accessible way. Current goals are to maximize the effectiveness of FuSC as a progressive web app and implement basic material design.
