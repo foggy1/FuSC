@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fuck Up Some Comics]]></title><description><![CDATA[Another site about comics]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sat, 12 Aug 2017 05:39:45 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Things got out of hand pretty quick. I got really excited about designing a simple progressive web app (add this site to your home screen...]]></description><link>https://fuckupsomecomics.com/about/</link><guid isPermaLink="false">https://fuckupsomecomics.com/about/</guid><content:encoded>&lt;p itemscope itemtype=&apos;http://schema.org/AboutPage&apos;&gt;
+I&apos;m &lt;span itemprop=&apos;about&apos;&gt;Austin Lanari&lt;/span&gt;. By day I&apos;m a Software Engineer, so I thought I&apos;d make my own site for writing about comics.
+&lt;/p&gt;
+&lt;p&gt;Things got out of hand pretty quick.&lt;/p&gt;
+&lt;p&gt;I got really excited about designing a simple progressive web app (add this site to your home screen and it will behave pretty similar to a native app, which is awesome), and haven’t been writing about comics quite as much as I planned.  But, I’ll get there.
+In the mean time, I still slog through challenging, small press work and do my best to share my thoughts over on &lt;a href=&quot;http://www.comicsbulletin.com&quot;&gt;Comics Bulletin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In the short-term, I plan on fusing this blog with writing a little more about coding. That might mean I have to change the blog’s semi-official name right now (despite the fact that it’s Future’s world and we’re all just living in it), but, it &lt;em&gt;might&lt;/em&gt; turn out alright not to have the ‘fuck’ word in my main website.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Might&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to see more bite-sized rants, &lt;a href=&quot;https://www.twitter.com/austinlanari&quot;&gt;Twitter is where to find me&lt;/a&gt;. It’s also the best way to contact me.  Now go read about some comics.&lt;/p&gt;
+&lt;p&gt;The site is in constant flux and is at all-times a work in progress. To get some insight into how it’s built, the source code is &lt;a href=&quot;https://github.com/foggy1/FuSC&quot;&gt;here&lt;/a&gt;. The main library driving everything is the very clever (but also always in flux) &lt;a href=&quot;https://github.com/gatsbyjs/gatsby&quot;&gt;Gatsby.js&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tatsumi's 'Black Blizzard']]></title><description><![CDATA[{:height=“50%” width=“50%“} Tatsumi’s thoughts about  Black Blizzard  as a work are pretty telling. B ringing this work out as a book now is...]]></description><link>https://fuckupsomecomics.com/2017-08-08-Black-Blizzard/</link><guid isPermaLink="false">https://fuckupsomecomics.com/2017-08-08-Black-Blizzard/</guid><pubDate>Tue, 08 Aug 2017 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;undefined&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 144.44444444444443%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAdABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABu6tFzgYb5LmkUP/EABoQAAIDAQEAAAAAAAAAAAAAAAABAhESIUL/2gAIAQEAAQUClJ7bEehG+3yL44286SVH/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGhAAAgIDAAAAAAAAAAAAAAAAEBEAASExcf/aAAgBAQAGPwJShqZLsciY/8QAHRAAAwEAAgMBAAAAAAAAAAAAAAERITFhQVFxgf/aAAgBAQABPyFJkmTITqy7wcS1kv0VXFXwvfBHpXx2R2BDCUPU2qg5X7EER//aAAwDAQACAAMAAAAQTDr/AP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EABsQAQEBAQEBAQEAAAAAAAAAAAERACExQWHB/9oACAEBAAE/EOFNpXofcEiH6OfzTYVL9dJRT8YMh8IYoUQtCfMcZCpT3FjT4hrHzvly2aAU7qAAQIdo7sHLfN//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Black Blizzard Parade&quot;
+        title=&quot;&quot;
+        src=&quot;/static/78937f7a7641b54e649cc9af9361d79a-f8fb9.jpg&quot;
+        srcset=&quot;/static/78937f7a7641b54e649cc9af9361d79a-e8976.jpg 148w,
+/static/78937f7a7641b54e649cc9af9361d79a-63df2.jpg 295w,
+/static/78937f7a7641b54e649cc9af9361d79a-f8fb9.jpg 590w,
+/static/78937f7a7641b54e649cc9af9361d79a-85e3d.jpg 885w,
+/static/78937f7a7641b54e649cc9af9361d79a-a5ccc.jpg 900w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    {:height=“50%” width=“50%“}&lt;/p&gt;
+&lt;p&gt;Tatsumi’s thoughts about &lt;em&gt;Black Blizzard&lt;/em&gt; as a work are pretty telling.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[B]ringing this work out as a book now is like exposing something shameful and private from my past that I’d rather keep hidden from sight.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In the quoted interview (with Adrian Tomine, featured in the back of D&amp;#x26;Q’s adaptation), Tomine quickly and gently (and correctly) rebukes Tatsumi for being too hard on his work.&lt;/p&gt;
+&lt;p&gt;But the pace at which Tatsumi put this book together (20 days!!!) often shows. &lt;em&gt;Black Blizzard&lt;/em&gt; is straight out of a noir movie that sounds like it was translated from English into Japanese and then back again. Of course, this book was never meant to sit on anybody’s shelf: it was a rental manga at a time when the industry was booming and Tatsumi was cranking literally dozens of books out. That’s not to say the work is objectively at a lower standard; yet, it is not as if we can divorce ourselves from the expectations we have of books that we pay for and re-read. Our disposition towards books is entirely different than someone’s disposition would have been towards a &lt;em&gt;rental&lt;/em&gt; book in 1950’s Japan.&lt;/p&gt;
+&lt;p&gt;That said, the book didn’t even really do well with readers back then. The main demographic that seemed taken by Tatsumi’s work in this case were his peers, and I can understand why. The book is a pretty early example of a creator who wasn’t named “Tezuka” adapting essential elements of cinema in interesting ways. Still, the impact of these innovations was often limited to individual sequences, and thus benefits someone with an eye towards dissecting the work, rather than someone who is just interested in the story itself. Tatsumi wasn’t yet comfortable enough with the tricks of the trade to get them to work consistently throughout, and the result is something charming and curious in spite of overall execution.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;undefined&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 102.23162754905732%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUDBAH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7fJuxRc4kYkWhX//xAAbEAACAgMBAAAAAAAAAAAAAAABAgADBBAhEf/aAAgBAQABBQLkV1fT5HSVpi2hhkIFnpMetQf/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAeEAACAgEFAQAAAAAAAAAAAAAAAQIRMRIhIkFxgf/aAAgBAQAGPwLo418MDhp9IuCsuxNZYjY//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIVExQf/aAAgBAQABPyG/qh2bSSRVVgh1LHj7AwE/WeOOjKuaqsKhbqYNV7k//9oADAMBAAIAAwAAABCzyID/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAgEAEBAAIBAwUAAAAAAAAAAAABEQAhMVGRwUGhsdHw/9oACAEBAAE/ELCoCrPHUfnKWgiCvZnfGAVTZB95j9od2IOfO8dta9Qn04LIbwFRy+Qvl3sfOGtAQH0/TIxyKFC5/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Black Blizzard Piano&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2a959f7844320584f23f7c724baaa6e2-f8fb9.jpg&quot;
+        srcset=&quot;/static/2a959f7844320584f23f7c724baaa6e2-e8976.jpg 148w,
+/static/2a959f7844320584f23f7c724baaa6e2-63df2.jpg 295w,
+/static/2a959f7844320584f23f7c724baaa6e2-f8fb9.jpg 590w,
+/static/2a959f7844320584f23f7c724baaa6e2-85e3d.jpg 885w,
+/static/2a959f7844320584f23f7c724baaa6e2-d1924.jpg 1180w,
+/static/2a959f7844320584f23f7c724baaa6e2-9452e.jpg 1770w,
+/static/2a959f7844320584f23f7c724baaa6e2-2a068.jpg 2599w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Notice the focus on the main character’s expression here. Notice just how much this panel is &lt;em&gt;about&lt;/em&gt; what he is feeling, and how it is represented in various ways: his expression, the sweat drops coming off of him, the frantic lettering and the kinds of sounds it entails if you imagine somebody at a piano, the fact that the frantic lettering penetrates the sanctity of the panel, and that pair of eight notes that is dangerously close to the panel above.  &lt;em&gt;Black Blizzard&lt;/em&gt; was beloved by Tatsumi’s colleagues because it represented a sharp shift in focus from mere storytelling or draftstmanship towards the cinematic and the outright dramatic in exactly this manner.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;undefined&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 102.23953261927944%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAHp3Cg4c4rxEiB//8QAGhABAAMBAQEAAAAAAAAAAAAAAQACESESQf/aAAgBAQABBQL7ZwbR33ZwXYnL9q8n/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGRAAAQUAAAAAAAAAAAAAAAAAEAERITJR/9oACAEBAAY/AmNI0qf/xAAaEAEAAwEBAQAAAAAAAAAAAAABABExIUFR/9oACAEBAAE/IVfbfWKFTrsYB16tBXefCErMZXQvYdlnSjCf/9oADAMBAAIAAwAAABCjL0L/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAVEQEBAAAAAAAAAAAAAAAAAAAQAf/aAAgBAgEBPxAh/8QAGxABAQEBAQADAAAAAAAAAAAAAREAMUEhUXH/2gAIAQEAAT8QD8kP2MnAay+5yap3zHA9khfwy4MKSi6p1CmMI+ltcixN6d8xHOcN/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Black Blizzard Smoke&quot;
+        title=&quot;&quot;
+        src=&quot;/static/0ea714314eee6acdd244efba7a0abace-f8fb9.jpg&quot;
+        srcset=&quot;/static/0ea714314eee6acdd244efba7a0abace-e8976.jpg 148w,
+/static/0ea714314eee6acdd244efba7a0abace-63df2.jpg 295w,
+/static/0ea714314eee6acdd244efba7a0abace-f8fb9.jpg 590w,
+/static/0ea714314eee6acdd244efba7a0abace-85e3d.jpg 885w,
+/static/0ea714314eee6acdd244efba7a0abace-e5aa2.jpg 1027w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Admittedly, my favorite sequence in the book is the top image of this piece. The main character meets the love of his life because he dropped his music and she brought it to him… in the &lt;em&gt;middle of a fucking parade!&lt;/em&gt; The whole thing is just so goofy, despite how central it is to the story. Something about the final image of the woman on the float looking back gave me &lt;em&gt;very&lt;/em&gt; strong Satoshi Kon vibes. It’s an anachronism, I know, but this kind of goofy earnestness is a surprisingly poignant vehicle in a lot of more modern Japanese media.&lt;/p&gt;
+&lt;p&gt;My unironic favorite part is the above sequence, where the main character disappears into the fog of the night with his arresting officer and then fades in to a similar cloudy scene, where the smoke is being caused by the nearby fire as he recounts his tale to a fellow escaped convict. The cinematic and the dramatic are especially evident in this scene: again, character expressions have entire panels dedicated to them. In addition, I can’t think of something much more cinema-specific than trenchcoated figures walking off into a foggy distance. The other star are the diagonal lines adding texture to the outdoor scene. That kind of explicit ambient work was yet another way Tatsumi infused particular shots with drama.&lt;/p&gt;
+&lt;p&gt;I can’t get over the second to that third panel (note: in case you haven’t figured it out, this manga is flipped and reads like Western comics, left to right). It is a sudden transition but the focus on expression and the environmental elements carry the steady beat of the first two panels into a crescendo that is simultaneously loud and serene. It is the culmination of everything up to that point in the book, and yet when you see what all of that adds up to for the main character—when you are faced with &lt;em&gt;only&lt;/em&gt; what it means to him—a quiet penetrates the page, and the exposition in the next panel feels like it’s being delivered not as plot details but as the lived experience of a man whose life has been shattered.&lt;/p&gt;
+&lt;p&gt;Although this sequence works, and beautifully so, its power is in its simplicity, and too many sequences delivered as such would make the book feel like a storyboard. Ironically, &lt;em&gt;Black Blizzard&lt;/em&gt; &lt;strong&gt;doesn’t&lt;/strong&gt; read like storyboards on the whole. While the narrative is well-paced, Tatsumi often seems unsure of how to vary the beats as they are presented visually. At one point, the last panel before a page turn is the exact same as the first panel after the page turn, and it’s jarringly unpleasant.  &lt;em&gt;Black Blizzard&lt;/em&gt; is best understood as a mixed bag of sore thumbs and innovative flourishes held together by a competent storyteller paying his dues.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;undefined&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 145.2513966480447%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAdABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwAEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAFeW4g4ZXyuKZLRH//EABwQAAICAgMAAAAAAAAAAAAAAAECAAMREhMiI//aAAgBAQABBQJdlsewzlEc4axgq9GluFj4A0YS6MfV31P/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAdEAACAwACAwAAAAAAAAAAAAAAAQIRIRAxMnGh/9oACAEBAAY/ApN7ZUcNYsQ6ovBdiits8PvEfXH/xAAbEAEAAwEBAQEAAAAAAAAAAAABABEhMUFRgf/aAAgBAQABPyFJNE0Xyeeb1hRWpAIJfdmqD8lcCguPT5KCtGN7HAKoYml0SjGMmr/Z/9oADAMBAAIAAwAAABDHzX//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAdEAEBAAIDAAMAAAAAAAAAAAABEQAhMUFhUdHx/9oACAEBAAE/EFkmmeo9dY6boULBwpAFGEw7A22YfOFWh6UfXzDVO4ddmWgm2xqc89YgD7U6Xjj3GyaNa/WGtaEsuzBrqzt4v5kM7i1x/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Black Blizzard Lights&quot;
+        title=&quot;&quot;
+        src=&quot;/static/64154eb1a3d4f75946cf1cce75f82672-f8fb9.jpg&quot;
+        srcset=&quot;/static/64154eb1a3d4f75946cf1cce75f82672-e8976.jpg 148w,
+/static/64154eb1a3d4f75946cf1cce75f82672-63df2.jpg 295w,
+/static/64154eb1a3d4f75946cf1cce75f82672-f8fb9.jpg 590w,
+/static/64154eb1a3d4f75946cf1cce75f82672-85e3d.jpg 885w,
+/static/64154eb1a3d4f75946cf1cce75f82672-10e26.jpg 895w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[What IS a comic?]]></title><description><![CDATA[There’s a pretty good definition of comics out there in the philosophy of comics literature. Hayman-Pratt Pictorial Narrative Definition : X...]]></description><link>https://fuckupsomecomics.com/2017-07-12-What-is-a-comic-tho/</link><guid isPermaLink="false">https://fuckupsomecomics.com/2017-07-12-What-is-a-comic-tho/</guid><pubDate>Wed, 12 Jul 2017 13:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;undefined&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 152.8125%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAfABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABqpSs0hkc22g8UxCH/8QAHBAAAgMAAwEAAAAAAAAAAAAAAQIAAxEEEiET/9oACAEBAAEFArbQkV+yqBnI8lB1Bmch+0q8rGZ81IKLCs//xAAVEQEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAwEBPwFj/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHRABAAEDBQAAAAAAAAAAAAAAARAAESIhMTJRcf/aAAgBAQAGPwLTKh7l9jI2otHEWixaP//EABwQAAMAAwEBAQAAAAAAAAAAAAABESExQWFxof/aAAgBAQABPyFZk/haJaoNokMp3Z0ck+CCViXVl4IV6yYt/RIb6RIiY4I8P//aAAwDAQACAAMAAAAQUya9/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQITH/2gAIAQMBAT8QxFNDP//EABYRAQEBAAAAAAAAAAAAAAAAAAEREP/aAAgBAgEBPxAbkbn/xAAfEAEAAgIBBQEAAAAAAAAAAAABABEhMVFBYXGB8NH/2gAIAQEAAT8Q6mqkpPaoOJDWMOk12iCsXkJRxTVNw6mvtSrKmDxR97go20uXGiQdnkhKEyvyr+VLcK68olHdgrPmGuwyNBLBQAMUT//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Batman #663&quot;
+        title=&quot;&quot;
+        src=&quot;/static/52d2a4093b696b3819175d720c3a01fc-f8fb9.jpg&quot;
+        srcset=&quot;/static/52d2a4093b696b3819175d720c3a01fc-e8976.jpg 148w,
+/static/52d2a4093b696b3819175d720c3a01fc-63df2.jpg 295w,
+/static/52d2a4093b696b3819175d720c3a01fc-f8fb9.jpg 590w,
+/static/52d2a4093b696b3819175d720c3a01fc-db559.jpg 640w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;There’s a pretty good definition of comics out there in the philosophy of comics literature.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Hayman-Pratt Pictorial Narrative Definition&lt;/strong&gt;: X is a comic if and only if x is a sequence of discrete, juxtaposed pictures that comprise a narrative, either in their own right or when combined with text &lt;strong&gt;(Hayman and Pratt 2005, 423)&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Busiek &lt;a href=&quot;https://twitter.com/KurtBusiek/status/884637332351078400&quot;&gt;isn’t the first&lt;/a&gt; (and won’t be the last!) to suggest that comics can happen without pictures. Without text, I think we’re all in agreement that they are (though R.C. Harvey has been pushing an amorphous definition for &lt;em&gt;years&lt;/em&gt; that leans on the importance of both art and text being present). Busiek &lt;a href=&quot;https://twitter.com/KurtBusiek/status/884643372148838400&quot;&gt;even wheels out&lt;/a&gt; the tried-and-true &lt;em&gt;Alpha Flight&lt;/em&gt; issue wherein a fight occurs among consecutive white panels. Busiek thinks this is “no traditional drawing”.&lt;/p&gt;
+&lt;p&gt;Sure, ok. I guess blank white space is not “traditional drawing”. But not all of this issue occurs in white panels. Sequences within a comic gain meaning from the sequences before and after them. Just as an individual panel does not a comic make, nor does it break. Even if the entire story were in black, though, representing a conversation between two friends in the dark before they fall asleep, you would still have a comic. Just because there is not any proper “draftsmanship” does not mean there is not any art: if a black panel represents darkness, then there you go.&lt;/p&gt;
+&lt;p&gt;If it is sufficient to intend, in good faith, for something to be a comic, that is one thing. I am not sympathetic to that particular argument, but it’s different from what Busiek and many others often hand-wavingly suggest about the medium. It’s “story-driven”. Sure, but a story is not a prime mover; something must comprise the narrative, as sentences do in prose. And notice I say &lt;em&gt;sentences&lt;/em&gt;: narrative, much like our speech, starts with big syntactic pieces and works its way down. A jumble of words is not a story because those words must come together to have meaning, and then those meaningful units must compose on a higher level to depict some series of events. Similarly, a bundle of random images is not a comic.&lt;/p&gt;
+&lt;p&gt;Where I think there is looseness in our definition or understanding is at the narrative level. What really is a narrative, after all? I’m not always sure. Event-based definitions (“A happened, then B happened, Bam! You have a story.”) are fine, but there are plenty of stories I can think of where the events are strewn about and the story’s impact is more evocative than demonstrative. Poetry comics are certainly comics, and almost none of the best ones have a narrative. They have a theme, often (not even that, many times) and manage to play up juxtaposition of word-image or image-image in ways only comics allow you to do. It’s likely a more felicitous (and difficult to nail down) definition lies in the neighborhood of “that which expresses meaning through deliberate juxtaposition of images, with or without the aid of text.”&lt;/p&gt;
+&lt;p&gt;Of course, this probably drags in too much, but the common thread to me no matter what is the emphasis in all good definitions of picture over text. Text augments; text is in fact, essential to certain &lt;em&gt;pieces&lt;/em&gt; of any given pictorial narrative; however, without images, what you have is a different language. It is a non-visual one. If you were to place a word in several panels, however, with borders and gutters and all, and call that a comic, I might agree with you! Panel borders, after all, are art! Gutters are a deliberate artistic choice! &lt;/p&gt;
+&lt;p&gt;The trick here isn’t to be right. I like rigorous definitions because people are a little too inexact a little too often.
+The trick, rather, is to abandon loose words like “drawings” or “art” in these conversations, as if only such general things make each individual comic the very work that it is. Color has meaning; the thickness of a panel border has meaning; the font, the slant of the font, and that font in conjunction with anything else around it has, inherits, and generates meaning. It’s all very fucking cool.&lt;/p&gt;
+&lt;p&gt;And again, not much of this matters if your answer is “well, if they say it’s a comic…”, since… well, that’s pretty much that! But consider that there are almost certainly some things that you would not consider a comic if you were told that they were. You would push back if someone handed you &lt;em&gt;War and Peace&lt;/em&gt; and told you it was a comic. And I think there are legitimate, non-trivial reasons why that’s the case.&lt;/p&gt;
+&lt;p&gt;So let’s talk about that instead of hand-waving.&lt;/p&gt;
+&lt;h2&gt;Additional Reading&lt;/h2&gt;
+&lt;p&gt;If you can somehow get your hands on it (I may be able to help if you are interested and DM me) Roy T. Cook wrote a little ditty “Do Comics Require Picture? Or Why Batman #663 is a Comic.” from The Journal of Aesthetics and Art Criticism 69, no. 3 (Summer 2011), pages 285-296. I happen to think the answer is “Yes They Do, and No, It Isn’t”, but it’s worth a read as it is a rigorous philosophical attempt to frame the ontology of comics in a way that allows non-pictorial elements to be comics. I also have an extensive response buried in my thesis, which I can also send any interested readers.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Hollowing]]></title><description><![CDATA[When finally breaking open my Short Box, I went straight for Sloane’s  A Hollowing . … Ok, so I actually ate the candy. But THEN, I read  A...]]></description><link>https://fuckupsomecomics.com/2017-06-13-A-Hollowing/</link><guid isPermaLink="false">https://fuckupsomecomics.com/2017-06-13-A-Hollowing/</guid><pubDate>Wed, 14 Jun 2017 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When finally breaking open my Short Box, I went straight for Sloane’s &lt;em&gt;A Hollowing&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;…&lt;/p&gt;
+&lt;p&gt;Ok, so I actually ate the candy. But THEN, I read &lt;em&gt;A Hollowing&lt;/em&gt;.&lt;/p&gt;
+&lt;img src=&quot;https://s3.amazonaws.com/foggy1/a_hollowing.png&quot;&gt;
+&lt;p&gt;I’ve been writing about Sloane’s work ever since I started taking writing about comics seriously and I don’t think that’s a coincidence. Sloane makes it easy to take comics seriously. Her work on &lt;em&gt;From Under Mountains&lt;/em&gt; &lt;a target=&apos;_blank&apos; href=&quot;http://retconrasengan.blogspot.com/2016/01/hanharas-grasp-letting-world-tell-story.html&quot;&gt;remains some of my favorite work&lt;/a&gt; in the past few years, and her Patreon is a consistent source of the same quality of work. &lt;/p&gt;
+&lt;p&gt;There is a constant sense that Sloane is in charge of the layout, rather than the other way around. Her work in &lt;em&gt;FUM&lt;/em&gt; is evidence of this, as are the snippets of projects on her Patreon. For Sloane, layouts are a means of juxtaposing not only story beats, but also colors and textures; and often that juxtaposing extends to the third dimension wherein the story takes on layers that often carry you between physical spaces. &lt;/p&gt;
+&lt;p&gt;(Seriously, some of the best examples of this are on &lt;a href=&quot;https://www.patreon.com/sloane&quot;&gt;her Patreon&lt;/a&gt;, and I’m not going to post work from there even though I’m DYING to talk about some of those pages, so check them out or be on the lookout for new work.)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A Hollowing&lt;/em&gt; leans more on the metaphorical space of dream-like (mostly nightmarish) imagery to guide the reader. It is a tale of trauma, the ways in which trauma resurfaces, and the ways in which we must confront the things that hurt us to move forward and survive in some kind of imperfect union. The tale unfolds through the eyes of a young girl, the loss of her mother, and a new horse. &lt;/p&gt;
+&lt;p&gt;Told entirely in black and white, with many more “conventional” layouts than one might find in her other work, Sloane instead leans heavily on ink itself as a presence on the page, with the horse being the best example. This adds to the dreamlike effect of the gray, inkless watercolors that demarcate memories, which &lt;em&gt;itself&lt;/em&gt; adds to scenes where the grays and inks meet in a collision of present and past traumas for the main character. &lt;/p&gt;
+&lt;figure class=&apos;floatCenter&apos;&gt;
+&lt;img class=&quot;floatCenter&quot; style=&quot;max-height: 600px;&quot; src=&quot;https://s3.amazonaws.com/foggy1/door_wipe.png&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Above, the main character catches her father doing something you would rather not catch your father doing, and then flees to her room where she falls asleep and wakes up in a dream. The somewhat abrupt shift from running away to being in bed (particularly as juxtaposed between seeing her father through two doorways in a way that appears unsettling) captures the anxiety of being a kid seeing something you shouldn’t: it’s a whirlwind until you’re somewhere safe, and even then you’re usually caught stuck with your heart beating fast, going over what happened. Sloane captures that latter moment in the penultimate panel before launching us into a nasty flashback. A solid page, but still more layers to parse.&lt;/p&gt;
+&lt;p&gt;In what appears to be a pretty standard layout, with “only” black and white at her disposal and no layered panels, Sloane still pulls off her trick of using overlayed elements to bridge the space between panels, not just once, but &lt;em&gt;twice&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The sheepish “Beeps” that surround the final panel in which the main character finds herself in a car begin in the panel in which she drifts off to sleep, rendering a quick panel transition as being one that occurs much more gradually.&lt;/p&gt;
+&lt;p&gt;And then there’s the ink swipe. A smudge almost like a tire track, running from her father’s bedroom door in the upper right of the page, to her waking-into-a-dream consciousness in the bottom left. The pronounced gutters of this story—this page being no exception—preclude any serious layering from occurring, so the light touch here is just enough to traverse the normal series of events without taking the reader completely out of the page. To wit, I didn’t really absorb this smudge until the second time I read the story.&lt;/p&gt;
+&lt;p&gt;The implications are clear: though her nightmares unearth past trauma &lt;em&gt;for the reader&lt;/em&gt;, it’s the &lt;em&gt;current trauma&lt;/em&gt; of what she sees through her father’s door that does the unearthing &lt;em&gt;for her&lt;/em&gt;. The ink swipe physically connects points A and B on the page through the physical doorways she uses to traverse the house; it also connects the two beats where she simply lays her head down to sleep, the means by which she travels from the waking world to somewhere much darker.&lt;/p&gt;
+&lt;p&gt;Without the “Beeps” and without the ink swipe, this page serves its purpose. Yet, these things aren’t window dressing: they are real, substantial parts of the story that augment the narrative in ways that additional panels could not achieve. They add ambiance, they alter our perception of the page’s pace, and they help round out the menacing tone of what is occurring and how it connects to what is to come. It is worth noting that the real punctuation to the events of this sequence does come two pages later, on the page turn, so the heightened sense of anticipation plays.&lt;/p&gt;
+&lt;p&gt;There’s far more to talk about as far as &lt;em&gt;A Hollowing&lt;/em&gt; is concerned, as the story on its own merits critical attention. I, however, am stuck as usual, marveling at the fact that regardless of the tools, Sloane demonstrates the full narrative depth of the medium.&lt;/p&gt;
+&lt;p&gt;&lt;a target=_blank href=&quot;https://twitter.com/AustinLanari/status/873991542649876480&quot;&gt;&lt;em&gt;I made a thread for my thoughts on the other Short Box titles&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Red Sprite was my Shit]]></title><description><![CDATA[Last summer, three titles joined the Shonen Jump lineup in quick succession:  Yamamoto Ryouhei’s fan-servicey  Love Rush! , artist/writer...]]></description><link>https://fuckupsomecomics.com/2017-06-07-Red-Sprite-Had-Potential/</link><guid isPermaLink="false">https://fuckupsomecomics.com/2017-06-07-Red-Sprite-Had-Potential/</guid><pubDate>Wed, 07 Jun 2017 08:00:00 GMT</pubDate><content:encoded>&lt;img src=&quot;https://s3.amazonaws.com/foggy1/WSJ_Issue_39_2016_Cover.png&quot;&gt;
+&lt;p&gt;Last summer, three titles joined the Shonen Jump lineup in quick succession:  Yamamoto Ryouhei’s fan-servicey &lt;em&gt;Love Rush!&lt;/em&gt;, artist/writer duo Demizu Posuka &amp;#x26; Shirai Kaiu’s cerebral thriller &lt;em&gt;Promised Neverland&lt;/em&gt;, and Yagi Tomohiro’s brilliant but boneheaded &lt;em&gt;Red Sprite&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;Can you tell how I feel about each one?&lt;/p&gt;
+&lt;p&gt;Of the three titles, &lt;em&gt;Promised Neverland&lt;/em&gt; is the only one still running, and has been a smash hit, regularly placing in the top 5 titles that &lt;em&gt;Jump&lt;/em&gt; serializes every week according to reader surveys. Demizu’s art, frankly, is several echelons below the Tabatas and Horikoshis of the world just pages away, who are cranking out savant-like sequences on a regular basis. Author Shirai, however, has gifted Demizu an absolutely &lt;em&gt;killer&lt;/em&gt; main plot and drafts the most suspenseful chapters of any series in Jump, save for when Oda decides to really do his thing. Demizu isn’t particularly &lt;em&gt;bad&lt;/em&gt; necessarily; the color page spreads are often pleasant and monstrous images grab the reader with Demizu’s subdued-yet-jaunty style. Where Demizu shines is in layering the elements of a given story beat to really drive home certain narrative choke-points in Shirai’s writing.&lt;/p&gt;
+&lt;div class=&apos;floatCenter&apos; style=&apos;text-align:center;&apos;&gt;
+  &lt;img style=&quot;display: inline-block;max-height: 600px;margin:10px;&quot; src=&quot;https://s3.amazonaws.com/foggy1/Screenshot_2017-06-06-21-22-50-01.jpeg&quot; /&gt;
+  &lt;img style=&quot;display: inline-block;max-height: 600px;margin:10px;&quot; src=&quot;https://s3.amazonaws.com/foggy1/Screenshot_2017-06-06-21-16-55-01.jpeg&quot; /&gt;
+  &lt;figcaption&gt;Left (or top on mobile): Shirai &amp; Demizu have a great rhythm, building up to this page as a big reveal while still finding room to rotate voices and keep things moving. Right (bottom on mobile): Yagi is all bluster, with half of the early chapters being this old guy yelling.&lt;/figcaption&gt;
+&lt;/div&gt;
+&lt;p&gt;Almost immediately, if presented with &lt;em&gt;Promised Neverland&lt;/em&gt; and &lt;em&gt;Red Sprite&lt;/em&gt;, you would be able to guess which would survive serialization, given the stark contrast between the two. Where &lt;em&gt;PN&lt;/em&gt; delays the payoff until the next chapter and incrementally delivers an increase in tension, &lt;em&gt;RS&lt;/em&gt; will stoke a conflict only to immediately resolve it in the next chapter with little indication of why the reader should return again. &lt;/p&gt;
+&lt;hr/&gt;
+&lt;figure class=&apos;floatCenter&apos;&gt;
+&lt;img class=&quot;floatCenter&quot; style=&quot;max-height: 600px;&quot; src=&quot;https://s3.amazonaws.com/foggy1/Screenshot_2017-06-06-21-55-07-01.jpeg&quot; /&gt;
+&lt;figcaption&gt;Red Sprite tells the tale of orphans with metal in their bones who are harvested for energy to fuel warships. Post time-skip, main character Tatsu Frampt forms a nation in the sky to gather his scattered friends under one banner.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Still, there are a lot of layers to why &lt;em&gt;Red Sprite&lt;/em&gt; works as a story. First of all, the allegory of a certain class living humans being used as energy sources for the rest of society is still terrifying enough to punch through its own thin veil. Second, it provides a nuanced platform to give these kids their powers: the very thing that makes them valuable and exploitable is one-and-the-same with what empowers them to fight their oppressors. A nice bonus, of course, is that Yagi gets to draw big dramatic lightning strikes in every single fight.&lt;/p&gt;
+&lt;figure class=&apos;floatCenter&apos;&gt;
+&lt;img class=&quot;floatCenter&quot; style=&quot;max-height: 600px;&quot; src=&quot;https://s3.amazonaws.com/foggy1/Screenshot_2017-06-06-21-19-29-01.jpeg&quot; /&gt;
+&lt;figcaption&gt;Pages like this one demonstrate Yagi might not have even fully understood what he had. Puerile classism is nowhere near as scary as the alleged hyper-pragmatism that drives the decision making of the real villains.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Where &lt;em&gt;Red Sprite&lt;/em&gt; fell flat was the fact that it mainly emphasized the two points above and readers were unwilling in the time allotted to see beyond into the nuanced, layered world that Yagi was on the cusp of creating. He was setting out to tell a story not only about resistance, but of some of the scariest things that drive oppression. The villains were not *scary dudes* or *zomg so strong* without context. Rather, they were holdovers from a time where war was necessary for them to survive. &lt;em&gt;Red Sprite&lt;/em&gt; was setting up to tell a tale where the villains were not just a bunch of fascists hardened by years of war with devastating weapons at their fingertips due to years of military innovation. In &lt;em&gt;Red Sprite&lt;/em&gt; the weapons and the humans that wield them are the same.  &lt;/p&gt;
+&lt;p&gt;Both sides, good and evil, have their humanity circumscribed by horrifying technological innovations that bring in to question the very essence of their souls. For Tatsu Frampt and crew, the question of humanity is an afterthought: this is a country whose sovereign goal is merely to regather a group of childhood friends under a single banner. By contrast, the hyper-militaristic meat-heads who aim to quash the young rebellion possess the very same powers, and only know how to abuse them. Their humanity is forfeit not because of the plasmarrow in their bones but rather because war has warped their sense of purpose, and wielding power for its own sake is all that makes sense anymore.&lt;/p&gt;
+&lt;p&gt;Even this take, however, is too simplistic, and Yagi was well aware of that. The apotheosis of his vision for the series lies in the Ash Soldier, the final villain that the crew faces before this story comes to its abrupt end. The Ash Soldier is horrifying in appearance, and perhaps even scarier in concept. &lt;/p&gt;
+&lt;div class=&apos;floatCenter&apos; style=&apos;text-align:center;&apos;&gt;
+  &lt;img style=&quot;display: inline-block;max-height: 600px;margin: 5px;&quot; src=&quot;https://s3.amazonaws.com/foggy1/Screenshot_2017-05-18-09-17-36-01.jpeg&quot; /&gt;
+  &lt;img style=&quot;display: inline-block;max-height: 600px;margin: 5px;&quot; src=&quot;https://s3.amazonaws.com/foggy1/Screenshot_2017-05-18-09-17-42-01.jpeg&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;The Ash Soldier is explained to have been a weapon invented during a time when the fascist empire of Edenia was just trying to fight a war. The soldier himself appears to be nothing but his consciousness and his bones, which serve as a substratum for the ashes of fallen soldiers whose collective speed and strength he appears to inherit. &lt;/p&gt;
+&lt;p&gt;But of course, the war is over, and all that is left is subjugation. So Blackburn, a storied Ash Soldier, sits and waits. I mean, holy shit. Just look at that. He &lt;em&gt;sits&lt;/em&gt; and &lt;em&gt;waits&lt;/em&gt; for a jolt of lightning to carry him down to a battle field where dozens of his compatriots have perished, &lt;em&gt;because&lt;/em&gt; dozens of his compatriots have perished. His summoning simultaneously represents his army’s failure and its triumph, since his presence means that the soldiers are more powerful in death.&lt;/p&gt;
+&lt;p&gt;Damn.&lt;/p&gt;
+&lt;p&gt;And I still have so many questions. Does Blackburn actually &lt;em&gt;have&lt;/em&gt; a consciousness of his own? Does it really inhabit his bones or is it like, a collective consciousness like some kind of cross between a Borg and a Cylon? Does he feel pain? Does he really just… sit there, all the time… waiting?&lt;/p&gt;
+&lt;p&gt;Ultimately I understand why this series got canned: for all the intrigue and nuance loaded into this world in ways that don’t immediately present themselves, what the reader &lt;em&gt;actually&lt;/em&gt; gets each chapter is a whole lot of bluster and very little payoff. Frampt continuously shows up to steal the show and does just that. Rescue missions go off without a hitch, and entire countries are saved almost instantly on his arrival. While certainly any number of these editorial decisions were made because this series never got out of the basement tier of reader surveys, for so much conflict to be stacked up and resolved in the span of two volumes is a little overboard.&lt;/p&gt;
+&lt;figure class=&apos;floatCenter&apos;&gt;
+&lt;img style=&quot;max-height: 700px;&quot; src=&quot;https://s3.amazonaws.com/foggy1/Screenshot_2017-06-06-21-09-44-01.jpeg &quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;”&lt;em&gt;One day you will turn to ash as well.&lt;/em&gt;” The above page depicting Blackburn’s death is the stylistic highpoint of the series; unfortunately, it comes too late. The warship juxtaposed with the sun amidst a halo of clouds plays off of Blackburn’s collapsing ash figure as everything dissolves around a lone eyeball. The only reason the image doesn’t play &lt;em&gt;even better&lt;/em&gt; is because Yagi frequently made use of similar shots in which the solitary warship stood dwarfed by the sky in a large, top-half panel.&lt;/p&gt;
+&lt;p&gt;It sounds weird, but Yagi spent &lt;em&gt;too&lt;/em&gt; much time on making things happen. Early chapters of &lt;em&gt;Black Clover&lt;/em&gt; fell similarly flat for me because the only thing carrying them was Tabata’s incredible line-work. Still, this was Yagi’s second shot at serialization after his initial Gold Future Cup performance earned him a spot in the lineup with &lt;em&gt;Iron Knight&lt;/em&gt;, and I can’t help but hope he gets another shot. There was a lot underneath the surface of &lt;em&gt;Red Sprite&lt;/em&gt; and not enough of it was excavated. I would love to see Yagi try again with a more mature take on a series, as he has demonstrated the capability of some pretty memorable (and conceptually disturbing!) imagery that could carry a longer series; as long as less superficial chest-puffing gets in the way.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I Used T-- I still write about comics]]></title><description><![CDATA[Deja vu  eh? When I started  Retcon Rasengan  I did it because I needed a place where I wouldn’t feel pressure to get things out on...]]></description><link>https://fuckupsomecomics.com/2017-05-31-I-still-write-about-comics/</link><guid isPermaLink="false">https://fuckupsomecomics.com/2017-05-31-I-still-write-about-comics/</guid><pubDate>Wed, 31 May 2017 21:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Deja vu&lt;/em&gt; eh?&lt;/p&gt;
+&lt;p&gt;When I started &lt;em&gt;Retcon Rasengan&lt;/em&gt; I did it because I needed a place where I wouldn’t feel pressure to get things out on deadlines.  I also wanted to be able to do whatever I wanted format-wise and not feel bad about egregious picture placement or egregious word-vomit of the type I’m already indulging in now.&lt;/p&gt;
+&lt;div style=&quot;&quot;&gt;
+  &lt;figure class=&quot;floatCenter&quot;&gt;
+    &lt;a target=&apos;_blank&apos; href=&quot;http://retconrasengan.blogspot.com/2016/04/hand-sewn-domestic-female-aesthetic.html&quot;&gt;
+      &lt;img class=&quot;linkImage&quot; style=&quot;max-height: 380px;padding: 30px; background-color: rgba(92,107,192, 0.1);border-radius: 3px;&quot; src=&quot;https://2.bp.blogspot.com/-0ipM8FHFpYo/VxaLuN9yRqI/AAAAAAAAFuM/mncK6PMa-Ccscl8Z1mgBgBltXv5Eu6TWQCKgB/w1200-h630-p-k-no-nu/kendrafemaleaestetic.png&quot;&gt;
+    &lt;/a&gt;
+    &lt;figcaption style=&quot;color: black;margin-top: -30px;&quot;&gt;RR was shortlived; my interview with Kendra Josie Kirkpatrick was a highlight&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;But I was going through some shit.&lt;/p&gt;
+&lt;p&gt;By the time early 2016 rolled around, I had been out of my Master’s program for a full year and had no prospects for a job.  I started working part-time for a non-profit, which was certainly better than 1. nothing and 2. washing dishes; but… well, you get it, I hope.&lt;/p&gt;
+&lt;p&gt;And I was so hungry to write. I started with the lovely folks at &lt;a target=&apos;_blank&apos; href=&apos;http://comicbastards.com&apos;&gt;Comic Bastards&lt;/a&gt; when Dustin gave me a chance to shit up his sight fawning over &lt;em&gt;Naruto&lt;/em&gt; or spewing typographic venom at the very concept of motion comics.  I reached out to &lt;a target=&apos;_blank&apos; href=&apos;http://loser-city.com&apos;&gt;Loser City&lt;/a&gt; to write even more, and have the unique pleasure of both resurrecting and re-murdering their newsletter.  I wrote a couple of pieces for Comics Beat after being approached by somebody who just straight up stopped responding to my DMs, which I mention not to be passive-aggressive but only because it’s all pure humor to me now.  And, of course, the incomparable Danny Elk-elks started pestering me around the time RR was burning up in the atmosphere, pelting me with the absolute weirdest shit I had ever seen.  I still write for him over at &lt;a target=&apos;_blank&apos; href=&apos;http://comicsbulletin.com&apos;&gt;Comics Bulletin&lt;/a&gt; and will continue to do so.  &lt;/p&gt;
+&lt;div style=&quot;&quot;&gt;
+  &lt;figure class=&quot;floatCenter&quot;&gt;
+    &lt;a target=&apos;_blank&apos; href=&quot;http://comicsbulletin.com/tiny-pages-made-ashes-51917-mirror-mirror-ii/&quot;&gt;
+    &lt;img style=&quot;padding: 30px; background-color: rgba(92,107,192, 0.1); max-height: 480px;border-radius: 3px;&quot; src=&quot;https://i2.wp.com/comicsbulletin.com/wp-content/uploads/2017/05/Mirror-Mirror-II-cover.jpg?fit=798%2C1200&quot; alt=&quot;Mirror Mirror II Review&quot;&gt;
+    &lt;/a&gt;
+    &lt;figcaption style=&quot;color:black;margin-top:-30px;&quot;&gt;Peep my in-depth review of Mirror Mirror II&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;I also once e-mailed Andrew Wheeler to write for Comics Alliance.  He never got back to me.  &lt;/p&gt;
+&lt;p&gt;A better summation of my clout I cannot figure.&lt;/p&gt;
+&lt;p&gt;I really enjoyed doing it.  Nothing felt better to me than when I would crush a book in a day or two and then proceed to wade through the canals that had formed in the space between my feelings and the most prominent artistic outcroppings of any given work.  If I write anything, it’s because I felt like I could at least convey that to a &lt;em&gt;single&lt;/em&gt; person other than myself in a way that felt efficacious and sincere and not forced or pithy.&lt;/p&gt;
+&lt;p&gt;But the problem lies there as well.  Maybe it’s not just comics twitter, but at certain points. the cynicism is infectious, and your ability to calibrate your motivations based on your own compass becomes seriously compromised when you let your empathy feed your self-pity rather than mediating the two. It’s just so easy to internalize all the negativity in comic-dom, both the inevitable stuff and the nasty nastiness.&lt;/p&gt;
+&lt;p&gt;Criticism, or even straight-up exploring a work in terms of what parts of it worked for you, is a way to share excitement and to share frustration; it is, somehow, simultaneously cathartic and taxing in ways that are hard to balance. If you leave that fucking sharingan on you can glean a lot, but you’re going to fuck up your day; you were just trying to read a funnybook, you utter clown.&lt;/p&gt;
+&lt;p&gt;I hope this is not trite, but it is a privilege to be able and willing to make the commitment to write regularly in general, let alone analyze, let alone share one’s thoughts about works that others have created, or already engaged with in ways that often seem more interesting.  Life balance plays a huge part in that privilege, and it was one that I lacked as RR tapered off and one that I am lucky to have now. None of this is to even mention the fact that I have the unfortunately ultimate privilege of being a cis-het straight white guy who does not have to worry about the way in which a given space might respond to my particular voice.&lt;/p&gt;
+&lt;p&gt;Nobody is wrong for walking away. Often it is very obviously not a &lt;em&gt;lack&lt;/em&gt; of conviction that takes some of our most talented brothers and sisters out of the spotlight. Nobody has to do this. I mean, nobody has to do anything as far as hobbies go, right? And certainly nobody has to do &lt;em&gt;this&lt;/em&gt;, this fucking.. what? Hobby &lt;em&gt;about&lt;/em&gt; a hobby?&lt;/p&gt;
+&lt;p&gt;But for me, I know I wasn’t giving it my all.  And in the last year, I learned that I actually have one of those: an “all”.  I also found my “give a shit” as well as my “some semblance of time management,” as if to feign adulthood.&lt;/p&gt;
+&lt;p&gt;More importantly, I love that navigation I mentioned earlier.  That tug-of-war between what seems to be the work-in-itself and my own reaction to it. When a book really clicks and you feel like you are on the same wavelength not as the author but the wavelength of the &lt;em&gt;book&lt;/em&gt;, the &lt;em&gt;panel&lt;/em&gt;, that &lt;em&gt;layout&lt;/em&gt;— when you can speak truth to the beauty in the rickety joints of that good ol’ visual narrative syntax, it feels like walking somewhere you shouldn’t be.  &lt;/p&gt;
+&lt;p&gt;The world seems bigger because you get to open up a space between yourself and a piece of art. There’s a beautiful vulnerability there, opening your viewpoint to be part of this shared experience. &lt;/p&gt;
+&lt;p&gt;It’s late, and I’ve spent enough time on me.&lt;/p&gt;
+&lt;img src=&quot;http://fuckupsomecomics.com/posts/1/future_hendrix.png&quot; alt=&quot;And so&quot;&gt;
+&lt;p&gt;Let’s fuck up some comics.&lt;/p&gt;</content:encoded></item></channel></rss>

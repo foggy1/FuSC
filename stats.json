@@ -1,60 +1,64 @@
 {
   "assetsByChunkName": {
-    "commons": [
-      "commons-1d2014835fc5dbcf42d1.js",
-      "commons-1d2014835fc5dbcf42d1.js.map"
-    ],
-    "page-component---src-pages-index-js": [
-      "page-component---src-pages-index-js-fd82dc79a1f15b867f98.js",
-      "page-component---src-pages-index-js-fd82dc79a1f15b867f98.js.map"
-    ],
-    "page-component---src-templates-blog-post-js": [
-      "page-component---src-templates-blog-post-js-9ac43f810b2ea74ecfc9.js",
-      "page-component---src-templates-blog-post-js-9ac43f810b2ea74ecfc9.js.map"
-    ],
-    "layout-component---index": [
-      "layout-component---index-6225c26c45b81c1d7dbf.js",
-      "layout-component---index-6225c26c45b81c1d7dbf.js.map"
-    ],
-    "path---offline-plugin-app-shell-fallback": [
-      "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js",
-      "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js.map"
-    ],
-    "path---index": [
-      "path---index-a9baf3ea71087e8d8a66.js",
-      "path---index-a9baf3ea71087e8d8a66.js.map"
-    ],
-    "path---about": [
-      "path---about-56630ffc167ac4777eb8.js",
-      "path---about-56630ffc167ac4777eb8.js.map"
-    ],
-    "path---2017-08-08-black-blizzard": [
-      "path---2017-08-08-black-blizzard-44ca440adeafdf26f558.js",
-      "path---2017-08-08-black-blizzard-44ca440adeafdf26f558.js.map"
-    ],
-    "path---2017-07-12-what-is-a-comic-tho": [
-      "path---2017-07-12-what-is-a-comic-tho-09171e8b70b3d99f159b.js",
-      "path---2017-07-12-what-is-a-comic-tho-09171e8b70b3d99f159b.js.map"
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-9cbf80834b5b29ca1abe.js",
+      "component---src-pages-index-js-9cbf80834b5b29ca1abe.js.map"
     ],
     "path---2017-06-13-a-hollowing": [
-      "path---2017-06-13-a-hollowing-4152d99d53e21965aa6a.js",
-      "path---2017-06-13-a-hollowing-4152d99d53e21965aa6a.js.map"
+      "path---2017-06-13-a-hollowing-08e76dfb4392580db4a7.js",
+      "path---2017-06-13-a-hollowing-08e76dfb4392580db4a7.js.map"
     ],
-    "path---2017-06-07-red-sprite-had-potential": [
-      "path---2017-06-07-red-sprite-had-potential-b9287f58526335a995c6.js",
-      "path---2017-06-07-red-sprite-had-potential-b9287f58526335a995c6.js.map"
+    "path---2017-08-08-black-blizzard": [
+      "path---2017-08-08-black-blizzard-61673cfeeda0eef42a82.js",
+      "path---2017-08-08-black-blizzard-61673cfeeda0eef42a82.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
     ],
     "path---2017-05-31-i-still-write-about-comics": [
-      "path---2017-05-31-i-still-write-about-comics-b58521f5a9ade4eaa4a5.js",
-      "path---2017-05-31-i-still-write-about-comics-b58521f5a9ade4eaa4a5.js.map"
+      "path---2017-05-31-i-still-write-about-comics-266b687be480a2c83b48.js",
+      "path---2017-05-31-i-still-write-about-comics-266b687be480a2c83b48.js.map"
     ],
-    "page-component---node-modules-gatsby-plugin-offline-app-shell-js": [
-      "page-component---node-modules-gatsby-plugin-offline-app-shell-js-4f0dddda43ae15168f16.js",
-      "page-component---node-modules-gatsby-plugin-offline-app-shell-js-4f0dddda43ae15168f16.js.map"
+    "path---2017-06-07-red-sprite-had-potential": [
+      "path---2017-06-07-red-sprite-had-potential-a65e9e2f1c09c08f4e3c.js",
+      "path---2017-06-07-red-sprite-had-potential-a65e9e2f1c09c08f4e3c.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-d408c0d1b5cdcf803872.js",
+      "component---src-templates-blog-post-js-d408c0d1b5cdcf803872.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-fabd353ed84190c667e5.js",
+      "component---src-layouts-index-js-fabd353ed84190c667e5.js.map"
+    ],
+    "path---2017-07-12-what-is-a-comic-tho": [
+      "path---2017-07-12-what-is-a-comic-tho-2979a26b8777d8c37897.js",
+      "path---2017-07-12-what-is-a-comic-tho-2979a26b8777d8c37897.js.map"
+    ],
+    "path---index": [
+      "path---index-5500fc62ce9667887222.js",
+      "path---index-5500fc62ce9667887222.js.map"
+    ],
+    "commons": [
+      "commons-23ecbd7b0887e4bbfc77.js",
+      "commons-23ecbd7b0887e4bbfc77.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-a3e7a1388b666d892ce6.js",
-      "app-a3e7a1388b666d892ce6.js.map"
+      "app-91fc3377704980e3fd37.js",
+      "app-91fc3377704980e3fd37.js.map"
+    ],
+    "path---about": [
+      "path---about-2fc62622f48669823c56.js",
+      "path---about-2fc62622f48669823c56.js.map"
     ]
   }
 }
