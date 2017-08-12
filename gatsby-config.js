@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Fuck Up Some Comics",
     author: "Austin Lanari",
+    description: "Another site about comics",
     siteUrl: "https://fuckupsomecomics.com"
   },
   plugins: [
@@ -47,6 +48,7 @@ module.exports = {
         ]
       }
     },
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -70,7 +72,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -80,6 +81,57 @@ module.exports = {
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-sitemap`
+    },
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.excerpt,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
+                });
+              });
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  limit: 1000,
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      fields { slug }
+                      frontmatter {
+                        title
+                        date
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: '/rss.xml'
+          }
+        ]
+      }
     }
-  ],
+  ]
 }

@@ -59,6 +59,13 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
         fieldName: 'slug',
         fieldValue: slug
       })
+      if (node.frontmatter) {
+        createNodeField({
+          node,
+          fieldName: 'indexImage',
+          fieldValue: node.frontmatter.indexImage
+        }) 
+      }
       return
 
     case 'MarkdownRemark':
@@ -68,6 +75,13 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
         fieldName: 'slug',
         fieldValue: fileNode.fields.slug,
       })
+      if (node.frontmatter) {
+        createNodeField({
+          node,
+          fieldName: 'indexImage',
+          fieldValue: node.frontmatter.indexImage
+        }) 
+      }
       return
   }
 }
