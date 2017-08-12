@@ -14,7 +14,7 @@
     "gatsby-plugin-manifest": "latest",
     "gatsby-plugin-offline": "latest",
     "gatsby-plugin-preact": "latest",
-    "gatsby-plugin-sharp": "latest",
+    "gatsby-plugin-sharp": "^1.0.1",
     "gatsby-plugin-sitemap": "latest",
     "gatsby-remark-copy-linked-files": "latest",
     "gatsby-remark-images": "latest",
