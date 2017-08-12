@@ -6,11 +6,10 @@ path: "/posts/5"
 smallImage: "joker_maggot_sml.jpg"
 category: "comics"
 description: "Tatsumi's most notable early work says a lot about the form and how we interact with it."
-indexImage: "images/tatsumi_title.jpg"
+indexImage: "/images/tatsumi_title.jpg"
 draft: false
 ---
-
-![Black Blizzard Parade](tatsumi_parade.jpg)
+![Black Blizzard Parade](tatsumi_parade.jpg){:height="50%" width="50%"}
 
 Tatsumi's thoughts about _Black Blizzard_ as a work are pretty telling.
 

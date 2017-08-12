@@ -6,7 +6,7 @@ path: "/posts/1"
 readNext: "/posts/2"
 category: ""
 description: "Is this thing on?"
-indexImage: "images/pancakes.jpeg"
+indexImage: "/images/pancakes.jpeg"
 draft: false
 ---
 
