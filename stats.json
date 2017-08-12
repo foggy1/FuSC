@@ -1,28 +1,28 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-9cbf80834b5b29ca1abe.js",
-      "component---src-pages-index-js-9cbf80834b5b29ca1abe.js.map"
+      "component---src-pages-index-js-de5d90a9b280871cbe21.js",
+      "component---src-pages-index-js-de5d90a9b280871cbe21.js.map"
     ],
     "path---2017-06-13-a-hollowing": [
-      "path---2017-06-13-a-hollowing-08e76dfb4392580db4a7.js",
-      "path---2017-06-13-a-hollowing-08e76dfb4392580db4a7.js.map"
+      "path---2017-06-13-a-hollowing-9cddc1de172bc3d16545.js",
+      "path---2017-06-13-a-hollowing-9cddc1de172bc3d16545.js.map"
     ],
     "path---2017-08-08-black-blizzard": [
-      "path---2017-08-08-black-blizzard-61673cfeeda0eef42a82.js",
-      "path---2017-08-08-black-blizzard-61673cfeeda0eef42a82.js.map"
+      "path---2017-08-08-black-blizzard-16da96277e288b5d08b3.js",
+      "path---2017-08-08-black-blizzard-16da96277e288b5d08b3.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---2017-05-31-i-still-write-about-comics": [
-      "path---2017-05-31-i-still-write-about-comics-266b687be480a2c83b48.js",
-      "path---2017-05-31-i-still-write-about-comics-266b687be480a2c83b48.js.map"
+      "path---2017-05-31-i-still-write-about-comics-8fd7dcbd6d56e158e5e7.js",
+      "path---2017-05-31-i-still-write-about-comics-8fd7dcbd6d56e158e5e7.js.map"
     ],
     "path---2017-06-07-red-sprite-had-potential": [
-      "path---2017-06-07-red-sprite-had-potential-a65e9e2f1c09c08f4e3c.js",
-      "path---2017-06-07-red-sprite-had-potential-a65e9e2f1c09c08f4e3c.js.map"
+      "path---2017-06-07-red-sprite-had-potential-c7843a6afac0fcff138f.js",
+      "path---2017-06-07-red-sprite-had-potential-c7843a6afac0fcff138f.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -37,12 +37,12 @@
       "component---src-layouts-index-js-fabd353ed84190c667e5.js.map"
     ],
     "path---2017-07-12-what-is-a-comic-tho": [
-      "path---2017-07-12-what-is-a-comic-tho-2979a26b8777d8c37897.js",
-      "path---2017-07-12-what-is-a-comic-tho-2979a26b8777d8c37897.js.map"
+      "path---2017-07-12-what-is-a-comic-tho-b99fdb98e8cb85d197de.js",
+      "path---2017-07-12-what-is-a-comic-tho-b99fdb98e8cb85d197de.js.map"
     ],
     "path---index": [
-      "path---index-5500fc62ce9667887222.js",
-      "path---index-5500fc62ce9667887222.js.map"
+      "path---index-e2f515ac2d4c1e33db6a.js",
+      "path---index-e2f515ac2d4c1e33db6a.js.map"
     ],
     "commons": [
       "commons-23ecbd7b0887e4bbfc77.js",
@@ -53,8 +53,8 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-91fc3377704980e3fd37.js",
-      "app-91fc3377704980e3fd37.js.map"
+      "app-aa783a0ca9ebc8f71f3e.js",
+      "app-aa783a0ca9ebc8f71f3e.js.map"
     ],
     "path---about": [
       "path---about-2fc62622f48669823c56.js",
