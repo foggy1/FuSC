@@ -42,10 +42,7 @@ class BlogIndex extends React.Component {
       if (post.node.path !== "/404/" && get(post, 'node.frontmatter.date')) {
         const title = get(post, "node.frontmatter.title") || post.node.path
         const datePublished = get(post, 'node.frontmatter.date')
-        let image = get(post, 'node.frontmatter.indexImage')
-        if (resizedImages.find(r => image === r.originalName)) {
-          image = resizedImages.find(r => image === r.originalName).src
-        }
+        const image = get(post, 'node.frontmatter.indexImage.childImageSharp.resize.src')
         const fontSize = this.state.mobile ? '3.5vw' : null
         return (
           <Link style={{ boxShadow: 'none' }} to={post.node.fields.slug}>
@@ -130,7 +127,13 @@ query IndexQuery {
           date,
           description,
           category,
-          indexImage
+          indexImage {
+            childImageSharp {
+              resize(width: 80, height: 80){
+                  src
+                }
+            }
+          }
         }
       }
     }
