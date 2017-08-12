@@ -43,8 +43,8 @@ class BlogIndex extends React.Component {
         const title = get(post, "node.frontmatter.title") || post.node.path
         const datePublished = get(post, 'node.frontmatter.date')
         let image = get(post, 'node.frontmatter.indexImage')
-        if (resizedImages.find(r => image.includes(r.originalName))) {
-          image = resizedImages.find(r => image.includes(r.originalName)).src
+        if (resizedImages.find(r => image === r.originalName)) {
+          image = resizedImages.find(r => image === r.originalName).src
         }
         const fontSize = this.state.mobile ? '3.5vw' : null
         return (
