@@ -55,12 +55,15 @@ class BlogPostTemplate extends React.Component {
         itemType={'http://schema.org/BlogPosting'}
       >
         <span itemProp='author' style={{display: 'none'}}>Austin Lanari</span>
+        <span itemProp='image' style={{display: 'none'}}>
+          {post.frontmatter.indexImage ? post.frontmatter.indexImage.childImageSharp.responsiveSizes.src : null}
+        </span>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`}>
 
         </Helmet>
         <h1
           style={{paddingTop: 0, marginTop: 30}}
-          itemProp="name"
+          itemProp="headline"
         >
           {post.frontmatter.title === 'About' ? 'Hey' : post.frontmatter.title}
         </h1>
