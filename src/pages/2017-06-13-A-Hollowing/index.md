@@ -2,7 +2,10 @@
 title: "A Hollowing"
 layout: post
 date: "2017-06-14T09:00:00.284Z"
+itemTitle: "A Hollowing"
+itemAuthor: "Sloane Leong"
 path: "/posts/3"
+itemType: "Book"
 category: "comics"
 description: "Even without color, Sloane finds surprising ways to innovate."
 indexImage: "a_hollowing.jpg"

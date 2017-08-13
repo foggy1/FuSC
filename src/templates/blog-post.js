@@ -9,15 +9,62 @@ import './typography.css'
 import './reset.css'
 
 class BlogPostTemplate extends React.Component {
+  renderItemInfo () {
+    const post = this.props.data.markdownRemark
+    const { itemTitle, itemAuthor, itemType } = post.frontmatter
+    if (itemType) {
+      return (
+        <div itemProp='about' itemScope itemType={`http://schema.org/${itemType}`}>
+          <p
+            style={{
+              ...scale(-1 / 5),
+              display: "block",
+              color: 'lightslategray',
+              fontStyle: 'italic',
+              marginBottom: rhythm(1),
+              marginTop: rhythm(-1),
+            }}
+          >
+            {itemTitle ? <span itemProp="name">{itemTitle}</span> : <span />}
+          </p>
+          <p
+            style={{
+              ...scale(-1 / 5),
+              display: "block",
+              color: 'lightslategray',
+              marginBottom: rhythm(1),
+              marginTop: rhythm(-1),
+            }}
+          >
+            {itemAuthor ? <span itemProp='author'>{itemAuthor}</span> : <span />}
+          </p>
+        </div>
+      )
+    } else {
+      return <div />
+    }
+  }
   render () {
     const post = this.props.data.markdownRemark
+    const isPage = post.frontmatter.layout === 'page'
+    const { itemTitle, itemAuthor } = post.frontmatter
     const siteTitle = get(this.props, "data.site.siteMetadata.title")
     return (
-      <div>
+      <div
+        itemScope
+        itemType={'http://schema.org/BlogPosting'}
+      >
+        <span itemProp='author' style={{display: 'none'}}>Austin Lanari</span>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`}>
 
         </Helmet>
-        <h1 style={{paddingTop: 0, marginTop: 30}}>{post.frontmatter.title === 'About' ? 'Hey' : post.frontmatter.title}</h1>
+        <h1
+          style={{paddingTop: 0, marginTop: 30}}
+          itemProp="name"
+        >
+          {post.frontmatter.title === 'About' ? 'Hey' : post.frontmatter.title}
+        </h1>
+        {this.renderItemInfo()}
         <p
           style={{
             ...scale(-1 / 5),
@@ -26,9 +73,12 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.layout === 'page' ? <span /> : post.frontmatter.date}
+          {isPage ? <span /> : <span itemProp='datePublished'>{post.frontmatter.date}</span>}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div
+          dangerouslySetInnerHTML={{ __html: post.html }}
+          itemProp='articleBody'
+        />
         {post.frontmatter.layout === 'page' ? <div/> : <hr
           style={{
             marginBottom: rhythm(1),
@@ -80,6 +130,9 @@ export const pageQuery = graphql`
           }
         },
         layout,
+        itemTitle,
+        itemAuthor,
+        itemType,
         description
       }
     }

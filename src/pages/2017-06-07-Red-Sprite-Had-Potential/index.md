@@ -2,6 +2,9 @@
 title: "Red Sprite was my Shit"
 date: "2017-06-07T08:00:00.284Z"
 layout: post
+itemTitle: "Red Sprite"
+itemAuthor: "Tomohiro Yagi"
+itemtype: "Book"
 path: "/posts/2"
 readNext: "/posts/3"
 category: "manga"
