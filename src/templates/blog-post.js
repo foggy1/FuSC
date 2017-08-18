@@ -11,10 +11,11 @@ import './reset.css'
 class BlogPostTemplate extends React.Component {
   renderItemInfo () {
     const post = this.props.data.markdownRemark
-    const { itemTitle, itemAuthor, itemType } = post.frontmatter
+    const { itemTitle, itemAuthor, itemType, itemPublisher } = post.frontmatter
     if (itemType) {
       return (
-        <div itemProp='about' itemScope itemType={`http://schema.org/${itemType}`}>
+        <div 
+          itemProp='about' itemScope itemType={`http://schema.org/${itemType}`}>
           <p
             style={{
               ...scale(-1 / 5),
@@ -38,6 +39,18 @@ class BlogPostTemplate extends React.Component {
           >
             {itemAuthor ? <span itemProp='author'>{itemAuthor}</span> : <span />}
           </p>
+          <p
+            style={{
+              ...scale(-1 / 5),
+              display: "block",
+              fontWeigth: '600',
+              color: 'lightslategray',
+              marginBottom: rhythm(1),
+              marginTop: rhythm(-1)
+            }}
+          >
+            {itemPublisher ? <span itemProp='publisher'>{itemPublisher}</span> : <span />}
+          </p>
         </div>
       )
     } else {
@@ -56,7 +69,12 @@ class BlogPostTemplate extends React.Component {
       >
         <span itemProp='author' style={{display: 'none'}}>Austin Lanari</span>
         <span itemProp='image' style={{display: 'none'}} itemScope itemType='http://schema.org/ImageObject'>
-          {post.frontmatter.indexImage ? 'fuckupsomecomics.com' + post.frontmatter.indexImage.childImageSharp.responsiveSizes.src : null}
+          <span itemProp='url'>
+            {post.frontmatter.indexImage ? 'fuckupsomecomics.com' + post.frontmatter.indexImage.childImageSharp.resize.src : null}
+          </span>
+          <meta itemProp='height' content='100' />
+          <meta itemProp='width' content='100' />
+          <span />
         </span>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`}>
 
@@ -126,16 +144,17 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY"),
         indexImage {
           childImageSharp {
-            responsiveSizes(quality: 50){
-                  src
-                  srcSet
-              }
+            resize(width: 100, height: 100) {
+              src
+              originalName
+            }
           }
         },
         layout,
         itemTitle,
         itemAuthor,
         itemType,
+        itemPublisher,
         description
       }
     }
