@@ -4,6 +4,7 @@ layout: post
 date: "2017-06-14T09:00:00.284Z"
 itemTitle: "A Hollowing"
 itemAuthor: "Sloane Leong"
+itemPublisher: "Self-Published"
 path: "/posts/3"
 itemType: "Book"
 category: "comics"
