@@ -15,7 +15,7 @@ class BlogPostTemplate extends React.Component {
     if (itemType) {
       return (
         <div 
-          itemProp='about'itemScope itemType={`http://schema.org/${itemType}`}>
+          itemProp='about' itemScope itemType={`http://schema.org/${itemType}`}>
           <p
             style={{
               ...scale(-1 / 5),

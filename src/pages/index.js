@@ -54,7 +54,7 @@ class BlogIndex extends React.Component {
               }}
             >
               <div style={{verticalAlign: 'middle', height: 72, width: 72, marginLeft: 16, marginBottom: 16, overflow: 'hidden', borderRadius: 50, display: 'inline-block'}}>
-                <img 
+                <img
                   onLoad={() => this.handleLoad(i)}
                   style={{
                     width: '100%',
@@ -81,7 +81,11 @@ class BlogIndex extends React.Component {
       }
     })
     return (
-      <div>
+      <div itemScope itemType='http://schema.org/Blog'>
+        <meta itemProp='author' content='Austin Lanari' />
+        <meta itemProp='copyrightHolder' content='Austin Lanari' />
+        <meta itemProp='copyrightYear' content='2017' />
+        <meta itemProp='headline' content='Fuck Up Some Comics' />
         <Helmet title={get(this, "props.data.site.siteMetadata.title")} />
         <ul style={{marginLeft: -20}}>
           {pageLinks}
