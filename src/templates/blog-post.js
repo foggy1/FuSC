@@ -70,7 +70,7 @@ class BlogPostTemplate extends React.Component {
         <span itemProp='author' style={{display: 'none'}}>Austin Lanari</span>
         <span itemProp='image' style={{display: 'none'}} itemScope itemType='http://schema.org/ImageObject'>
           <span itemProp='url'>
-            {post.frontmatter.indexImage ? 'fuckupsomecomics.com' + post.frontmatter.indexImage.childImageSharp.resize.src : null}
+            {post.frontmatter.indexImage ? 'fogupsomecomics.com' + post.frontmatter.indexImage.childImageSharp.resize.src : null}
           </span>
           <meta itemProp='height' content='100' />
           <meta itemProp='width' content='100' />
@@ -144,7 +144,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY"),
         indexImage {
           childImageSharp {
-            resize(width: 100, height: 100) {
+            resize(width: 150, height: 150) {
               src
               originalName
             }
