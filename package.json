@@ -1,6 +1,6 @@
 {
   "name": "FuSC",
-  "description": "Fuck Up Some Comics",
+  "description": "Fog Up Some Comics",
   "version": "2.0.0",
   "author": "Austin Lanari <austin.lanari@gmail.com>",
   "bugs": {
@@ -44,7 +44,7 @@
   "devDependencies": {
     "gh-pages": "^0.12.0"
   },
-  "homepage": "https://fuckupsomecomics.com",
+  "homepage": "https://fogupsomecomics.com",
   "keywords": [
     "gatsby",
     "comics",
