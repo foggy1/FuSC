@@ -35,7 +35,7 @@ class Template extends React.Component {
     styles.bmBurgerButton.top = this.state.mobile ? 16 : 20
     let header, title
     if (location.pathname === "/" || location.pathname === '/about') {
-      title = 'Fuck Up Some Comics'
+      title = 'Fog Up Some Comics'
       header = (
         <Menu
           styles={styles}
