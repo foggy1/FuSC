@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Fuck Up Some Comics",
+    title: "Fog Up Some Comics",
     author: "Austin Lanari",
     description: "Another site about comics",
-    siteUrl: "https://fuckupsomecomics.com"
+    siteUrl: "https://fogupsomecomics.com"
   },
   plugins: [
     {
@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Fuck Up Some Comics`,
-        short_name: `FuSC`,
+        name: `Fog Up Some Comics`,
+        short_name: `FUSC`,
         start_url: `/`,
         background_color: `#039be5`,
         theme_color: `#63ccff`,
