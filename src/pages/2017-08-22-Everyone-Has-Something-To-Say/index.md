@@ -1,7 +1,7 @@
 ---
 title: "Everyone Has Something to Say: Matsumoto's Wobbly Lines"
 layout: post
-date: "2017-08-22T09:30:00.284Z"
+date: "2017-08-22T01:00:00.284Z"
 path: "/posts/6"
 itemTitle: "Cigarette Girl"
 itemAuthor: "Masahiko Matsumoto"
