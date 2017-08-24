@@ -133,7 +133,7 @@ query IndexQuery {
           category,
           indexImage {
             childImageSharp {
-              resize(width: 80, height: 80){
+              resize(width: 150, height: 150){
                   src
                 }
             }
