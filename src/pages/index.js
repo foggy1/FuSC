@@ -45,9 +45,8 @@ class BlogIndex extends React.Component {
         const image = get(post, 'node.frontmatter.indexImage.childImageSharp.resize.src')
         const fontSize = this.state.mobile ? '3.5vw' : null
         return (
-          <Link style={{ boxShadow: 'none' }} to={post.node.fields.slug}>
+          <Link key={i} style={{ boxShadow: 'none' }} to={post.node.fields.slug}>
             <li
-              key={post.node.path}
               style={{
                 marginBottom: rhythm(1 / 4),
                 listStyleType: 'none'

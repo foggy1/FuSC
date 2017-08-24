@@ -43,7 +43,7 @@ class BlogPostTemplate extends React.Component {
             style={{
               ...scale(-1 / 5),
               display: "block",
-              fontWeigth: '600',
+              fontWeight: '600',
               color: 'lightslategray',
               marginBottom: rhythm(1),
               marginTop: rhythm(-1)
