@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fog Up Some Comics]]></title><description><![CDATA[Another site about comics]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Mon, 21 Aug 2017 03:26:11 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Things got out of hand pretty quick. I got really excited about designing a simple progressive web app (add this site to your home screen...]]></description><link>https://fogupsomecomics.com/about/</link><guid isPermaLink="false">https://fogupsomecomics.com/about/</guid><content:encoded>&lt;p itemscope itemtype=&apos;http://schema.org/AboutPage&apos;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fog Up Some Comics]]></title><description><![CDATA[Another site about comics]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Thu, 24 Aug 2017 04:45:59 GMT</lastBuildDate><item><title><![CDATA[About]]></title><description><![CDATA[Things got out of hand pretty quick. I got really excited about designing a simple progressive web app (add this site to your home screen...]]></description><link>https://fogupsomecomics.com/about/</link><guid isPermaLink="false">https://fogupsomecomics.com/about/</guid><content:encoded>&lt;p itemscope itemtype=&apos;http://schema.org/AboutPage&apos;&gt;
 I&apos;m &lt;span itemprop=&apos;about&apos;&gt;Austin Lanari&lt;/span&gt;. By day I&apos;m a Software Engineer, so I thought I&apos;d make my own site for writing about comics.
 &lt;/p&gt;
 &lt;p&gt;Things got out of hand pretty quick.&lt;/p&gt;
 &lt;p&gt;I got really excited about designing a simple progressive web app (add this site to your home screen and it will behave pretty similar to a native app, which is awesome), and haven’t been writing about comics quite as much as I planned.  But, I’ll get there.
 In the mean time, I still slog through challenging, small press work and do my best to share my thoughts over on &lt;a href=&quot;http://www.comicsbulletin.com&quot;&gt;Comics Bulletin&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you want to see more bite-sized rants, &lt;a href=&quot;https://www.twitter.com/austinlanari&quot;&gt;Twitter is where to find me&lt;/a&gt;. It’s also the best way to contact me.  Now go read about some comics.&lt;/p&gt;
-&lt;p&gt;The site is in constant flux and is at all-times a work in progress. To get some insight into how it’s built, the source code is &lt;a href=&quot;https://github.com/foggy1/FuSC&quot;&gt;here&lt;/a&gt;. The main library driving everything is the very clever (but also always in flux) &lt;a href=&quot;https://github.com/gatsbyjs/gatsby&quot;&gt;Gatsby.js&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tatsumi's 'Black Blizzard']]></title><description><![CDATA[Tatsumi’s thoughts about  Black Blizzard  as a work are pretty telling. B ringing this work out as a book now is like exposing something...]]></description><link>https://fogupsomecomics.com/2017-08-08-Black-Blizzard/</link><guid isPermaLink="false">https://fogupsomecomics.com/2017-08-08-Black-Blizzard/</guid><pubDate>Tue, 08 Aug 2017 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;p&gt;The site is in constant flux and is at all-times a work in progress. To get some insight into how it’s built, the source code is &lt;a href=&quot;https://github.com/foggy1/FuSC&quot;&gt;here&lt;/a&gt;. The main library driving everything is the very clever (but also always in flux) &lt;a href=&quot;https://github.com/gatsbyjs/gatsby&quot;&gt;Gatsby.js&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Is That Not Kosher?]]></title><description><![CDATA[( Note:  This is my first time reviewing something so new so soon, so I’m going to give a fair warning about spoilers. This is the only time...]]></description><link>https://fogupsomecomics.com/2017-08-23-Is-That-Not-Kosher/</link><guid isPermaLink="false">https://fogupsomecomics.com/2017-08-23-Is-That-Not-Kosher/</guid><pubDate>Invalid Date</pubDate><content:encoded>&lt;p&gt;(&lt;strong&gt;Note:&lt;/strong&gt; This is my first time reviewing something so new so soon, so I’m going to give a fair warning about spoilers. This is the only time I’m going to do this. You can assume if I write about something here, I’m just going to dive in.)&lt;/p&gt;
+&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;undefined&quot;
@@ -20,7 +21,164 @@ In the mean time, I still slog through challenging, small press work and do my b
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 144.44444444444443%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAdABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABu6tFzgYb5LmkUP/EABoQAAIDAQEAAAAAAAAAAAAAAAABAhESIUL/2gAIAQEAAQUClJ7bEehG+3yL44286SVH/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGhAAAgIDAAAAAAAAAAAAAAAAEBEAASExcf/aAAgBAQAGPwJShqZLsciY/8QAHRAAAwACAgMAAAAAAAAAAAAAAAERITFBYVFxkf/aAAgBAQABPyFJkmJiE6sudGpay+iq4Vei88EeFeuyOwIYSh1ptVByv2IIj//aAAwDAQACAAMAAAAQTDr/AP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EABwQAQADAQEAAwAAAAAAAAAAAAEAESExQVFhwf/aAAgBAQABPxDKm0roewKiHDWfkJcLd9lShn0+YGQ8KIVFSFsK8hjKKlnYWNniiXHm8uLawBVssAAoIbYzYMu+T//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 48.44267726971505%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAWgZnQOVH//EABoQAQEAAgMAAAAAAAAAAAAAAAECAAMRMTL/2gAIAQEAAQUCQyoMYjl6rxrBn//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAIABwAAAAAAAAAAAAAAAAARAQIQEiEyQf/aAAgBAQAGPwJFvGbqkxmB/8QAGxABAAICAwAAAAAAAAAAAAAAAQARIVExYXH/2gAIAQEAAT8hoFCtRJcwwhMrNVc5vIkUWWkF7J//2gAMAwEAAgADAAAAECcf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAAIBBQAAAAAAAAAAAAAAAQARITFBYYHw/9oACAEBAAE/EK0YgYXZAQhDV1PMRDbiVO42A4BoyPEDOy5BZ//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Condescending Vivienne&quot;
+        title=&quot;&quot;
+        src=&quot;/static/cfcfbec2e2f02ddee3c10a57d7dc3cc3-f8fb9.jpg&quot;
+        srcset=&quot;/static/cfcfbec2e2f02ddee3c10a57d7dc3cc3-e8976.jpg 148w,
+/static/cfcfbec2e2f02ddee3c10a57d7dc3cc3-63df2.jpg 295w,
+/static/cfcfbec2e2f02ddee3c10a57d7dc3cc3-f8fb9.jpg 590w,
+/static/cfcfbec2e2f02ddee3c10a57d7dc3cc3-85e3d.jpg 885w,
+/static/cfcfbec2e2f02ddee3c10a57d7dc3cc3-d1924.jpg 1180w,
+/static/cfcfbec2e2f02ddee3c10a57d7dc3cc3-9452e.jpg 1770w,
+/static/cfcfbec2e2f02ddee3c10a57d7dc3cc3-8108e.jpg 3018w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;“Homophobia” is a wonderful term because of the way in which it evinces the psychology of the entire enterprise of being repulsed by homosexuals. It is a condition, one best understood as an &lt;em&gt;affliction&lt;/em&gt;, where the real victim is the hater: one who would fear someone, as “-phobia” suggests, irrationally. We do not have a term like this that we apply often for individual racism and sexism. While perhaps we should, these things come in different flavors, and there truly is a particular shadow that falls on the person who physically cannot sit in proximity of a gay couple. There is an immediacy to exactly how petty and pathetic this person is, and rarely do people render their discomforts so…&lt;/p&gt;
+&lt;p&gt;So &lt;em&gt;performatively&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Enter &lt;em&gt;The Tar Pit&lt;/em&gt;, Jeremy Sorese’s tale (commissioned by Zainab Akhtar’s excellent and inspirational ShortBox project) of a young actress playing beard to two very famous, very in love, very closeted gay actors. The reader enters at a point in which the actress, Vivienne, appears to have tired of Burt and Fred’s lifestyle, which is often punctuated by intense bickering. We quickly find out, however, that there is more to Vivienne’s trepidations.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Tar Pit&lt;/em&gt; immediately grabs the reader with its size: a perfect bound A4 (that’s ~8x11) book sticks out in any pile of mini comics, especially with front and back covers that are this stylish.  If you imagine the following prelude page in full size, you get a pretty good idea of the first impression this book makes.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;undefined&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 138.77777777777777%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAIAAADuuAg3AAAACXBIWXMAABcSAAAXEgFnn9JSAAAEqElEQVQ4y12UaUhVexTFj0POYjilJuI85VQ2iIaGpOUA5TxVJBLOpT6HEodSVNTEAQ0xDDQyFcFQP5hfJFDEEHyEZGpKmZZzkTilPt/v3mO+ePvDn/+9Z6+91157nSN8+vRpbm7uy5cvnOJd/Cn+I95nZ2fHx8dHR0efPXv2+vXr58+fv3nzhn+Er1+/HhwcbG1t/SONA2lw+fXrF5epqan5+Xme/i2N9vb269evV1RUVFZWNjY2HoKJ7e3t/f39g9+xt7fX3d199erVW7du9fT0fPz48dWrVx0dHYAtLS3Pnj0L/j/wUVsx6DY9PR0YGJiamurm5lZYWAiFlpaW+vr6qKgoCwuLO3fuCEz1P9hR52/fvvX19WVkZBQUFDg4OPj6+paXl9fW1gK7cOHCIfhPtkexu7v78+dPZpmZmcnLyzt9+nRQUJCRkVFiYmJ8fPyVK1eSk5MlYFJXVlaWl5eXlpbW19ePpoC5SIH+CQkJERERZmZmurq6cGbse/fuScBra2vAGP7Hjx+UEHUW8ZCC/MDAwPDwcHNzs7W1tbKyMpwdHR2zsrIkYGBscnJykpNCi4uL+9IAv7Ozw9OFhQUunMHBwYgPZ1jU1NQIaIgNGAyHfP78GeT379/Fnu/fvw8LC3vy5ImoKBOxMwRn7Li4uKdPn0o6b25uipYC/OHDB8iLq/L09BQEgSb8pBYSkoyxQkNDY2JiOjs7DwXb2NigMCfIiYkJTsA3btwgr7S0VORPj6GhocePHyP77du3+/v7D8F/xurqKvqRCou2trbe3t6xsTF2hpC5ublsi7WFhIQgocCQLEMsLHbmn1lp4LC3b9+OjIwMDg6iFhXv37/v4uLCOEj97t07Aa8nJSWxdxzDJDdv3szJyflLGtgAb5FHw8zMzPDwcA8PD9o6OTl5e3vX1dUJd+/eFaQhKyurpqZ28uRJrO/s7IwNSOIF4HLx4sVLly6ZmJhoa2uLmZw4XKCPubn5mTNn4ENVTsq7u7ufO3cOJ5w6dQpXu0uD9fKGkEO+gYGBpGtJScm1a9fs7OxsbGxwj4yMjIaGBiVMTU0VFRXl5OTwI4VodezYMS0tLUhRKCAgoKioSHj06BGU5OXlT5w44erqamhomJKSwuSwtbW1tbKyQp7o6Gie8gh7wgsKjEZXAT3s7e319PQePHjQ0NDAs66uLi8vL94EdOIF5NODpVh4bGws9n758iVEoElXoays7PLly5DEhgjj5+fHB+Thw4cvXrxgnKamJt5hfFJVVQW4tbU1MjJSVVUVOagrQB0w87AYFsBPaldXV+fn50OeDDqgDf9TF5qA4c+LJaHNPpGalVCYx4gJC3V19fT09LS0NNaLC3R0dEhDF94H9odGMM/Ozhb4RHGjCWsAI/wOf39/FiveWQEAcckEuqI5/pGAz58/z3iU5AHl6XNcGkpKSoynr6+PnGyRFZKA7FiNZLQQ+JqwZJrDFqSKigowTlRQUFAAg+042TknCdBhOlZYXFwsoBM2oBvrgQx9ZH4Hd2NjY8Cy0iAN87AzTU1NwBKT8EqIY7Bt/MRgOMFEGjDCieJWGY3vHgk+Pj7QBsKX/F+hwkxCFxgXPgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;The Tar Pit&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c1cec86cb6151534085e2421a3f6b699-fb8a0.png&quot;
+        srcset=&quot;/static/c1cec86cb6151534085e2421a3f6b699-1a291.png 148w,
+/static/c1cec86cb6151534085e2421a3f6b699-2bc4a.png 295w,
+/static/c1cec86cb6151534085e2421a3f6b699-fb8a0.png 590w,
+/static/c1cec86cb6151534085e2421a3f6b699-526de.png 885w,
+/static/c1cec86cb6151534085e2421a3f6b699-ad082.png 900w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;I adore the top panel of this page because of the number of layers that Sorese is unpacking in one spot, and all before we even get to the page with a Copyright on it. Morty, a reporter and (as we find out later) also gay, is the catalyst in altering the lives of Vivienne, Burt, and Fred. He &lt;em&gt;is&lt;/em&gt;, in fact, a somebody in his impact on her life, but not just in terms of altering its course: his very existence as a gay male is this sustained affront to an irrational disgust Vivienne has been nurturing within.&lt;/p&gt;
+&lt;p&gt;And that’s why I like the choice to shine the light on him here. With the way his head is cut off as he looks up at the taller Vivienne, and with the light lines coming down at that particular angle across panels, Morty practically looks like he’s part of some kind of new Assumption.  This is especially notable because when we see Morty’s full encounter with Vivienne later on, it is in the dead of night as she looks for Bunny, the escaped dog. Those scenes are characterized by a loose charcoal that follows Vivienne and Morty into a diner, where her homophobia is revealed, as laughing gay men in the diner seen through Vivienne’s eyes briefly comprise a nightmarish scene. Shining the light on Morty here in the prelude thus strikes the exact same “we’re not going anywhere, bitch” tone as the book’s final page, albeit much more subtly.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;undefined&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 77.40207566119852%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQBAv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABpk7ZZ2G//8QAGxAAAgMAAwAAAAAAAAAAAAAAAQIAERIDEzH/2gAIAQEAAQUC7CYWOAY/vItKtZ//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAACAgMBAAAAAAAAAAAAAAAAARExECFRYf/aAAgBAQAGPwJjl7LOelTj/8QAGxABAQEAAgMAAAAAAAAAAAAAAREAITFBgcH/2gAIAQEAAT8hosANUCfGFKvFroEntgewnOgL55N//9oADAMBAAIAAwAAABAoD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQADAQEBAQAAAAAAAAAAAAEAESFBMcHh/9oACAEBAAE/EAYYtem8gfVs0NfvYNsnp2PqPJF6jK+xhrdxB5pLjahQl4z/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Homophobia as horror&quot;
+        title=&quot;&quot;
+        src=&quot;/static/44b779ad04e1eab40556f3c5322ac087-f8fb9.jpg&quot;
+        srcset=&quot;/static/44b779ad04e1eab40556f3c5322ac087-e8976.jpg 148w,
+/static/44b779ad04e1eab40556f3c5322ac087-63df2.jpg 295w,
+/static/44b779ad04e1eab40556f3c5322ac087-f8fb9.jpg 590w,
+/static/44b779ad04e1eab40556f3c5322ac087-85e3d.jpg 885w,
+/static/44b779ad04e1eab40556f3c5322ac087-d1924.jpg 1180w,
+/static/44b779ad04e1eab40556f3c5322ac087-9452e.jpg 1770w,
+/static/44b779ad04e1eab40556f3c5322ac087-2a270.jpg 2987w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;The sustained dark tones, even as the two character move indoors, coupled with pacing of the ensuing converation, lead to a satisfying crescendo that makes Vivienne’s phobia palpable. Sorese renders her response to the situation as dramatic, abrupt, and truly frantic in a fashion befitting a fear bordering on disorder. Just one page—one &lt;em&gt;panel&lt;/em&gt;, even—prior to hearing that Morty was gay, Vivienne was all smiles.&lt;/p&gt;
+&lt;p&gt;The frantic diner sequence is the climax of the story, which begets a steady wind-down featuring heavier prose and striking color work on each of the remaining pages, usually with only a single major panel. &lt;/p&gt;
+&lt;p&gt;The prose throughout is punctuated with wry accounts of the roles that actresses get—“Mother of two growing boys, owner of a finicky cat”—and by the end I had some concern for how this may have tipped a key balance in the book itself. While Vivienne is in some ways a tragic character for whom we cannot help but feel some sympathy, the nature of the diner sequence does well to underscore that even if we understand her own personal struggles, and even if we think Fred and Burt were not the best people, Vivienne, Fred, and Burt were all grown-ass adults. If people want to be shitty, you have no obligation to stick around. And, on an important flip-side, there is no real excuse for internalizing any circumstances and projecting them onto millions of human beings as if they only exist to be your own personal horror show.&lt;/p&gt;
+&lt;p&gt;These wry comments, right around round three of the bit, tip this balance of understanding in the direction of the sardonic. The sporadic elbow-jab of “actresses have it rough, lol,” while true, is a weird departure from the tone of the book, which is already a little wobbly, because the pacing in the book sort of accordions: you can feel it squeeze together as it reaches the climax, and a slow release towards the end begets a single drawn out note with just a little bend to it.&lt;/p&gt;
+&lt;p&gt;Part of this feels like it’s due to &lt;em&gt;The Tar Pit’s&lt;/em&gt; dimensions, or at least the way the excessive space is or is not utilized. From the very first page, because of the size of the panels and the freehand prose lettering, page space just… dies. The direct effect on the initial build-up is fine, but overall these gaps often feel like dead air on the radio. When the ultimate panels on pages get left off before major transitions, the typical suspenseful effect is lessened because the reader is so used to spotting these gaps already. &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;undefined&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 154.28348909657322%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAfABQDASIAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAMEAQIF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAG+aubLzRol6splBoV//8QAHBAAAgICAwAAAAAAAAAAAAAAAAECEQMiEzEy/9oACAEBAAEFAqpOryreSHAyep5KOSyb2abJIff/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAdEAABBAIDAAAAAAAAAAAAAAARAAEQMSAhIkFR/9oACAEBAAY/AmZE948dhVHjqzH/xAAbEAADAQADAQAAAAAAAAAAAAAAARExIVFhkf/aAAgBAQABPyGJAnostF/BQ4F46IXq4T6WQpF2V0rgsPnsIc0wrH//2gAMAwEAAgADAAAAELsdAP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EACAQAQEAAgIBBQEAAAAAAAAAAAERACExQVFhcYGhsfD/2gAIAQEAAT8QO0Goehk2zqLjKScdYpaOGAxuzjCCtJK9/wA46q9Y1qG5V9MNMjROGOj4YdRSfH2HEvqtZ4v7m4nJn//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;White space in The Tar Pit&quot;
+        title=&quot;&quot;
+        src=&quot;/static/919b9ca4037bc640072fd5724852934c-f8fb9.jpg&quot;
+        srcset=&quot;/static/919b9ca4037bc640072fd5724852934c-e8976.jpg 148w,
+/static/919b9ca4037bc640072fd5724852934c-63df2.jpg 295w,
+/static/919b9ca4037bc640072fd5724852934c-f8fb9.jpg 590w,
+/static/919b9ca4037bc640072fd5724852934c-85e3d.jpg 885w,
+/static/919b9ca4037bc640072fd5724852934c-d1924.jpg 1180w,
+/static/919b9ca4037bc640072fd5724852934c-9452e.jpg 1770w,
+/static/919b9ca4037bc640072fd5724852934c-8cef6.jpg 2568w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;Essentially each part of the story except the climax and the book’s final reprise are affected by these gaps, and I find that to be a good approximation of the work as a whole. When &lt;em&gt;The Tar Pit&lt;/em&gt; allows itself to gain momentum in its candid depiction of homophobia, it shines, with the rest feeling &lt;em&gt;just&lt;/em&gt; oddly placed enough to notice.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tatsumi's 'Black Blizzard']]></title><description><![CDATA[Tatsumi’s thoughts about  Black Blizzard  as a work are pretty telling. B ringing this work out as a book now is like exposing something...]]></description><link>https://fogupsomecomics.com/2017-08-08-Black-Blizzard/</link><guid isPermaLink="false">https://fogupsomecomics.com/2017-08-08-Black-Blizzard/</guid><pubDate>Tue, 08 Aug 2017 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;undefined&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 144.44444444444443%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAdABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABu6tFzgYb5LmkUP/EABoQAAIDAQEAAAAAAAAAAAAAAAABAhESIUL/2gAIAQEAAQUClJ7bEehG+3yL44286SVH/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGhAAAgIDAAAAAAAAAAAAAAAAEBEAASExcf/aAAgBAQAGPwJShqZLsciY/8QAHRAAAwEAAgMBAAAAAAAAAAAAAAERITFhQVFxgf/aAAgBAQABPyFJkmTITqy7wcS1kv0VXFXwvfBHpXx2R2BDCUPU2qg5X7EER//aAAwDAQACAAMAAAAQTDr/AP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EABsQAQEBAQEBAQEAAAAAAAAAAAERACExQWHB/9oACAEBAAE/EOFNpXofcEiH6OfzTYVL9dJRT8YMh8IYoUQtCfMcZCpT3FjT4hrHzvly2aAU7qAAQIdo7sHLfN//2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -62,7 +220,7 @@ In the mean time, I still slog through challenging, small press work and do my b
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 102.23162754905732%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUDBAH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHt8m7FFziRiFoH/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIAAwQQIRH/2gAIAQEAAQUC5FdX0+R0laYtoYZCBZ6THrUH/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHhAAAgIBBQEAAAAAAAAAAAAAAAECETESISJBcYH/2gAIAQEABj8C6ONfDA4afSLgrLsTWWI2P//EABoQAQADAQEBAAAAAAAAAAAAAAEAESFRMUH/2gAIAQEAAT8hv6odm0kkVVYIdSx4+wMBP1njjoyrmqrCoW6mDVe5P//aAAwDAQACAAMAAAAQs8gA/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAIBABAQACAQMFAAAAAAAAAAAAAREAITFRkcFBobHR8P/aAAgBAQABPxCwqAqzx1H5yloIgr2Z3xgFU2QfeY/aPdRBz53jtrXqE+nBZDeAqOXyF8u9j5w1oCA+n6ZGORQoXP/Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 102.23162754905732%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUDBAH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7fJuxRc4kYkWhX//xAAbEAACAgMBAAAAAAAAAAAAAAABAgADBBAhEf/aAAgBAQABBQLkV1fT5HSVpi2hhkIFnpMetQf/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAeEAACAgEFAQAAAAAAAAAAAAAAAQIRMRIhIkFxgf/aAAgBAQAGPwLo418MDhp9IuCsuxNZYjY//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARIVExQf/aAAgBAQABPyG/qh2bSSRVVgh1LHj7AwE/WeOOjKuaqsKhbqYNV7k//9oADAMBAAIAAwAAABCzyID/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAgEAEBAAIBAwUAAAAAAAAAAAABEQAhMVGRwUGhsdHw/9oACAEBAAE/ELCoCrPHUfnKWgiCvZnfGAVTZB95j9od2IOfO8dta9Qn04LIbwFRy+Qvl3sfOGtAQH0/TIxyKFC5/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -100,7 +258,7 @@ In the mean time, I still slog through challenging, small press work and do my b
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 102.23953261927944%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAHp3Cg4c4rxEiJ//8QAGhABAAMBAQEAAAAAAAAAAAAAAQACESESQf/aAAgBAQABBQL7ZwbR33ZwXYnL9q8n/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGRAAAQUAAAAAAAAAAAAAAAAAEAERITJR/9oACAEBAAY/AmNI0qf/xAAaEAEAAwEBAQAAAAAAAAAAAAABABExIUFR/9oACAEBAAE/IVTbfWKFTrsYB16tBXefCGrMZXQvYdlnSjCf/9oADAMBAAIAAwAAABCjL0H/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAVEQEBAAAAAAAAAAAAAAAAAAAQAf/aAAgBAgEBPxAh/8QAGxABAQEBAQEBAQAAAAAAAAAAAREAMUEhUYH/2gAIAQEAAT8Q+kQ/oycBrL7nJqnfMcD2SH+GXBhSUXUOoUxhH0trk+KV6d8xHOcN/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 102.23953261927944%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAHp3Cg4c4rxEiB//8QAGhABAAMBAQEAAAAAAAAAAAAAAQACESESQf/aAAgBAQABBQL7ZwbR33ZwXYnL9q8n/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGRAAAQUAAAAAAAAAAAAAAAAAEAERITJR/9oACAEBAAY/AmNI0qf/xAAaEAEAAwEBAQAAAAAAAAAAAAABABExIUFR/9oACAEBAAE/IVfbfWKFTrsYB16tBXefCErMZXQvYdlnSjCf/9oADAMBAAIAAwAAABCjL0L/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAVEQEBAAAAAAAAAAAAAAAAAAAQAf/aAAgBAgEBPxAh/8QAGxABAQEBAQADAAAAAAAAAAAAAREAMUEhUXH/2gAIAQEAAT8QD8kP2MnAay+5yap3zHA9khfwy4MKSi6p1CmMI+ltcixN6d8xHOcN/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -139,7 +297,7 @@ In the mean time, I still slog through challenging, small press work and do my b
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 145.2513966480447%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAdABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwAEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAFeW4g4ZXyuKZLRH//EABsQAAIDAQEBAAAAAAAAAAAAAAECAAMREiIj/9oACAEBAAEFAl6Wx7DBaI5xrGCr4aW4sfAOGEujH6u/J//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EAB0QAAIDAAIDAAAAAAAAAAAAAAABAhEhEDEycaH/2gAIAQEABj8Ck3tlRw1ixDqi8F2KK2zw+8R9cf/EABsQAAMBAQEBAQAAAAAAAAAAAAABESExQVGB/9oACAEBAAE/IWZMM4rw8876yCaoQomXumqD+E4GEsfT8IFcMd0eBNA6a1WIhiMmX9P/2gAMAwEAAgADAAAAEMfN/wD/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAdEAEAAwADAQEBAAAAAAAAAAABABEhMUFhUdHx/9oACAEBAAE/EFkmmeR66jq2hQvGBIAqaKh2Bt2tH2FWD0sfXyGU7hzsl0E3aM+89RAH1Ti+OPY2VozP5DWairq9INu1114v+SjOxdsf/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 145.2513966480447%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAdABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwAEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAFeW4g4ZXyuKZLRH//EABwQAAICAgMAAAAAAAAAAAAAAAECAAMREhMiI//aAAgBAQABBQJdlsewzlEc4axgq9GluFj4A0YS6MfV31P/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAdEAACAwACAwAAAAAAAAAAAAAAAQIRIRAxMnGh/9oACAEBAAY/ApN7ZUcNYsQ6ovBdiits8PvEfXH/xAAbEAEAAwEBAQEAAAAAAAAAAAABABEhMUFRgf/aAAgBAQABPyFJNE0Xyeeb1hRWpAIJfdmqD8lcCguPT5KCtGN7HAKoYml0SjGMmr/Z/9oADAMBAAIAAwAAABDHzX//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAdEAEBAAIDAAMAAAAAAAAAAAABEQAhMUFhUdHx/9oACAEBAAE/EFkmmeo9dY6boULBwpAFGEw7A22YfOFWh6UfXzDVO4ddmWgm2xqc89YgD7U6Xjj3GyaNa/WGtaEsuzBrqzt4v5kM7i1x/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -173,7 +331,7 @@ In the mean time, I still slog through challenging, small press work and do my b
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 152.8125%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAfABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/aAAwDAQACEAMQAAABqpS00hlObbQZUxCH/8QAHBAAAgMAAwEAAAAAAAAAAAAAAQIAAxEEEiET/9oACAEBAAEFArbQkV+yqBnI8lB1Bmch+0q8rGZ81IKLCs//xAAVEQEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAwEBPwFj/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHRABAAEDBQAAAAAAAAAAAAAAARAAESIhMTJRcf/aAAgBAQAGPwLTKh7l9jI2otHEWixaP//EAB0QAAMAAgIDAAAAAAAAAAAAAAABESExQWFRcaH/2gAIAQEAAT8hWZP0WiUqDaJDKd2cjknwIJWVqy6EeayYt+iQ3sBRImOBHR//2gAMAwEAAgADAAAAEFMGvf/EABgRAAIDAAAAAAAAAAAAAAAAAAABECEx/9oACAEDAQE/EMRTQz//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQIBAT8QG5G5/8QAHxABAAICAgMBAQAAAAAAAAAAAQARITFBUXGB8GHR/9oACAEBAAE/EOTVSUntUHGhrGHSa/IgrF7CU8U1TcOTX2pVlTB4o+9wUbaXCtokHZ7ISgmV+1f5UtwrrylFf2Cs+ZeWGeASwUADFE//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 152.8125%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAfABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABqpSs0hkc22g8UxCH/8QAHBAAAgMAAwEAAAAAAAAAAAAAAQIAAxEEEiET/9oACAEBAAEFArbQkV+yqBnI8lB1Bmch+0q8rGZ81IKLCs//xAAVEQEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAwEBPwFj/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHRABAAEDBQAAAAAAAAAAAAAAARAAESIhMTJRcf/aAAgBAQAGPwLTKh7l9jI2otHEWixaP//EABwQAAMAAwEBAQAAAAAAAAAAAAABESExQWFxof/aAAgBAQABPyFZk/haJaoNokMp3Z0ck+CCViXVl4IV6yYt/RIb6RIiY4I8P//aAAwDAQACAAMAAAAQUya9/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQITH/2gAIAQMBAT8QxFNDP//EABYRAQEBAAAAAAAAAAAAAAAAAAEREP/aAAgBAgEBPxAbkbn/xAAfEAEAAgIBBQEAAAAAAAAAAAABABEhMVFBYXGB8NH/2gAIAQEAAT8Q6mqkpPaoOJDWMOk12iCsXkJRxTVNw6mvtSrKmDxR97go20uXGiQdnkhKEyvyr+VLcK68olHdgrPmGuwyNBLBQAMUT//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;

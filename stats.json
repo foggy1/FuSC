@@ -1,48 +1,52 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-8d44fcf8da6b4bba3f6f.js",
-      "component---src-pages-index-js-8d44fcf8da6b4bba3f6f.js.map"
+      "component---src-pages-index-js-ab3aef1ce27aa7462d81.js",
+      "component---src-pages-index-js-ab3aef1ce27aa7462d81.js.map"
     ],
     "path---2017-06-13-a-hollowing": [
-      "path---2017-06-13-a-hollowing-0c5e6da8bea4558ded4f.js",
-      "path---2017-06-13-a-hollowing-0c5e6da8bea4558ded4f.js.map"
+      "path---2017-06-13-a-hollowing-3a53a5deba848015d2e8.js",
+      "path---2017-06-13-a-hollowing-3a53a5deba848015d2e8.js.map"
     ],
     "path---2017-08-08-black-blizzard": [
-      "path---2017-08-08-black-blizzard-bb5d48600a5b3c769804.js",
-      "path---2017-08-08-black-blizzard-bb5d48600a5b3c769804.js.map"
+      "path---2017-08-08-black-blizzard-7b6dcf051d31f5986412.js",
+      "path---2017-08-08-black-blizzard-7b6dcf051d31f5986412.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---2017-05-31-i-still-write-about-comics": [
-      "path---2017-05-31-i-still-write-about-comics-b3f2fefda69825bb274f.js",
-      "path---2017-05-31-i-still-write-about-comics-b3f2fefda69825bb274f.js.map"
+      "path---2017-05-31-i-still-write-about-comics-503faa5b63360454fea4.js",
+      "path---2017-05-31-i-still-write-about-comics-503faa5b63360454fea4.js.map"
     ],
     "path---2017-06-07-red-sprite-had-potential": [
-      "path---2017-06-07-red-sprite-had-potential-10f5124e240d0884384a.js",
-      "path---2017-06-07-red-sprite-had-potential-10f5124e240d0884384a.js.map"
+      "path---2017-06-07-red-sprite-had-potential-067e9d66de14e77c8438.js",
+      "path---2017-06-07-red-sprite-had-potential-067e9d66de14e77c8438.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-d2177cce6e9a41881b4d.js",
-      "component---src-templates-blog-post-js-d2177cce6e9a41881b4d.js.map"
+      "component---src-templates-blog-post-js-a1461b1db8747dace5fc.js",
+      "component---src-templates-blog-post-js-a1461b1db8747dace5fc.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-0568573c5d4c3de2504a.js",
-      "component---src-layouts-index-js-0568573c5d4c3de2504a.js.map"
+      "component---src-layouts-index-js-de132a07d568fb7a3dd2.js",
+      "component---src-layouts-index-js-de132a07d568fb7a3dd2.js.map"
     ],
     "path---2017-07-12-what-is-a-comic-tho": [
-      "path---2017-07-12-what-is-a-comic-tho-ea117278aa4d71062d01.js",
-      "path---2017-07-12-what-is-a-comic-tho-ea117278aa4d71062d01.js.map"
+      "path---2017-07-12-what-is-a-comic-tho-de467ceb69e03cdd4f24.js",
+      "path---2017-07-12-what-is-a-comic-tho-de467ceb69e03cdd4f24.js.map"
     ],
     "path---index": [
-      "path---index-9201f95beeacc2cc3a73.js",
-      "path---index-9201f95beeacc2cc3a73.js.map"
+      "path---index-1abb755881124328821e.js",
+      "path---index-1abb755881124328821e.js.map"
+    ],
+    "path---2017-08-23-is-that-not-kosher": [
+      "path---2017-08-23-is-that-not-kosher-5b7a7c49a92118d8b161.js",
+      "path---2017-08-23-is-that-not-kosher-5b7a7c49a92118d8b161.js.map"
     ],
     "commons": [
       "commons-23ecbd7b0887e4bbfc77.js",
@@ -53,12 +57,12 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-a3611481b0de19aa3f74.js",
-      "app-a3611481b0de19aa3f74.js.map"
+      "app-cc71411d64f977fcfe70.js",
+      "app-cc71411d64f977fcfe70.js.map"
     ],
     "path---about": [
-      "path---about-3bec1c8dbf1ffb2b12e2.js",
-      "path---about-3bec1c8dbf1ffb2b12e2.js.map"
+      "path---about-7a44250dd4c751716f2c.js",
+      "path---about-7a44250dd4c751716f2c.js.map"
     ]
   }
 }
