@@ -25,6 +25,7 @@
     "gatsby-source-filesystem": "latest",
     "gatsby-transformer-remark": "latest",
     "gatsby-transformer-sharp": "latest",
+    "gatsby-plugin-typography": "latest",
     "lodash": "^4.15.0",
     "moment": "^2.18.1",
     "react-burger-menu": "^2.1.4",
@@ -42,7 +43,7 @@
     "underscore.string": "^3.2.3"
   },
   "devDependencies": {
-    "gh-pages": "^0.12.0"
+    "gh-pages": "latest"
   },
   "homepage": "https://fogupsomecomics.com",
   "keywords": [
