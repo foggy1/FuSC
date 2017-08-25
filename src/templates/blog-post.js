@@ -59,6 +59,7 @@ class BlogPostTemplate extends React.Component {
   }
   render () {
     const post = this.props.data.markdownRemark
+    const theImage = post.frontmatter.indexImage ? 'https://fogupsomecomics.com' + post.frontmatter.indexImage.childImageSharp.resize.src : null
     const isPage = post.frontmatter.layout === 'page'
     const siteTitle = get(this.props, "data.site.siteMetadata.title")
     return (
@@ -70,7 +71,7 @@ class BlogPostTemplate extends React.Component {
         <span itemProp='publisher' style={{display: 'none'}}>Foggy at Best</span>
         <span itemProp='image' style={{display: 'none'}} itemScope itemType='http://schema.org/ImageObject'>
           <span itemProp='url'>
-            {post.frontmatter.indexImage ? 'https://fogupsomecomics.com' + post.frontmatter.indexImage.childImageSharp.resize.src : null}
+            {theImage}
           </span>
           <meta itemProp='height' content='500' />
           <meta itemProp='width' content='500' />
@@ -116,8 +117,8 @@ class BlogPostTemplate extends React.Component {
         <meta property='twitter:description' content={post.frontmatter.description} />
         <meta name='author' content='Austin Lanari' />
         <meta name='og:image' content={post.frontmatter.indexImage} />
-        <meta name='twitter:image' content={'https://fogupsomecomics.com' + post.frontmatter.indexImage.childImageSharp.resize.src} />
-        <meta name='twitter:card' value='summary' />
+        <meta name='twitter:image' content={theImage || ''} />
+        <meta name='twitter:card' value='summary_large_image' />
       </div>
     )
   }
