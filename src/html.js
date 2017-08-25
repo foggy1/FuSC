@@ -37,7 +37,7 @@ module.exports = React.createClass({
           {this.props.headComponents}
           <TypographyStyle typography={typography} />
           <link rel="icon" href="./favicons/favicon-32x32.ico" type="image/png" size='32x32' />
-          <link rel="canonical" href="https://fogupsomecomics.com/">
+          <link rel="canonical" href="https://fogupsomecomics.com/" />
           {css}
           {head.title.toComponent()}
           {head.meta.toComponent()}

@@ -85,9 +85,8 @@ class BlogIndex extends React.Component {
         <meta itemProp='copyrightHolder' content='Austin Lanari' />
         <meta itemProp='copyrightYear' content='2017' />
         <meta itemProp='headline' content='Fog Up Some Comics' />
-        <Helmet title={get(this, 'props.data.site.siteMetadata.title')}>
-          <meta name='description' content='Fog Up Some Comics unpacks some of the most challenging work in the comics medium today... and yesterday.' />
-        </Helmet>
+        <meta name='description' content='Fog Up Some Comics unpacks some of the most challenging work in the comics medium today... and yesterday.' />
+        <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
         <ul style={{marginLeft: -20}}>
           {pageLinks}
         </ul>
