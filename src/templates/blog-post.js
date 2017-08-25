@@ -68,12 +68,13 @@ class BlogPostTemplate extends React.Component {
         itemType={'http://schema.org/BlogPosting'}
       >
         <span itemProp='author' style={{display: 'none'}}>Austin Lanari</span>
+        <span itemProp='publisher' style={{display: 'none'}}>Foggy at Best</span>
         <span itemProp='image' style={{display: 'none'}} itemScope itemType='http://schema.org/ImageObject'>
           <span itemProp='url'>
-            {post.frontmatter.indexImage ? 'fogupsomecomics.com' + post.frontmatter.indexImage.childImageSharp.resize.src : null}
+            {post.frontmatter.indexImage ? 'https://fogupsomecomics.com' + post.frontmatter.indexImage.childImageSharp.resize.src : null}
           </span>
-          <meta itemProp='height' content='100' />
-          <meta itemProp='width' content='100' />
+          <meta itemProp='height' content='500' />
+          <meta itemProp='width' content='500' />
           <span />
         </span>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`}>
@@ -106,17 +107,17 @@ class BlogPostTemplate extends React.Component {
           }}
         />}
         {post.frontmatter.layout === 'page' ? <span /> : <Bio />}
-        <meta property='og:url' content={`fuckupsomecomics.com${post.fields.slug}`} />
+        <meta property='og:url' content={`fogupsomecomics.com${post.fields.slug}`} />
         <meta property='og:type' content='article' />
         <meta property='og:title' content={post.frontmatter.title} />
         <meta property='og:description' content={post.frontmatter.description} />
         <meta name='twitter:site' value='@austinlanari' />
-        <meta property='twitter:url' content={`fuckupsomecomics.com${post.fields.slug}`} />
+        <meta property='twitter:url' content={`fogupsomecomics.com${post.fields.slug}`} />
         <meta property='twitter:title' content={post.frontmatter.title} />
         <meta property='twitter:description' content={post.frontmatter.description} />
         <meta name='author' content='Austin Lanari' />
         <meta name='og:image' content={post.frontmatter.indexImage} />
-        <meta name='twitter:image' content={'https://fuckupsomecomics.com/static/2a959f7844320584f23f7c724baaa6e2-2a068.jpg'} />
+        <meta name='twitter:image' content={'https://fogupsomecomics.com' + post.frontmatter.indexImage.childImageSharp.resize.src'} />
         <meta name='twitter:card' value='summary' />
       </div>
     )
@@ -144,7 +145,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY"),
         indexImage {
           childImageSharp {
-            resize(width: 80, height: 80) {
+            resize(width: 500, height: 500) {
               src
               originalName
             }
