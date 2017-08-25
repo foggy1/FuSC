@@ -117,7 +117,7 @@ class BlogPostTemplate extends React.Component {
         <meta property='twitter:description' content={post.frontmatter.description} />
         <meta name='author' content='Austin Lanari' />
         <meta name='og:image' content={post.frontmatter.indexImage} />
-        <meta name='twitter:image' content={'https://fogupsomecomics.com' + post.frontmatter.indexImage.childImageSharp.resize.src'} />
+        <meta name='twitter:image' content={'https://fogupsomecomics.com' + post.frontmatter.indexImage.childImageSharp.resize.src} />
         <meta name='twitter:card' value='summary' />
       </div>
     )
