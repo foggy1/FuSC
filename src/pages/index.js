@@ -85,7 +85,9 @@ class BlogIndex extends React.Component {
         <meta itemProp='copyrightHolder' content='Austin Lanari' />
         <meta itemProp='copyrightYear' content='2017' />
         <meta itemProp='headline' content='Fog Up Some Comics' />
-        <Helmet title={get(this, "props.data.site.siteMetadata.title")} />
+        <Helmet title={get(this, 'props.data.site.siteMetadata.title')}>
+          <meta name='description' content='Fog Up Some Comics unpacks some of the most challenging work in the comics medium today... and yesterday.' />
+        </Helmet>
         <ul style={{marginLeft: -20}}>
           {pageLinks}
         </ul>
@@ -95,7 +97,7 @@ class BlogIndex extends React.Component {
 }
 
 BlogIndex.propTypes = {
-  route: React.PropTypes.object,
+  route: React.PropTypes.object
 }
 
 export default BlogIndex
