@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-4b71de3d9ab4dd26532e.js",
-      "component---src-pages-index-js-4b71de3d9ab4dd26532e.js.map"
+      "component---src-pages-index-js-4e1277d8a7b2884a9f67.js",
+      "component---src-pages-index-js-4e1277d8a7b2884a9f67.js.map"
     ],
     "path---2017-06-13-a-hollowing": [
       "path---2017-06-13-a-hollowing-6c30658b6a854f924a6d.js",
@@ -41,8 +41,8 @@
       "path---2017-07-12-what-is-a-comic-tho-e2fc64ee449080ea5e14.js.map"
     ],
     "path---index": [
-      "path---index-a78e8d7f4821237d3aab.js",
-      "path---index-a78e8d7f4821237d3aab.js.map"
+      "path---index-4993f6fd029ee37d1380.js",
+      "path---index-4993f6fd029ee37d1380.js.map"
     ],
     "path---2017-08-23-is-that-not-kosher": [
       "path---2017-08-23-is-that-not-kosher-1952898a52f21e8f9668.js",
@@ -59,9 +59,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-ce4a5d0f8072f72dd304.js",
+      "app-ff18e674e13f4317a0c8.js",
       "build-js-styles.css",
-      "app-ce4a5d0f8072f72dd304.js.map",
+      "app-ff18e674e13f4317a0c8.js.map",
       "build-js-styles.css.map"
     ],
     "path---about": [
