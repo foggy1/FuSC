@@ -1,64 +1,68 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-f30ad939ecda9e9a5253.js",
-      "component---src-pages-index-js-f30ad939ecda9e9a5253.js.map"
+      "component---src-pages-index-js-55dc104c765cb0c6a1f9.js",
+      "component---src-pages-index-js-55dc104c765cb0c6a1f9.js.map"
     ],
     "path---2017-06-13-a-hollowing": [
-      "path---2017-06-13-a-hollowing-3a53a5deba848015d2e8.js",
-      "path---2017-06-13-a-hollowing-3a53a5deba848015d2e8.js.map"
+      "path---2017-06-13-a-hollowing-6c30658b6a854f924a6d.js",
+      "path---2017-06-13-a-hollowing-6c30658b6a854f924a6d.js.map"
     ],
     "path---2017-08-08-black-blizzard": [
-      "path---2017-08-08-black-blizzard-7b6dcf051d31f5986412.js",
-      "path---2017-08-08-black-blizzard-7b6dcf051d31f5986412.js.map"
+      "path---2017-08-08-black-blizzard-0063f1d2090901934ab5.js",
+      "path---2017-08-08-black-blizzard-0063f1d2090901934ab5.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---2017-05-31-i-still-write-about-comics": [
-      "path---2017-05-31-i-still-write-about-comics-503faa5b63360454fea4.js",
-      "path---2017-05-31-i-still-write-about-comics-503faa5b63360454fea4.js.map"
+      "path---2017-05-31-i-still-write-about-comics-ced83aff1992aa43ec0d.js",
+      "path---2017-05-31-i-still-write-about-comics-ced83aff1992aa43ec0d.js.map"
     ],
     "path---2017-06-07-red-sprite-had-potential": [
-      "path---2017-06-07-red-sprite-had-potential-067e9d66de14e77c8438.js",
-      "path---2017-06-07-red-sprite-had-potential-067e9d66de14e77c8438.js.map"
+      "path---2017-06-07-red-sprite-had-potential-800520e98e50fd52e964.js",
+      "path---2017-06-07-red-sprite-had-potential-800520e98e50fd52e964.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-19cdae047ed81e08050a.js",
-      "component---src-templates-blog-post-js-19cdae047ed81e08050a.js.map"
+      "component---src-templates-blog-post-js-ae320bde1900edf4c709.js",
+      "component---src-templates-blog-post-js-ae320bde1900edf4c709.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-9d93516b8231fdafe343.js",
-      "component---src-layouts-index-js-9d93516b8231fdafe343.js.map"
+      "component---src-layouts-index-js-8197503e9aa266d49438.js",
+      "component---src-layouts-index-js-8197503e9aa266d49438.js.map"
     ],
     "path---2017-07-12-what-is-a-comic-tho": [
-      "path---2017-07-12-what-is-a-comic-tho-de467ceb69e03cdd4f24.js",
-      "path---2017-07-12-what-is-a-comic-tho-de467ceb69e03cdd4f24.js.map"
+      "path---2017-07-12-what-is-a-comic-tho-e2fc64ee449080ea5e14.js",
+      "path---2017-07-12-what-is-a-comic-tho-e2fc64ee449080ea5e14.js.map"
     ],
     "path---index": [
-      "path---index-34d2ac4bfcb1c59ec2e8.js",
-      "path---index-34d2ac4bfcb1c59ec2e8.js.map"
+      "path---index-7fbde2865da57a6f7244.js",
+      "path---index-7fbde2865da57a6f7244.js.map"
     ],
     "path---2017-08-23-is-that-not-kosher": [
-      "path---2017-08-23-is-that-not-kosher-5b7a7c49a92118d8b161.js",
-      "path---2017-08-23-is-that-not-kosher-5b7a7c49a92118d8b161.js.map"
+      "path---2017-08-23-is-that-not-kosher-1952898a52f21e8f9668.js",
+      "path---2017-08-23-is-that-not-kosher-1952898a52f21e8f9668.js.map"
     ],
     "commons": [
-      "commons-23ecbd7b0887e4bbfc77.js",
-      "commons-23ecbd7b0887e4bbfc77.js.map"
+      "commons-64e208239fd3ec91c3b5.js",
+      "build-js-styles.css",
+      "commons-64e208239fd3ec91c3b5.js.map",
+      "build-js-styles.css.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-a6a4714bddb4508fcb56.js",
-      "app-a6a4714bddb4508fcb56.js.map"
+      "app-df040125bb1c52cff4fb.js",
+      "build-js-styles.css",
+      "app-df040125bb1c52cff4fb.js.map",
+      "build-js-styles.css.map"
     ],
     "path---about": [
       "path---about-7a44250dd4c751716f2c.js",
