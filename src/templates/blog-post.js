@@ -60,7 +60,6 @@ class BlogPostTemplate extends React.Component {
   render () {
     const post = this.props.data.markdownRemark
     const isPage = post.frontmatter.layout === 'page'
-    const { itemTitle, itemAuthor } = post.frontmatter
     const siteTitle = get(this.props, "data.site.siteMetadata.title")
     return (
       <div

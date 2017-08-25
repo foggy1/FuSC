@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
-    "gatsby": "latest",
+    "gatsby": "^1.8.5",
     "gatsby-link": "latest",
     "gatsby-plugin-google-analytics": "latest",
     "gatsby-plugin-manifest": "latest",
