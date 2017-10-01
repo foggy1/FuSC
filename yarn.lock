@@ -1919,13 +1919,13 @@ comma-separated-tokens@^1.0.1:
   dependencies:
     trim "0.0.1"
 
-commander@2.9.0, commander@2.9.x, commander@^2.8.1:
+commander@2.9.0, commander@2.9.x:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.9.0.tgz#9c99094176e12240cb22d6c5146098400fe0f7d4"
   dependencies:
     graceful-readlink ">= 1.0.0"
 
-commander@^2.11.0:
+commander@^2.11.0, commander@^2.8.1:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
 
@@ -3131,6 +3131,18 @@ fbjs@^0.8.1, fbjs@^0.8.9:
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.9"
 
+fbjs@^0.8.16:
+  version "0.8.16"
+  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.16.tgz#5e67432f550dc41b572bf55847b8aca64e5337db"
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.9"
+
 fd-slicer@~1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/fd-slicer/-/fd-slicer-1.0.1.tgz#8b5bcbd9ec327c5041bf9ab023fd6750f1177e65"
@@ -3401,6 +3413,13 @@ gatsby-1-config-css-modules@^1.0.4:
   dependencies:
     babel-runtime "^6.26.0"
 
+gatsby-image@latest:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-1.0.1.tgz#3db7e47457fea9d00c84e1fcdfe88867dfeba746"
+  dependencies:
+    babel-runtime "^6.26.0"
+    prop-types "^15.6.0"
+
 gatsby-link@latest:
   version "1.6.7"
   resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.7.tgz#d84bd096f5c41ffaaeb293220024f305e8200845"
@@ -3570,7 +3589,7 @@ gatsby-transformer-sharp@latest:
     fs-extra "^4.0.0"
     image-size "^0.6.0"
 
-gatsby@^1.9.31:
+gatsby@latest:
   version "1.9.50"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.50.tgz#a875f294dd68695e9197178dfa57d02bdec09b93"
   dependencies:
@@ -5653,13 +5672,13 @@ mime-db@1.x.x, mime-db@~1.25.0:
   version "1.29.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.29.0.tgz#48d26d235589651704ac5916ca06001914266878"
 
-mime-types@2.1.13, mime-types@^2.1.12, mime-types@~2.1.11, mime-types@~2.1.7:
+mime-types@2.1.13, mime-types@~2.1.11:
   version "2.1.13"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.13.tgz#e07aaa9c6c6b9a7ca3012c69003ad25a39e92a88"
   dependencies:
     mime-db "~1.25.0"
 
-mime-types@~2.1.15:
+mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.7:
   version "2.1.16"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
   dependencies:
@@ -7034,6 +7053,14 @@ prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8:
     fbjs "^0.8.9"
     loose-envify "^1.3.1"
 
+prop-types@^15.6.0:
+  version "15.6.0"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
+  dependencies:
+    fbjs "^0.8.16"
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
+
 proper-lockfile@^1.1.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/proper-lockfile/-/proper-lockfile-1.2.0.tgz#ceff5dd89d3e5f10fb75e1e8e76bc75801a59c34"
@@ -8275,7 +8302,7 @@ source-map@0.1.32:
   dependencies:
     amdefine ">=0.0.4"
 
-source-map@0.5.6, source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6, source-map@~0.5.1, source-map@~0.5.3:
+source-map@0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.6.tgz#75ce38f52bf0733c5a7f0c118d81334a2bb5f412"
 
@@ -8285,7 +8312,7 @@ source-map@^0.4.4, source-map@~0.4.1:
   dependencies:
     amdefine ">=0.0.4"
 
-source-map@^0.5.7:
+source-map@^0.5.0, source-map@^0.5.3, source-map@^0.5.6, source-map@^0.5.7, source-map@~0.5.1, source-map@~0.5.3:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
@@ -8961,14 +8988,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typeface-merriweather@^0.0.25:
-  version "0.0.25"
-  resolved "https://registry.yarnpkg.com/typeface-merriweather/-/typeface-merriweather-0.0.25.tgz#fe6f87778af6cd52ce87391204550b3afb710241"
-
-typeface-montserrat@^0.0.24:
-  version "0.0.24"
-  resolved "https://registry.yarnpkg.com/typeface-montserrat/-/typeface-montserrat-0.0.24.tgz#dc819a5a8e7e89af4107671c56b7b9e1ab2ceea2"
-
 typography-breakpoint-constants@^0.15.10:
   version "0.15.10"
   resolved "https://registry.yarnpkg.com/typography-breakpoint-constants/-/typography-breakpoint-constants-0.15.10.tgz#bd5308dd57250e7f28a8c6e1c0e668ddf1178c5c"
@@ -8977,7 +8996,7 @@ typography-normalize@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.14.0.tgz#1d77c1fe2aaf4a51b3673c4c85c85a65a2d4b573"
 
-typography-theme-parnassus@^0.15.10:
+typography-theme-parnassus@latest:
   version "0.15.10"
   resolved "https://registry.yarnpkg.com/typography-theme-parnassus/-/typography-theme-parnassus-0.15.10.tgz#be04ec5730a1f00ecb00fcf359f83256f2762dda"
   dependencies:
@@ -8985,35 +9004,9 @@ typography-theme-parnassus@^0.15.10:
     gray-percentage "^2.0.0"
     typography-breakpoint-constants "^0.15.10"
 
-typography-theme-twin-peaks@^0.15.11:
-  version "0.15.11"
-  resolved "https://registry.yarnpkg.com/typography-theme-twin-peaks/-/typography-theme-twin-peaks-0.15.11.tgz#3d0b9e57d9725bad5730e898cc47a89c3ffcca2e"
-  dependencies:
-    gray-percentage "^2.0.0"
-    typography-breakpoint-constants "^0.15.10"
-
-typography-theme-wordpress-2016@^0.15.1:
-  version "0.15.10"
-  resolved "https://registry.yarnpkg.com/typography-theme-wordpress-2016/-/typography-theme-wordpress-2016-0.15.10.tgz#8f14f002af9334303b858093358455e02d33131d"
-  dependencies:
-    gray-percentage "^2.0.0"
-    typography-breakpoint-constants "^0.15.10"
-
-typography@^0.15.8:
-  version "0.15.12"
-  resolved "https://registry.yarnpkg.com/typography/-/typography-0.15.12.tgz#333189035f85e585c0a5ac72669dd508e394a73e"
-  dependencies:
-    compass-vertical-rhythm "^1.3.0"
-    decamelize "^1.2.0"
-    gray-percentage "^2.0.0"
-    lodash "^4.13.1"
-    modularscale "^1.0.2"
-    object-assign "^4.1.0"
-    typography-normalize "^0.14.0"
-
-typography@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/typography/-/typography-0.16.0.tgz#72b59db2c8b34588a1600b39a062317dd1d1787b"
+typography@^0.16.0, typography@latest:
+  version "0.16.6"
+  resolved "https://registry.yarnpkg.com/typography/-/typography-0.16.6.tgz#8eeb6a3f10a97fd08025132bb50272104ae72aa3"
   dependencies:
     compass-vertical-rhythm "^1.3.0"
     decamelize "^1.2.0"
