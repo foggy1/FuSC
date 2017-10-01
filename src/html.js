@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Component } from "react"
 import { TypographyStyle } from "react-typography"
 import Helmet from "react-helmet"
 import typography from "./utils/typography"
@@ -12,8 +12,8 @@ if (process.env.NODE_ENV === `production`) {
   }
 }
 
-module.exports = React.createClass({
-  render() {
+class Main extends Component {
+  render () {
     const head = Helmet.rewind()
     let css
     if (process.env.NODE_ENV === `production`) {
@@ -52,5 +52,7 @@ module.exports = React.createClass({
         </body>
       </html>
     )
-  },
-})
+  }
+}
+
+export default Main

@@ -1,48 +1,33 @@
-import React from "react"
-import Link from "gatsby-link"
-import get from "lodash/get"
-import Helmet from "react-helmet"
-import include from "underscore.string/include"
+import React from 'react'
+import Link from 'gatsby-link'
+import get from 'lodash/get'
+import Helmet from 'react-helmet'
+import Img from 'gatsby-image'
 import moment from 'moment'
 import sortBy from 'lodash/sortBy'
-import groupBy from 'lodash/groupBy'
-
-import Bio from "../components/Bio"
-import { rhythm } from "../utils/typography"
+import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
   constructor () {
     super()
     this.state = {
-      mobile: false,
-      loadedImages: {},
-      resizedImages: []
+      mobile: false
     }
   }
   componentDidMount () {
     if (typeof (window) !== 'undefined') {
       this.setState({mobile: window.screen.width < 720})
     }
-    const resizedImages = get(this, 'props.data.allImageSharp.edges').map(n => n.node.resize)
-    this.setState({resizedImages})
-  }
-
-  handleLoad (i) {
-    let loadedImages = {...this.state.loadedImages}
-    loadedImages[i] = true
-    this.setState({ loadedImages })
   }
 
   render () {
-    // console.log("props", this.props)
-    const {resizedImages} = this.state
-    const posts = get(this, "props.data.allMarkdownRemark.edges")
-    const sortedPosts = sortBy(posts, post => get(post, "node.frontmatter.date")).reverse()
+    const posts = get(this, 'props.data.allMarkdownRemark.edges')
+    const sortedPosts = sortBy(posts, post => get(post, 'node.frontmatter.date')).reverse()
     const pageLinks = sortedPosts.map((post, i) => {
-      if (post.node.path !== "/404/" && get(post, 'node.frontmatter.date')) {
-        const title = get(post, "node.frontmatter.title") || post.node.path
+      if (post.node.path !== '/404/' && get(post, 'node.frontmatter.date')) {
+        const title = get(post, 'node.frontmatter.title') || post.node.path
         const datePublished = get(post, 'node.frontmatter.date')
-        const image = get(post, 'node.frontmatter.indexImage.childImageSharp.resize.src')
+        const image = get(post, 'node.frontmatter.indexImage.childImageSharp.responsiveSizes')
         const fontSize = this.state.mobile ? '3.5vw' : null
         return (
           <Link key={i} style={{ boxShadow: 'none' }} to={post.node.fields.slug}>
@@ -53,13 +38,12 @@ class BlogIndex extends React.Component {
               }}
             >
               <div style={{verticalAlign: 'middle', height: 72, width: 72, marginLeft: 16, marginBottom: 16, overflow: 'hidden', borderRadius: 50, display: 'inline-block'}}>
-                <img
-                  onLoad={() => this.handleLoad(i)}
+                <Img
                   style={{
                     width: '100%',
                     backgroundSize: 'auto',
                   }}
-                  src={image}
+                  responsiveSizes={image}
                 />
               </div>
               <span
@@ -107,8 +91,13 @@ query IndexQuery {
     edges {
       node {
         ... on ImageSharp {
-          resize(width: 100, height: 100) {
+          responsiveSizes(maxWidth: 150) {
+            base64
+            aspectRatio
             src
+            srcSet
+            sizes
+            originalImg
             originalName
           }
         }
@@ -133,8 +122,14 @@ query IndexQuery {
           category,
           indexImage {
             childImageSharp {
-              resize(width: 150, height: 150){
-                  src
+              responsiveSizes(maxWidth: 150){
+                base64
+                aspectRatio
+                src
+                srcSet
+                sizes
+                originalImg
+                originalName
                 }
             }
           }

@@ -3,7 +3,7 @@ import Link from "gatsby-link"
 import { Container } from "react-responsive-grid"
 import Back from 'react-icons/lib/fa/arrow-left'
 import { slide as Menu } from 'react-burger-menu'
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 class Template extends React.Component {
   constructor (props) {
@@ -108,9 +108,9 @@ class Template extends React.Component {
 }
 
 Template.propTypes = {
-  children: React.PropTypes.function,
+  children: React.PropTypes.func,
   location: React.PropTypes.object,
-  route: React.PropTypes.object,
+  route: React.PropTypes.object
 }
 
 var styles = {
