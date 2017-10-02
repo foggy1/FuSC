@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import Link from "gatsby-link"
 import get from "lodash/get"
-
+import Img from 'gatsby-image'
 import Bio from "../components/Bio"
 import { rhythm, scale } from "../utils/typography"
 // import './typography.css'
@@ -145,10 +145,9 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY"),
         indexImage {
           childImageSharp {
-            resize(width: 500, height: 500) {
-              src
-              originalName
-            }
+              resize(width: 500, height: 500){
+                src
+                }
           }
         },
         layout,

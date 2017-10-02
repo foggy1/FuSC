@@ -7,13 +7,15 @@
     "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
   },
   "dependencies": {
+    "bluebird": "^3.4.7",
     "babel-preset-es2015": "^6.24.1",
     "gatsby": "latest",
     "gatsby-link": "latest",
+    "gatsby-plugin-catch-links": "latest",
     "gatsby-plugin-google-analytics": "latest",
     "gatsby-plugin-manifest": "latest",
     "gatsby-plugin-offline": "latest",
-    "gatsby-plugin-react-helmet": "^1.0.6",
+    "gatsby-plugin-react-helmet": "latest",
     "gatsby-plugin-preact": "latest",
     "gatsby-plugin-sharp": "latest",
     "gatsby-plugin-sitemap": "latest",
