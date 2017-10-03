@@ -42,6 +42,7 @@ class BlogIndex extends React.Component {
                   style={{
                     width: '100%',
                     backgroundSize: 'auto',
+                    zIndex: -1
                   }}
                   responsiveSizes={image}
                 />

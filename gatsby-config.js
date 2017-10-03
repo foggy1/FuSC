@@ -19,8 +19,8 @@ module.exports = {
         name: `Fog Up Some Comics`,
         short_name: `FUSC`,
         start_url: `/`,
-        background_color: `#039be5`,
-        theme_color: `#63ccff`,
+        background_color: `#26418f`,
+        theme_color: `#5c6bc0`,
         display: `standalone`,
         icons: [
           {

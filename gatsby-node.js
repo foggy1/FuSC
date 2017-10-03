@@ -10,6 +10,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   return new Promise((resolve, reject) => {
     const pages = []
     const blogPost = path.resolve("./src/templates/blog-post.js")
+    const blogPage = path.resolve("./src/templates/blog-page.js")
     resolve(
       graphql(
         `
@@ -19,6 +20,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             node {
               fields {
                 slug
+              }
+              frontmatter {
+                layout
               }
             }
           }
@@ -33,13 +37,23 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
         // Create blog posts pages.
         _.each(result.data.allMarkdownRemark.edges, edge => {
-          createPage({
-            path: edge.node.fields.slug, // required
-            component: blogPost,
-            context: {
-              slug: edge.node.fields.slug,
-            },
-          })
+          if (edge.node.frontmatter.layout === 'post') {
+            createPage({
+              path: edge.node.fields.slug, // required
+              component: blogPost,
+              context: {
+                slug: edge.node.fields.slug,
+              },
+            })  
+          } else if (edge.node.frontmatter.layout === 'page') {
+            createPage({
+              path: edge.node.fields.slug, // required
+              component: blogPage,
+              context: {
+                slug: edge.node.fields.slug
+              }
+            })
+          }
         })
       })
     )
@@ -73,14 +87,14 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
       createNodeField({
         node,
         fieldName: 'slug',
-        fieldValue: fileNode.fields.slug,
+        fieldValue: fileNode.fields.slug
       })
       if (node.frontmatter) {
         createNodeField({
           node,
           fieldName: 'indexImage',
           fieldValue: node.frontmatter.indexImage
-        }) 
+        })
       }
       return
   }
