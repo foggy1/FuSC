@@ -2,7 +2,6 @@
 title: "About"
 layout: page
 path: "/about"
-smallImage: "joker_maggot_sml.jpg"
 category: "about"
 draft: false
 ---
