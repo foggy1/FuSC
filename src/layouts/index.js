@@ -66,7 +66,7 @@ class Template extends React.Component {
       <div style={{paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
         <nav style={{
           height,
-          backgroundColor: '#63ccff',
+          backgroundColor: '#5c6bc0',
           position: 'fixed',
           width: '100%',
           boxShadow: '0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)'
@@ -75,7 +75,8 @@ class Template extends React.Component {
             <p style={{
               color: 'white',
               fontSize: 20,
-              fontFamily: 'Merriweather Sans,Helvetica,Arial,sans-serif',
+              fontFamily: 'Helvetica,Arial,sans-serif',
+              fontWeight: '600'
             }}>{title}</p>
           </div>
         </nav>
@@ -95,7 +96,7 @@ class Template extends React.Component {
             position: 'absolute',
             bottom: 0,
             width: '100%',
-            backgroundColor: '#039be5'
+            backgroundColor: '#26418f'
           }}
         >
           <div style={{width: '90%', padding: 10, height: 50, lineHeight: 1.5, color: 'white', margin: 'auto'}}>
