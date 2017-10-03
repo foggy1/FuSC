@@ -78,7 +78,7 @@ class BlogPageTemplate extends React.Component {
 
         </Helmet>
         <h1
-          style={{paddingTop: 0, marginTop: 30}}
+          style={{paddingTop: 0, marginTop: 30, paddingBottom: 10}}
           itemProp="headline"
         >
           {page.frontmatter.title}
