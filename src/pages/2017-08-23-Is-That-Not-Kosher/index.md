@@ -2,7 +2,7 @@
 title: "Is That Not Kosher?"
 layout: post
 date: "2017-08-24T00:24:00.284-04"
-path: "/posts/6"
+path: "/blog/is-that-not-kosher"
 itemTitle: "The Tar Pit"
 itemAuthor: "Jeremy Sorese"
 itemPublisher: "ShortBox"

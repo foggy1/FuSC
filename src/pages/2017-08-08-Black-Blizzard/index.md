@@ -2,7 +2,7 @@
 title: "Tatsumi's 'Black Blizzard'"
 layout: post
 date: "2017-08-08T23:00:00.284Z"
-path: "/posts/5"
+path: "/blog/tatsumi-black-blizzard"
 itemTitle: "Black Blizzard"
 itemAuthor: "Yoshihiro Tatsumi"
 itemPublisher: "Drawn & Quarterly"

@@ -2,7 +2,7 @@
 title: "I Used T-- I still write about comics"
 date: "2017-05-31T21:12:03.284Z"
 layout: post
-path: "/posts/1"
+path: "/blog/I-still-write-about-comics"
 readNext: "/posts/2"
 category: ""
 description: "Is this thing on?"

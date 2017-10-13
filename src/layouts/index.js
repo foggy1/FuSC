@@ -28,11 +28,27 @@ class Template extends React.Component {
     this.setState({isOpen: false})
   }
 
+  renderBack () {
+    return (
+      <Link
+        style={{
+          boxShadow: "none",
+          textDecoration: "none",
+          color: "inherit",
+        }}
+        to={"/"}
+      >
+        <Back size={24} color={'white'} style={styles.bmBurgerButton} />
+      </Link>
+    )
+  }
+
   render () {
     const { location, children } = this.props
     const height = this.state.mobile ? 56 : 64
     styles.bmBurgerButton.left = this.state.mobile ? 16 : 24
     styles.bmBurgerButton.top = this.state.mobile ? 16 : 20
+    styles.bmBurgerButton.fontWeight = '600'
     let header, title
     if (location.pathname === "/" || location.pathname === '/about') {
       title = 'Fog Up Some Comics'
@@ -47,20 +63,12 @@ class Template extends React.Component {
         </Menu>
           // <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
       )
-    } else {
+    } else if (location.pathname.includes('/blog')) {
+      title = 'Blog'
+      header = this.renderBack()
+    } else if (location.pathname.includes('/comics')) {
       title = 'Comics'
-      header = (
-        <Link
-          style={{
-            boxShadow: "none",
-            textDecoration: "none",
-            color: "inherit",
-          }}
-          to={"/"}
-        >
-          <Back size={24} color={'white'} style={styles.bmBurgerButton} />
-        </Link>
-      )
+      header = this.renderBack()
     }
     return (
       <div style={{paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>

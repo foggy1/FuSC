@@ -30,7 +30,7 @@ class BlogIndex extends React.Component {
         const image = get(post, 'node.frontmatter.indexImage.childImageSharp.responsiveSizes')
         const fontSize = this.state.mobile ? '3.5vw' : null
         return (
-          <Link key={i} style={{ boxShadow: 'none' }} to={post.node.fields.slug}>
+          <Link key={i} style={{ boxShadow: 'none' }} to={post.node.frontmatter.path}>
             <li
               style={{
                 marginBottom: rhythm(1 / 4),
@@ -121,6 +121,7 @@ query IndexQuery {
           date,
           description,
           category,
+          path,
           indexImage {
             childImageSharp {
               responsiveSizes(maxWidth: 150){

@@ -2,7 +2,7 @@
 title: "What IS a comic?"
 layout: post
 date: "2017-07-12T13:00:00.284Z"
-path: "/posts/4"
+path: "/blog/what-is-a-comic"
 smallImage: "joker_maggot_sml.jpg"
 category: "comics"
 description: "Let's phili(sophi)cal, let's get into comics yeah."

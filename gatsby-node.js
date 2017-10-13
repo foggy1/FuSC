@@ -11,6 +11,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     const pages = []
     const blogPost = path.resolve("./src/templates/blog-post.js")
     const blogPage = path.resolve("./src/templates/blog-page.js")
+    const comic = path.resolve("./src/templates/comic.js")
     resolve(
       graphql(
         `
@@ -23,6 +24,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               }
               frontmatter {
                 layout
+                path
               }
             }
           }
@@ -39,7 +41,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         _.each(result.data.allMarkdownRemark.edges, edge => {
           if (edge.node.frontmatter.layout === 'post') {
             createPage({
-              path: edge.node.fields.slug, // required
+              path: edge.node.frontmatter.path, // required
               component: blogPost,
               context: {
                 slug: edge.node.fields.slug,
@@ -47,8 +49,16 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             })  
           } else if (edge.node.frontmatter.layout === 'page') {
             createPage({
-              path: edge.node.fields.slug, // required
+              path: edge.node.frontmatter.path, // required
               component: blogPage,
+              context: {
+                slug: edge.node.fields.slug
+              }
+            })
+          } else if (edge.node.frontmatter.layout === 'comic') {
+            createPage({
+              path: edge.node.frontmatter.path, // required
+              component: comic,
               context: {
                 slug: edge.node.fields.slug
               }
