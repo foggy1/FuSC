@@ -11,6 +11,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     const pages = []
     const blogPost = path.resolve("./src/templates/blog-post.js")
     const blogPage = path.resolve("./src/templates/blog-page.js")
+    const comic = path.resolve("./src/templates/comic.js")
     resolve(
       graphql(
         `
@@ -50,6 +51,14 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             createPage({
               path: edge.node.frontmatter.path, // required
               component: blogPage,
+              context: {
+                slug: edge.node.fields.slug
+              }
+            })
+          } else if (edge.node.frontmatter.layout === 'comic') {
+            createPage({
+              path: edge.node.frontmatter.path, // required
+              component: comic,
               context: {
                 slug: edge.node.fields.slug
               }
