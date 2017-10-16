@@ -1,4 +1,5 @@
 import React from "react"
+import "./material.scss";
 import Link from "gatsby-link"
 import { Container } from "react-responsive-grid"
 import Back from 'react-icons/lib/fa/arrow-left'

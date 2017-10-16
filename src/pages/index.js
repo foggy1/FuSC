@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 import moment from 'moment'
 import sortBy from 'lodash/sortBy'
+import IndexCard from '../components/IndexCard'
 import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
@@ -72,6 +73,7 @@ class BlogIndex extends React.Component {
         <meta itemProp='headline' content='Fog Up Some Comics' />
         <meta name='description' content='Fog Up Some Comics unpacks some of the most challenging work in the comics medium today... and yesterday.' />
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
+        <IndexCard />
         <ul style={{marginLeft: -20}}>
           {pageLinks}
         </ul>
