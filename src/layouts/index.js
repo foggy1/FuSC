@@ -36,6 +36,7 @@ class Template extends React.Component {
           boxShadow: "none",
           textDecoration: "none",
           color: "inherit",
+          zIndex: 4
         }}
         to={"/"}
       >
@@ -78,6 +79,7 @@ class Template extends React.Component {
           backgroundColor: '#5c6bc0',
           position: 'fixed',
           width: '100%',
+          zIndex: 2,
           boxShadow: '0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)'
         }}>
           <div style={{position: 'absolute', left: 72, top: 16}}>
@@ -130,7 +132,8 @@ var styles = {
     color: 'white',
     height: '24px',
     left: 16,
-    top: 16
+    top: 16,
+    zIndex: 4
   },
   bmBurgerBars: {
     background: 'white',
@@ -145,7 +148,7 @@ var styles = {
   bmMenu: {
     background: 'white',
     padding: '2.5em 1.5em 0',
-    fontSize: '1.15em',
+    fontSize: '1.15em'
   },
   bmMorphShape: {
     fill: '#373a47'

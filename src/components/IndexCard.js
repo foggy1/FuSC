@@ -12,11 +12,10 @@ import profilePic from "./profile-pic.jpg"
 
 // const style = { maxWidth: 320 }
 
-const Simple = ({title, dateFrom, body, img}) => (
-  <div className="md-grid">
-    <Card className="cards__example md-cell md-cell--6 md-cell--8-tablet">
+const Simple = ({title, dateFrom, img, description}) => (
+    <Card>
       <Media>
-        <Img responsiveSizes={img} alt="Nature from lorempixel" />
+        <Img style={{zIndex: 0}} responsiveSizes={img} alt={title} />
         <MediaOverlay>
           <CardTitle title={title} subtitle={dateFrom}>
             {/*<Button className="md-cell--right" icon>star_outline</Button>*/}
@@ -25,11 +24,10 @@ const Simple = ({title, dateFrom, body, img}) => (
       </Media>
       <CardText>
         <p>
-         {body}
+         {description}
         </p>
       </CardText>
     </Card>
-    </div>
 )
 
 export default Simple
