@@ -6,9 +6,7 @@ import Img from 'gatsby-image'
 import moment from 'moment'
 import sortBy from 'lodash/sortBy'
 import IndexCard from '../components/IndexCard'
-import { GridList } from 'react-md'
 import { rhythm } from '../utils/typography'
-
 
 class BlogIndex extends React.Component {
   constructor () {
@@ -103,7 +101,7 @@ class BlogIndex extends React.Component {
 
   render () {
     return (
-      <div itemScope itemType='http://schema.org/Blog'>
+      <div itemScope itemType='http://schema.org/Blog' >
         <meta itemProp='author' content='Austin Lanari' />
         <meta itemProp='copyrightHolder' content='Austin Lanari' />
         <meta itemProp='copyrightYear' content='2017' />

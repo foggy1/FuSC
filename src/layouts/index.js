@@ -5,6 +5,7 @@ import { Container } from "react-responsive-grid"
 import Back from 'react-icons/lib/fa/arrow-left'
 import { slide as Menu } from 'react-burger-menu'
 import { rhythm } from "../utils/typography"
+import { NavigationDrawer } from 'react-md'
 
 class Template extends React.Component {
   constructor (props) {
@@ -73,25 +74,8 @@ class Template extends React.Component {
       header = this.renderBack()
     }
     return (
-      <div style={{paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
-        <nav style={{
-          height,
-          backgroundColor: '#5c6bc0',
-          position: 'fixed',
-          width: '100%',
-          zIndex: 2,
-          boxShadow: '0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)'
-        }}>
-          <div style={{position: 'absolute', left: 72, top: 16}}>
-            <p style={{
-              color: 'white',
-              fontSize: 20,
-              fontFamily: 'Helvetica,Arial,sans-serif',
-              fontWeight: '600'
-            }}>{title}</p>
-          </div>
-        </nav>
-        {header}
+      <div className='md-drawer-relative' style={{paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
+
         <Container
           style={{
             maxWidth: rhythm(24),
