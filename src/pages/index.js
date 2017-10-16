@@ -9,6 +9,7 @@ import IndexCard from '../components/IndexCard'
 import { GridList } from 'react-md'
 import { rhythm } from '../utils/typography'
 
+
 class BlogIndex extends React.Component {
   constructor () {
     super()
@@ -22,8 +23,25 @@ class BlogIndex extends React.Component {
     }
   }
 
-  render () {
+  renderList () {
+    if (this.state.mobile) {
+      return (
+        <ul style={{marginLeft: -20}}>
+          {this.renderLinks()}
+        </ul>
+      )
+    } else {
+        return (
+          <div className="md-grid">
+            {this.renderLinks()}
+          </div>
+        )
+    }
+  }
+
+  renderLinks () {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
+    const fontSize = this.state.mobile ? '3.5vw' : null
     const sortedPosts = sortBy(posts, post => get(post, 'node.frontmatter.date')).reverse()
     const pageLinks = sortedPosts.map((post, i) => {
       if (post.node.path !== '/404/' && get(post, 'node.frontmatter.date')) {
@@ -31,19 +49,59 @@ class BlogIndex extends React.Component {
         const datePublished = get(post, 'node.frontmatter.date')
         const description = get(post, 'node.frontmatter.description')
         const image = get(post, 'node.frontmatter.indexImage.childImageSharp.responsiveSizes')
-        return (
-          <Link className='md-cell md-cell--12 md-cell--8-tablet' key={i} style={{ boxShadow: 'none', textDecoration: 'none', color: 'inherit' }} to={post.node.frontmatter.path}>
-              <IndexCard
-                title={title}
-                dateFrom={moment(datePublished).fromNow()}
-                img={image}
-                description={description}
-              />
+        if (!this.state.mobile) {
+          return (
+            <Link className='md-cell md-cell--12 md-cell--8-tablet' key={i} style={{ boxShadow: 'none', textDecoration: 'none', color: 'inherit' }} to={post.node.frontmatter.path}>
+                <IndexCard
+                  title={title}
+                  dateFrom={moment(datePublished).fromNow()}
+                  img={image}
+                  description={description}
+                />
 
+            </Link>
+          )    
+        } else {
+          return (
+            <Link key={i} style={{ boxShadow: 'none' }} to={post.node.frontmatter.path}>
+            <li
+              style={{
+                marginBottom: rhythm(1 / 4),
+                listStyleType: 'none'
+              }}
+            >
+              <div style={{verticalAlign: 'middle', height: 72, width: 72, marginLeft: 16, marginBottom: 16, overflow: 'hidden', borderRadius: 50, display: 'inline-block'}}>
+                <Img
+                  style={{
+                    width: '100%',
+                    backgroundSize: 'auto',
+                    zIndex: -1
+                  }}
+                  responsiveSizes={image}
+                />
+              </div>
+              <span
+                style={{
+                  marginLeft: 16,
+                  verticalAlign: 'center',
+                  display: 'inline-block',
+                  paddingBottom: 5,
+                }}
+              >
+                <div style={{ fontSize }}>{title}</div>
+                <div style={{fontStyle: 'italic', color: 'lightSlateGrey'}}>{moment(datePublished).fromNow()}</div>
+              </span>
+            <hr/>
+            </li>
           </Link>
-        )
+          )
+        }
       }
     })
+    return pageLinks
+  }
+
+  render () {
     return (
       <div itemScope itemType='http://schema.org/Blog'>
         <meta itemProp='author' content='Austin Lanari' />
@@ -52,9 +110,7 @@ class BlogIndex extends React.Component {
         <meta itemProp='headline' content='Fog Up Some Comics' />
         <meta name='description' content='Fog Up Some Comics unpacks some of the most challenging work in the comics medium today... and yesterday.' />
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
-        <div className="md-grid">
-          {pageLinks}
-        </div>
+        {this.renderList()}
       </div>
     )
   }
