@@ -38,28 +38,12 @@ class BlogIndex extends React.Component {
                 listStyleType: 'none'
               }}
             >
-              <div style={{verticalAlign: 'middle', height: 72, width: 72, marginLeft: 16, marginBottom: 16, overflow: 'hidden', borderRadius: 50, display: 'inline-block'}}>
-                <Img
-                  style={{
-                    width: '100%',
-                    backgroundSize: 'auto',
-                    zIndex: -1
-                  }}
-                  responsiveSizes={image}
-                />
-              </div>
-              <span
-                style={{
-                  marginLeft: 16,
-                  verticalAlign: 'center',
-                  display: 'inline-block',
-                  paddingBottom: 5,
-                }}
-              >
-                <div style={{ fontSize }}>{title}</div>
-                <div style={{fontStyle: 'italic', color: 'lightSlateGrey'}}>{moment(datePublished).fromNow()}</div>
-              </span>
-            <hr/>
+              <IndexCard
+                title={title}
+                dateFrom={moment(datePublished).fromNow()}
+                img={image}
+                body={'jumanji!'}
+              />
             </li>
           </Link>
         )
@@ -94,7 +78,7 @@ query IndexQuery {
     edges {
       node {
         ... on ImageSharp {
-          responsiveSizes(maxWidth: 150) {
+          responsiveSizes(maxWidth: 600) {
             base64
             aspectRatio
             src
