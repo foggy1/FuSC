@@ -3,9 +3,9 @@ import "./material.scss";
 import Link from "gatsby-link"
 import { Container } from "react-responsive-grid"
 import Back from 'react-icons/lib/fa/arrow-left'
-import { slide as Menu } from 'react-burger-menu'
+import Menu from 'react-icons/lib/fa/bars'
 import { rhythm } from "../utils/typography"
-import { NavigationDrawer } from 'react-md'
+import { NavigationDrawer, SVGIcon, List, ListItem} from 'react-md'
 
 class Template extends React.Component {
   constructor (props) {
@@ -46,6 +46,33 @@ class Template extends React.Component {
     )
   }
 
+  links () {
+    return ([
+        <Link
+        style={{
+          boxShadow: "none",
+          textDecoration: "none",
+          color: "inherit",
+          zIndex: 4
+        }}
+        to={"/"}
+      >
+        <ListItem primaryText="Home" />
+        </Link>,
+        <Link
+        style={{
+          boxShadow: "none",
+          textDecoration: "none",
+          color: "inherit",
+          zIndex: 4
+        }}
+        to={"/about"}
+      >
+        <ListItem primaryText="About" />
+        </Link>
+    ])
+  }
+
   render () {
     const { location, children } = this.props
     const height = this.state.mobile ? 56 : 64
@@ -74,17 +101,22 @@ class Template extends React.Component {
       header = this.renderBack()
     }
     return (
-      <div className='md-drawer-relative' style={{paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
+      <div style={{paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
+        <NavigationDrawer
+          toolbarTitle='Fog Up Some Comics'
+          toolbarTitleStyle={{color: 'white', marginTop: 0}}
+          navItems={this.links()}
 
-        <Container
-          style={{
-            maxWidth: rhythm(24),
-            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-            paddingTop: height + 16
-          }}
         >
-          {children()}
-        </Container>
+          <Container
+            style={{
+              maxWidth: rhythm(24),
+              padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+              paddingTop: height + 16
+            }}
+          >
+            {children()}
+          </Container>
         <footer
           style={{
             minHeight: 50,
@@ -98,6 +130,7 @@ class Template extends React.Component {
             <span style={{marginTop: 20}}>©</span> 2017 Austin Lanari
           </div>
         </footer>
+        </NavigationDrawer>
       </div>
     )
   }
