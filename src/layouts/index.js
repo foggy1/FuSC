@@ -5,7 +5,7 @@ import { Container } from "react-responsive-grid"
 import Back from 'react-icons/lib/fa/arrow-left'
 import Menu from 'react-icons/lib/fa/bars'
 import { rhythm } from "../utils/typography"
-import { NavigationDrawer, SVGIcon, List, ListItem} from 'react-md'
+import { NavigationDrawer, SVGIcon, List, ListItem, FontIcon } from 'react-md'
 
 class Template extends React.Component {
   constructor (props) {
@@ -57,7 +57,10 @@ class Template extends React.Component {
         }}
         to={"/"}
       >
-        <ListItem primaryText="Home" />
+        <ListItem
+          primaryText="Home"
+          leftIcon={<FontIcon>home</FontIcon>}>
+        </ListItem>
         </Link>,
         <Link
         style={{
@@ -68,7 +71,11 @@ class Template extends React.Component {
         }}
         to={"/about"}
       >
-        <ListItem primaryText="About" />
+        
+        <ListItem
+          primaryText="About"
+          leftIcon={<FontIcon>face</FontIcon>}
+        />
         </Link>
     ])
   }
@@ -81,7 +88,7 @@ class Template extends React.Component {
     styles.bmBurgerButton.fontWeight = '600'
     let header, title
     if (location.pathname === "/" || location.pathname === '/about') {
-      title = 'Fog Up Some Comics'
+      title = location.pathname === '/' ? 'Home' : 'About'
       header = (
         <Menu
           styles={styles}
@@ -103,16 +110,16 @@ class Template extends React.Component {
     return (
       <div style={{paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
         <NavigationDrawer
-          toolbarTitle='Fog Up Some Comics'
+          toolbarTitle={title}
           toolbarTitleStyle={{color: 'white', marginTop: 0}}
           navItems={this.links()}
-
+          drawerTitle={this.state.mobile ? 'Fog Up Some Comics' : 'FUSC'}
+          navStyle={{fontSize: 20}}
         >
           <Container
             style={{
               maxWidth: rhythm(24),
               padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-              paddingTop: height + 16
             }}
           >
             {children()}
