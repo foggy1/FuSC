@@ -1,9 +1,11 @@
 import React from "react"
+import "./material.scss";
 import Link from "gatsby-link"
 import { Container } from "react-responsive-grid"
 import Back from 'react-icons/lib/fa/arrow-left'
-import { slide as Menu } from 'react-burger-menu'
+import Menu from 'react-icons/lib/fa/bars'
 import { rhythm } from "../utils/typography"
+import { NavigationDrawer, SVGIcon, List, ListItem, FontIcon } from 'react-md'
 
 class Template extends React.Component {
   constructor (props) {
@@ -35,12 +37,47 @@ class Template extends React.Component {
           boxShadow: "none",
           textDecoration: "none",
           color: "inherit",
+          zIndex: 4
         }}
         to={"/"}
       >
         <Back size={24} color={'white'} style={styles.bmBurgerButton} />
       </Link>
     )
+  }
+
+  links () {
+    return ([
+        <Link
+        style={{
+          boxShadow: "none",
+          textDecoration: "none",
+          color: "inherit",
+          zIndex: 4
+        }}
+        to={"/"}
+      >
+        <ListItem
+          primaryText="Home"
+          leftIcon={<FontIcon>home</FontIcon>}>
+        </ListItem>
+        </Link>,
+        <Link
+        style={{
+          boxShadow: "none",
+          textDecoration: "none",
+          color: "inherit",
+          zIndex: 4
+        }}
+        to={"/about"}
+      >
+        
+        <ListItem
+          primaryText="About"
+          leftIcon={<FontIcon>face</FontIcon>}
+        />
+        </Link>
+    ])
   }
 
   render () {
@@ -51,7 +88,7 @@ class Template extends React.Component {
     styles.bmBurgerButton.fontWeight = '600'
     let header, title
     if (location.pathname === "/" || location.pathname === '/about') {
-      title = 'Fog Up Some Comics'
+      title = location.pathname === '/' ? 'Home' : 'About'
       header = (
         <Menu
           styles={styles}
@@ -72,32 +109,21 @@ class Template extends React.Component {
     }
     return (
       <div style={{paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
-        <nav style={{
-          height,
-          backgroundColor: '#5c6bc0',
-          position: 'fixed',
-          width: '100%',
-          boxShadow: '0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3)'
-        }}>
-          <div style={{position: 'absolute', left: 72, top: 16}}>
-            <p style={{
-              color: 'white',
-              fontSize: 20,
-              fontFamily: 'Helvetica,Arial,sans-serif',
-              fontWeight: '600'
-            }}>{title}</p>
-          </div>
-        </nav>
-        {header}
-        <Container
-          style={{
-            maxWidth: rhythm(24),
-            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-            paddingTop: height + 16
-          }}
+        <NavigationDrawer
+          toolbarTitle={title}
+          toolbarTitleStyle={{color: 'white', marginTop: 0}}
+          navItems={this.links()}
+          drawerTitle={this.state.mobile ? 'Fog Up Some Comics' : 'FUSC'}
+          navStyle={{fontSize: 20}}
         >
-          {children()}
-        </Container>
+          <Container
+            style={{
+              maxWidth: rhythm(24),
+              padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+            }}
+          >
+            {children()}
+          </Container>
         <footer
           style={{
             minHeight: 50,
@@ -111,6 +137,7 @@ class Template extends React.Component {
             <span style={{marginTop: 20}}>©</span> 2017 Austin Lanari
           </div>
         </footer>
+        </NavigationDrawer>
       </div>
     )
   }
@@ -129,7 +156,8 @@ var styles = {
     color: 'white',
     height: '24px',
     left: 16,
-    top: 16
+    top: 16,
+    zIndex: 4
   },
   bmBurgerBars: {
     background: 'white',
@@ -144,7 +172,7 @@ var styles = {
   bmMenu: {
     background: 'white',
     padding: '2.5em 1.5em 0',
-    fontSize: '1.15em',
+    fontSize: '1.15em'
   },
   bmMorphShape: {
     fill: '#373a47'

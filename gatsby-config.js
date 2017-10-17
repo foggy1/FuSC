@@ -13,6 +13,7 @@ module.exports = {
         name: "pages",
       },
     },
+    "gatsby-plugin-sass",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

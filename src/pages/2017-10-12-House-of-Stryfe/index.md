@@ -10,7 +10,7 @@ itemArtist: "Julia Whiteford"
 itemType: "ComicStory"
 category: "comics"
 description: "Some things are taboo even in house full of super-villains"
-indexImage: "stryfe_closeup.jpg"
+indexImage: "Stryfes-resized.jpg"
 draft: false
 --- 
 
