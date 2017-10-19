@@ -78,7 +78,18 @@ class BlogPostTemplate extends React.Component {
           <span />
         </span>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`}>
-
+          <meta property='og:url' content={`fogupsomecomics.com${post.frontmatter.path}`} />
+          <meta property='og:type' content='article' />
+          <meta property='og:title' content={post.frontmatter.title} />
+          <meta property='og:description' content={post.frontmatter.description} />
+          <meta name='twitter:site' value='@austinlanari' />
+          <meta property='twitter:url' content={`fogupsomecomics.com${post.frontmatter.path}`} />
+          <meta property='twitter:title' content={post.frontmatter.title} />
+          <meta property='twitter:description' content={post.frontmatter.description} />
+          <meta name='author' content='Austin Lanari' />
+          <meta name='og:image' content={theImage || ''} />
+          <meta name='twitter:image' content={theImage || ''} />
+          <meta name='twitter:card' value='summary_large_image' />
         </Helmet>
         <h1
           style={{paddingTop: 0, marginTop: 30}}

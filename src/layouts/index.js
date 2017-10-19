@@ -49,6 +49,7 @@ class Template extends React.Component {
   links () {
     return ([
         <Link
+        key={0}
         style={{
           boxShadow: "none",
           textDecoration: "none",
@@ -63,6 +64,7 @@ class Template extends React.Component {
         </ListItem>
         </Link>,
         <Link
+        key={1}
         style={{
           boxShadow: "none",
           textDecoration: "none",
@@ -113,7 +115,7 @@ class Template extends React.Component {
           toolbarTitle={title}
           toolbarTitleStyle={{color: 'white', marginTop: 0}}
           navItems={this.links()}
-          drawerTitle={this.state.mobile ? 'Fog Up Some Comics' : 'FUSC'}
+          drawerTitle={'f_u_s_c'}
           navStyle={{fontSize: 20}}
         >
           <Container
