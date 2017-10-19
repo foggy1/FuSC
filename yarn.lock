@@ -9212,6 +9212,14 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
+typeface-merriweather-sans@0.0.40:
+  version "0.0.40"
+  resolved "https://registry.yarnpkg.com/typeface-merriweather-sans/-/typeface-merriweather-sans-0.0.40.tgz#6dac2ae9764aac02d4efaab4dee55cadcb34a55f"
+
+typeface-merriweather@0.0.40:
+  version "0.0.40"
+  resolved "https://registry.yarnpkg.com/typeface-merriweather/-/typeface-merriweather-0.0.40.tgz#e53f4ddfa0997d59bd63fdb68570db7cd8a5c297"
+
 typography-breakpoint-constants@^0.15.10:
   version "0.15.10"
   resolved "https://registry.yarnpkg.com/typography-breakpoint-constants/-/typography-breakpoint-constants-0.15.10.tgz#bd5308dd57250e7f28a8c6e1c0e668ddf1178c5c"

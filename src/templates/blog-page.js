@@ -4,6 +4,8 @@ import Link from "gatsby-link"
 import get from "lodash/get"
 import Img from 'gatsby-image'
 import Bio from "../components/Bio"
+import "typeface-merriweather"
+import "typeface-merriweather-sans"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPageTemplate extends React.Component {

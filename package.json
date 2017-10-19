@@ -38,6 +38,8 @@
     "react-md": "^1.1.0-alpha-5",
     "react-responsive-grid": "^0.3.3",
     "safe-access": "^0.1.0",
+    "typeface-merriweather": "0.0.40",
+    "typeface-merriweather-sans": "0.0.40",
     "typography": "latest",
     "typography-theme-parnassus": "latest",
     "underscore.string": "^3.2.3"

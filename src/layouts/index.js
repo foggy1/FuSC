@@ -49,6 +49,7 @@ class Template extends React.Component {
   links () {
     return ([
         <Link
+        key={0}
         style={{
           boxShadow: "none",
           textDecoration: "none",
@@ -63,6 +64,7 @@ class Template extends React.Component {
         </ListItem>
         </Link>,
         <Link
+        key={1}
         style={{
           boxShadow: "none",
           textDecoration: "none",
