@@ -4,8 +4,7 @@ import Link from "gatsby-link"
 import get from "lodash/get"
 import Img from 'gatsby-image'
 import Bio from "../components/Bio"
-import "typeface-merriweather"
-import "typeface-merriweather-sans"
+
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPageTemplate extends React.Component {
@@ -59,7 +58,8 @@ class BlogPageTemplate extends React.Component {
   }
   render () {
     const page = this.props.data.markdownRemark
-    const theImage = page.frontmatter.indexImage ? 'https://fogupsomecomics.com' + page.frontmatter.indexImage.childImageSharp.resize.src : null
+    const theImageUrl = page.frontmatter.indexImage ? 'https://fogupsomecomics.com' + page.frontmatter.indexImage.childImageSharp.responsiveSizes.src : null
+    const image = page.frontmatter.indexImage ? page.frontmatter.indexImage.childImageSharp.responsiveSizes : {}
     const siteTitle = get(this.props, "data.site.siteMetadata.title")
     return (
       <div
@@ -70,14 +70,25 @@ class BlogPageTemplate extends React.Component {
         <span itemProp='publisher' style={{display: 'none'}}>Foggy at Best</span>
         <span itemProp='image' style={{display: 'none'}} itemScope itemType='http://schema.org/ImageObject'>
           <span itemProp='url'>
-            {theImage}
+            {theImageUrl}
           </span>
           <meta itemProp='height' content='500' />
           <meta itemProp='width' content='500' />
           <span />
         </span>
         <Helmet title={`${page.frontmatter.title} | ${siteTitle}`}>
-
+          <meta property='og:url' content={`fogupsomecomics.com${page.fields.slug}`} />
+          <meta property='og:type' content='article' />
+          <meta property='og:title' content={page.frontmatter.title} />
+          <meta property='og:description' content={page.frontmatter.description} />
+          <meta name='twitter:site' value='@austinlanari' />
+          <meta property='twitter:url' content={`fogupsomecomics.com${page.fields.slug}`} />
+          <meta property='twitter:title' content={page.frontmatter.title} />
+          <meta property='twitter:description' content={page.frontmatter.description} />
+          <meta name='author' content='Austin Lanari' />
+          <meta name='og:image' content={theImageUrl || ''} />
+          <meta name='twitter:image' content={theImageUrl || ''} />
+          <meta name='twitter:card' value='summary_large_image' />
         </Helmet>
         <h1
           style={{paddingTop: 0, marginTop: 30, paddingBottom: 10}}
@@ -85,13 +96,21 @@ class BlogPageTemplate extends React.Component {
         >
           {page.frontmatter.title}
         </h1>
+        <Img
+          style={{
+            width: '40%',
+            float: 'left',
+            backgroundSize: 'auto',
+            marginRight: 13,
+            zIndex: -1
+          }}
+          responsiveSizes={image}
+        />
         {this.renderItemInfo()}
         <p
           style={{
             ...scale(-1 / 5),
-            display: "block",
             marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
           }}
         >
         </p>
@@ -105,18 +124,6 @@ class BlogPageTemplate extends React.Component {
           }}
         />}
         {page.frontmatter.layout === 'page' ? <span /> : <Bio />}
-        <meta property='og:url' content={`fogupsomecomics.com${page.fields.slug}`} />
-        <meta property='og:type' content='article' />
-        <meta property='og:title' content={page.frontmatter.title} />
-        <meta property='og:description' content={page.frontmatter.description} />
-        <meta name='twitter:site' value='@austinlanari' />
-        <meta property='twitter:url' content={`fogupsomecomics.com${page.fields.slug}`} />
-        <meta property='twitter:title' content={page.frontmatter.title} />
-        <meta property='twitter:description' content={page.frontmatter.description} />
-        <meta name='author' content='Austin Lanari' />
-        <meta name='og:image' content={theImage || ''} />
-        <meta name='twitter:image' content={theImage || ''} />
-        <meta name='twitter:card' value='summary_large_image' />
       </div>
     )
   }
@@ -143,8 +150,14 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY"),
         indexImage {
           childImageSharp {
-              resize(width: 500, height: 500){
+            responsiveSizes(maxWidth: 670){
+                base64
+                aspectRatio
                 src
+                srcSet
+                sizes
+                originalImg
+                originalName
                 }
           }
         },

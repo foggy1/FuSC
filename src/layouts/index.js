@@ -115,7 +115,7 @@ class Template extends React.Component {
           toolbarTitle={title}
           toolbarTitleStyle={{color: 'white', marginTop: 0}}
           navItems={this.links()}
-          drawerTitle={this.state.mobile ? 'Fog Up Some Comics' : 'FUSC'}
+          drawerTitle={'f_u_s_c'}
           navStyle={{fontSize: 20}}
         >
           <Container

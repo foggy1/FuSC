@@ -7,6 +7,8 @@ import moment from 'moment'
 import sortBy from 'lodash/sortBy'
 import IndexCard from '../components/IndexCard'
 import { rhythm } from '../utils/typography'
+import 'typeface-merriweather'
+import 'typeface-merriweather-sans'
 
 class BlogIndex extends React.Component {
   constructor () {
@@ -30,7 +32,7 @@ class BlogIndex extends React.Component {
       )
     } else {
         return (
-          <div className="md-grid">
+          <div className='md-grid'>
             {this.renderLinks()}
           </div>
         )
@@ -102,12 +104,25 @@ class BlogIndex extends React.Component {
   render () {
     return (
       <div itemScope itemType='http://schema.org/Blog' >
-        <meta itemProp='author' content='Austin Lanari' />
-        <meta itemProp='copyrightHolder' content='Austin Lanari' />
-        <meta itemProp='copyrightYear' content='2017' />
-        <meta itemProp='headline' content='Fog Up Some Comics' />
-        <meta name='description' content='Fog Up Some Comics unpacks some of the most challenging work in the comics medium today... and yesterday.' />
-        <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
+        <Helmet title={get(this, 'props.data.site.siteMetadata.title')}>
+          <meta property='og:url' content={`https://fogupsomecomics.com`} />
+          <meta property='og:type' content='website' />
+          <meta property='og:title' content={get(this, 'props.data.site.siteMetadata.title')} />
+          <meta property='og:description' content={'A comic blog that features criticism of art comics, manga, and some comics of its own.'} />
+          <meta name='twitter:site' value='@austinlanari' />
+          <meta property='twitter:url' content={`https://fogupsomecomics.com`} />
+          <meta property='twitter:title' content={get(this, 'props.data.site.siteMetadata.title')} />
+          <meta property='twitter:description' content={'A comic blog that features criticism of art comics, manga, and some comics of its own.'} />
+          <meta name='author' content='Austin Lanari' />
+          <meta name='og:image' content={'https://s3.amazonaws.com/foggy1/Stryfes-resized.jpg'} />
+          <meta name='twitter:image' content={'https://s3.amazonaws.com/foggy1/Stryfes-resized.jpg'} />
+          <meta name='twitter:card' value='summary_large_image' />
+          <meta itemProp='author' content='Austin Lanari' />
+          <meta itemProp='copyrightHolder' content='Austin Lanari' />
+          <meta itemProp='copyrightYear' content='2017' />
+          <meta itemProp='headline' content='Fog Up Some Comics' />
+          <meta name='description' content='Fog Up Some Comics is a comic blog that features criticism of art comics, manga, and some comics of its own.' />
+        </Helmet>
         {this.renderList()}
       </div>
     )
