@@ -109,8 +109,9 @@ class Template extends React.Component {
       title = 'Comics'
       header = this.renderBack()
     }
+    const backgroundColor = location.pathname === "/" ? {backgroundColor: '#efefef'} : {}
     return (
-      <div style={{paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
+      <div style={{...backgroundColor, paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
         <NavigationDrawer
           toolbarTitle={title}
           toolbarTitleStyle={{color: 'white', marginTop: 0}}
@@ -118,10 +119,12 @@ class Template extends React.Component {
           drawerTitle={'f_u_s_c'}
           navStyle={{fontSize: 20}}
         >
+        {/*location.pathname === '/' ? <div style={{height: 400, width: '100%', backgroundColor: '#757de8'}}><h1 style={{textAlign: 'center', verticalAlign: 'middle', lineHeight: 11, color: 'white'}}>Fog Up Some Comics</h1></div> : <div />*/}
           <Container
             style={{
               maxWidth: rhythm(24),
               padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+              marginTop: -35
             }}
           >
             {children()}
