@@ -109,8 +109,9 @@ class Template extends React.Component {
       title = 'Comics'
       header = this.renderBack()
     }
+    const backgroundColor = location.pathname === "/" ? {backgroundColor: '#efefef'} : {}
     return (
-      <div style={{paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
+      <div style={{...backgroundColor, paddingBottom: 60, minHeight: '100vh', position: 'relative'}}>
         <NavigationDrawer
           toolbarTitle={title}
           toolbarTitleStyle={{color: 'white', marginTop: 0}}
